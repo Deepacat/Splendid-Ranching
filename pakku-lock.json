@@ -1380,6 +1380,46 @@
             ]
         },
         {
+            "pakku_id": "ed0zggVGeGAQhpIP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-quests-forge"
+            },
+            "name": {
+                "curseforge": "FTB Quests (Forge)"
+            },
+            "id": {
+                "curseforge": "289412"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-quests-forge-2001.4.14.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6829/212/ftb-quests-forge-2001.4.14.jar",
+                    "id": "6829212",
+                    "parent_id": "289412",
+                    "hashes": {
+                        "sha1": "479d9ad654984f5cedf23c14a311f3cff4efbcb7",
+                        "md5": "a02b8885bc618a54f41885ddb24e2d8f"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "404465",
+                        "404468"
+                    ],
+                    "size": 1222711,
+                    "date_published": "2025-07-30T15:39:30.857Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Nrc4EMztCniX3RnV",
             "type": "MOD",
             "slug": {
@@ -2025,42 +2065,6 @@
                     "required_dependencies": [],
                     "size": 67431,
                     "date_published": "2025-06-08T18:47:23.300Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "DuK0QfjFCpBfNYF8",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "jei"
-            },
-            "name": {
-                "curseforge": "Just Enough Items (JEI)"
-            },
-            "id": {
-                "curseforge": "238222"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "jei-1.20.1-forge-15.20.0.106.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6075/247/jei-1.20.1-forge-15.20.0.106.jar",
-                    "id": "6075247",
-                    "parent_id": "238222",
-                    "hashes": {
-                        "sha1": "77928d15d797663846cba44de8f79e4e4c5fdbb7",
-                        "md5": "245af433575aef3a47ae73492196018f"
-                    },
-                    "required_dependencies": [],
-                    "size": 1379220,
-                    "date_published": "2025-01-11T01:35:54.057Z"
                 }
             ]
         },
