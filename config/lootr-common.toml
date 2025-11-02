@@ -29,8 +29,6 @@ report_unresolved_tables = false
 #list of dimensions by modid that loot chests should not be replaced in (default: blank, allowing all modids, format e.g., ["minecraft
 #othermod"])
 modid_dimension_blacklist = []
-#if true, all block entities will be checked before being added to the ticker for an eligible loot table. enable this if a huge quantity of containers are clogging the conversion system; note that aggressive mode may prevent certain chests from properly converted even though eligible
-aggressive_mode = false
 #list of loot tables which shouldn't be converted (in the format of ["modid:loot_table", "othermodid:other_loot_table"])
 loot_table_blacklist = []
 #list of dimensions where loot chests should automatically refresh (default: blank, e.g., ["minecraft:overworld", "othermod:otherdimension"])
