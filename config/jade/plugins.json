@@ -61,6 +61,19 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "supplementaries": {
     "hat_stand": true
   },
@@ -72,24 +85,13 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
   "botania_editor": {
     "botania_spreader": true,
     "botania_spreader_advanced": true,
     "botania_mana": true,
     "botania_flower": true
   },
-  "lootr": {
-    "info": true
+  "balm": {
+    "jade": true
   }
 }

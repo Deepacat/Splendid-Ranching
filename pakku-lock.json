@@ -347,9 +347,9 @@
             ]
         },
         {
-            "pakku_id": "oejHrCyia38PGmha",
+            "pakku_id": "2NOASO2CETi7E9Ik",
             "pakku_links": [
-                "Trqjgiyr0vML0BAs"
+                "WHAxsWmEvdgqL2We"
             ],
             "type": "MOD",
             "slug": {
@@ -462,7 +462,43 @@
             ]
         },
         {
-            "pakku_id": "Trqjgiyr0vML0BAs",
+            "pakku_id": "PW4Xfw0vLeUZtYiu",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "better-advancements"
+            },
+            "name": {
+                "curseforge": "Better Advancements"
+            },
+            "id": {
+                "curseforge": "272515"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/6010/300/BetterAdvancements-Forge-1.20.1-0.4.2.25.jar",
+                    "id": "6010300",
+                    "parent_id": "272515",
+                    "hashes": {
+                        "sha1": "c747ebbb7654b67c2b62b669605bcda041970ca4",
+                        "md5": "30f0ea1a5da2f22cb25d7794544b3c1f"
+                    },
+                    "required_dependencies": [],
+                    "size": 98124,
+                    "date_published": "2024-12-21T12:20:45.857Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "WHAxsWmEvdgqL2We",
             "type": "MOD",
             "slug": {
                 "curseforge": "blueprint"
@@ -845,6 +881,81 @@
             ]
         },
         {
+            "pakku_id": "vE29NMIQsKEw6Ig3",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crafting-on-a-stick"
+            },
+            "name": {
+                "curseforge": "Crafting on a stick"
+            },
+            "id": {
+                "curseforge": "577850"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "crafting-on-a-stick-1.20.1-1.1.5.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5429/170/crafting-on-a-stick-1.20.1-1.1.5.jar",
+                    "id": "5429170",
+                    "parent_id": "577850",
+                    "hashes": {
+                        "sha1": "5531e149477b9e540684a296fb196238bf1d85e8",
+                        "md5": "8158077880aea9cacd4eabb6f47b67b9"
+                    },
+                    "required_dependencies": [],
+                    "size": 55252,
+                    "date_published": "2024-06-14T21:20:12.517Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "B7C82yTkmfS6xICq",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "crash-assistant"
+            },
+            "name": {
+                "curseforge": "Crash Assistant"
+            },
+            "id": {
+                "curseforge": "1154099"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7161/997/CrashAssistant-forge-1.19-1.20.1-1.10.18.jar",
+                    "id": "7161997",
+                    "parent_id": "1154099",
+                    "hashes": {
+                        "sha1": "4b8d0def52ac6f4182b8174d18fb0cd746950626",
+                        "md5": "fa1c2103f8a80c4c88eb8746c850e221"
+                    },
+                    "required_dependencies": [],
+                    "size": 1033068,
+                    "date_published": "2025-10-29T02:32:54.440Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ejivGWAcZBzi1B1C",
             "type": "MOD",
             "slug": {
@@ -878,6 +989,127 @@
                     "required_dependencies": [],
                     "size": 18764522,
                     "date_published": "2025-06-11T21:37:11.767Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3qlM9ElWkiGTD4rL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "createaddition"
+            },
+            "name": {
+                "curseforge": "Create Crafts & Additions"
+            },
+            "id": {
+                "curseforge": "439890"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createaddition-1.20.1-1.3.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6901/922/createaddition-1.20.1-1.3.2.jar",
+                    "id": "6901922",
+                    "parent_id": "439890",
+                    "hashes": {
+                        "sha1": "41ea564e270effea8bad04b937fb30d2a3bb5053",
+                        "md5": "0a70304b24fed06ef44470b613cdb251"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 1583476,
+                    "date_published": "2025-08-18T21:47:44.397Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "3RKgJKYJj0KBEOqJ",
+            "pakku_links": [
+                "AXomiBVWEVmImWoO"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-jetpack"
+            },
+            "name": {
+                "curseforge": "Create Jetpack"
+            },
+            "id": {
+                "curseforge": "655608"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_jetpack-forge-4.4.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7173/604/create_jetpack-forge-4.4.3.jar",
+                    "id": "7173604",
+                    "parent_id": "655608",
+                    "hashes": {
+                        "sha1": "241ebc1cada46d9d931fa6fcb13da2089f368867",
+                        "md5": "3543c0ebfcc3fcc5715133e12bb80845"
+                    },
+                    "required_dependencies": [
+                        "351264",
+                        "328085"
+                    ],
+                    "size": 638383,
+                    "date_published": "2025-11-01T11:51:40.517Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "y3iHOEvuNvZo3ZPo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-curios-jetpack"
+            },
+            "name": {
+                "curseforge": "Create: Curios Jetpack & Backtank [Forge/Fabric/NeoForge]"
+            },
+            "id": {
+                "curseforge": "1057194"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_jetpack_curios-1.2.0-forge-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5887/734/create_jetpack_curios-1.2.0-forge-1.20.1.jar",
+                    "id": "5887734",
+                    "parent_id": "1057194",
+                    "hashes": {
+                        "sha1": "0aab00450801572cd81fdf3d30221bfc4827a9dc",
+                        "md5": "acd3c8c73d2bd0aca443b48249993bef"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "328085"
+                    ],
+                    "size": 420049,
+                    "date_published": "2024-11-09T10:55:37.607Z"
                 }
             ]
         },
@@ -954,6 +1186,85 @@
                     ],
                     "size": 385533,
                     "date_published": "2025-10-26T22:55:18.937Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TxfprpT6vyMlnkgD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "numismatics"
+            },
+            "name": {
+                "curseforge": "Create: Numismatics"
+            },
+            "id": {
+                "curseforge": "889722"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6264/591/CreateNumismatics-1.0.15+forge-mc1.20.1.jar",
+                    "id": "6264591",
+                    "parent_id": "889722",
+                    "hashes": {
+                        "sha1": "f49daf6ea32cd7b15816dafff5cf8fe291c89218",
+                        "md5": "4943d40efd8e79c800f495b572ad4282"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 885623,
+                    "date_published": "2025-03-04T18:42:57.287Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pdGoDaCveII1geK5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-numismatics-utils"
+            },
+            "name": {
+                "curseforge": "Create: Numismatics Utils"
+            },
+            "id": {
+                "curseforge": "1339392"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "numismatics_utils-2.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7175/842/numismatics_utils-2.0.jar",
+                    "id": "7175842",
+                    "parent_id": "1339392",
+                    "hashes": {
+                        "sha1": "8ebbad11ab62ee94989c53bd555b1ac4d350df56",
+                        "md5": "77436465bd7ca903c82d985a3467d610"
+                    },
+                    "required_dependencies": [
+                        "889722",
+                        "328085",
+                        "309927"
+                    ],
+                    "size": 40849,
+                    "date_published": "2025-11-01T22:47:16.623Z"
                 }
             ]
         },
@@ -1696,6 +2007,44 @@
             ]
         },
         {
+            "pakku_id": "SKNvKTM68eBjOqyd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "findme"
+            },
+            "name": {
+                "curseforge": "FindMe"
+            },
+            "id": {
+                "curseforge": "291936"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "findme-3.2.3-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7069/249/findme-3.2.3-forge.jar",
+                    "id": "7069249",
+                    "parent_id": "291936",
+                    "hashes": {
+                        "sha1": "7b46df9e34d81bb678e9547a662cca15a04855e5",
+                        "md5": "a563ab1b502b94fe033fb130a4ef4543"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 38674,
+                    "date_published": "2025-10-05T11:20:34.223Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "sekBdOeGnmSb5OMk",
             "type": "MOD",
             "slug": {
@@ -2148,6 +2497,42 @@
             ]
         },
         {
+            "pakku_id": "XnzuP83PmbdfvhlD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jei"
+            },
+            "name": {
+                "curseforge": "Just Enough Items (JEI)"
+            },
+            "id": {
+                "curseforge": "238222"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "jei-1.20.1-forge-15.20.0.117.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7173/803/jei-1.20.1-forge-15.20.0.117.jar",
+                    "id": "7173803",
+                    "parent_id": "238222",
+                    "hashes": {
+                        "sha1": "36fd41cd0b9646409b8942228e268dda520ee3e9",
+                        "md5": "347e78569c6983a2402d21a7770d07ad"
+                    },
+                    "required_dependencies": [],
+                    "size": 1408016,
+                    "date_published": "2025-11-01T13:13:57.393Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "UGLBowndezIvKVB2",
             "type": "MOD",
             "slug": {
@@ -2181,6 +2566,47 @@
                     "required_dependencies": [],
                     "size": 625185,
                     "date_published": "2024-01-13T03:30:23.267Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "AXomiBVWEVmImWoO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kotlin-for-forge"
+            },
+            "name": {
+                "curseforge": "Kotlin for Forge"
+            },
+            "id": {
+                "curseforge": "351264"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kotlinforforge-4.11.0-all.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5402/61/kotlinforforge-4.11.0-all.jar",
+                    "id": "5402061",
+                    "parent_id": "351264",
+                    "hashes": {
+                        "sha1": "1fd8acfd75a2be2dc3cdcc7e816482b2e427d6e5",
+                        "md5": "417caa90d17dc86cf7d24b802c2a5c56"
+                    },
+                    "required_dependencies": [],
+                    "size": 7193768,
+                    "date_published": "2024-06-05T23:45:43.380Z"
                 }
             ]
         },
@@ -2747,6 +3173,42 @@
                     "required_dependencies": [],
                     "size": 215119,
                     "date_published": "2023-08-19T13:57:24.937Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "FgPhBjrPaBrTbwv2",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "not-enough-crashes-forge"
+            },
+            "name": {
+                "curseforge": "Not Enough Crashes (Forge)"
+            },
+            "id": {
+                "curseforge": "442354"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6598/273/notenoughcrashes-4.4.9+1.20.1-forge.jar",
+                    "id": "6598273",
+                    "parent_id": "442354",
+                    "hashes": {
+                        "sha1": "5d786730c1aee28751d480d497ce893cdff0bb87",
+                        "md5": "59f7bd924454a832b87998999d58eea7"
+                    },
+                    "required_dependencies": [],
+                    "size": 134885,
+                    "date_published": "2025-05-30T12:01:40.273Z"
                 }
             ]
         },
@@ -3666,44 +4128,6 @@
                     ],
                     "size": 26957,
                     "date_published": "2023-08-18T21:57:26.293Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "VIAzc1KNHJpnNkgY",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "tmrv"
-            },
-            "name": {
-                "curseforge": "TooManyRecipeViewers (TMRV)"
-            },
-            "id": {
-                "curseforge": "1194921"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "toomanyrecipeviewers-0.6.4+mc.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7093/9/toomanyrecipeviewers-0.6.4+mc.20.1.jar",
-                    "id": "7093009",
-                    "parent_id": "1194921",
-                    "hashes": {
-                        "sha1": "4209411389ebc078bdfcc0b54fe33163fc511ce5",
-                        "md5": "abc53ecc7c9ead751c757bb7e3a90d26"
-                    },
-                    "required_dependencies": [
-                        "580555"
-                    ],
-                    "size": 1215706,
-                    "date_published": "2025-10-11T01:34:51.447Z"
                 }
             ]
         },
