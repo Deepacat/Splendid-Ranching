@@ -1,3 +1,5 @@
+// priority: 0
+
 ServerEvents.loaded(e => {
     if (e.server.persistentData['slime_data'] === undefined) {
         e.server.persistentData['slime_data'] = baseSlimeData

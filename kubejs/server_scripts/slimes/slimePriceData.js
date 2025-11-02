@@ -1,3 +1,5 @@
+// priority: 1000
+
 // object for storing slimes data
 const baseSlimeData = {
     all_seeing: {
