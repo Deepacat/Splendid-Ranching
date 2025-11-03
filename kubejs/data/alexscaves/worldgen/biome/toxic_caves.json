@@ -57,8 +57,8 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [ ],
-    [ ],
+    [],
+    [],
     [
       "alexscaves:metal_swarf_replace_mud",
       "alexscaves:unrefined_waste_replace_mud",
@@ -71,13 +71,29 @@
       "minecraft:ore_andesite_upper",
       "minecraft:ore_andesite_lower",
       "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper_large",
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "alexscaves:radrock_uranium_ore"
     ],
-    [ ],
+    [
+    ],
     [
       "minecraft:spring_water",
       "minecraft:spring_lava",
@@ -107,15 +123,116 @@
   },
   "creature_spawn_probability": 0.01,
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
-    "alexscaves:cave_creature": [ ],
-    "creature": [ ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
-    "water_ambient": [ ],
-    "water_creature": [ ]
+    "ambient": [
+      {
+        "type": "alexscaves:gammaroach",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 55
+      },
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "alexscaves:cave_creature": [
+      {
+        "type": "alexscaves:raycat",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "alexscaves:brainiac",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 160
+      },
+      {
+        "type": "alexscaves:nucleeper",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 45
+      },
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:drowned",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "alexscaves:radgill",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "water_creature": []
   },
   "temperature": 0.5
 }

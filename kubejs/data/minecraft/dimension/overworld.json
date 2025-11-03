@@ -1,96 +1,252 @@
 {
   "type": "minecraft:overworld",
   "generator": {
-    "type": "minecraft:noise",
     "biome_source": {
-      "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "splendid_ranching:ancient_ruins",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.5
+            ],
+            "humidity": [
+              -1,
+              0.5700000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:ancient_ruins"
         },
         {
-          "biome": "splendid_ranching:dry_reef",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              0.11
+            ],
+            "humidity": [
+              0.5700000000000001,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:opal_desert"
         },
         {
-          "biome": "splendid_ranching:indigo_quarry",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:indigo_quarry"
         },
         {
-          "biome": "splendid_ranching:magma_mounts",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              0.5
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:dry_reef"
         },
         {
-          "biome": "splendid_ranching:moss_blanket",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.5,
+              0.11
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:opal_desert"
         },
         {
-          "biome": "splendid_ranching:opal_desert",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.11,
+              0.5
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:magma_mounts"
         },
         {
-          "biome": "splendid_ranching:the_wilds",
           "parameters": {
-            "continentalness": 0.5,
-            "depth": 1.0,
-            "erosion": 0.0,
-            "humidity": 0.0,
-            "offset": 0.0,
-            "temperature": 0.0,
-            "weirdness": 0.0
-          }
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:indigo_quarry"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.5,
+              1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "splendid_ranching:moss_blanket"
         }
-      ]
+      ],
+      "type": "minecraft:multi_noise"
     },
-    "settings": "minecraft:overworld"
+    "settings": "minecraft:overworld",
+    "type": "minecraft:noise"
   }
 }

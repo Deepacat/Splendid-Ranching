@@ -3,7 +3,7 @@
   "distance_from_spawn": 100,
   "alexscaves_rarity_offset": 0,
   "continentalness": [
-    -1.0,
+    0.4,
     1.0
   ],
   "depth": [
