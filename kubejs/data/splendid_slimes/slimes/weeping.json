@@ -1,0 +1,10 @@
+{
+  "breed": "weeping",
+  "name": "slime.splendid_slimes.weeping",
+  "particle": { "item": "minecraft:ghast_tear" },
+  "color": "#cff1f1",
+  "diet": "diet.splendid_slimes.weeping",
+  "foods": [{ "tag": "forge:fruits" }],
+  "traits": ["weeping"],
+  "favorite_food": { "item": "minecraft:glow_berries" }
+}

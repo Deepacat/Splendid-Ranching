@@ -1,0 +1,9 @@
+{
+  "breed": "bitwise",
+  "name": "slime.splendid_slimes.bitwise",
+  "color": "#aa0f01",
+  "particle": { "item": "minecraft:redstone_block" },
+  "diet": "diet.splendid_slimes.bitwise",
+  "foods": [{ "tag": "minecraft:logs" }],
+  "favorite_food": { "item": "minecraft:mangrove_log" }
+}

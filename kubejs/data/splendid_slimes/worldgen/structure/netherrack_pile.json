@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#splendid_slimes:has_structure/netherrack_pile",
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "splendid_slimes:netherrack_pile",
+  "size": 1,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "below_top": 16
+    },
+    "min_inclusive": {
+      "absolute": 32
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "splendid_slimes:slimy_rock",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 392359033,
+    "spacing": 12,
+    "separation": 9
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "breed": "luminous",
+  "name": "slime.splendid_slimes.luminous",
+  "color": "#ffbc5e",
+  "particle": { "item": "minecraft:glowstone" },
+  "diet": "diet.splendid_slimes.luminous",
+  "foods": [
+    { "item": "minecraft:quartz_block" },
+    { "item": "minecraft:nether_quartz_ore" },
+    { "item": "minecraft:quartz" },
+    { "item": "minecraft:smooth_quartz" }
+  ],
+  "favorite_food": { "item": "minecraft:quartz_block" },
+  "negative_emit_effects": [
+    {
+      "effect": "minecraft:glowing",
+      "duration": 220,
+      "amplifier": 0
+    }
+  ]
+}

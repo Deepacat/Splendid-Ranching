@@ -1,0 +1,31 @@
+{
+  "breed": "puddle",
+  "name": "slime.splendid_slimes.puddle",
+  "color": "#68c9ff",
+  "particle": { "item": "minecraft:prismarine_shard" },
+  "diet": "diet.splendid_slimes.puddle",
+  "foods": [{ "tag": "minecraft:fishes" }],
+  "favorite_food": { "item": "minecraft:tropical_fish" },
+  "entities": [
+    "minecraft:cod",
+    "minecraft:salmon",
+    "minecraft:pufferfish",
+    "minecraft:tropical_fish"
+  ],
+  "favorite_entity": "minecraft:tropical_fish",
+  "traits": ["aquatic", "spiky"],
+  "innate_effects": [
+    {
+      "effect": "minecraft:water_breathing",
+      "amplifier": 0
+    }
+  ],
+  "emit_effect_particle": "minecraft:splash",
+  "positive_emit_effects": [
+    {
+      "effect": "minecraft:water_breathing",
+      "duration": 600,
+      "amplifier": 0
+    }
+  ]
+}

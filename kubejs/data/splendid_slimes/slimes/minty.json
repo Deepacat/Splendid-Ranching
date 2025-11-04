@@ -1,0 +1,42 @@
+{
+  "breed": "minty",
+  "name": "slime.splendid_slimes.minty",
+  "color": "#cd75a4",
+  "particle": { "item": "minecraft:dragon_egg" },
+  "hat_y_offset": -0.7,
+  "diet": "diet.splendid_slimes.minty",
+  "foods": [{ "tag": "splendid_slimes:monster_spawn_eggs" }],
+  "entities": [
+    "minecraft:zombie",
+    "minecraft:zombie_villager",
+    "minecraft:skeleton",
+    "minecraft:enderman",
+    "minecraft:husk",
+    "minecraft:stray",
+    "minecraft:drowned",
+    "minecraft:creeper",
+    "minecraft:wither",
+    "minecraft:warden",
+    "minecraft:spider",
+    "minecraft:cave_spider"
+  ],
+  "favorite_entity": "minecraft:enderman",
+  "traits": ["feral", "defiant", "floating", "putrid"],
+  "innate_effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 2
+    },
+    {
+      "effect": "minecraft:slow_falling",
+      "amplifier": 0
+    }
+  ],
+  "positive_emit_effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "duration": 40,
+      "amplifier": 0
+    }
+  ]
+}

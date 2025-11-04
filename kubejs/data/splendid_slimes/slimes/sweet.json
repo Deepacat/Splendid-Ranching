@@ -1,0 +1,26 @@
+{
+  "breed": "sweet",
+  "name": "slime.splendid_slimes.sweet",
+  "color": "#eaeaea",
+  "hat_scale": 1.0,
+  "hat_y_offset": -0.5,
+  "diet": "diet.splendid_slimes.sweet",
+  "foods": [{ "tag": "forge:fruits" }],
+  "favorite_food": {
+    "item": "minecraft:glow_berries"
+  },
+  "traits": ["moody"],
+  "innate_effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 2
+    }
+  ],
+  "positive_emit_effects": [
+    {
+      "effect": "minecraft:speed",
+      "duration": 200,
+      "amplifier": 3
+    }
+  ]
+}
