@@ -4,10 +4,10 @@
   "has_precipitation": false,
   "temperature_modifier": "none",
   "effects": {
-    "sky_color": 51414,
-    "fog_color": 51414,
-    "water_color": 51414,
-    "water_fog_color": 51414
+    "sky_color": 12638463,
+    "fog_color": 12638463,
+    "water_color": 2748927,
+    "water_fog_color": 2748927
   },
   "spawners": {},
   "spawn_costs": {},
