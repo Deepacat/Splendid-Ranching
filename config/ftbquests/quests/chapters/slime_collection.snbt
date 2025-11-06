@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "slime_collection"
 	group: "52A2EE513D7930F2"
+	icon: "alexscaves:cave_book"
 	id: "52920F4617FAEE25"
 	order_index: 1
 	quest_links: [ ]

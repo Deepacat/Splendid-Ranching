@@ -1,0 +1,131 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "splendid_wares"
+	group: "52A2EE513D7930F2"
+	icon: "numismatics:creative_vendor"
+	id: "495E11D8FC876BE5"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "splendid_slimes:slime_vac"
+			id: "33D08A11463CCA78"
+			shape: "diamond"
+			size: 1.5d
+			x: -2.25d
+			y: -5.25d
+		}
+		{
+			icon: "splendid_slimes:slime_incubator"
+			id: "1EBEB5C0CB5C0501"
+			shape: "diamond"
+			size: 1.5d
+			x: -3.75d
+			y: -3.75d
+		}
+		{
+			icon: "splendid_slimes:plort_press"
+			id: "50A00CE15102AF74"
+			shape: "diamond"
+			size: 1.5d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			icon: "splendid_slimes:plort_rippit"
+			id: "216FA8F1D071E062"
+			shape: "diamond"
+			size: 1.5d
+			x: -3.75d
+			y: -2.25d
+		}
+		{
+			icon: "numismatics:bank_terminal"
+			id: "1FE042091FB518CE"
+			shape: "diamond"
+			size: 1.5d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "mbd2:selling_port"
+			id: "7AFBF2D0D4B105A6"
+			shape: "diamond"
+			size: 1.5d
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			icon: "numismatics:banking_guide"
+			id: "1B3310E18F2E4032"
+			shape: "diamond"
+			size: 1.5d
+			x: -0.75d
+			y: -3.75d
+		}
+		{
+			icon: "mbd2:slime_breeder"
+			id: "5E5CA852BFC83F9A"
+			shape: "diamond"
+			size: 1.5d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mininggadgets:mininggadget_simple"
+				tag: {
+					battery_tier: 0
+					energy: 1000000
+				}
+			}
+			icon_scale: 1.5d
+			id: "29B14A51015492A7"
+			shape: "diamond"
+			size: 1.5d
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mininggadgets:mininggadget_fancy"
+				tag: {
+					battery_tier: 0
+					energy: 1000000
+				}
+			}
+			id: "3F318B7A783BC6E2"
+			shape: "diamond"
+			size: 1.5d
+			x: -8.25d
+			y: -3.75d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mininggadgets:mininggadget"
+				tag: {
+					battery_tier: 0
+					energy: 1000000
+				}
+			}
+			id: "238C07993E4C277B"
+			shape: "diamond"
+			size: 1.5d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			icon: "mininggadgets:modificationtable"
+			id: "3CFD2295BA0E35C8"
+			shape: "diamond"
+			size: 1.5d
+			x: -8.25d
+			y: -2.25d
+		}
+	]
+	title: "Splendid Wares"
+}

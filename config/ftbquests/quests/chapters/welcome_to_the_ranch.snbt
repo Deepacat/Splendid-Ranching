@@ -3,9 +3,156 @@
 	default_quest_shape: ""
 	filename: "welcome_to_the_ranch"
 	group: "52A2EE513D7930F2"
+	icon: {
+		Count: 1
+		id: "splendid_slimes:slime_item"
+		tag: {
+			slime: {
+				id: "splendid_slimes:slimy"
+			}
+		}
+	}
 	id: "7A580CEC46A501BD"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Welcome to the ranch"
+	quests: [
+		{
+			description: [
+				"&9&lWe&r at the &l&9Splendid Slimes Cultivation, Collection, Overseeing \\& Governing Authority Corporatation&r"
+				""
+				"(or, &l&9SSCCOGAC&r for short!!! &9^o^&r)"
+				""
+				"are &6&lgreatly excited&r to welcome &5you&r to your new home on &asphere&r &d&lGelatine-XB47&r!"
+				""
+				"Please tap [➡] on your &e&lHologuide&r™ to proceed through customary welcoming procedure process"
+				"{@pagebreak}"
+				"This &asphere&r has been labeled as a:"
+				""
+				"&2[ &bClass&r-&6&lC&r &aBiosphere&r &2]&r"
+				"&2[ &bClass&r-&d&lS &rVariated &dGela-form&r &ahabitat&r &2]"
+				"&2[ &bClass&r-&l&21 &cDanger &rlevel &2] "
+				""
+				"&6Lucky&r &5you&r! An almost &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r &4[ Who the &lh&ke&r&l&4ll&r &4let &o&lYou&r &4get this. ] "
+				""
+				"&9&lOur&r scans show several known &dGela-form species&r from our database present on the &asphere&r, though much potential for undiscovered &dGela-forms&r!"
+			]
+			icon: {
+				Count: 1
+				id: "splendid_slimes:slime_item"
+				tag: {
+					slime: {
+						id: "splendid_slimes:slimy"
+					}
+				}
+			}
+			id: "105AAC47FE089F4B"
+			min_width: 300
+			shape: "rsquare"
+			subtitle: "A &dSplendid&r &6Opportunity"
+			tasks: [{
+				id: "239C7E13FDBDE31B"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "Welcome, &5Rancher&r!"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B93B28705E58C2F"]
+			description: [
+				"Your base of operations template features:"
+				""
+				"- A bank deposit terminal allowing you to store the currency used in exchanging with the SSCCOGAC's for goods to assist your research, along with an identification stripe for linking accounts. {Identification stripe can be used to link multiple players to one bank account in group play}"
+				""
+				"- A charging pad to restore energy to your laserbore™"
+				""
+				"- A generator to provide energy to your charging pad, the generator is metered and will drain currency from the account of the supplied identification stripe"
+			]
+			icon: "splendid_slimes:slime_vac"
+			id: "620C59392C757578"
+			subtitle: "That... that's it?"
+			title: "&l&9SSCCOGAC&r Standard-Issue &eEquipment"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["105AAC47FE089F4B"]
+			description: [
+				"&5Your&r primary assigned task is to discover and record all of the &dGela-forms&r present on the &asphere&r."
+				""
+				"&5You&r are also&6 heavily encouraged&r to &dcrossbreed&r any undiscovered &dGela-forms&r you may find, and record the data of the &dproducts&r!"
+				""
+				"A secondary task has also been given, &5you&r are required to deliver &dplort&r samples cultivated from &dslimes&r via a &esales terminal&r."
+				""
+				"In return for &dplorts&r &5you&r will be paid in &ecurrency&r to spend on selected &eequipment&r from &9&lour&r wares to assist &5you&r! ^o^"
+				""
+				"&4[ Along with getting to keep &l&oyour&r &4generous contract. ] &r"
+			]
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:slimy"
+					}
+				}
+			}
+			id: "6B93B28705E58C2F"
+			min_width: 300
+			tasks: [{
+				id: "7FC6AFD8D0D7961D"
+				type: "checkmark"
+			}]
+			title: "&5Your&r &6&lGrand&r Assignment!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["105AAC47FE089F4B"]
+			description: [
+				"Note: &l&9We&r have &6glamorously&r &cC&6o&el&ao&2r&9e&dd&r all terminology in your &e&lHologuide&r™ to assist with your &6laughable&r reading comprehension! &9^w^"
+				""
+				"&e&lHologuide&r™ : Our &edigital hologram tablet guidebook&r that you're reading this information on right now! &l&9We&r always refer to &eitems&r in &eyellow&r"
+				""
+				"&dGela-form&r : A gelatinous being, commonly refered to as a slime! Words related to &dslimes&r or &dGela-forms&r are colored &dpink&r in your &e&lHologuide&r™!"
+				""
+				"&aSphere&r : The spherical body in the vast empty you have been assigned to!! We stopped calling them planets to shut people up who kept saying \"that's actually a dwarf now\" &9^o^&r "
+				""
+				"&aSpheres&r and other mentioned &alocations&r will be marked in &agreen&r!"
+				""
+				"The &9&lSSCCOGAC&r : Thats us, silly! &9&lWe&r are the &l&9Splendid Slimes Cultivation, Collection, Overseeing \\& Governing Authority Corporatation&r."
+				"&9&lWe&r manage &4&lall&r of everything related to &dGela-forms&r in this &agalaxy&r! Including &dplort&r trade, harvesting, cultivation, research, &4&llaws&r, and more! &9^w^"
+				""
+				"&9&lOur entity&r will always be referred to in a &l&9bold blue&r."
+				""
+				"{@pagebreak}"
+				""
+				"&4Who? &r: &4[ &kWouldn't &lyou&r &4&klike to know, &lviewer?&r &4]"
+			]
+			icon: "guideme:guide"
+			id: "0052442A797103F2"
+			min_width: 300
+			subtitle: "The &9&lSSC&r- whatnow??"
+			tasks: [{
+				id: "4D38D7EC3DAEB91D"
+				title: "I will totally remember this!"
+				type: "checkmark"
+			}]
+			title: "&9&lSSCCOGAC&r &eTerminology Guide&r©"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "3ABE14557BA9DBBB"
+			tasks: [{
+				id: "02F6EB13AF62F7FB"
+				title: "The shop"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Ranching"
 }
