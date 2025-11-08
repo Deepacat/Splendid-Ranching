@@ -267,8 +267,8 @@
 		{
 			dependencies: [
 				"530B9AF1192EDDF4"
-				"707488F243981774"
 				"0F3184AA9A7F9215"
+				"3169DD099A3FF5E0"
 			]
 			id: "2735966429A60088"
 			tasks: [{
@@ -284,7 +284,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -329,7 +329,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -375,8 +375,8 @@
 		}
 		{
 			dependencies: [
-				"707488F243981774"
 				"1A6990DB1DE87EED"
+				"3169DD099A3FF5E0"
 			]
 			id: "3D01A0106E5D0D22"
 			tasks: [{
@@ -392,8 +392,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -801,7 +801,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -1147,7 +1147,7 @@
 			dependencies: [
 				"51DBC0A96CCD6627"
 				"6739425141BF426D"
-				"4F2ACF039376327F"
+				"6C8B7196598C9E73"
 			]
 			id: "4E69B32B4FB927FC"
 			tasks: [{
@@ -1353,8 +1353,74 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "3169DD099A3FF5E0"
+			tasks: [{
+				id: "5AC8ABED60E3ABB4"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:alien"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BD8B65993252638"
+				"3169DD099A3FF5E0"
+				"1A6990DB1DE87EED"
+			]
+			id: "63A1286AF1A93756"
+			tasks: [{
+				id: "214215E6E6465634"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:sculk"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: 1.0d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"63A1286AF1A93756"
+				"362B6F293019118E"
+				"183C39E060E3E5A3"
+			]
+			id: "11A3EBB6B3DE9C51"
+			tasks: [{
+				id: "1B8FFD5A7C1E17C6"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tendril"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: 6.5d
 		}
 	]
 	title: "&c Gelapedia"

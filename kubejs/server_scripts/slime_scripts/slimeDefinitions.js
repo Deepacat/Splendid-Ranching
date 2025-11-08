@@ -24,6 +24,24 @@ global.slimeDefinitionsData = {
             item: "minecraft:blue_orchid"
         }
     },
+    alien: {
+        breed: "alien",
+        name: "Alien",
+        color: "#994399",
+        particle: {
+            item: "minecraft:pink_concrete"
+        },
+        hat_y_offset: -0.55,
+        diet: "replace me",
+        foods: [
+            {
+                tag: "minecraft:flowers"
+            }
+        ],
+        favorite_food: {
+            item: "minecraft:blue_orchid"
+        }
+    },
     all_seeing: {
         breed: "all_seeing",
         name: "slime.splendid_slimes.all_seeing",
@@ -289,7 +307,7 @@ global.slimeDefinitionsData = {
     ender: {
         breed: "ender",
         name: "slime.splendid_slimes.ender",
-        color: "#0b4d42",
+        color: "#216d54",
         particle: {
             item: "minecraft:ender_pearl"
         },
@@ -1012,6 +1030,24 @@ global.slimeDefinitionsData = {
             item: "minecraft:blue_orchid"
         }
     },
+    sculk: {
+        breed: "sculk",
+        name: "Sculk",
+        color: "#155152",
+        particle: {
+            item: "minecraft:pink_concrete"
+        },
+        hat_y_offset: -0.55,
+        diet: "replace me",
+        foods: [
+            {
+                tag: "minecraft:flowers"
+            }
+        ],
+        favorite_food: {
+            item: "minecraft:blue_orchid"
+        }
+    },
     shulking: {
         breed: "shulking",
         name: "slime.splendid_slimes.shulking",
@@ -1122,6 +1158,24 @@ global.slimeDefinitionsData = {
         breed: "tabby",
         name: "Tabby",
         color: "#a39c98",
+        particle: {
+            item: "minecraft:pink_concrete"
+        },
+        hat_y_offset: -0.55,
+        diet: "replace me",
+        foods: [
+            {
+                tag: "minecraft:flowers"
+            }
+        ],
+        favorite_food: {
+            item: "minecraft:blue_orchid"
+        }
+    },
+    tendril: {
+        breed: "tendril",
+        name: "Tendril",
+        color: "#173837",
         particle: {
             item: "minecraft:pink_concrete"
         },
