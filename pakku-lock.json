@@ -2344,6 +2344,43 @@
             ]
         },
         {
+            "pakku_id": "8omm2bOj9NMH2h29",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "farmers-delight"
+            },
+            "name": {
+                "curseforge": "Farmer's Delight"
+            },
+            "id": {
+                "curseforge": "398521"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FarmersDelight-1.20.1-1.2.9.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6917/255/FarmersDelight-1.20.1-1.2.9.jar",
+                    "id": "6917255",
+                    "parent_id": "398521",
+                    "hashes": {
+                        "sha1": "ca9417c369e75d38dacdac59937223e5f6adcc18",
+                        "md5": "71e177a98e0e6f399761ad00e978d177"
+                    },
+                    "required_dependencies": [],
+                    "size": 2978080,
+                    "date_published": "2025-08-23T01:46:19.950Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AXKo9JrMdbgpiqkd",
             "type": "MOD",
             "slug": {

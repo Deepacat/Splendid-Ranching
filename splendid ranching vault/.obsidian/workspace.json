@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slime ideas.md",
+                "file": "Slime Encyclopedia.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Slime ideas"
+              "title": "Slime Encyclopedia"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "7916143fbe05d3ee",
   "lastOpenFiles": [
-    "Biomes.md",
-    "Slime Encyclopedia.md",
     "Modpack premise.md",
+    "Slime Encyclopedia.md",
+    "Biomes.md",
     "Slime ideas.md",
     "Welcome.md"
   ]

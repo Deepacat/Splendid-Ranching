@@ -21,11 +21,6 @@ Base slimes not being used:
 - Minty (Dragon breath)
 - Prisma (Prismarine)
 
-Biome Entry
-- Biome description
-- Slimes inhabiting:
-- Slime Foods found:
-
 Aboveground
 - Ancient ruins
 	- Mysterious ruins with ancient unnatural structures

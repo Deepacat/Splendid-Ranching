@@ -20,7 +20,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			height: 1.0d
@@ -28,7 +28,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -3.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			height: 1.0d
@@ -70,8 +70,17 @@
 			x: 1.5d
 			y: -1.0d
 		}
+		{
+			height: 1.0d
+			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 0.5d
+		}
 	]
 	order_index: 1
+	progression_mode: "flexible"
 	quest_links: [{
 		id: "418E6AA4D7EA1A78"
 		linked_quest: "557F85759F41C173"
@@ -146,7 +155,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["57C0B3292BFDF2AB"]
+			dependencies: [
+				"57C0B3292BFDF2AB"
+				"707488F243981774"
+			]
 			id: "06BB4671BDC0A766"
 			tasks: [{
 				id: "5E40E9FE2A4160C2"
@@ -161,11 +173,14 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["1A6990DB1DE87EED"]
+			dependencies: [
+				"1A6990DB1DE87EED"
+				"7FFCBAE693712C5E"
+			]
 			id: "51DBC0A96CCD6627"
 			tasks: [{
 				id: "6DA23E4A2209DBD6"
@@ -180,10 +195,14 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"707488F243981774"
+				"2C9811B1825871A6"
+			]
 			id: "530B9AF1192EDDF4"
 			tasks: [{
 				id: "0F6E2969F2DABD7A"
@@ -198,11 +217,14 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["57C0B3292BFDF2AB"]
+			dependencies: [
+				"707488F243981774"
+				"7FFCBAE693712C5E"
+			]
 			id: "50AE7ECCF58F4E9F"
 			tasks: [{
 				id: "7DB5511336561C80"
@@ -217,10 +239,14 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.5d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
+			dependencies: [
+				"707488F243981774"
+				"4F8209100D13F58D"
+			]
 			id: "4F42D5F847508066"
 			tasks: [{
 				id: "440DD9CEB0446952"
@@ -236,10 +262,14 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["530B9AF1192EDDF4"]
+			dependencies: [
+				"530B9AF1192EDDF4"
+				"0F3184AA9A7F9215"
+				"3169DD099A3FF5E0"
+			]
 			id: "2735966429A60088"
 			tasks: [{
 				id: "360E7BD91B957CCE"
@@ -254,13 +284,14 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"54F64EB116EEA59C"
-				"1A6990DB1DE87EED"
+				"05FE873E813664F3"
+				"73A752FF0F865C2A"
 			]
 			id: "3B7CE5A7EAA96817"
 			tasks: [{
@@ -276,8 +307,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -298,13 +329,14 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"2735966429A60088"
 				"2DC21C014D1555CC"
+				"707488F243981774"
 			]
 			id: "142374BD43478FDE"
 			tasks: [{
@@ -320,7 +352,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -342,6 +374,10 @@
 			y: 0.5d
 		}
 		{
+			dependencies: [
+				"1A6990DB1DE87EED"
+				"3169DD099A3FF5E0"
+			]
 			id: "3D01A0106E5D0D22"
 			tasks: [{
 				id: "0021B78245792006"
@@ -356,11 +392,14 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: 2.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["09E217B6D14E3634"]
+			dependencies: [
+				"09E217B6D14E3634"
+				"0F3184AA9A7F9215"
+			]
 			id: "0F78CB79755F9CB5"
 			tasks: [{
 				id: "247FBD525ACF7809"
@@ -375,11 +414,14 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["57C0B3292BFDF2AB"]
+			dependencies: [
+				"707488F243981774"
+				"28D85A3B22E4845F"
+			]
 			id: "256C54725BEFD9B1"
 			tasks: [{
 				id: "09F7745FB51A820D"
@@ -394,13 +436,14 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"2735966429A60088"
 				"19B9A4B363552F3A"
+				"707488F243981774"
 			]
 			id: "67193DFECF2CC18E"
 			tasks: [{
@@ -460,6 +503,7 @@
 			dependencies: [
 				"530B9AF1192EDDF4"
 				"4F42D5F847508066"
+				"707488F243981774"
 			]
 			id: "19B9A4B363552F3A"
 			tasks: [{
@@ -476,7 +520,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			description: [
@@ -486,6 +530,7 @@
 				""
 				"Fusion slimes have rankings depending on which slimes are used to fuse it, the ranking is determined by the highest ranking slime required in fusion, plus one."
 			]
+			icon: "botania:cosmetic_questgiver_mark"
 			id: "227BE8082A76CF9C"
 			tasks: [{
 				id: "599BD25E7D22D45F"
@@ -580,66 +625,6 @@
 			y: -7.0d
 		}
 		{
-			id: "05FC34DDC03AD566"
-			tasks: [{
-				id: "2055549FD83C4889"
-				title: "rad slime"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 0.5d
-		}
-		{
-			id: "081AF0ED803A9398"
-			tasks: [{
-				id: "203B27F5C7C760C4"
-				title: "jurassic slime"
-				type: "checkmark"
-			}]
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			id: "2A5C357D2820EE9A"
-			tasks: [{
-				id: "1C0223F4B21F80B5"
-				title: "forsaken slime"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 1.5d
-		}
-		{
-			id: "287C845770831280"
-			tasks: [{
-				id: "6249F96DA8647112"
-				title: "Abyssal slime"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: 0.5d
-		}
-		{
-			id: "254EDA6337024593"
-			tasks: [{
-				id: "5BE5F3644AC7FF49"
-				title: "candy slime"
-				type: "checkmark"
-			}]
-			x: 7.5d
-			y: 0.5d
-		}
-		{
-			id: "536B9D65E40B1DAB"
-			tasks: [{
-				id: "53EEAC7B7EB04B0F"
-				title: "magnetic slime"
-				type: "checkmark"
-			}]
-			x: 7.5d
-			y: 1.5d
-		}
-		{
 			id: "707488F243981774"
 			tasks: [{
 				id: "1E10B9C6DC8CFF46"
@@ -694,15 +679,6 @@
 			y: 0.5d
 		}
 		{
-			icon: {
-				Count: 1
-				id: "splendid_slimes:slime_item"
-				tag: {
-					slime: {
-						id: "splendid_slimes:lush"
-					}
-				}
-			}
 			id: "28D85A3B22E4845F"
 			tasks: [{
 				id: "48ACBB01D15BB005"
@@ -718,25 +694,6 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.5d
-		}
-		{
-			id: "380F39C506CAF0E8"
-			tasks: [{
-				id: "65EA2FC8F397810D"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -1.0d
 			y: 1.5d
 		}
 		{
@@ -778,10 +735,13 @@
 			y: 1.5d
 		}
 		{
+			dependencies: [
+				"46220822EECA2E67"
+				"09E217B6D14E3634"
+			]
 			id: "0319A496D4974231"
 			tasks: [{
-				consume_items: true
-				id: "493506915015C3A2"
+				id: "2645E43FD2DB589B"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
@@ -792,12 +752,16 @@
 					}
 				}
 				type: "item"
-				weak_nbt_match: true
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
+			dependencies: [
+				"6C8B7196598C9E73"
+				"54F64EB116EEA59C"
+				"2AFBCAC9F0546D94"
+			]
 			id: "05FE873E813664F3"
 			tasks: [{
 				id: "228F174521C026A7"
@@ -813,10 +777,15 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
+			dependencies: [
+				"707488F243981774"
+				"530B9AF1192EDDF4"
+				"5EC77BFC2038ABA2"
+			]
 			id: "2AFBCAC9F0546D94"
 			tasks: [{
 				id: "6CA0D7D483CEBB64"
@@ -832,8 +801,626 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "2B2365F43F9D88DE"
+			tasks: [{
+				id: "35A5BB247DBB78CC"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rad"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "052D444FE3B9943E"
+			tasks: [{
+				id: "4FB2288D142DAF23"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:abyssal"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "423926AA90B65D90"
+			tasks: [{
+				id: "28D7F23ED20CC323"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:candy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "6877F6A473DAF722"
+			tasks: [{
+				id: "2E8D6735FD5B0FB2"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:jurassic"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "5A1749298FC9BB0B"
+			tasks: [{
+				id: "1E366D179642E212"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:forlorn"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "5A047ED5158DAF07"
+			tasks: [{
+				id: "5CF7A7B62CA55BB5"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:magnetic"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "7FFCBAE693712C5E"
+			tasks: [{
+				id: "2C1F06BB3E5344EA"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:dusty"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "2C9811B1825871A6"
+			tasks: [{
+				id: "32D2979F0A1D5E0F"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:fire"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"09E217B6D14E3634"
+				"5EC77BFC2038ABA2"
+			]
+			id: "3BD8B65993252638"
+			tasks: [{
+				id: "2395F9E8DD29D156"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:fungus"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3BD8B65993252638"
+				"530B9AF1192EDDF4"
+			]
+			id: "587AA23E52AD9750"
+			tasks: [{
+				id: "4F72F74DB049D46B"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:crimson"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3BD8B65993252638"
+				"530B9AF1192EDDF4"
+			]
+			id: "183C39E060E3E5A3"
+			tasks: [{
+				id: "579DD4EAC9468878"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:warped"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2B2365F43F9D88DE"
+				"05FE873E813664F3"
+				"704D7E516BDEA169"
+			]
+			id: "7E5A4ACA36E06A22"
+			tasks: [{
+				id: "1010EE95772B0798"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:nuclear"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7E5A4ACA36E06A22"
+				"26AFDD9B638581F9"
+			]
+			id: "37F6889DC0F2CCFA"
+			invisible: true
+			tasks: [{
+				id: "56AD8590E1D6A330"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:burger"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"704D7E516BDEA169"
+				"362B6F293019118E"
+				"5A047ED5158DAF07"
+			]
+			id: "26AFDD9B638581F9"
+			tasks: [{
+				id: "49510C1663F14F68"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:quantum"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"28D85A3B22E4845F"
+				"09E217B6D14E3634"
+			]
+			id: "6739425141BF426D"
+			tasks: [{
+				id: "319AA86427B67E81"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tree"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5EC77BFC2038ABA2"
+				"2C9811B1825871A6"
+			]
+			id: "4F2ACF039376327F"
+			tasks: [{
+				id: "6BB6FA1B20BAF8FC"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:stony"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"51DBC0A96CCD6627"
+				"6739425141BF426D"
+				"6C8B7196598C9E73"
+			]
+			id: "4E69B32B4FB927FC"
+			tasks: [{
+				id: "468BF17E8231D82D"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:mechanical"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2C9811B1825871A6"
+				"6739425141BF426D"
+			]
+			id: "333675D30B044EF9"
+			tasks: [{
+				id: "54FCF9AB6756F095"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:charred"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4F2ACF039376327F"
+				"0F78CB79755F9CB5"
+			]
+			id: "7F0B238E29C48562"
+			tasks: [{
+				id: "2D0EA6B2AC19B848"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:gem"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
 			x: -1.0d
 			y: 5.5d
+		}
+		{
+			dependencies: [
+				"7F0B238E29C48562"
+				"4F42D5F847508066"
+				"54F64EB116EEA59C"
+			]
+			id: "717D653598BBDEEA"
+			tasks: [{
+				id: "304D024A87658A30"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:jewel"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4F2ACF039376327F"
+				"1A6990DB1DE87EED"
+				"530B9AF1192EDDF4"
+			]
+			id: "6C8B7196598C9E73"
+			tasks: [{
+				id: "137DC22B0D6BFC04"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:geode"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"05FE873E813664F3"
+				"73A752FF0F865C2A"
+				"333675D30B044EF9"
+			]
+			id: "3491F153A469180E"
+			tasks: [{
+				id: "3363DAEE34CC0629"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:forge"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"2AFBCAC9F0546D94"
+				"6877F6A473DAF722"
+				"530B9AF1192EDDF4"
+			]
+			id: "73A752FF0F865C2A"
+			tasks: [{
+				id: "7A1A304892DA1DAF"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:infernal"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3D01A0106E5D0D22"
+				"46220822EECA2E67"
+				"4E69B32B4FB927FC"
+			]
+			id: "704D7E516BDEA169"
+			tasks: [{
+				id: "186FE454DDD77D62"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:time"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"333675D30B044EF9"
+				"5A1749298FC9BB0B"
+				"06BB4671BDC0A766"
+			]
+			id: "362B6F293019118E"
+			tasks: [{
+				id: "2136C493F698F3AA"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:dark"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "3169DD099A3FF5E0"
+			tasks: [{
+				id: "5AC8ABED60E3ABB4"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:alien"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BD8B65993252638"
+				"3169DD099A3FF5E0"
+				"1A6990DB1DE87EED"
+			]
+			id: "63A1286AF1A93756"
+			tasks: [{
+				id: "214215E6E6465634"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:sculk"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"63A1286AF1A93756"
+				"362B6F293019118E"
+				"183C39E060E3E5A3"
+			]
+			id: "11A3EBB6B3DE9C51"
+			tasks: [{
+				id: "1B8FFD5A7C1E17C6"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tendril"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.0d
+			y: 6.5d
 		}
 	]
 	title: "&c Gelapedia"
