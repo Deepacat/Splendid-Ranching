@@ -6,7 +6,7 @@ const rippitOutputs = {
     ],
     puddle: [
         { item: "minecraft:clay_ball", count: 5, weight: 55 },
-        { item: "minecraft:lilypad", count: 3, weight: 15 },
+        { item: "minecraft:lily_pad", count: 3, weight: 15 },
         { item: "minecraft:lapis_lazuli", count: 7, weight: 30 },
     ],
     rocky: [
@@ -38,7 +38,7 @@ const rippitOutputs = {
     ],
     lush: [
         { item: "minecraft:flowering_azalea", count: 3, weight: 1 },
-        { item: "minecraft:moss", count: 5, weight: 1 },
+        { item: "minecraft:moss_block", count: 5, weight: 1 },
     ],
     dusty: [
         { item: "minecraft:gravel", count: 15, weight: 1 },
