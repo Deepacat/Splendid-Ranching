@@ -16,6 +16,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["129E4003BAD1A743"]
 			description: [
 				"While nobody can really agree on what pigeon-hole to stuff Botania into, one thing is clear: It can do most anything. It is perhaps best described as a box of tools. None of the components do much on their own, but when strung together creatively by the player they become so much more. "
 				""
@@ -23,6 +24,7 @@
 				""
 				"~MuteTiefling"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "botania:lexicon"
@@ -695,12 +697,16 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["0000000000000538"]
+			dependencies: [
+				"0000000000000538"
+				"0000000000000537"
+			]
 			description: [
 				"A Band of Mana combines several of the materials we've discovered so far into a useful object; one that can act as a portable mana pool. Making one will open up new possibilities as mana exploitation just got peronal. "
 				""
 				"While primarily used for powering certain hand held devices, Bands of Mana are also an excellent means of long distance mana transportation as they charge and discharge rapidly."
 			]
+			hide_until_deps_visible: true
 			id: "000000000000053D"
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_rare"
@@ -719,8 +725,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["000000000000052D"]
@@ -1164,6 +1170,7 @@
 			dependencies: [
 				"0000000000000531"
 				"000000000000052F"
+				"000000000000051B"
 			]
 			description: [
 				"Experiments with the various Runes show that they're capable of augmenting the behaviour of Mana Spreaders as well by combining them with a Mana Lens. Furthermore, two such lenses can be permanently bonded together by pressing some slime between them. "
@@ -1172,6 +1179,7 @@
 				""
 				"Combine the Velocity and Potency lenses to create a composite lens, which will allow a Mana Spreader to send larger bursts that travel faster. "
 			]
+			hide_until_deps_visible: true
 			id: "0000000000000591"
 			rewards: [
 				{
@@ -1210,8 +1218,8 @@
 				}
 			]
 			title: "Mana Lenses"
-			x: 2.0d
-			y: 9.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0000000000000524"]

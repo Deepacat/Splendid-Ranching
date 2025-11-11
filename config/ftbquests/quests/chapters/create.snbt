@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7ABC9EB5BCA6C006"]
 			description: [
 				"Welcome to Create! At its core, Create follows the same primary purpose as Vanilla Redstone: Give the player items to enable fanciful creations. "
 				""
@@ -20,6 +21,7 @@
 				""
 				"~MuteTiefling"
 			]
+			hide_until_deps_complete: true
 			icon: "create:wrench"
 			id: "0000000000000C40"
 			optional: true

@@ -457,11 +457,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2FDFFE3208FF3C16"]
+			dependencies: ["605E7F63ACF29D56"]
 			id: "611599F122718E16"
-			shape: "hexagon"
+			shape: "rsquare"
+			subtitle: "This pack has more than slimes??"
 			tasks: [{
 				id: "53EBD9587E86A7B9"
+				title: "No grey boxes?"
 				type: "checkmark"
 			}]
 			title: "Automation \\& Mods"
@@ -492,6 +494,11 @@
 			id: "0532AC1F6E4E760D"
 			shape: "diamond"
 			size: 1.25d
+			tasks: [{
+				id: "129E4003BAD1A743"
+				title: "The nature of the druids suits me"
+				type: "checkmark"
+			}]
 			title: "Elven Magics"
 			x: -4.875d
 			y: 4.75d
@@ -502,6 +509,11 @@
 			id: "0DA69A84028E2CD4"
 			shape: "diamond"
 			size: 1.25d
+			tasks: [{
+				id: "7ABC9EB5BCA6C006"
+				title: "The path of mechanical machinations is the way!"
+				type: "checkmark"
+			}]
 			title: "Mechanical Machinations"
 			x: -4.875d
 			y: 3.25d
@@ -517,6 +529,11 @@
 			id: "7847FF4866410017"
 			shape: "diamond"
 			size: 1.25d
+			tasks: [{
+				id: "109898E1B0AB47CF"
+				title: "I am a computer scientist!"
+				type: "checkmark"
+			}]
 			title: "Redstone Engineering"
 			x: -5.625d
 			y: 4.0d
