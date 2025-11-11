@@ -1,5 +1,20 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "essentials:manual": {
+      "viewedEntries": [
+        "essentials:essentials/wrench",
+        "essentials:essentials/item_splitter",
+        "essentials:essentials/speed_hopper",
+        "essentials:essentials/welcome",
+        "essentials:essentials/circuits",
+        "essentials:essentials/recipes",
+        "essentials:essentials/fluid_shifter",
+        "essentials:essentials/candle_lilypad"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

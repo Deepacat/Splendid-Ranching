@@ -8,40 +8,6 @@
     },
     "projects": [
         {
-            "pakku_id": "yhp1WCB5CmkYmd3T",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "unofficial-mandalas-gui-dark-mode-mod"
-            },
-            "name": {
-                "curseforge": "(Unofficial) Mandala's GUI - Dark Mode Mod Compatibility"
-            },
-            "id": {
-                "curseforge": "1040251"
-            },
-            "redistributable": false,
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Mandala's GUI - Dark Mode Compat 0.3.2.zip",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7063/749/Mandala's GUI - Dark Mode Compat 0.3.2.zip",
-                    "id": "7063749",
-                    "parent_id": "1040251",
-                    "hashes": {
-                        "sha1": "2a08521c6db8d119ea74d04704a878bdcfd41cc2",
-                        "md5": "39e9f8e9ff01b5db773b7c1b94e48f5a"
-                    },
-                    "required_dependencies": [],
-                    "size": 554210,
-                    "date_published": "2025-10-03T23:52:19.193Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "ltbWhN3eAyRQmUEU",
             "type": "MOD",
             "slug": {
