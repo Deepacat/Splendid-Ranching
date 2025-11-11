@@ -3,58 +3,67 @@
 	default_quest_shape: ""
 	filename: "slime_collection"
 	group: "52A2EE513D7930F2"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "alexscaves:cave_book"
 	id: "52920F4617FAEE25"
 	images: [
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_0"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 0.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_1"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_2"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_3"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 6.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_4"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "morered:block/hexidecrubrometer_5"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -4.0d
 			y: 9.5d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			rotation: 0.0d
@@ -63,6 +72,7 @@
 			y: -1.0d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
@@ -71,24 +81,268 @@
 			y: -1.0d
 		}
 		{
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -6.0d
 			y: 0.5d
+		}
+		{
+			dependency: "540EA146149A0210"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependency: "540EA146149A0210"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependency: "540EA146149A0210"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependency: "540EA146149A0210"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependency: "540EA146149A0210"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependency: "341207DD87C622A8"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: -1.0d
 		}
 	]
 	order_index: 1
-	progression_mode: "flexible"
-	quest_links: [{
-		id: "418E6AA4D7EA1A78"
-		linked_quest: "557F85759F41C173"
-		x: 0.5d
-		y: -1.0d
-	}]
+	progression_mode: "linear"
+	quest_links: [
+		{
+			id: "6CADDD89FFB76F20"
+			linked_quest: "2222665D244AA2C8"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "419DC729E295E11D"
+			linked_quest: "2222665D244AA2C8"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			id: "265F9C24F9023C01"
+			linked_quest: "498E4558C2E4F038"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			id: "56F20BEEC839C44D"
+			linked_quest: "498E4558C2E4F038"
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "2DF0FF4B9BDC5304"
+			linked_quest: "498E4558C2E4F038"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "3D5A1BCAD1E82A84"
+			linked_quest: "1E11BF12C71C9DD9"
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "4EA5124BCE1A6D8D"
+			linked_quest: "1E11BF12C71C9DD9"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "6BB927FBA1189AAE"
+			linked_quest: "1E11BF12C71C9DD9"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "1788488B9BE90FF5"
+			linked_quest: "0D48CBD3F913F4CD"
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "7F7D7341B08B2104"
+			linked_quest: "0D48CBD3F913F4CD"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "1C6B8EE79EAFAA35"
+			linked_quest: "3A8203E122236CDD"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "64E1CEF291F18727"
+			linked_quest: "3A8203E122236CDD"
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "2131094BA4D7286B"
+			linked_quest: "3A8203E122236CDD"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "7C2D34C9160EA862"
+			linked_quest: "3A8203E122236CDD"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "18487823F1212449"
+			linked_quest: "283401BAF5D93A46"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "0D008AFD086C7B75"
+			linked_quest: "283401BAF5D93A46"
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			id: "4AAC36526B3ABA08"
+			linked_quest: "283401BAF5D93A46"
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			id: "612189BB07B5D370"
+			linked_quest: "50F0C9AAFA7D9735"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "7B5ECE00E126669D"
+			linked_quest: "50F0C9AAFA7D9735"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			id: "538635B23CD6F848"
+			linked_quest: "50F0C9AAFA7D9735"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			id: "183676A65697C34D"
+			linked_quest: "56EA8C6A5232B395"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "4881CF69D91D81FC"
+			linked_quest: "56EA8C6A5232B395"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			id: "21F584CE3E13F6DD"
+			linked_quest: "56EA8C6A5232B395"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "6F693D5E74CEFA50"
+			linked_quest: "790CFC8CC3972828"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "56FF72600337F8AF"
+			linked_quest: "790CFC8CC3972828"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "718BCFEE5967E861"
+			linked_quest: "790CFC8CC3972828"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "02A053B7ACE00E55"
+			linked_quest: "4F9BC72CC2DA06EC"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			id: "5B5085B5BD5E8DD7"
+			linked_quest: "3DEC5723C703FF21"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "458EC53EDADBFE85"
+			linked_quest: "3DEC5723C703FF21"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "4BBA0CE6D3C78E17"
+			linked_quest: "3DEC5723C703FF21"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			id: "6888A3397F595A30"
+			linked_quest: "79A7881A97FA98CC"
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "18F94E488690D434"
+			linked_quest: "58183B91715F8581"
+			x: 8.5d
+			y: -3.0d
+		}
+	]
 	quests: [
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "atmospheric:red_arid_sand"
 			id: "5B8E63CE09931C0A"
 			tasks: [{
@@ -100,6 +354,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "quark:indigo_corundum"
 			id: "1B5DFD0231BF72D0"
 			tasks: [{
@@ -111,6 +366,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "minecraft:magma_block"
 			id: "162A0FBCFC33B012"
 			tasks: [{
@@ -122,6 +378,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "minecraft:moss_block"
 			id: "26D5815EFAD1F00B"
 			tasks: [{
@@ -133,6 +390,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "opalescence:opal"
 			id: "681A7C07F8EC0B1A"
 			tasks: [{
@@ -144,6 +402,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "minecraft:prismarine_bricks"
 			id: "4F77C965C18F2933"
 			tasks: [{
@@ -173,7 +432,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -195,7 +454,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 3.5d
 		}
 		{
@@ -217,7 +476,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 2.5d
 		}
 		{
@@ -239,7 +498,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -261,7 +520,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.5d
 		}
 		{
@@ -284,7 +543,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.5d
 		}
 		{
@@ -307,7 +566,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 8.5d
 		}
 		{
@@ -329,7 +588,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -352,10 +611,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 6.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "1A6990DB1DE87EED"
 			tasks: [{
 				id: "75A96CDC8273058D"
@@ -370,7 +630,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -392,7 +652,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 3.5d
 		}
 		{
@@ -414,7 +674,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -436,7 +696,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 2.5d
 		}
 		{
@@ -459,10 +719,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "57C0B3292BFDF2AB"
 			tasks: [{
 				id: "442EC93934C6DF69"
@@ -478,10 +739,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "2DC21C014D1555CC"
 			tasks: [{
 				id: "76841007F583F4FC"
@@ -496,7 +758,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -519,10 +781,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			description: [
 				"Naturally spawning slimes are referred to as \"Primitives\", and are always rank 0. they're the basic low tier forms of slimes representing most things in nature."
 				""
@@ -530,17 +793,21 @@
 				""
 				"Fusion slimes have rankings depending on which slimes are used to fuse it, the ranking is determined by the highest ranking slime required in fusion, plus one."
 			]
+			hide_details_until_startable: false
+			hide_until_deps_visible: true
 			icon: "botania:cosmetic_questgiver_mark"
-			id: "227BE8082A76CF9C"
+			id: "42831C5E7A8C2BA0"
 			tasks: [{
-				id: "599BD25E7D22D45F"
+				id: "0B0DF56BEEDCCDA1"
+				title: "I totally get fusion breeding!"
 				type: "checkmark"
 			}]
-			title: "Primitive \\& Fusion Slimes"
-			x: -4.0d
+			title: "Primitive \\& Fusion &dSlimes"
+			x: -5.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "09E217B6D14E3634"
 			tasks: [{
 				id: "30BC1E602052FA5C"
@@ -555,10 +822,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:block_of_frosted_chocolate"
 			id: "359D61825C9D99F7"
 			tasks: [{
@@ -570,6 +838,7 @@
 			y: -6.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:coprolith"
 			id: "63E6770E1FA2FFD5"
 			tasks: [{
@@ -581,6 +850,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:galena"
 			id: "0EC1F913F376581C"
 			tasks: [{
@@ -592,6 +862,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:fern_thatch"
 			id: "77BFD25A977F6ACB"
 			tasks: [{
@@ -603,6 +874,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:radrock_uranium_ore"
 			id: "3482C687ABF8ECF9"
 			tasks: [{
@@ -614,6 +886,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			icon: "alexscaves:abyssmarine"
 			id: "16A5B65CA7253D8B"
 			tasks: [{
@@ -625,6 +898,7 @@
 			y: -7.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "707488F243981774"
 			tasks: [{
 				id: "1E10B9C6DC8CFF46"
@@ -639,10 +913,11 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "5EC77BFC2038ABA2"
 			tasks: [{
 				id: "5D4555A24284B8E9"
@@ -651,16 +926,17 @@
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:rock"
+							id: "splendid_slimes:rocky"
 						}
 					}
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "4F8209100D13F58D"
 			tasks: [{
 				id: "4D4FD277186F068F"
@@ -675,10 +951,11 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "28D85A3B22E4845F"
 			tasks: [{
 				id: "48ACBB01D15BB005"
@@ -693,10 +970,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "0F3184AA9A7F9215"
 			tasks: [{
 				id: "4A66BD89D51C84BE"
@@ -712,10 +990,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "46220822EECA2E67"
 			tasks: [{
 				id: "52679D01DE5D101F"
@@ -731,7 +1010,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -753,7 +1032,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
@@ -777,7 +1056,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 6.5d
 		}
 		{
@@ -801,10 +1080,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "2B2365F43F9D88DE"
 			tasks: [{
 				id: "35A5BB247DBB78CC"
@@ -820,7 +1100,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 0.5d
 		}
 		{
@@ -843,10 +1123,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 6.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "423926AA90B65D90"
 			tasks: [{
 				id: "28D7F23ED20CC323"
@@ -862,10 +1143,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "6877F6A473DAF722"
 			tasks: [{
 				id: "2E8D6735FD5B0FB2"
@@ -881,10 +1163,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "5A1749298FC9BB0B"
 			tasks: [{
 				id: "1E366D179642E212"
@@ -900,10 +1183,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "5A047ED5158DAF07"
 			tasks: [{
 				id: "5CF7A7B62CA55BB5"
@@ -919,10 +1203,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 1.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "7FFCBAE693712C5E"
 			tasks: [{
 				id: "2C1F06BB3E5344EA"
@@ -938,10 +1223,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 1.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "2C9811B1825871A6"
 			tasks: [{
 				id: "32D2979F0A1D5E0F"
@@ -957,7 +1243,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
@@ -980,7 +1266,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 3.5d
 		}
 		{
@@ -1003,7 +1289,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 4.5d
 		}
 		{
@@ -1026,7 +1312,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 4.5d
 		}
 		{
@@ -1050,7 +1336,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 9.5d
 		}
 		{
@@ -1074,7 +1360,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 10.5d
 		}
 		{
@@ -1098,7 +1384,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 9.5d
 		}
 		{
@@ -1121,7 +1407,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 3.5d
 		}
 		{
@@ -1144,7 +1430,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -1167,7 +1453,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 6.5d
 		}
 		{
@@ -1190,7 +1476,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 4.5d
 		}
 		{
@@ -1213,7 +1499,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 5.5d
 		}
 		{
@@ -1237,7 +1523,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 6.5d
 		}
 		{
@@ -1261,7 +1547,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 5.5d
 		}
 		{
@@ -1285,7 +1571,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -1.0d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1309,7 +1595,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 6.5d
 		}
 		{
@@ -1333,7 +1619,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -1357,10 +1643,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			id: "3169DD099A3FF5E0"
 			tasks: [{
 				id: "5AC8ABED60E3ABB4"
@@ -1375,7 +1662,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -1399,7 +1686,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 5.5d
 		}
 		{
@@ -1423,7 +1710,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 6.5d
 		}
 		{
@@ -1446,7 +1733,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 5.5d
 		}
 		{
@@ -1469,52 +1756,11 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 7.5d
 		}
 		{
-			disable_toast: true
-			id: "0D8D3D82ACB0762E"
-			tasks: [{
-				disable_toast: true
-				id: "17DAEDB418F1F05A"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 2.5d
-			y: -2.0d
-		}
-		{
-			disable_toast: true
-			id: "1C41E86435B9606E"
-			tasks: [{
-				disable_toast: true
-				id: "3BFDF2F5A91DDD5C"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 2.5d
-			y: -5.0d
-		}
-		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
 			id: "498E4558C2E4F038"
 			tasks: [{
@@ -1536,69 +1782,7 @@
 			y: -6.0d
 		}
 		{
-			disable_toast: true
-			id: "3D5B8009FF21BBFE"
-			tasks: [{
-				disable_toast: true
-				id: "4DAD1D6F5E3ED124"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:slimy"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -1.5d
-			y: -6.0d
-		}
-		{
-			disable_toast: true
-			id: "4DCE231DB4841D9F"
-			tasks: [{
-				disable_toast: true
-				id: "785492C8C95C28E0"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:puddle"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 3.5d
-			y: -5.0d
-		}
-		{
-			disable_toast: true
-			id: "4A03E48D4571B8A4"
-			tasks: [{
-				disable_toast: true
-				id: "03DC21E668A0AE69"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:puddle"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 2.5d
-			y: -3.0d
-		}
-		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
 			id: "790CFC8CC3972828"
 			tasks: [{
@@ -1620,69 +1804,7 @@
 			y: -2.0d
 		}
 		{
-			disable_toast: true
-			id: "7281A53D9BEF1E9E"
-			tasks: [{
-				disable_toast: true
-				id: "0F827A137A96E9B6"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:puddle"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 2.5d
-			y: -7.0d
-		}
-		{
-			disable_toast: true
-			id: "6BDF48551B7D4EE2"
-			tasks: [{
-				disable_toast: true
-				id: "029D1950FC256062"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:rock"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			disable_toast: true
-			id: "3F284C96CA465205"
-			tasks: [{
-				disable_toast: true
-				id: "2761B2DDD216234E"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:rock"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: -1.5d
-			y: -4.0d
-		}
-		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
 			id: "1E11BF12C71C9DD9"
 			tasks: [{
@@ -1693,7 +1815,7 @@
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:rock"
+							id: "splendid_slimes:rocky"
 						}
 					}
 				}
@@ -1704,27 +1826,7 @@
 			y: -4.0d
 		}
 		{
-			disable_toast: true
-			id: "6428D42263CAD83B"
-			tasks: [{
-				disable_toast: true
-				id: "4C0D909084DCA7DE"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_item"
-					tag: {
-						slime: {
-							id: "splendid_slimes:rock"
-						}
-					}
-				}
-				type: "item"
-				weak_nbt_match: true
-			}]
-			x: 3.5d
-			y: -3.0d
-		}
-		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
 			id: "3A8203E122236CDD"
 			tasks: [{
@@ -1746,17 +1848,62 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
-			id: "26FCF819F834C294"
+			id: "50F0C9AAFA7D9735"
 			tasks: [{
 				disable_toast: true
-				id: "6FA6AF3161C5F925"
+				id: "1E2169BB7A7CD300"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:monster"
+							id: "splendid_slimes:orby"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			disable_toast: true
+			id: "0D48CBD3F913F4CD"
+			tasks: [{
+				disable_toast: true
+				id: "35D2456BDA13E803"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:tabby"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			disable_toast: true
+			id: "4F9BC72CC2DA06EC"
+			tasks: [{
+				disable_toast: true
+				id: "59E2AA6ABC5D62E6"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:sweet"
 						}
 					}
 				}
@@ -1764,20 +1911,21 @@
 				weak_nbt_match: true
 			}]
 			x: 4.5d
-			y: -3.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
-			id: "21A5990F6965D464"
+			id: "283401BAF5D93A46"
 			tasks: [{
 				disable_toast: true
-				id: "1771543B6840D5C5"
+				id: "7ED07124B97CFAD8"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:monster"
+							id: "splendid_slimes:lush"
 						}
 					}
 				}
@@ -1785,49 +1933,117 @@
 				weak_nbt_match: true
 			}]
 			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			disable_toast: true
+			id: "56EA8C6A5232B395"
+			tasks: [{
+				disable_toast: true
+				id: "6F505B30C548155F"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:dusty"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
 			y: -4.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
-			id: "58F9261786595DED"
+			id: "3DEC5723C703FF21"
 			tasks: [{
 				disable_toast: true
-				id: "1250D212E44B15DF"
+				id: "6EDCB373CD9C717B"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:monster"
+							id: "splendid_slimes:crystal"
 						}
 					}
 				}
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["341207DD87C622A8"]
 			disable_toast: true
-			id: "0A453932D093144C"
+			id: "79A7881A97FA98CC"
 			tasks: [{
 				disable_toast: true
-				id: "64B54E103A6286ED"
+				id: "12FE0D14758518B4"
 				item: {
 					Count: 1
 					id: "splendid_slimes:slime_item"
 					tag: {
 						slime: {
-							id: "splendid_slimes:monster"
+							id: "splendid_slimes:sandy"
 						}
 					}
 				}
 				type: "item"
 				weak_nbt_match: true
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			disable_toast: true
+			id: "2222665D244AA2C8"
+			tasks: [{
+				disable_toast: true
+				id: "46735F81C8A53384"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:fire"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["341207DD87C622A8"]
+			disable_toast: true
+			id: "58183B91715F8581"
+			tasks: [{
+				disable_toast: true
+				id: "6D8D74F8E143D027"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:alien"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 8.5d
+			y: -6.0d
 		}
 	]
 	title: "&c Gelapedia"

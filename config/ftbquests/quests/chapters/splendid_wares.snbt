@@ -7,73 +7,394 @@
 	icon: "numismatics:creative_vendor"
 	id: "495E11D8FC876BE5"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "647195877CFB822A"
+		linked_quest: "2FDFFE3208FF3C16"
+		x: -7.0d
+		y: -2.5d
+	}]
 	quests: [
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "splendid_slimes:slime_vac"
-			id: "33D08A11463CCA78"
-			shape: "diamond"
-			size: 1.5d
-			x: -6.0d
+			id: "628276689A8ABD92"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "28E604E812641AA8"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "13F5B64A098F6C9B"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -4.5d
 			y: -4.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "splendid_slimes:corral_block"
+			id: "057410C212A65A06"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "7B4E1BEDE73B92F1"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3E15A6BC5E9BA599"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "splendid_slimes:slime_incubator"
-			id: "1EBEB5C0CB5C0501"
-			shape: "diamond"
-			size: 1.5d
-			x: -3.75d
-			y: -3.75d
+			id: "341FFC4CD67CC712"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "615DEF6DEB4ADE77"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "678A48C562AF3BE6"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -3.0d
+			y: -5.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "splendid_slimes:plort_press"
-			id: "50A00CE15102AF74"
-			shape: "diamond"
-			size: 1.5d
-			x: -4.5d
-			y: -3.0d
+			id: "55B008154621507D"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0C22C2947242EF54"
+				item: "splendid_slimes:plort_press"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "08F18951A676280B"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -4.0d
+			y: -5.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "splendid_slimes:plort_rippit"
-			id: "216FA8F1D071E062"
-			shape: "diamond"
-			size: 1.5d
-			x: -3.75d
-			y: -2.25d
+			id: "10EA1C43494B5286"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "7F7C0683EAD9FBA4"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "43CCE7B6ADDCCB51"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -3.0d
+			y: -3.5d
 		}
 		{
-			icon: "numismatics:bank_terminal"
-			id: "1FE042091FB518CE"
-			shape: "diamond"
-			size: 1.5d
-			x: -6.75d
-			y: -0.75d
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "splendid_slimes:slime_feeder"
+			id: "64856454F0AA334E"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "2CC4A1DD42124F8F"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7B095F39864F16D3"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -5.0d
+			y: -3.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "quark:feeding_trough"
+			id: "3011661433D0463F"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "6AC1C99E56E855D9"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5BB4D92E785DF15F"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mbd2:auto_selling_port"
+			id: "51AFD2558F5CC399"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0C37BA068FDA898E"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3E4FB3EE0A6A4EF3"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mbd2:slime_breeder"
+			id: "50E682A0224E2673"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "430F801E08CF38E6"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3FF336DCC83E2CEE"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "mbd2:selling_port"
-			id: "7AFBF2D0D4B105A6"
-			shape: "diamond"
-			size: 1.5d
-			x: -5.25d
-			y: -0.75d
+			id: "6A38134D5D07813F"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "5C34742F8F29072C"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "65DDB39FC0DA14E4"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -6.0d
+			y: 0.5d
 		}
 		{
-			icon: "numismatics:banking_guide"
-			id: "1B3310E18F2E4032"
-			shape: "diamond"
-			size: 1.5d
-			x: -6.0d
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "numismatics:bank_terminal"
+			id: "7E911EFE1F88824A"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "016C4CD0FF4835A9"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "05F0D0563A4EEBAA"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -5.0d
 			y: -1.5d
 		}
 		{
-			icon: "mbd2:slime_breeder"
-			id: "5E5CA852BFC83F9A"
-			shape: "diamond"
-			size: 1.5d
-			x: -3.0d
-			y: -3.0d
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "numismatics_utils:portable_bank_terminal"
+			id: "617C5D7EB693953E"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "4154E63BAAD00519"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2C549271E8A67E75"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -4.5d
+			y: -0.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "numismatics:banking_guide"
+			id: "248B23E13750053F"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "00A93E075E5FF502"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4987A1FA05E4F412"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "mininggadgets:mininggadget_simple"
@@ -82,14 +403,34 @@
 					energy: 1000000
 				}
 			}
-			icon_scale: 1.5d
-			id: "29B14A51015492A7"
-			shape: "diamond"
-			size: 1.5d
+			id: "5B4411304AF04966"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "3B93002352342181"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5CAA475933A9D68A"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
 			x: -9.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "mininggadgets:mininggadget_fancy"
@@ -98,14 +439,34 @@
 					energy: 1000000
 				}
 			}
-			id: "3F318B7A783BC6E2"
-			shape: "diamond"
-			size: 1.5d
-			x: -8.25d
-			y: -3.75d
+			id: "0DCE151EDAECCC09"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "62ADC8D0F3140C53"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "1798B6F9C17E3E66"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -8.5d
+			y: -0.5d
 		}
 		{
-			dependency_requirement: "one_started"
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: {
 				Count: 1
 				id: "mininggadgets:mininggadget"
@@ -114,43 +475,678 @@
 					energy: 1000000
 				}
 			}
-			id: "238C07993E4C277B"
-			shape: "diamond"
-			size: 1.5d
-			x: -7.5d
-			y: -3.0d
+			id: "7B5A1B6A8932A5D7"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "3AA0EBEB394198D7"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "328E6D60C7F0A704"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -8.0d
+			y: 0.5d
 		}
 		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_size_1"
+			id: "05151EE3B37420D2"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "37D57E44C5F43E8B"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4E6786690FC6E2F5"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_size_2"
+			id: "2569F07D7ADD30EE"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "320F15C2E3538FF3"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5F91FAB56311D81A"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -11.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_size_3"
+			id: "70A4B37572E7A187"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "6F4A69E12E5688A7"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "41965365733EDA78"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_efficiency_1"
+			id: "6318F53A262AA211"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "028DA6D477C6DC9F"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "49F3BFAF00CB2622"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_efficiency_3"
+			id: "3C418E6A73399491"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0FBBD80FA754BDE2"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "19B1E94257BCFEC0"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -9.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_efficiency_5"
+			id: "47418678B39A7908"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "4B005909AD3B00DA"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "187C9A1DBBA83127"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_range_1"
+			id: "181CE954400D971B"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "3C582DAF3736EBEC"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "633363AE1D3C0004"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_range_2"
+			id: "2AB23AF627600B83"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "2B9156E3DAB018E4"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "16D019748A396708"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_range_3"
+			id: "2E3A486DABB35236"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "17752A14A97A2B03"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "59053230D207E3F7"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_battery_1"
+			id: "025886500AADE48B"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "494A4C0FC9686DE2"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "74332B2008D3C2A7"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_battery_2"
+			id: "7B4A764476F3BAB1"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "10760E708D77B7A7"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "49E0618ACACCDA0B"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:upgrade_battery_3"
+			id: "5F94110C18D0512A"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "078AA7994446F004"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "73BA18DD11DBCDDB"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:backpack"
+			id: "7CF91E973A03F29C"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "75ED401BEFB4A92C"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0ACF40FEC6465779"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:deposit_upgrade"
+			id: "7DCB24364DC4DFDF"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "4841D9E9AA6421CB"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "48599455894B3175"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:restock_upgrade"
+			id: "4E3F43A4ED760775"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "52FBFB2438959D16"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2E5E76CA07EC670A"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:feeding_upgrade"
+			id: "32A59CA84C474164"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "14765539F7E4F137"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "10A53BE9188D641F"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:filter_upgrade"
+			id: "724680C72529FE25"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0BFF338686664B6E"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "318C59684C6115EB"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:pickup_upgrade"
+			id: "430423DE26C79F8E"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "402B3ABC24CFD235"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "5B96CD8B0B9C4716"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:void_upgrade"
+			id: "1E763E495626645C"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "54342FB0EDE656B3"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "56B8C3D663735DA2"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
 			icon: "mininggadgets:modificationtable"
-			id: "3CFD2295BA0E35C8"
-			shape: "diamond"
-			size: 1.5d
-			x: -8.25d
-			y: -2.25d
+			id: "58BE691F15BC9C72"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "660D3F4AEF8B4324"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "3B145237A2276924"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -2.0d
+			y: -1.5d
 		}
 		{
-			icon: "splendid_slimes:corral_block"
-			id: "755CA5CFAC1CD6FB"
-			shape: "diamond"
-			size: 1.5d
-			x: -2.25d
-			y: -3.75d
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "charginggadgets:charging_station"
+				tag: { }
+			}
+			id: "6554F81F3E6291E5"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "7459BC52A3124933"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "0BBA1AC2E153538C"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			icon: "quark:feeding_trough"
-			id: "02F44AE6ECE25A80"
-			shape: "diamond"
-			size: 1.5d
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			icon: "splendid_slimes:slime_feeder"
-			id: "158F7B7DD4C9DC1E"
-			shape: "diamond"
-			size: 1.5d
-			x: -2.25d
-			y: -2.25d
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "mininggadgets:modificationtable"
+			id: "59AD781627599889"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "0D29CF9FB1AA3809"
+				item: "splendid_slimes:slime_vac"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6C33C54C06D69630"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Slime Vac | &664&a☻"
+			x: -3.0d
+			y: 0.5d
 		}
 	]
 	title: "&a Splendid Wares"

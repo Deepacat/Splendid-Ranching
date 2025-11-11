@@ -25,18 +25,20 @@
 				""
 				"are &6&lgreatly excited&r to welcome to your new home on &asphere&r &d&lGelatine-XB47&r!"
 				""
-				"Please tap &8[&2➡&8]&r on your &e&lHologuide&r™ to proceed through customary welcoming procedure process"
+				"Please tap &8[&a➡&8]&r on your &e&lHologuide&r™ to proceed through customary welcoming procedure process"
 				"{@pagebreak}"
 				"This &asphere&r has been labeled as a:"
 				""
-				"&2[ &bClass&r-&6&lC&r &aBiosphere&r &2]&r"
-				"&2[ &bClass&r-&d&lS &rVariated &dGela-form&r &ahabitat&r &2]"
-				"&2[ &bClass&r-&l&21 &4Danger &rlevel &2] "
+				"&2[ &bClass&r-&c&lE&r &aBiosphere&r &2]&r"
+				"&2[ &bClass&r-&d&lS&r Variated &dGela-form&r &ahabitat&r &2]"
+				"&2[ &bClass&r-&l&21&r &4Danger &rlevel &2] "
 				""
-				"&6Lucky&r you! An almost &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r "
-				"&4[ Who the &lh&ke&r&l&4ll&r &4let &o&lYou&r &4get this. ] "
+				"&6Lucky&r you! An &oalmost&r &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r "
+				"&4[ Who the &lh&ke&r&l&4ll&r &4let &o&lYou&r &4get this. ]"
 				""
-				"&9&lOur&r scans show several known &dGela-form species&r from our database present on the &asphere&r, though there exists much potential for undiscovered &dGela-forms&r!"
+				"Though still unfortunately, the &asphere&r seems to have very little resources in it. No &6precious&r harvestable metals... You'll have to make due with the products of &dslimes&r and &9&lour&r &cmarket&r!"
+				""
+				"&9&lOur&r scans show several known &dGela-form&r species from our database present on the &asphere&r, though there exists much potential for undiscovered &dGela-forms&r!"
 			]
 			icon: "splendid_slimes:slime_vac"
 			id: "105AAC47FE089F4B"
@@ -48,7 +50,7 @@
 				title: "Understood!"
 				type: "checkmark"
 			}]
-			title: "Welcome, &5Rancher&r!"
+			title: "&fWelcome, &5Rancher&r!"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -79,7 +81,7 @@
 			subtitle: "That... that's it?"
 			tasks: [{
 				id: "37A2770D137E90EC"
-				title: "I love capitalism!"
+				title: "Heck yeah laser guns!"
 				type: "checkmark"
 			}]
 			title: "&l&9SSCCOGAC&r Standard-Issue &eEquipment"
@@ -120,7 +122,7 @@
 				id: "7FC6AFD8D0D7961D"
 				type: "checkmark"
 			}]
-			title: "Your &6&lGrand&r Assignment!"
+			title: "&fYour &6&lGrand&r Assignment!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -149,6 +151,11 @@
 			icon: "guideme:guide"
 			id: "0052442A797103F2"
 			min_width: 300
+			rewards: [{
+				id: "5CF308A2FA5FE19F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "The &9&lSSC&r- whatnow??"
 			tasks: [{
@@ -210,12 +217,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "Currency"
+			title: "&fWhat on &aearth&f is a &cGlub&r?"
 			x: 0.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["6B93B28705E58C2F"]
+			description: [""]
 			icon: {
 				Count: 1
 				id: "splendid_slimes:slime_item"
@@ -241,14 +249,16 @@
 						id: "splendid_slimes:slime_item"
 						tag: { }
 					}
+					match_nbt: false
 					type: "item"
 				}
 				{
 					id: "14E891C1074200B0"
+					title: "Slimevac go brrrrr"
 					type: "checkmark"
 				}
 			]
-			title: "Collecting &dSlimes"
+			title: "&fCollecting &dSlimes"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -261,7 +271,7 @@
 				id: "130D6E3DEAC237CF"
 				type: "checkmark"
 			}]
-			title: "Feeding &dSlimes"
+			title: "&fFeeding &dSlimes"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -286,6 +296,7 @@
 						id: "splendid_slimes:plort"
 						tag: { }
 					}
+					match_nbt: false
 					type: "item"
 				}
 				{
@@ -293,7 +304,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "Cultivating &dPlorts"
+			title: "&fCultivating &dPlorts"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -302,27 +313,27 @@
 			id: "3A30D0E70BEA4946"
 			shape: "rsquare"
 			tasks: [{
-				id: "6EEE205F084115E1"
-				item: "mbd2:selling_port"
-				type: "item"
+				id: "157C41866305863C"
+				type: "checkmark"
 			}]
-			title: "Selling &dPlorts"
+			title: "&fSelling &dPlorts"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			hide_until_deps_complete: true
 			icon: "botania:bifrost_perm"
 			id: "557F85759F41C173"
 			shape: "hexagon"
 			tasks: [{
 				id: "2062E8288CD8E7D7"
-				title: "Biomes"
+				title: "So that's where they are"
 				type: "checkmark"
 			}]
 			title: "&dSlime &aHabitats"
 			x: 4.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -342,9 +353,8 @@
 			id: "605E7F63ACF29D56"
 			shape: "rsquare"
 			tasks: [{
-				id: "3E806CC42AB6A6BA"
-				item: "splendid_slimes:plort_press"
-				type: "item"
+				id: "7AA1ED39BBD0C2EB"
+				type: "checkmark"
 			}]
 			title: "Slime heart formation"
 			x: -4.0d
@@ -374,11 +384,11 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "52D66243AA5C9C74"
-				title: "The Shop"
+				title: "I LOVE CAPITALISM !!!"
 				type: "checkmark"
 			}]
 			title: "&cShopping&r!"
-			x: -2.0d
+			x: -2.5d
 			y: 4.0d
 		}
 		{
@@ -396,15 +406,16 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			hide_until_deps_complete: true
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			shape: "hexagon"
 			tasks: [{
-				id: "7B20D03559459FD1"
-				title: "Collection"
+				id: "3654CD3B00AA23CA"
+				title: "I will catch em all!"
 				type: "checkmark"
 			}]
-			title: "Gelapedia"
+			title: "&eGelapedia"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -509,6 +520,41 @@
 			title: "Redstone Engineering"
 			x: -5.625d
 			y: 4.0d
+		}
+		{
+			dependencies: ["3A30D0E70BEA4946"]
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:gold"
+					}
+				}
+			}
+			id: "40C6C595C39C2067"
+			shape: "hexagon"
+			tasks: [{
+				id: "592DB0227656D80C"
+				title: "The Plort Market"
+				type: "checkmark"
+			}]
+			title: "&fThe &dPlort &cMarket"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["540EA146149A0210"]
+			id: "7AA6A101567ED2C6"
+			shape: "hexagon"
+			tasks: [{
+				id: "79A10DAB4F0826D2"
+				title: "Slime prisons are awesome!"
+				type: "checkmark"
+			}]
+			title: "&dSlime&rkeeping"
+			x: 4.0d
+			y: 0.5d
 		}
 	]
 	title: "&d Ranching"
