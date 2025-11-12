@@ -64,13 +64,13 @@
 			description: [
 				"Your &abase of operations&r &etemplate&r features:"
 				""
-				"- A &ebank deposit terminal&r allowing you to store &cGlubcoins&r, used in exchanging with the &9&lSSCCOGAC&r's for goods to assist your research, along with an &eidentification stripe&r for linking accounts. {Identification stripe can be used to link multiple players to one bank account in group play}"
+				"- A &eBank Terminal&r allowing you to store &cGlubcoins&r, used in exchanging with the &9&lSSCCOGAC&r's for goods to assist your research. Along with a &eBank Card&r for linking accounts. {Identification stripe can be used to link multiple players to one bank account in group play}"
 				""
-				"- A &echarging pad&r to restore energy to your &eMining Laser Mk1&r"
+				"- A &eCharging Station&r to restore energy to your &eMining Laser Mk1&r"
 				""
-				"- A &esplendid generator&r to provide energy to your &echarging pad&r"
+				"- A &eSplendid Generator&r to provide energy to your &echarging pad&r"
 				""
-				"The &esplendid generator&r is metered and will drain &ccurrency&r from the account of the supplied &eBank Card&r, at &61&a☻&r (1 &bgip&r) per 1000 Forge Energy"
+				"The &eSplendid Generator&r is metered and will drain &ccurrency&r from the account of the supplied &eBank Card&r, at &61&a☻&r (1 &bgip&r) per 1000 Forge Energy"
 				""
 				"For starter items: &8[&a➡&8]&r"
 				"{@pagebreak}"
@@ -168,11 +168,46 @@
 			}
 			id: "6B93B28705E58C2F"
 			min_width: 310
-			rewards: [{
-				id: "4A9F48039159E573"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A9F48039159E573"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "66A25C873F71D9EE"
+					item: {
+						Count: 1
+						id: "portable_blueprints:worn_blueprint"
+						tag: {
+							Damage: 1
+							altezza: 0
+							blueprint_name: "base_camp"
+							buildAnyway: 0b
+							display: {
+								Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: Base Camp\"}"
+							}
+							free_build: 1
+							inventari_blocco_selezionati: ""
+							lunghezzaX: 0
+							lunghezzaZ: 0
+							mirrowX: 0b
+							mirrowY: 0b
+							mirrowZ: 0b
+							nome: "base_camp"
+							owner: "worn"
+							owner_name: "Deepacat"
+							remaining_uses: 1
+							rotateValue: 0s
+							skipObstructionBlock: 0b
+							visualizeBuild: 1b
+							wasHolding: 1b
+							worn_set: 1b
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [{
 				id: "7FC6AFD8D0D7961D"
@@ -366,6 +401,7 @@
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
+			icon: "mbd2:selling_port"
 			id: "3A30D0E70BEA4946"
 			shape: "rsquare"
 			tasks: [{
@@ -379,7 +415,7 @@
 		{
 			dependencies: ["540EA146149A0210"]
 			hide_until_deps_complete: true
-			icon: "botania:bifrost_perm"
+			icon: "quark:orange_blossom_sapling"
 			id: "557F85759F41C173"
 			shape: "hexagon"
 			tasks: [{
@@ -406,6 +442,7 @@
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
+			icon: "splendid_slimes:plort_press"
 			id: "605E7F63ACF29D56"
 			shape: "rsquare"
 			tasks: [{
@@ -514,6 +551,7 @@
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
+			icon: "supplementaries:cog_block"
 			id: "611599F122718E16"
 			shape: "rsquare"
 			subtitle: "This pack has more than slimes??"
@@ -528,6 +566,7 @@
 		}
 		{
 			dependencies: ["75A4584FAAEC2937"]
+			icon: "farmersdelight:cake_slice"
 			id: "001EDDF575B9A323"
 			tasks: [{
 				id: "1B51D0724E851D91"
@@ -618,6 +657,7 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"
 			shape: "hexagon"
 			tasks: [{

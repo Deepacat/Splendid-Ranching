@@ -18,35 +18,6 @@
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			disable_toast: true
-			icon: "splendid_slimes:slime_vac"
-			id: "628276689A8ABD92"
-			rewards: [{
-				auto: "disabled"
-				exclude_from_claim_all: true
-				id: "28E604E812641AA8"
-				item: "splendid_slimes:slime_vac"
-				team_reward: false
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "13F5B64A098F6C9B"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -4.5d
-			y: -4.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["52D66243AA5C9C74"]
-			disable_toast: true
 			icon: "splendid_slimes:corral_block"
 			id: "057410C212A65A06"
 			rewards: [{
@@ -69,7 +40,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -3.5d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -98,7 +69,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -3.0d
+			x: -5.0d
 			y: -5.5d
 		}
 		{
@@ -127,7 +98,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -4.0d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -156,8 +127,8 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -3.0d
-			y: -3.5d
+			x: -5.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -525,7 +496,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -12.0d
+			x: -13.0d
 			y: -1.5d
 		}
 		{
@@ -554,7 +525,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -11.5d
+			x: -12.5d
 			y: -0.5d
 		}
 		{
@@ -583,7 +554,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -11.0d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -612,7 +583,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -10.0d
+			x: -11.0d
 			y: -1.5d
 		}
 		{
@@ -641,7 +612,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -9.5d
+			x: -10.5d
 			y: -0.5d
 		}
 		{
@@ -670,7 +641,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -9.0d
+			x: -10.0d
 			y: 0.5d
 		}
 		{
@@ -699,7 +670,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -11.0d
+			x: -12.0d
 			y: -1.5d
 		}
 		{
@@ -728,7 +699,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -10.5d
+			x: -11.5d
 			y: -0.5d
 		}
 		{
@@ -757,7 +728,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -10.0d
+			x: -11.0d
 			y: 0.5d
 		}
 		{
@@ -786,7 +757,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -13.0d
+			x: -14.0d
 			y: -1.5d
 		}
 		{
@@ -815,7 +786,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -12.5d
+			x: -13.5d
 			y: -0.5d
 		}
 		{
@@ -844,7 +815,7 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -12.0d
+			x: -13.0d
 			y: 0.5d
 		}
 		{
@@ -1024,8 +995,8 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -11.5d
-			y: -4.5d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1061,35 +1032,6 @@
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			disable_toast: true
-			icon: "mininggadgets:modificationtable"
-			id: "58BE691F15BC9C72"
-			rewards: [{
-				auto: "disabled"
-				exclude_from_claim_all: true
-				id: "660D3F4AEF8B4324"
-				item: "splendid_slimes:slime_vac"
-				team_reward: false
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.0d
-			tasks: [{
-				consume_items: true
-				disable_toast: true
-				id: "3B145237A2276924"
-				item: "numismatics:cog"
-				match_nbt: false
-				only_from_crafting: false
-				type: "item"
-			}]
-			title: "&f Slime Vac | &664&a☻"
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["52D66243AA5C9C74"]
-			disable_toast: true
 			icon: {
 				Count: 1
 				id: "charginggadgets:charging_station"
@@ -1116,19 +1058,20 @@
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -2.5d
+			x: -9.5d
 			y: -0.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			disable_toast: true
-			icon: "mininggadgets:modificationtable"
-			id: "59AD781627599889"
+			hide_until_deps_complete: true
+			icon: "sophisticatedbackpacks:battery_upgrade"
+			id: "0BAF5D73C6474608"
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
-				id: "0D29CF9FB1AA3809"
+				id: "195CCC8D8AA12AE1"
 				item: "splendid_slimes:slime_vac"
 				team_reward: false
 				type: "item"
@@ -1138,15 +1081,15 @@
 			tasks: [{
 				consume_items: true
 				disable_toast: true
-				id: "6C33C54C06D69630"
+				id: "321E5A15F5621CDE"
 				item: "numismatics:cog"
 				match_nbt: false
 				only_from_crafting: false
 				type: "item"
 			}]
 			title: "&f Slime Vac | &664&a☻"
-			x: -3.0d
-			y: 0.5d
+			x: -9.0d
+			y: -5.5d
 		}
 	]
 	title: "&a Splendid Wares"

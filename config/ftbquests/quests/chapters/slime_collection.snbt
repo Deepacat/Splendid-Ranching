@@ -135,7 +135,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "341207DD87C622A8"
+			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
