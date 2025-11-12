@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			title: "&f Automatic Plort Sales Terminal | &664&a☻"
-			x: -3.5d
+			x: -4.5d
 			y: -0.5d
 		}
 		{
@@ -244,8 +244,8 @@
 				type: "item"
 			}]
 			title: "&f Slime Fusion Breeder | &664&a☻"
-			x: -5.5d
-			y: -0.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -273,7 +273,7 @@
 				type: "item"
 			}]
 			title: "&f Plort Sales Terminal | &664&a☻"
-			x: -4.5d
+			x: -5.5d
 			y: -0.5d
 		}
 		{
@@ -1118,7 +1118,7 @@
 				type: "item"
 			}]
 			title: "&f Pressurized Jetpack | &664&a☻"
-			x: -2.5d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -1184,7 +1184,7 @@
 				type: "item"
 			}]
 			title: "&f Splendid Generator | &664&a☻"
-			x: -5.0d
+			x: -6.0d
 			y: 0.5d
 		}
 	]

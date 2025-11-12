@@ -494,7 +494,6 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
-			hide_until_deps_complete: true
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			shape: "hexagon"

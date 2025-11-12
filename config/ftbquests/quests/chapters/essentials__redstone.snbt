@@ -561,59 +561,9 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["75426B66A09DD940"]
-			id: "2FDB572B44D9CC8F"
-			tasks: [{
-				id: "4DC6B4C55EF17ABF"
-				item: "computercraft:computer_advanced"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["75426B66A09DD940"]
-			id: "5FCF4A8A1901E38F"
-			tasks: [{
-				id: "2ADD5A0895C4835D"
-				item: "computercraft:turtle_advanced"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["75426B66A09DD940"]
-			id: "2376AA35CFF6328E"
-			tasks: [{
-				id: "262B2309B17A3343"
-				item: "computercraft:cable"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["75426B66A09DD940"]
-			id: "744E1F57A9C3A01A"
-			tasks: [{
-				id: "64FC18CE37B62B7A"
-				item: "computercraft:wired_modem_full"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["109898E1B0AB47CF"]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "computercraft:item/pocket_computer_blink"
-				}
-			}
+			icon: "computercraft:computer_advanced"
 			id: "75426B66A09DD940"
 			tasks: [{
 				id: "4C63816E423283FB"
@@ -644,6 +594,54 @@
 			}]
 			x: -7.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["75426B66A09DD940"]
+			icon: "advancedperipherals:peripheral_casing"
+			id: "466D9A044F47769C"
+			tasks: [{
+				id: "3392CAE0FAB35084"
+				type: "checkmark"
+			}]
+			title: "Advanced Peripherals"
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75426B66A09DD940"]
+			icon: "ducky-periphs:duck_block"
+			id: "1D08978533851583"
+			tasks: [{
+				id: "5B79F2C7AFF47315"
+				type: "checkmark"
+			}]
+			title: "Ducky Peripherals"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75426B66A09DD940"]
+			icon: "toms_peripherals:gpu"
+			id: "05826A5A0AFB4B4B"
+			tasks: [{
+				id: "2A4E2A2437360CD0"
+				type: "checkmark"
+			}]
+			title: "Tom's Peripherals"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75426B66A09DD940"]
+			icon: "turtlematic:automata_core"
+			id: "4AE1BA93ACA5DE7A"
+			tasks: [{
+				id: "3C42951CE4DFC2DF"
+				type: "checkmark"
+			}]
+			title: "Turtlematic"
+			x: -9.5d
+			y: 0.0d
 		}
 	]
 	title: "&4 Other Automation"

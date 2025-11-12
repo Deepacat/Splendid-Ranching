@@ -378,7 +378,7 @@
 	]
 	quests: [
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "atmospheric:red_arid_sand"
 			id: "5B8E63CE09931C0A"
 			tasks: [{
@@ -390,7 +390,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "quark:indigo_corundum"
 			id: "1B5DFD0231BF72D0"
 			tasks: [{
@@ -402,7 +402,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "minecraft:magma_block"
 			id: "162A0FBCFC33B012"
 			tasks: [{
@@ -414,7 +414,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "minecraft:moss_block"
 			id: "26D5815EFAD1F00B"
 			tasks: [{
@@ -426,7 +426,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "opalescence:opal"
 			id: "681A7C07F8EC0B1A"
 			tasks: [{
@@ -438,7 +438,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "minecraft:prismarine_bricks"
 			id: "4F77C965C18F2933"
 			tasks: [{
@@ -651,7 +651,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "1A6990DB1DE87EED"
 			tasks: [{
 				id: "75A96CDC8273058D"
@@ -759,7 +759,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "57C0B3292BFDF2AB"
 			tasks: [{
 				id: "442EC93934C6DF69"
@@ -779,7 +779,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "2DC21C014D1555CC"
 			tasks: [{
 				id: "76841007F583F4FC"
@@ -830,6 +830,7 @@
 				"Fusion slimes have rankings depending on which slimes are used to fuse it, the ranking is determined by the highest ranking slime required in fusion, plus one."
 			]
 			hide_details_until_startable: false
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "42831C5E7A8C2BA0"
@@ -843,7 +844,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "09E217B6D14E3634"
 			tasks: [{
 				id: "30BC1E602052FA5C"
@@ -862,7 +863,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:block_of_frosted_chocolate"
 			id: "359D61825C9D99F7"
 			tasks: [{
@@ -874,7 +875,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:coprolith"
 			id: "63E6770E1FA2FFD5"
 			tasks: [{
@@ -886,7 +887,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:galena"
 			id: "0EC1F913F376581C"
 			tasks: [{
@@ -898,7 +899,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:fern_thatch"
 			id: "77BFD25A977F6ACB"
 			tasks: [{
@@ -910,7 +911,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:radrock_uranium_ore"
 			id: "3482C687ABF8ECF9"
 			tasks: [{
@@ -922,7 +923,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			icon: "alexscaves:abyssmarine"
 			id: "16A5B65CA7253D8B"
 			tasks: [{
@@ -934,7 +935,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "707488F243981774"
 			tasks: [{
 				id: "1E10B9C6DC8CFF46"
@@ -953,7 +954,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "5EC77BFC2038ABA2"
 			tasks: [{
 				id: "5D4555A24284B8E9"
@@ -972,7 +973,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "4F8209100D13F58D"
 			tasks: [{
 				id: "4D4FD277186F068F"
@@ -991,7 +992,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "28D85A3B22E4845F"
 			tasks: [{
 				id: "48ACBB01D15BB005"
@@ -1010,7 +1011,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "0F3184AA9A7F9215"
 			tasks: [{
 				id: "4A66BD89D51C84BE"
@@ -1030,7 +1031,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "46220822EECA2E67"
 			tasks: [{
 				id: "52679D01DE5D101F"
@@ -1120,7 +1121,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "2B2365F43F9D88DE"
 			tasks: [{
 				id: "35A5BB247DBB78CC"
@@ -1163,7 +1164,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "423926AA90B65D90"
 			tasks: [{
 				id: "28D7F23ED20CC323"
@@ -1183,7 +1184,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "6877F6A473DAF722"
 			tasks: [{
 				id: "2E8D6735FD5B0FB2"
@@ -1203,7 +1204,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "5A1749298FC9BB0B"
 			tasks: [{
 				id: "1E366D179642E212"
@@ -1223,7 +1224,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "5A047ED5158DAF07"
 			tasks: [{
 				id: "5CF7A7B62CA55BB5"
@@ -1243,7 +1244,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "7FFCBAE693712C5E"
 			tasks: [{
 				id: "2C1F06BB3E5344EA"
@@ -1263,7 +1264,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "2C9811B1825871A6"
 			tasks: [{
 				id: "32D2979F0A1D5E0F"
@@ -1683,7 +1684,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "3169DD099A3FF5E0"
 			tasks: [{
 				id: "5AC8ABED60E3ABB4"
@@ -1796,7 +1797,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "498E4558C2E4F038"
 			tasks: [{
@@ -1818,7 +1819,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "790CFC8CC3972828"
 			tasks: [{
@@ -1840,7 +1841,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "1E11BF12C71C9DD9"
 			tasks: [{
@@ -1862,7 +1863,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "3A8203E122236CDD"
 			tasks: [{
@@ -1884,7 +1885,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "50F0C9AAFA7D9735"
 			tasks: [{
@@ -1906,7 +1907,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "0D48CBD3F913F4CD"
 			tasks: [{
@@ -1928,7 +1929,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "4F9BC72CC2DA06EC"
 			tasks: [{
@@ -1950,7 +1951,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "283401BAF5D93A46"
 			tasks: [{
@@ -1972,7 +1973,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "56EA8C6A5232B395"
 			tasks: [{
@@ -1994,7 +1995,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "3DEC5723C703FF21"
 			tasks: [{
@@ -2016,7 +2017,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "79A7881A97FA98CC"
 			tasks: [{
@@ -2038,7 +2039,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "2222665D244AA2C8"
 			tasks: [{
@@ -2060,7 +2061,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			disable_toast: true
 			id: "58183B91715F8581"
 			tasks: [{
@@ -2091,7 +2092,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "6956157739C7167A"
 			tasks: [{
 				icon: "minecraft:sheep_spawn_egg"
@@ -2105,7 +2106,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "1A4A20D26B5000F8"
 			tasks: [{
 				icon: "minecraft:pig_spawn_egg"
@@ -2119,7 +2120,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "07757DB4340EED61"
 			tasks: [{
 				icon: "minecraft:cow_spawn_egg"
@@ -2133,7 +2134,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "1668DEA628B4ACE6"
 			tasks: [{
 				icon: "minecraft:chicken_spawn_egg"
@@ -2147,7 +2148,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "60CF75FB21126339"
 			tasks: [{
 				icon: "minecraft:rabbit_spawn_egg"
@@ -2161,7 +2162,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "20D84DD1D8983415"
 			tasks: [
 				{
@@ -2194,7 +2195,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "07F637FE85B25EFB"
 			tasks: [{
 				icon: "alexscaves:spawn_egg_sweetish_fish"
@@ -2208,7 +2209,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "077A32F3C160C74F"
 			tasks: [{
 				icon: "alexscaves:spawn_egg_radgill"
@@ -2222,7 +2223,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "1CA9700AB05D96E3"
 			tasks: [{
 				icon: "alexscaves:spawn_egg_trilocaris"
@@ -2236,7 +2237,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["341207DD87C622A8"]
+			dependencies: ["42831C5E7A8C2BA0"]
 			id: "5BC608A0F1C8E2D3"
 			tasks: [
 				{
