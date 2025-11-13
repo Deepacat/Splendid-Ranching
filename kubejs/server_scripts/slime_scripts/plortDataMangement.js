@@ -71,7 +71,6 @@ ServerEvents.tick(e => {
         let fluc = Math.round((dailyCalc.marketFluctuation - 1) * 100)
         e.server.tell(`| Todays market fluctuation is ` + (fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`))
 
-
         // reset daily data
         e.server.persistentData['daily_sold_plorts'] = {}
         e.server.persistentData['daily_sold_total'] = 0

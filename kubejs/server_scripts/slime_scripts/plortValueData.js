@@ -6,7 +6,7 @@ global.baseSlimeValueData = {
     slimy: {
         baseValue: 10,
         currentValue: 10,
-        priceRange: [5, 15], // min and max price
+        priceRange: [5, 15], // min and max price (CURRENTLY DISABLED AND DOES NOTHING, READ MARKET FLUCTUATION SCRIPT)
         /* The current market volume of the plort to scale off.
         Every sold plort increases this value by 1, and the price is scaled off this value
         up to the max volume, at which point the price is halv*ed.
