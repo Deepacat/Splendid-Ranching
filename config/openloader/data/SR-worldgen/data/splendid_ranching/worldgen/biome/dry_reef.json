@@ -25,6 +25,7 @@
 	},
 	"features": [
 		[
+			"splendid_ranching:dry_reef/dry_tree_placed"
 		]
 	],
 	"has_precipitation": false,
