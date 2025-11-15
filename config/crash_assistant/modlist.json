@@ -279,11 +279,6 @@
     "modId": "farmersdelight",
     "version": "1.20.1-1.2.9"
   },
-  "FastLeafDecay-32.jar": {
-    "jarName": "FastLeafDecay-32.jar",
-    "modId": "fastleafdecay",
-    "version": "32"
-  },
   "ferritecore-6.0.1-forge.jar": {
     "jarName": "ferritecore-6.0.1-forge.jar",
     "modId": "ferritecore",
@@ -354,6 +349,11 @@
     "modId": "guideme",
     "version": "20.1.14"
   },
+  "hybrid-beta-v1.0.4.jar": {
+    "jarName": "hybrid-beta-v1.0.4.jar",
+    "modId": "mr_hybrid_beta",
+    "version": "1-v1.0.4"
+  },
   "Iceberg-1.20.1-forge-1.1.25.jar": {
     "jarName": "Iceberg-1.20.1-forge-1.1.25.jar",
     "modId": "iceberg",
@@ -412,6 +412,11 @@
     "modId": "ldlib",
     "version": "1.0.45"
   },
+  "LeavesBeGone-v8.0.0-1.20.1-Forge.jar": {
+    "jarName": "LeavesBeGone-v8.0.0-1.20.1-Forge.jar",
+    "modId": "leavesbegone",
+    "version": "8.0.0"
+  },
   "LegendaryTooltips-1.20.1-forge-1.4.5.jar": {
     "jarName": "LegendaryTooltips-1.20.1-forge-1.4.5.jar",
     "modId": "legendarytooltips",
@@ -431,6 +436,11 @@
     "jarName": "lmft-1.0.4+1.20.1-forge.jar",
     "modId": "lmft",
     "version": "1.0.4+1.20.1"
+  },
+  "Log-Begone-Forge-1.20.1-1.0.8.jar": {
+    "jarName": "Log-Begone-Forge-1.20.1-1.0.8.jar",
+    "modId": "logbegone",
+    "version": "1.0.8"
   },
   "lootbeams-1.20.1-1.2.6.jar": {
     "jarName": "lootbeams-1.20.1-1.2.6.jar",
@@ -556,6 +566,11 @@
     "jarName": "probejs-6.0.1-forge.jar",
     "modId": "probejs",
     "version": "6.0.1"
+  },
+  "PuzzlesLib-v8.1.33-1.20.1-Forge.jar": {
+    "jarName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+    "modId": "puzzleslib",
+    "version": "8.1.33"
   },
   "Quark-4.0-462.jar": {
     "jarName": "Quark-4.0-462.jar",

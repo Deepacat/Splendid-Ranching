@@ -27,7 +27,8 @@
 		[
 			"splendid_ranching:dry_reef/dry_tree_placed",
 			"splendid_ranching:dry_reef/dry_grass_placed",
-			"splendid_ranching:dry_reef/carrots_placed"
+			"splendid_ranching:dry_reef/carrots_placed",
+			"splendid_ranching:dry_reef/dry_rock_placed"
 		]
 	],
 	"has_precipitation": false,
