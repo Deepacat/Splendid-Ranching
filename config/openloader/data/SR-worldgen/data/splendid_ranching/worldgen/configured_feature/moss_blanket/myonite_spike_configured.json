@@ -1,0 +1,31 @@
+{
+  "type": "lithostitched:large_dripstone",
+  "config": {
+    "column_radius": 2,
+    "height_scale": 19,
+    "max_column_radius_to_cave_height_ratio": 0.7,
+    "stalactite_bluntness": 1,
+    "stalagmite_bluntness": 1,
+    "wind_speed": 0,
+    "min_radius_for_wind": 1,
+    "min_bluntness_for_wind": 1,
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 10,
+          "data": {
+            "Name": "alexscaves:ambersol"
+          }
+        },
+        {
+          "weight": 90,
+          "data": {
+            "Name": "architects_palette:myonite"
+          }
+        }
+      ]
+    },
+    "replaceable_blocks": "minecraft:air"
+  }
+}

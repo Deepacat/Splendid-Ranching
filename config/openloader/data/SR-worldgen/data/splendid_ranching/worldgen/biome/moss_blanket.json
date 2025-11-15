@@ -1,6 +1,6 @@
 {
   "carvers": {
-    "air": [ ]
+    "air": []
   },
   "downfall": 0.0,
   "effects": {
@@ -24,22 +24,25 @@
     "water_fog_color": 329011
   },
   "features": [
-    ["splendid_ranching:moss_blanket/honey_lake_placed"],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ]
+    [
+      "splendid_ranching:moss_blanket/honey_lake_placed",
+      "splendid_ranching:moss_blanket/myonite_spike_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
   ],
   "has_precipitation": false,
-  "spawn_costs": { },
+  "spawn_costs": {},
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
+    "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -54,9 +57,9 @@
         "weight": 10
       }
     ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -71,7 +74,7 @@
         "weight": 5
       }
     ],
-    "water_creature": [ ]
+    "water_creature": []
   },
   "temperature": 0.8
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "kubejs:block/dry_rock_side",
+    "east": "kubejs:block/dry_rock_side",
+    "north": "kubejs:block/dry_rock_side",
+    "particle": "kubejs:block/dry_rock_side",
+    "south": "kubejs:block/dry_rock_side",
+    "up": "kubejs:block/dry_rock_top",
+    "west": "kubejs:block/dry_rock_side"
+  }
+}

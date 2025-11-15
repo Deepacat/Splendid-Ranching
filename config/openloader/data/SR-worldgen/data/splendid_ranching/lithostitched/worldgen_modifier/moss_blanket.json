@@ -91,7 +91,7 @@
         {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:grass_block"
+            "Name": "architects_palette:myonite"
           }
         }
       ]

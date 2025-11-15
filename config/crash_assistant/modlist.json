@@ -642,6 +642,11 @@
     "modId": "toastcontrol",
     "version": "8.0.3"
   },
+  "tunnelyrefab-forge-1.6.4-SNAPSHOT.jar": {
+    "jarName": "tunnelyrefab-forge-1.6.4-SNAPSHOT.jar",
+    "modId": "tunnelyrefab",
+    "version": "1.6.4-SNAPSHOT"
+  },
   "turtlematic-forge-1.20.1-1.4.6.jar": {
     "jarName": "turtlematic-forge-1.20.1-1.4.6.jar",
     "modId": "turtlematic",

@@ -5,6 +5,10 @@ ServerEvents.tags('item', e => {
     ])
 })
 
+ServerEvents.tags('block', e => {
+    e.add('minecraft:base_stone_overworld', 'architects_palette:myonite')
+})
+
 ServerEvents.tags('worldgen/biome', e => {
     // e.add('minecraft:is_overworld', [
     //     'splendid_ranching:ancient_ruins',
