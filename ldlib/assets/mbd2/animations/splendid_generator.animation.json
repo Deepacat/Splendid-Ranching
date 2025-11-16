@@ -1,52 +1,55 @@
 {
-	"format_version": "1.8.0",
-	"animations": {
-		"animation.model.pump": {
-			"loop": true,
-			"animation_length": 1,
-			"bones": {
-				"bone2": {
-					"position": {
-						"0.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"0.25": {
-							"post": [0, 2, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"0.75": {
-							"post": [0, -2, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"1.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"bone": {
-					"position": {
-						"0.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"0.25": {
-							"post": [0, -2, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"0.75": {
-							"post": [0, 2, 0],
-							"lerp_mode": "catmullrom"
-						},
-						"1.0": {
-							"post": [0, 0, 0],
-							"lerp_mode": "catmullrom"
-						}
-					}
-				}
-			}
-		}
-	},
-	"geckolib_format_version": 2
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.splendid_generator.working": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "bone2": {
+          "position": {
+            "0.0": {
+              "post": [ 0, 0, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [ 0, 2, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.75": {
+              "post": [ 0, -2, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "1.0": {
+              "post": [ 0, 0, 0 ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        },
+        "bone": {
+          "position": {
+            "0.0": {
+              "post": [ 0, 0, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.25": {
+              "post": [ 0, -2, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "0.75": {
+              "post": [ 0, 2, 0 ],
+              "lerp_mode": "catmullrom"
+            },
+            "1.0": {
+              "post": [ 0, 0, 0 ],
+              "lerp_mode": "catmullrom"
+            }
+          }
+        }
+      }
+    },
+    "animation.splendid_generator.idle": {
+      "loop": true
+    }
+  },
+  "geckolib_format_version": 2
 }
