@@ -80,7 +80,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "Name": "supplementaries:flint_block"
+                      "Name": "minecraft:lava"
                     }
                   }
                 }

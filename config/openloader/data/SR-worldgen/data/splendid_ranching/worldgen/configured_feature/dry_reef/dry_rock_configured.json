@@ -2,7 +2,7 @@
   "type": "minecraft:forest_rock",
   "config": {
     "state": {
-      "Name": "atmospheric:saffron_travertine"
+      "Name": "minecraft:stone"
     }
   }
 }
