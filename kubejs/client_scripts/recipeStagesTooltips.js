@@ -3,7 +3,6 @@ const $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
 let recipeStages = global.recipeStages
 
 ItemEvents.tooltip(e => {
-    console.log(recipeStages)
     for (let [stageId, stageObj] of Object.entries(recipeStages)) {
         for (let stageItem of stageObj.items) {
             e.addAdvanced(stageItem, (item, advanced, text) => {

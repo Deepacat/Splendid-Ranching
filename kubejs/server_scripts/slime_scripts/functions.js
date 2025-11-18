@@ -26,7 +26,7 @@ function marketUpdates(e) {
         .sort(() => Math.random() - 0.5)
         .slice(0, Math.floor(Math.random() * 3) + 1)
 
-    e.server.tell(`| Todays hot §dplort§r demands are:`)
+    e.server.tell(`| Today's hot §dplort§r demands are:`)
     for (let plortBreed of hotDemands) {
         e.server.tell(Text.of(`|| ${plortBreed}`).color(global.slimeDefinitionsData[plortBreed].color))
     }
@@ -96,7 +96,7 @@ function marketUpdates(e) {
     e.server.persistentData['slime_value_data'] = newValueData
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
-    e.server.tell(`| Todays market fluctuation is ` + (fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`))
+    e.server.tell(`| Market fluctuation is ` + (fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`))
 
     // reset daily data
     e.server.persistentData['daily_sold_plorts'] = {}
