@@ -675,17 +675,17 @@
 		{
 			dependencies: ["1E8294B92E62B946"]
 			description: [
-				"Feeding a non-furious slime another slimes plort will create a Largo Slime!"
+				"Feeding a non-furious &dslime&r another &dslimes&r &eplort&r will create a &dLargo Slime&r!"
 				""
-				"These slimes become a combination of both the original slime, and the slime breed of the plort eaten"
+				"These &dslimes&r become a combination of both the original &dslime&r, and the &dslime&r breed of the &eplort&r eaten"
 				""
-				"Largo slimes output a plort for each of the breeds and even share a diet, though slimes with the dominant or recessive traits can change the diet outcome for largo slimes"
+				"&dLargo slimes&r output a &eplort&r for each of the breeds and even share a diet, though &dslimes&r with the dominant or recessive traits can change the diet outcome for &dLargo Slimes&r"
 				""
-				"The new largo slime will use the base of the original slime, and the hat from the plort eaten"
+				"The new &dLargo Slime&r will use the base of the original &dslime&r, and the hat of the breed from the &eplort&r eaten"
 				""
-				"Feeding a largo slime a 3rd time of plort can cause... Bad things! ^=^"
+				"Feeding a largo &dslime&r a 3rd type of &eplort&r can cause... &4Bad things&r! Don't do that. &9^v^&r"
 				""
-				"Also note you cannot pick up Largo Slimes using your Slime-Vac, it will just pull them around"
+				"Also note you cannot pick up &dLargo Slimes&r using your &eSlime-Vac&r, it will just pull them around"
 			]
 			icon: {
 				Count: 1
@@ -698,8 +698,9 @@
 			}
 			icon_scale: 1.2d
 			id: "41CE67FFD8A648DC"
-			min_width: 300
+			min_width: 350
 			shape: "hexagon"
+			subtitle: "Not to be confused with fusion"
 			tasks: [{
 				id: "5962EBF3AE58852F"
 				title: "Largos"
