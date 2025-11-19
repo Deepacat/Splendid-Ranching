@@ -230,52 +230,92 @@ const rippitOutputs = {
 
     // t3
     shulking: [
-
+        { item: 'minecraft:shulker_shell', count: 8, weight: 30 },
+        { item: 'minecraft:diamond', count: 16, weight: 30 },
+        { item: 'minecraft:end_stone', count: 24, weight: 40 }
     ],
     metallic: [
-
+        { item: 'minecraft:iron_ingot', count: 8, weight: 25 },
+        { item: 'minecraft:copper_ingot', count: 8, weight: 25 },
+        { item: 'galosphere:silver_ingot', count: 8, weight: 25 },
+        { item: 'create:zinc_ingot', count: 8, weight: 25 }
     ],
     minty: [
-
+        { item: 'minecraft:dragon_breath', count: 8, weight: 47 },
+        { item: 'minecraft:elytra', count: 1, weight: 3 },
+        { item: 'quark:dragon_scale', count: 8, weight: 50 }
     ],
     jewel: [
-
+        { item: 'minecraft:amethyst_shard', count: 16, weight: 25 },
+        { item: 'minecraft:quartz', count: 16, weight: 25 },
+        { item: 'minecraft:lapis_lazuli', count: 16, weight: 25 },
+        { item: 'minecraft:emerald', count: 16, weight: 25 }
     ],
     infernal: [
-
+        { item: 'alexscaves:tectonic_shard', count: 4, weight: 20 },
+        { item: 'minecraft:wither_skeleton_skull', count: 1, weight: 20 },
+        { item: 'minecraft:ancient_debris', count: 4, weight: 20 },
+        { item: 'minecraft:netherrack', count: 32, weight: 20 },
+        { item: 'minecraft:soul_sand', count: 32, weight: 20 }
     ],
     mechanical: [
-
+        { item: 'create:cogwheel', count: 8, weight: 20 },
+        { item: 'create:gearbox', count: 6, weight: 20 },
+        { item: 'create:encased_chain_drive', count: 4, weight: 20 },
+        { item: 'create:shaft', count: 24, weight: 40 }
     ],
     tendril: [
-
+        { item: 'minecraft:sculk', count: 24, weight: 60 },
+        { item: 'minecraft:echo_shard', count: 4, weight: 40 }
     ],
     radiant: [
-
+        { item: 'alexscaves:sweet_tooth', count: 1, weight: 50 },
+        { item: 'alexscaves:radiant_essence', count: 1, weight: 50 }
     ],
     
     // t4
     gold: [
-
+        { item: 'minecraft:gold_ingot', count: 32, weight: 69 },
+        { item: 'minecraft:gold_block', count: 8, weight: 30 },
+        { item: 'minecraft:enchanted_golden_apple', count: 24, weight: 1 }
     ],
     forge: [
-
+        { item: 'minecraft:iron_ingot', count: 32, weight: 25 },
+        { item: 'minecraft:copper_ingot', count: 32, weight: 25 },
+        { item: 'galosphere:silver_ingot', count: 32, weight: 25 },
+        { item: 'create:zinc_ingot', count: 32, weight: 25 }
     ],
     time: [
-
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:knockback",lvl:2s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fire_aspect",lvl:2s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:looting",lvl:3s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sweeping",lvl:3s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:efficiency",lvl:5s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:unbreaking",lvl:3s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fortune",lvl:3s}]}'), count: 1, weight: 10 },
+        { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:power",lvl:5s}]}'), count: 1, weight: 10 }
     ],
     
     // t5
     quantum: [
-
+        { item: 'minecraft:dragon_egg', count: 1, weight: 10 },
+        { item: 'minecraft:cake', count: 3, weight: 90 }
     ],
     nuclear: [
-
+        { item: 'alexscaves:fissile_core', count: 1, weight: 20 },
+        { item: 'alexscaves:charred_remnant', count: 4, weight: 30 },
+        { item: 'alexscaves:unrefined_waste', count: 8, weight: 50 }
     ],
     
     // other
     burger: [
-
+        { item: 'numismatics:spur', count: 16, weight: 35 },
+        { item: 'numismatics:bevel', count: 8, weight: 25 },
+        { item: 'numismatics:sprocket', count: 4, weight: 20 },
+        { item: 'numismatics:cog', count: 2, weight: 14 },
+        { item: 'numismatics:crown', count: 1, weight: 5 },
+        { item: 'numismatics:sun', count: 1, weight: 1 }
     ]
 }
 

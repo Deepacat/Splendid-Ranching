@@ -218,7 +218,7 @@
 	- Gold
 		1. luminous + metallic
 		2. cake, gold carrot
-		3. Gold ingots
+		3. Gold ingots, gold blocks, gold apples
 	- Forge
 		1. metallic + infernal + charred
 		2. exotic meals
