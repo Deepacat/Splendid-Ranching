@@ -23,7 +23,7 @@
 				""
 				"(or, &l&9SSCCOGAC&r for short!!! &9^o^&r)"
 				""
-				"are &6&lgreatly excited&r to welcome to your new home on &asphere&r &d&lGelatine-XB47&r!"
+				"are &6&lgreatly excited&r to welcome to your new home on &asphere&r: &d&lGelatine-XB47&r!"
 				""
 				"Please tap &8[&a➡&8]&r on your &e&lHologuide&r™ to proceed through customary welcoming procedure process"
 				"{@pagebreak}"
@@ -35,7 +35,7 @@
 				""
 				"&6Lucky&r you! An &oalmost&r &6perfect&r &aenvironment&r with &onearly&r no danger!! &9^o^&r"
 				""
-				"Though still unfortunately, the &asphere&r seems to have very little resources in it. No &6precious&r harvestable metals... You'll have to make due with the products of &dslimes&r and &9&lour&r &cmarket&r!"
+				"Though still unfortunately, the &asphere&r seems to have very little resources in it. No &6precious&r harvestable metals... You'll have to make due with the &eproducts&r of &dslimes&r and &9&lour&r &cmarket&r!"
 				""
 				"&9&lOur&r scans show several known &dGela-form&r species from our database present on the &asphere&r, though there exists much potential for undiscovered &dGela-forms&r!"
 			]
@@ -214,7 +214,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Get to work!"
+			subtitle: "Get to work."
 			tasks: [{
 				id: "7FC6AFD8D0D7961D"
 				type: "checkmark"
@@ -520,12 +520,19 @@
 			icon: "splendid_slimes:plort_rippit"
 			id: "01150FF03DEBB716"
 			min_width: 300
-			rewards: [{
-				count: 16
-				id: "02C2C8B5ED22AD03"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 16
+					id: "02C2C8B5ED22AD03"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "332CF18C17CEBDCB"
+					item: "splendid_slimes:plort_rippit"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Welcome back frogport"
 			tasks: [{
@@ -546,23 +553,11 @@
 			icon: "splendid_slimes:plort_press"
 			id: "605E7F63ACF29D56"
 			min_width: 300
-			rewards: [
-				{
-					id: "6E9072943B68A316"
-					item: "mbd2:slime_breeder"
-					type: "item"
-				}
-				{
-					id: "589C3308399E641D"
-					item: "splendid_slimes:slime_incubator"
-					type: "item"
-				}
-				{
-					id: "200E4AD913A7D5DF"
-					item: "splendid_slimes:plort_rippit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "35D1C96B54C9F671"
+				item: "splendid_slimes:plort_press"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7AA1ED39BBD0C2EB"
@@ -584,19 +579,26 @@
 			icon: "splendid_slimes:slime_incubator"
 			id: "56F49C5A7B13623E"
 			min_width: 300
-			rewards: [{
-				id: "71125748BA3F1B9D"
-				item: {
-					Count: 1
-					id: "splendid_slimes:slime_heart"
-					tag: {
-						slime: {
-							id: "splendid_slimes:tree"
+			rewards: [
+				{
+					id: "71125748BA3F1B9D"
+					item: {
+						Count: 1
+						id: "splendid_slimes:slime_heart"
+						tag: {
+							slime: {
+								id: "splendid_slimes:tree"
+							}
 						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "54BE8611149375CD"
+					item: "splendid_slimes:slime_incubator"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "It's aliiiiive!"
 			tasks: [{
@@ -657,9 +659,20 @@
 				""
 				"You can view how to fuse specific &dslimes&r by checking recipes for their &eslime item&r or &eslime heart&r using your recipe guide"
 			]
-			icon: "mbd2:slime_breeder"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "mbd2:textures/gui/multiblock_info_page.png"
+				}
+			}
 			id: "75A4584FAAEC2937"
 			min_width: 350
+			rewards: [{
+				id: "42A113769DB88FAF"
+				item: "mbd2:slime_breeder"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Almost as good as farm merge valley"
 			tasks: [{
@@ -683,6 +696,7 @@
 			]
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
+			min_width: 300
 			shape: "hexagon"
 			subtitle: "What kind of slime is this?"
 			tasks: [{
@@ -697,7 +711,7 @@
 		{
 			dependencies: ["24EC9B4811458C2E"]
 			description: [
-				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes current happiness"
+				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes&r current happiness"
 				""
 				"You can view the current happiness state by looking at the &dslime&r close up"
 				""
@@ -825,10 +839,17 @@
 			dependencies: ["75A4584FAAEC2937"]
 			icon: "farmersdelight:cake_slice"
 			id: "001EDDF575B9A323"
-			tasks: [{
-				id: "1B51D0724E851D91"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1B51D0724E851D91"
+					type: "checkmark"
+				}
+				{
+					id: "5E27195E9B773A8F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
 			title: "Tutorial Complete"
 			x: -4.0d
 			y: -2.0d

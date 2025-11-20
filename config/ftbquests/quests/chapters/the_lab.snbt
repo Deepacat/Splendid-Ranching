@@ -20,11 +20,12 @@
 				"because kube can only do json"
 				"without copy pasting"
 				"thanks -deepa"
+				"(hidden in non editor mode)"
 			]
-			image: "ftbteams:textures/accept.png"
+			image: "quark:block/tiny_potato/trans"
 			rotation: 0.0d
 			width: 1.5d
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -34,7 +35,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependency: "528ED809C83D224D"
@@ -43,7 +44,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: -1.5d
+			y: 0.0d
 		}
 	]
 	order_index: 2

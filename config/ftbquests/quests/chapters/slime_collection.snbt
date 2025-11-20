@@ -1402,6 +1402,7 @@
 			]
 			id: "37F6889DC0F2CCFA"
 			invisible: true
+			secret: true
 			tasks: [{
 				id: "56AD8590E1D6A330"
 				item: {
