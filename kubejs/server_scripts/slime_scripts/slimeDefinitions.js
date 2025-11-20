@@ -11,17 +11,23 @@ global.slimeDefinitionsData = {
         name: "Abyssal",
         color: "#003249",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:abyssmarine"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.abyssal",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "alexscaves:lanternfish" },
+            { item: "alexscaves:tripodfish" },
+            { item: "alexscaves:radgill" },
+            { item: "alexscaves:sea_pig" },
+            { item: "alexscaves:trilocaris_tail" },
+            { item: "alexscaves:spawn_egg_gossamer_worm" },
+        ],
+        entities: [
+            "alexscaves:gossamer_worm",
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:sea_pig"
         }
     },
     alien: {
@@ -29,17 +35,16 @@ global.slimeDefinitionsData = {
         name: "Alien",
         color: "#994399",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:purpur_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.alien",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "supplementaries:soap" },
+            { item: "minecraft:amethyst_shard" },
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "supplementaries:soap"
         }
     },
     all_seeing: {
@@ -81,14 +86,8 @@ global.slimeDefinitionsData = {
             item: "minecraft:redstone_block"
         },
         diet: "diet.splendid_slimes.bitwise",
-        foods: [
-            {
-                tag: "minecraft:logs"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:mangrove_log"
-        }
+        foods: [{ tag: "forge:chests" }],
+        favorite_food: { item: "woodworks:jungle_chest" }
     },
     blazing: {
         breed: "blazing",
@@ -100,11 +99,11 @@ global.slimeDefinitionsData = {
         diet: "diet.splendid_slimes.blazing",
         foods: [
             {
-                tag: "forge:cooked_meat"
+                tag: "minecraft:coals"
             }
         ],
         favorite_food: {
-            item: "minecraft:cooked_porkchop"
+            item: "minecraft:coal"
         },
         traits: [
             "flaming"
@@ -119,30 +118,12 @@ global.slimeDefinitionsData = {
         },
         diet: "diet.splendid_slimes.bony",
         foods: [
-            {
-                item: "minecraft:milk_bucket"
-            },
-            {
-                tag: "forge:raw_meat"
-            },
-            {
-                tag: "forge:cooked_meat"
-            },
-            {
-                tag: "splendid_slimes:animal_spawn_eggs"
-            }
+            { item: "supplementaries:pancake" },
+            { tag: "kubejs:baked_slices" }
         ],
         favorite_food: {
-            item: "minecraft:milk_bucket"
-        },
-        entities: [
-            "minecraft:chicken",
-            "minecraft:cow",
-            "minecraft:pig",
-            "minecraft:rabbit",
-            "minecraft:sheep"
-        ],
-        favorite_entity: "minecraft:sheep"
+            item: "farmersdelight:cake_slice"
+        }
     },
     boomcat: {
         breed: "boomcat",
@@ -153,27 +134,11 @@ global.slimeDefinitionsData = {
         },
         diet: "diet.splendid_slimes.boomcat",
         foods: [
-            {
-                tag: "forge:raw_meat"
-            },
-            {
-                tag: "forge:cooked_meat"
-            },
-            {
-                tag: "splendid_slimes:animal_spawn_eggs"
-            }
+            { tag: "forge:cooked_meat" }
         ],
         favorite_food: {
-            item: "minecraft:cooked_beef"
+            item: "minecraft:cooked_chicken"
         },
-        entities: [
-            "minecraft:chicken",
-            "minecraft:cow",
-            "minecraft:pig",
-            "minecraft:rabbit",
-            "minecraft:sheep"
-        ],
-        favorite_entity: "minecraft:cow",
         traits: [
             "explosive"
         ]
@@ -186,32 +151,28 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.burger",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+            { item: "farmersdelight:hamburger" }
+        ]
     },
     candy: {
         breed: "candy",
         name: "Candy",
         color: "#c094e3",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:candy_cane_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.candy",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:sugar" },
+            { tag: "kubejs:candies" },
+            { tag: "alexscaves:gummy_items" }
+
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:sweetish_fish_red"
         }
     },
     charred: {
@@ -219,17 +180,15 @@ global.slimeDefinitionsData = {
         name: "Charred",
         color: "#290e00",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:charcoal"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.charred",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { tag: "minecraft:logs" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "quark:azalea_log"
         }
     },
     crimson: {
@@ -237,17 +196,15 @@ global.slimeDefinitionsData = {
         name: "Crimson",
         color: "#980000",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:nether_wart_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.crimson",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:blaze_powder", item: "minecraft:twisting_vines" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:twisting_vines"
         }
     },
     crystal: {
@@ -255,17 +212,15 @@ global.slimeDefinitionsData = {
         name: "Crystal",
         color: "#769ece",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "quark:indigo_corundum"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.crystal",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { tag: "forge:berries" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:glow_berries"
         }
     },
     dark: {
@@ -273,17 +228,18 @@ global.slimeDefinitionsData = {
         name: "Dark",
         color: "#26003f",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:obsidian"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.dark",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:glow_berries" },
+            { item: "minecraft:glow_lichen" },
+            { item: "minecraft:glowstone" },
+            { item: "minecraft:glow_ink_sac" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:glow_ink_sac"
         }
     },
     dusty: {
@@ -291,17 +247,13 @@ global.slimeDefinitionsData = {
         name: "Dusty",
         color: "#575122",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:gravel"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.dusty",
+        foods: [{ item: "supplementaries:ash" }, { item: "create:powdered_obsidian" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "create:powdered_obsidian"
         }
     },
     ender: {
@@ -312,14 +264,11 @@ global.slimeDefinitionsData = {
             item: "minecraft:ender_pearl"
         },
         diet: "diet.splendid_slimes.ender",
-        foods: [
-            {
-                tag: "forge:gems"
-            }
+        foods: [{ item: "quark:chorus_fruit_block" }, { item: "minecraft:chorus_flower" }],
+        entities: [
+            'minecraft:endermite'
         ],
-        favorite_food: {
-            item: "minecraft:amethyst_shard"
-        },
+        favorite_entity: "minecraft:endermite",
         traits: [
             "foodporting"
         ],
@@ -333,17 +282,17 @@ global.slimeDefinitionsData = {
         name: "Fire",
         color: "#ff6613",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:magma_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.fire",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { tag: "forge:logs" },
+            { tag: "minecraft:coals" },
+            { item: "supplementaries:lumisene_bottle" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "supplementaries:lumisene_bottle"
         }
     },
     forge: {
@@ -354,11 +303,9 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.forge",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "farmersdelight:roast_chicken_block" }, { item: "farmersdelight:squid_ink_pasta" }, { item: "farmersdelight:grilled_salmon" }, { item: "farmersdelight:roasted_mutton_chops" }, { item: "farmersdelight:vegetable_noodles" }
         ],
         favorite_food: {
             item: "minecraft:blue_orchid"
@@ -369,17 +316,16 @@ global.slimeDefinitionsData = {
         name: "Forlorn",
         color: "#463e29",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:thornwood_wood"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.forlorn",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "alexscaves:thornwood_branch" },
+            { item: "alexscaves:thornwood_log" },
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:thornwood_branch"
         }
     },
     fungus: {
@@ -387,14 +333,18 @@ global.slimeDefinitionsData = {
         name: "Fungus",
         color: "#ff4e4e",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "galosphere:lichen_moss"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.fungus",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:glow_lichen" },
+            { item: "galosphere:lichen_moss" },
+            { item: "galosphere:bowl_lichen" },
+            { item: "galosphere:lichen_shelf" },
+            { item: "galosphere:lichen_roots" },
+            { item: "quark:glow_lichen_growth" },
+            { item: "galosphere:lichen_cordyceps" }
         ],
         favorite_food: {
             item: "minecraft:blue_orchid"
@@ -405,17 +355,17 @@ global.slimeDefinitionsData = {
         name: "Gem",
         color: "#33e4f0",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:diamond_ore"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.gem",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:tuff" },
+            { item: "minecraft:calcite" },
+            { item: "minecraft:smooth_basalt" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:calcite"
         }
     },
     geode: {
@@ -423,17 +373,17 @@ global.slimeDefinitionsData = {
         name: "Geode",
         color: "#8c7461",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:iron_ore"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.geode",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:tuff" },
+            { item: "minecraft:sandstone" },
+            { item: "architects_palette:myonite" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "architects_palette:myonite"
         }
     },
     gold: {
@@ -446,9 +396,7 @@ global.slimeDefinitionsData = {
         hat_y_offset: -1,
         diet: "diet.splendid_slimes.gold",
         foods: [
-            {
-                tag: "forge:ingots"
-            }
+            { item: "minecraft:golden_carrot" }, { item: "minecraft:golden_apple" }, { item: "galosphere:golden_lichen_cordyceps" }, { item: "atmospheric:golden_dragon_fruit" }
         ],
         favorite_food: {
             item: "minecraft:copper_ingot"
@@ -463,17 +411,15 @@ global.slimeDefinitionsData = {
         name: "Infernal",
         color: "#fe1100",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:primal_magma"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
+        diet: "diet.splendid_slimes.infernal",
         foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+            { item: "minecraft:red_nether_bricks", item: "architects_palette:molten_nether_bricks" }
         ],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "architects_palette:molten_nether_bricks"
         }
     },
     jewel: {
@@ -481,17 +427,13 @@ global.slimeDefinitionsData = {
         name: "Jewel",
         color: "#27d263",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:emerald_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.jewel",
+        foods: [{ item: "minecraft:amethyst_shard", item: "minecraft:amethyst_cluster", item: "minecraft:prismarine_crystals" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:amethyst_cluster"
         }
     },
     jurassic: {
@@ -499,17 +441,13 @@ global.slimeDefinitionsData = {
         name: "Jurassic",
         color: "#d25d27",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:dinosaur_chop"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.jurassic",
+        foods: [{ tag: "forge:cooked_meat" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:cooked_beef"
         }
     },
     luminous: {
@@ -520,20 +458,7 @@ global.slimeDefinitionsData = {
             item: "minecraft:glowstone"
         },
         diet: "diet.splendid_slimes.luminous",
-        foods: [
-            {
-                item: "minecraft:quartz_block"
-            },
-            {
-                item: "minecraft:nether_quartz_ore"
-            },
-            {
-                item: "minecraft:quartz"
-            },
-            {
-                item: "minecraft:smooth_quartz"
-            }
-        ],
+        foods: [{ item: "minecraft:quartz_block" }, { item: "minecraft:nether_quartz_ore" }, { item: "minecraft:quartz" }, { item: "minecraft:smooth_quartz" }],
         favorite_food: {
             item: "minecraft:quartz_block"
         },
@@ -550,17 +475,13 @@ global.slimeDefinitionsData = {
         name: "Lush",
         color: "#16852b",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:moss_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.lush",
+        foods: [{ tag: "forge:seeds" }, { item: "minecraft:bone_meal" }, { item: "quark:moss_paste" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "quark:moss_paste"
         }
     },
     magma: {
@@ -568,17 +489,13 @@ global.slimeDefinitionsData = {
         name: "Magma",
         color: "#7a2214",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:magma_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.magma",
+        foods: [{ item: "minecraft:magma_block" }, { item: "alexscaves:primal_magma" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:primal_magma"
         }
     },
     magnetic: {
@@ -589,14 +506,10 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.magnetic",
+        foods: [{ tag: "forge:ingots" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:iron_ingot"
         }
     },
     mechanical: {
@@ -607,14 +520,10 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.mechanical",
+        foods: [{ item: "minecraft:andesite" }, { item: "create:andesite_alloy" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "create:andesite_alloy"
         }
     },
     metallic: {
@@ -622,17 +531,13 @@ global.slimeDefinitionsData = {
         name: "Metallic",
         color: "#bebfd2",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "galosphere:silver_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.metallic",
+        foods: [{ tag: "forge:raw_materials" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "galosphere:raw_silver"
         }
     },
     minty: {
@@ -644,26 +549,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.7,
         diet: "diet.splendid_slimes.minty",
-        foods: [
-            {
-                tag: "splendid_slimes:monster_spawn_eggs"
-            }
-        ],
-        entities: [
-            "minecraft:zombie",
-            "minecraft:zombie_villager",
-            "minecraft:skeleton",
-            "minecraft:enderman",
-            "minecraft:husk",
-            "minecraft:stray",
-            "minecraft:drowned",
-            "minecraft:creeper",
-            "minecraft:wither",
-            "minecraft:warden",
-            "minecraft:spider",
-            "minecraft:cave_spider"
-        ],
-        favorite_entity: "minecraft:enderman",
+        foods: [{ item: "minecraft:chorus_flower" }],
         traits: [
             "feral",
             "defiant",
@@ -693,17 +579,13 @@ global.slimeDefinitionsData = {
         name: "Monster",
         color: "#509e55",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "architects_palette:rotten_flesh_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.monster",
+        foods: [{ tag: "forge:raw_meat" }, { tag: "forge:cooked_meat" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:cooked_porkchop"
         }
     },
     neodymium: {
@@ -711,17 +593,13 @@ global.slimeDefinitionsData = {
         name: "Neodymium",
         color: "#896a8d",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:energized_galena_neutral"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.neodymium",
+        foods: [{ tag: "forge:nuggets" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:iron_nugget"
         }
     },
     nuclear: {
@@ -732,32 +610,21 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        diet: "diet.splendid_slimes.nuclear",
+        foods: [{ item: "alexscaves:uranium_rod" }]
     },
     ocean: {
         breed: "ocean",
         name: "Ocean",
         color: "#304398",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:water_bucket"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.ocean",
+        foods: [{ item: "minecraft:kelp" }, { item: "minecraft:dried_kelp" }, { tag: "minecraft:fishes" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:pufferfish"
         }
     },
     orby: {
@@ -769,14 +636,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.5,
         diet: "diet.splendid_slimes.orby",
-        foods: [
-            {
-                tag: "splendid_slimes:animal_spawn_eggs"
-            },
-            {
-                tag: "splendid_slimes:monster_spawn_eggs"
-            }
-        ],
+        foods: [{ tag: "splendid_slimes:animal_spawn_eggs" }],
         traits: [
             "defiant",
             "handy",
@@ -787,21 +647,9 @@ global.slimeDefinitionsData = {
             "minecraft:cow",
             "minecraft:pig",
             "minecraft:rabbit",
-            "minecraft:sheep",
-            "minecraft:zombie",
-            "minecraft:zombie_villager",
-            "minecraft:skeleton",
-            "minecraft:enderman",
-            "minecraft:husk",
-            "minecraft:stray",
-            "minecraft:drowned",
-            "minecraft:creeper",
-            "minecraft:warden",
-            "minecraft:wither",
-            "minecraft:spider",
-            "minecraft:cave_spider"
+            "minecraft:sheep"
         ],
-        favorite_entity: "minecraft:skeleton",
+        favorite_entity: "minecraft:cow",
         innate_effects: [
             {
                 effect: "minecraft:strength",
@@ -818,11 +666,7 @@ global.slimeDefinitionsData = {
         },
         hat_z_offset: -0.06,
         diet: "diet.splendid_slimes.phantom",
-        foods: [
-            {
-                tag: "minecraft:beds"
-            }
-        ],
+        foods: [{ tag: "minecraft:wools" }, { tag: "minecraft:beds" }],
         favorite_food: {
             item: "minecraft:purple_bed"
         },
@@ -844,21 +688,10 @@ global.slimeDefinitionsData = {
             item: "minecraft:prismarine_shard"
         },
         diet: "diet.splendid_slimes.prisma",
-        foods: [
-            {
-                tag: "minecraft:fishes"
-            }
-        ],
+        foods: [{ tag: "forge:cooked_fishes" }],
         favorite_food: {
-            item: "minecraft:tropical_fish"
+            item: "farmersdelight:cooked_salmon_slice"
         },
-        entities: [
-            "minecraft:cod",
-            "minecraft:salmon",
-            "minecraft:pufferfish",
-            "minecraft:tropical_fish"
-        ],
-        favorite_entity: "minecraft:tropical_fish",
         traits: [
             "aquatic",
             "spiky"
@@ -898,11 +731,7 @@ global.slimeDefinitionsData = {
             item: "minecraft:prismarine_shard"
         },
         diet: "diet.splendid_slimes.puddle",
-        foods: [
-            {
-                tag: "minecraft:fishes"
-            }
-        ],
+        foods: [{ tag: "minecraft:fishes" }],
         favorite_food: {
             item: "minecraft:tropical_fish"
         },
@@ -940,32 +769,21 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        diet: "diet.splendid_slimes.quantum",
+        foods: [{ item: "architects_palette:unobtanium" }]
     },
     rad: {
         breed: "rad",
         name: "Rad",
         color: "#6cbe3d",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "alexscaves:unrefined_waste"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.rad",
+        foods: [{ item: "alexscaves:radgill" }, { item: "alexscaves:spelunkie" }, { item: "alexscaves:slam" }, { item: "alexscaves:green_soylent" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:slam"
         }
     },
     radiant: {
@@ -976,14 +794,10 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.radiant",
+        foods: [{ item: "alexscaves:sundae" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "alexscaves:sundae"
         }
     },
     rocky: {
@@ -991,17 +805,13 @@ global.slimeDefinitionsData = {
         name: "Rocky",
         color: "#4b4b4b",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:deepslate"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.rocky",
+        foods: [{ tag: "forge:vegetables", item: 'minecraft:pumpkin_pie' }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:pumpkin_pie"
         }
     },
     rotting: {
@@ -1012,14 +822,7 @@ global.slimeDefinitionsData = {
             item: "minecraft:rotten_flesh"
         },
         diet: "diet.splendid_slimes.rotting",
-        foods: [
-            {
-                tag: "forge:raw_meat"
-            },
-            {
-                tag: "splendid_slimes:animal_spawn_eggs"
-            }
-        ],
+        foods: [{ tag: "forge:raw_meat" }, { tag: "splendid_slimes:animal_spawn_eggs" }],
         favorite_food: {
             item: "minecraft:chicken"
         },
@@ -1053,17 +856,13 @@ global.slimeDefinitionsData = {
         name: "Sandy",
         color: "#fffa85",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:sand"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.sandy",
+        foods: [{ tag: "minecraft:fruits" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "atmospheric:passion_fruit"
         }
     },
     sculk: {
@@ -1071,18 +870,12 @@ global.slimeDefinitionsData = {
         name: "Sculk",
         color: "#155152",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:sculk"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        diet: "diet.splendid_slimes.sculk",
+        foods: [{ item: "create:experience_nugget" }],
+        favorite_food: { item: "create:experience_nugget" }
     },
     shulking: {
         breed: "shulking",
@@ -1093,20 +886,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -1,
         diet: "diet.splendid_slimes.shulking",
-        foods: [
-            {
-                item: "minecraft:popped_chorus_fruit"
-            },
-            {
-                item: "minecraft:chorus_flower"
-            },
-            {
-                item: "minecraft:chorus_plant"
-            },
-            {
-                item: "minecraft:chorus_fruit"
-            }
-        ],
+        foods: [{ item: "minecraft:purpur_block" }, { item: "architects_palette:oracle_jelly" }, { item: "architects_palette:choral_end_stone_bricks" }],
         favorite_food: {
             item: "minecraft:chorus_flower"
         },
@@ -1131,11 +911,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.slimy",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        foods: [{ tag: "minecraft:flowers" }, { tag: "forge:vegetables" }, { tag: "forge:fruits" }, { tag: "forge:cooked_meat" }, { tag: "forge:raw_meat" },],
         favorite_food: {
             item: "minecraft:blue_orchid"
         }
@@ -1145,17 +921,13 @@ global.slimeDefinitionsData = {
         name: "Stony",
         color: "#717171",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:andesite"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.stony",
+        foods: [{ item: "minecraft:gravel" }, { item: "create:scoria" }, { item: "minecraft:basalt" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "create:scoria"
         }
     },
     sweet: {
@@ -1165,13 +937,9 @@ global.slimeDefinitionsData = {
         hat_scale: 1,
         hat_y_offset: -0.5,
         diet: "diet.splendid_slimes.sweet",
-        foods: [
-            {
-                tag: "forge:fruits"
-            }
-        ],
+        foods: [{ tag: "forge:fruits" }],
         favorite_food: {
-            item: "minecraft:glow_berries"
+            item: "minecraft:apple"
         },
         traits: [
             "moody"
@@ -1195,36 +963,27 @@ global.slimeDefinitionsData = {
         name: "Tabby",
         color: "#a39c98",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:gray_wool"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
+        diet: "diet.splendid_slimes.tabby",
+        foods: [{ tag: "forge:raw_meat" }, { tag: "kubejs:small_animals" }],
+        entities: [
+            "minecraft:rabbit",
+            "minecraft:chicken"
         ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        favorite_entity: "minecraft:rabbit"
     },
     tendril: {
         breed: "tendril",
         name: "Tendril",
         color: "#173837",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:sculk_catalyst"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        diet: "diet.splendid_slimes.tendril",
+        foods: [{ item: "minecraft:sculk_sensor" }]
     },
     time: {
         breed: "time",
@@ -1234,32 +993,21 @@ global.slimeDefinitionsData = {
             item: "minecraft:pink_concrete"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
-        favorite_food: {
-            item: "minecraft:blue_orchid"
-        }
+        diet: "diet.splendid_slimes.time",
+        foods: [{ item: "create:experience_block" }]
     },
     tree: {
         breed: "tree",
         name: "Tree",
         color: "#80461f",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:oak_log"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.tree",
+        foods: [{ item: "minecraft:bone_meal" }, { item: "create:tree_fertilizer" }, { item: "alexscaves:guano" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "create:tree_fertilizer"
         }
     },
     warped: {
@@ -1267,30 +1015,23 @@ global.slimeDefinitionsData = {
         name: "Warped",
         color: "#05b9ad",
         particle: {
-            item: "minecraft:pink_concrete"
+            item: "minecraft:warped_wart_block"
         },
         hat_y_offset: -0.55,
-        diet: "replace me",
-        foods: [
-            {
-                tag: "minecraft:flowers"
-            }
-        ],
+        diet: "diet.splendid_slimes.warped",
+        foods: [{ item: "minecraft:blaze_powder" }, { item: "minecraft:weeping_vines" }],
         favorite_food: {
-            item: "minecraft:blue_orchid"
+            item: "minecraft:weeping_vines"
         }
     },
     webby: {
         breed: "webby",
-        name: "slime.splendid_slimes.webby",
+        name: "disabled",
         color: "#bebfd2",
         particle: {
             item: "minecraft:cobweb"
         },
-        diet: "diet.splendid_slimes.webby",
-        foods: [{}],
-        favorite_food: {},
-        negative_emit_effects: []
+        diet: "disabled",
     },
     weeping: {
         breed: "weeping",
@@ -1300,16 +1041,12 @@ global.slimeDefinitionsData = {
         },
         color: "#cff1f1",
         diet: "diet.splendid_slimes.weeping",
-        foods: [
-            {
-                tag: "forge:fruits"
-            }
-        ],
+        foods: [{ tag: "forge:mushrooms" }, { item: "minecraft:warped_fungus" }, { item: "minecraft:crimson_fungus" }],
         traits: [
             "weeping"
         ],
         favorite_food: {
-            item: "minecraft:glow_berries"
+            item: "minecraft:warped_fungus"
         }
     }
 }
