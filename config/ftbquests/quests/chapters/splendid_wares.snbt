@@ -1094,15 +1094,14 @@
 			rewards: [{
 				auto: "disabled"
 				exclude_from_claim_all: true
-				icon: {
+				id: "55460D994D3FD1BF"
+				item: {
 					Count: 1
 					id: "create_jetpack:jetpack"
 					tag: {
 						Air: 900
 					}
 				}
-				id: "55460D994D3FD1BF"
-				item: "splendid_slimes:slime_vac"
 				team_reward: false
 				type: "item"
 			}]
@@ -1125,7 +1124,7 @@
 			can_repeat: true
 			dependencies: ["52D66243AA5C9C74"]
 			disable_toast: true
-			icon: "mbd2:slime_breeder"
+			icon: "mbd2:splendid_generator"
 			id: "39795D623C71B84A"
 			rewards: [{
 				auto: "disabled"

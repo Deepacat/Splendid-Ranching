@@ -31,12 +31,8 @@
 				title: "Wrench"
 				type: "item"
 			}]
+			secret: true
 			shape: "gear"
-			tasks: [{
-				id: "0000000000000C41"
-				title: "Create"
-				type: "checkmark"
-			}]
 			title: "Create"
 			x: 7.0d
 			y: 0.0d

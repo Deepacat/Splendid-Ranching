@@ -24,6 +24,7 @@
 				""
 				"~MuteTiefling"
 			]
+			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -40,19 +41,8 @@
 				title: "Pestle and Mortar"
 				type: "item"
 			}]
+			secret: true
 			shape: "gear"
-			tasks: [{
-				id: "26553788817F4728"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "botania:mystical_flowers"
-					}
-				}
-				title: "Any Mystical Flower"
-				type: "item"
-			}]
 			title: "Botania"
 			x: 4.5d
 			y: -0.5d

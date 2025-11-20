@@ -506,6 +506,17 @@
 				}
 			}
 			id: "32DE8BA397A5E12D"
+			rewards: [{
+				id: "28927AEC8D8FE20D"
+				item: {
+					Count: 1
+					id: "essentials:guide_book"
+					tag: {
+						"patchouli:book": "essentials:manual"
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0DEA125EFAD2F423"
 				title: "Essentials"
@@ -614,7 +625,7 @@
 				title: "Computer Craft"
 				type: "checkmark"
 			}]
-			x: -10.5d
+			x: -10.0d
 			y: -1.0d
 		}
 		{
@@ -652,13 +663,24 @@
 			]
 			icon: "advancedperipherals:peripheral_casing"
 			id: "466D9A044F47769C"
+			rewards: [{
+				id: "3A57972347EE8E43"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "advancedperipherals:manual"
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "All your worldly desires"
 			tasks: [{
 				id: "3392CAE0FAB35084"
 				type: "checkmark"
 			}]
 			title: "Advanced Peripherals"
-			x: -11.0d
+			x: -10.5d
 			y: 0.0d
 		}
 		{
@@ -677,8 +699,35 @@
 				type: "checkmark"
 			}]
 			title: "Turtlematic"
-			x: -10.0d
+			x: -9.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"{ \"color\":\"blue\", \"text\": \"Advanced Peripherals Book\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"run_command\", \"value\": \"/open-patchouli-book @s littlelogistics:guide \" } }"
+				""
+				"Little Logistics is a mod for Minecraft Forge focused on efficient, affordable, long-distance transport."
+			]
+			icon: "littlelogistics:steam_locomotive"
+			id: "59C819B383448D7C"
+			rewards: [{
+				id: "341507A0586762CE"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A3D4D9ACFD3E0D8"
+				title: "Little Logistics"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -4.0d
 		}
 	]
 	title: "&4 Other Automation"

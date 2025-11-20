@@ -819,11 +819,6 @@
 			dependencies: ["605E7F63ACF29D56"]
 			icon: "supplementaries:cog_block"
 			id: "611599F122718E16"
-			rewards: [{
-				id: "6FA65020D9262911"
-				title: "replace me with an akhasic tome"
-				type: "custom"
-			}]
 			shape: "rsquare"
 			subtitle: "This pack has more than slimes??"
 			tasks: [{
