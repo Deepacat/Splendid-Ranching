@@ -1,8 +1,5 @@
 [
     {
-        "result": "default"
-    },
-    {
         "when": "onjoin",
         "spawntype": [ "mob_summoned", "spawn_egg" ],
         "result": "default"
@@ -13,25 +10,12 @@
             "splendid_ranching:dry_reef", "splendid_ranching:indigo_quarry", "splendid_ranching:magma_mounts",
             "splendid_ranching:moss_blanket", "splendid_ranching:opal_desert", "splendid_ranching:slimey_sea"
         ],
-        "seesky": true,
-        "result": "default"
-    },
-    {
-        "mob": "splendid_slimes:splendid_slime",
-        "biome": [
-            "alexscaves:candy_cavity", "alexscaves:forlorn_hollows",
-            "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"
-        ],
-        "result": "default"
+        "seesky": false,
+        "result": "deny"
     },
     {
         "mob": "splendid_slimes:splendid_slime",
         "biome": [ "alexscaves:abyssal_chasm" ],
-        "result": "default"
-    },
-    {
-        "mod": "splendid_slimes",
-        "mob": "splendid_slimes:splendid_slime",
         "result": "deny"
     }
 ]

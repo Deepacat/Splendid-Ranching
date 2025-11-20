@@ -13,6 +13,15 @@ ServerEvents.tags('block', e => {
     e.add('minecraft:base_stone_overworld', 'architects_palette:myonite')
     e.add('forge:chorus_additionally_grows_on', 'alexscaves:galena')
     e.add('forge:end_stones', 'alexscaves:galena')
+    
+    // biome surface blocks for animal spawns
+    e.add('minecraft:animals_spawnable_on', [
+        'minecraft:grass_block', 'minecraft:pink_terracotta', // dry reef
+        'botania:mycelite', 'galosphere:lichen_moss', // indigo quarry
+        'architects_palette:myonite', 'minecraft:moss_block', // moss blanket
+        'architects_palette:onyx', 'supplementaries:flint_block', // magma mounts
+        'minecraft:sand', 'atmospheric:arid_sand' // opal desert
+    ])
 })
 
 ServerEvents.tags('worldgen/biome', e => {
