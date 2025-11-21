@@ -95,7 +95,7 @@
 		"Look Chance" = 0.015
 
 	[automation.iron_rod]
-		"Use Pre End Recipe" = false
+		"Use Pre End Recipe" = true
 
 	[automation.metal_buttons]
 		"Enable Iron" = true
