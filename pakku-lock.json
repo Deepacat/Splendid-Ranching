@@ -3001,6 +3001,39 @@
             ]
         },
         {
+            "pakku_id": "dwv9jGO1OOe2RWsf",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "glow-up"
+            },
+            "name": {
+                "curseforge": "Glow Up - Emissive Ores"
+            },
+            "id": {
+                "curseforge": "1162010"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "glow_up-1.4-1.20.1.zip",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6710/17/glow_up-1.4-1.20.1.zip",
+                    "id": "6710017",
+                    "parent_id": "1162010",
+                    "hashes": {
+                        "sha1": "9d0be8719a96010be2900d769f268a4f5235cdd9",
+                        "md5": "cce74e91fa26513d36f8cc7bea0cf3c5"
+                    },
+                    "required_dependencies": [],
+                    "size": 314813,
+                    "date_published": "2025-06-30T00:21:55.847Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HQsx1ee2bdB41dMK",
             "type": "MOD",
             "slug": {

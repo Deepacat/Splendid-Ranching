@@ -284,6 +284,11 @@
     "modId": "extra_gauges",
     "version": "2.0.7"
   },
+  "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar": {
+    "jarName": "ExtremeSoundMuffler-3.49.1-forge-1.20.1.jar",
+    "modId": "extremesoundmuffler",
+    "version": "3.48"
+  },
   "fancymenu_forge_3.7.0_MC_1.20.1.jar": {
     "jarName": "fancymenu_forge_3.7.0_MC_1.20.1.jar",
     "modId": "fancymenu",
@@ -318,6 +323,11 @@
     "jarName": "fogoverrides-1.20.1-2.3.0.jar",
     "modId": "fogoverrides",
     "version": "2.3.0"
+  },
+  "forgery-3.6.5+1.20.jar": {
+    "jarName": "forgery-3.6.5+1.20.jar",
+    "modId": "fabrication",
+    "version": "3.6.5+1.20"
   },
   "ftb-essentials-forge-2001.2.3.jar": {
     "jarName": "ftb-essentials-forge-2001.2.3.jar",
@@ -486,6 +496,11 @@
     "jarName": "moonlight-1.20-2.16.16-forge.jar",
     "modId": "moonlight",
     "version": "1.20-2.16.16"
+  },
+  "moredensityfunctions-forge-1.20.1-2.2.0.jar": {
+    "jarName": "moredensityfunctions-forge-1.20.1-2.2.0.jar",
+    "modId": "moredensityfunctions",
+    "version": "2.2.0"
   },
   "morered-1.20.1-4.0.0.4.jar": {
     "jarName": "morered-1.20.1-4.0.0.4.jar",
