@@ -2222,48 +2222,6 @@
 		}
 		{
 			dependencies: ["42831C5E7A8C2BA0"]
-			id: "07F637FE85B25EFB"
-			tasks: [{
-				icon: "alexscaves:spawn_egg_sweetish_fish"
-				id: "7326C77C9377B4CA"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexscaves:sweetish_fish"
-				type: "observation"
-			}]
-			x: -7.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["42831C5E7A8C2BA0"]
-			id: "077A32F3C160C74F"
-			tasks: [{
-				icon: "alexscaves:spawn_egg_radgill"
-				id: "38166015D4BA708C"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexscaves:radgill"
-				type: "observation"
-			}]
-			x: -7.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["42831C5E7A8C2BA0"]
-			id: "1CA9700AB05D96E3"
-			tasks: [{
-				icon: "alexscaves:spawn_egg_trilocaris"
-				id: "3057A72BB47E2C34"
-				observe_type: 5
-				timer: 0L
-				to_observe: "alexscaves:trilocaris"
-				type: "observation"
-			}]
-			x: -7.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["42831C5E7A8C2BA0"]
 			id: "5BC608A0F1C8E2D3"
 			tasks: [
 				{
