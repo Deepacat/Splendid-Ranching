@@ -13,14 +13,17 @@
     "radius": {
       "type": "minecraft:uniform",
       "value": {
-        "min_inclusive": 2,
-        "max_inclusive": 4
+        "min_inclusive": 1,
+        "max_inclusive": 3
       }
     },
-    "half_height": 2,
+    "half_height": 0,
     "target": {
       "type": "minecraft:matching_blocks",
-      "blocks": "minecraft:air"
+      "blocks": [
+        "minecraft:air",
+        "minecraft:moss_block"
+      ]
     }
   }
 }

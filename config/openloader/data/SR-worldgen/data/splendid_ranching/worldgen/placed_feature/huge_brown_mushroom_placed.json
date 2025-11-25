@@ -1,9 +1,9 @@
 {
-  "feature": "splendid_ranching:dry_reef/dry_rock_configured",
+  "feature": "minecraft:huge_brown_mushroom",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 1
+      "type": "minecraft:rarity_filter",
+      "chance": 5
     },
     {
       "type": "minecraft:in_square"
@@ -14,10 +14,6 @@
     },
     {
       "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
     }
   ]
 }

@@ -1,55 +1,61 @@
 {
   "feature": "splendid_ranching:moss_blanket/mushroom_shelf_configured",
   "placement": [
+    { "type": "minecraft:count", "count": 3 },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "WORLD_SURFACE_WG" },
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "lithostitched:offset",
+      "x_offset": 0,
+      "y_offset": 2,
+      "z_offset": 0
     },
     {
-      "type": "minecraft:in_square"
-    },
-    {
-      "type": "minecraft:biome"
-    },
-        {
-      "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
-    },
-    {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": 65
-        },
-        "max_inclusive": {
-          "absolute": 80
-        }
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [0, -1, 0],
+            "blocks": ["minecraft:air"]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [0, -2, 0],
+            "blocks": ["minecraft:air"]
+          }
+        ]
       }
     },
     {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": 87
-        },
-        "max_inclusive": {
-          "absolute": 105
-        }
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:has_sturdy_face",
+            "offset": [0, 0, 1],
+            "direction": "north"
+          },
+          {
+            "type": "minecraft:has_sturdy_face",
+            "offset": [-1, 0, 0],
+            "direction": "east"
+          },
+          {
+            "type": "minecraft:has_sturdy_face",
+            "offset": [0, 0, -1],
+            "direction": "south"
+          },
+          {
+            "type": "minecraft:has_sturdy_face",
+            "offset": [1, 0, 0],
+            "direction": "west"
+          }
+        ]
       }
     },
-    {
-      "type": "minecraft:height_range",
-      "height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": {
-          "absolute": 111
-        },
-        "max_inclusive": {
-          "absolute": 118
-        }
-      }
-    }
+    { "type": "minecraft:biome" }
   ]
 }

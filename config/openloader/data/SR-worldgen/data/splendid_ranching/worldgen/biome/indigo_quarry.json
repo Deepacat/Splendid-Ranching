@@ -1,6 +1,6 @@
 {
   "carvers": {
-    "air": [ ]
+    "air": []
   },
   "downfall": 0.0,
   "effects": {
@@ -28,30 +28,24 @@
       "splendid_ranching:indigo_quarry/chorus_placed",
       "splendid_ranching:indigo_quarry/glow_shroom_placed",
       "splendid_ranching:indigo_quarry/vegitation_placed",
-      "splendid_ranching:indigo_quarry/mushroom_placed"
+      "splendid_ranching:indigo_quarry/mushroom_placed",
+      "splendid_ranching:indigo_quarry/huge_blue_mushroom"
     ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [
-      "minecraft:glow_lichen",
-      "minecraft:mushroom_island_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
-    ]
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
   ],
   "has_precipitation": false,
-  "spawn_costs": { },
+  "spawn_costs": {},
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
+    "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "type": "minecraft:chicken",
@@ -65,16 +59,16 @@
         "minCount": 4,
         "weight": 2
       },
-			{
-				"type": "splendid_slimes:splendid_slime",
-				"maxCount": 4,
-				"minCount": 2,
-				"weight": 10
-			}
+      {
+        "type": "splendid_slimes:splendid_slime",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 10
+      }
     ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -89,7 +83,7 @@
         "weight": 5
       }
     ],
-    "water_creature": [ ]
+    "water_creature": []
   },
   "temperature": 0.8
 }
