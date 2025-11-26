@@ -49,6 +49,11 @@
     "modId": "architectury",
     "version": "9.2.14"
   },
+  "arts_and_crafts-forge-1.20.1-1.5.1.jar": {
+    "jarName": "arts_and_crafts-forge-1.20.1-1.5.1.jar",
+    "modId": "arts_and_crafts",
+    "version": "1.5.1"
+  },
   "atmospheric-1.20.1-6.1.1.jar": {
     "jarName": "atmospheric-1.20.1-6.1.1.jar",
     "modId": "atmospheric",
@@ -339,10 +344,30 @@
     "modId": "farmersdelight",
     "version": "1.20.1-1.2.9"
   },
+  "farsight-1.20.1-4.5.jar": {
+    "jarName": "farsight-1.20.1-4.5.jar",
+    "modId": "farsight_view",
+    "version": "1.20.1-4.5"
+  },
+  "FastFurnace-1.20.1-8.0.2.jar": {
+    "jarName": "FastFurnace-1.20.1-8.0.2.jar",
+    "modId": "fastfurnace",
+    "version": "8.0.2"
+  },
   "FastLeafDecay-32.jar": {
     "jarName": "FastLeafDecay-32.jar",
     "modId": "fastleafdecay",
     "version": "32"
+  },
+  "FastSuite-1.20.1-5.1.0.jar": {
+    "jarName": "FastSuite-1.20.1-5.1.0.jar",
+    "modId": "fastsuite",
+    "version": "5.1.0"
+  },
+  "FastWorkbench-1.20.1-8.0.4.jar": {
+    "jarName": "FastWorkbench-1.20.1-8.0.4.jar",
+    "modId": "fastbench",
+    "version": "8.0.4"
   },
   "Feature-Recycler-forge-1.0.1.jar": {
     "jarName": "Feature-Recycler-forge-1.0.1.jar",
@@ -424,6 +449,11 @@
     "modId": "geckolib",
     "version": "4.8.2"
   },
+  "gnetum-2.3.1.jar": {
+    "jarName": "gnetum-2.3.1.jar",
+    "modId": "gnetum",
+    "version": "2.3.1"
+  },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
     "modId": "guideme",
@@ -461,6 +491,11 @@
     "jarName": "jei-1.20.1-forge-15.20.0.125.jar",
     "modId": "jei",
     "version": "15.20.0.125"
+  },
+  "JinxedLib-forge-1.20.1-1.0.3.jar": {
+    "jarName": "JinxedLib-forge-1.20.1-1.0.3.jar",
+    "modId": "jinxedlib",
+    "version": "1.0.3"
   },
   "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar": {
     "jarName": "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
@@ -669,6 +704,11 @@
     "jarName": "quickstack-1.20.1-1.jar",
     "modId": "quickstack",
     "version": "1.20.1-1"
+  },
+  "radium-mc1.20.1-0.12.4+git.26c9d8e.jar": {
+    "jarName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+    "modId": "radium",
+    "version": "0.12.4+git.26c9d8e"
   },
   "RecipeStages-8.0.0.2.jar": {
     "jarName": "RecipeStages-8.0.0.2.jar",

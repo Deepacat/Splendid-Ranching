@@ -5,8 +5,6 @@
   "downfall": 0.0,
   "effects": {
     "fog_color": 12638463,
-    "foliage_color": 10387789,
-    "grass_color": 9470285,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -54,7 +52,7 @@
         "weight": 2
       },
       {
-        "type": "minecraft:pig",
+        "type": "minecraft:mooshroom",
         "maxCount": 4,
         "minCount": 4,
         "weight": 2

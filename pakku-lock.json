@@ -356,6 +356,48 @@
             ]
         },
         {
+            "pakku_id": "TBe9MbxqyLZHQXdK",
+            "pakku_links": [
+                "mB5omkwfxgWtfhaA"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "artsandcrafts"
+            },
+            "name": {
+                "curseforge": "Arts & Crafts"
+            },
+            "id": {
+                "curseforge": "1034791"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "arts_and_crafts-forge-1.20.1-1.5.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6689/158/arts_and_crafts-forge-1.20.1-1.5.1.jar",
+                    "id": "6689158",
+                    "parent_id": "1034791",
+                    "hashes": {
+                        "sha1": "afe0671281f6b20e1ecae5dc5d873d4cf1acca9f",
+                        "md5": "ff0136352598581529495ccc1a9dfccb"
+                    },
+                    "required_dependencies": [
+                        "1203401"
+                    ],
+                    "size": 5185017,
+                    "date_published": "2025-06-23T23:14:13.033Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "oUsUIhFiEsRxHODF",
             "pakku_links": [
                 "2XeoiF7rC1gNA2Ek"
@@ -2965,6 +3007,43 @@
             ]
         },
         {
+            "pakku_id": "Apg8qyQSBCn0yKJH",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "farsight"
+            },
+            "name": {
+                "curseforge": "Farsight [Forge/Neo]"
+            },
+            "id": {
+                "curseforge": "495693"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "farsight-1.20.1-4.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7016/585/farsight-1.20.1-4.5.jar",
+                    "id": "7016585",
+                    "parent_id": "495693",
+                    "hashes": {
+                        "sha1": "985eb925a7d8e3d3eca79f7759f59d0af09e3831",
+                        "md5": "92abe14e6a34c2b93e0074c0583cd25c"
+                    },
+                    "required_dependencies": [],
+                    "size": 441356,
+                    "date_published": "2025-09-20T20:01:18.167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AXKo9JrMdbgpiqkd",
             "type": "MOD",
             "slug": {
@@ -2999,6 +3078,123 @@
                     "required_dependencies": [],
                     "size": 9835,
                     "date_published": "2024-05-27T10:44:41.997Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "GFgSvsoxaneKVVsE",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fastfurnace"
+            },
+            "name": {
+                "curseforge": "FastFurnace"
+            },
+            "id": {
+                "curseforge": "299540"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastFurnace-1.20.1-8.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5181/98/FastFurnace-1.20.1-8.0.2.jar",
+                    "id": "5181098",
+                    "parent_id": "299540",
+                    "hashes": {
+                        "sha1": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61",
+                        "md5": "48b8d2df29ea216a625928e29a6434da"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 6170,
+                    "date_published": "2024-03-14T05:38:15.720Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Mw4Cwj3zPjQTETPL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fastsuite"
+            },
+            "name": {
+                "curseforge": "FastSuite"
+            },
+            "id": {
+                "curseforge": "475117"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastSuite-1.20.1-5.1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6318/54/FastSuite-1.20.1-5.1.0.jar",
+                    "id": "6318054",
+                    "parent_id": "475117",
+                    "hashes": {
+                        "sha1": "3a759dce0ddc91e299027faa800c0ee40ab90de8",
+                        "md5": "5308931eb0df44e4f39c06a7696f42ce"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 25305,
+                    "date_published": "2025-03-18T05:27:07.867Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CndfPETD2IhAaMk9",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fastworkbench"
+            },
+            "name": {
+                "curseforge": "FastWorkbench"
+            },
+            "id": {
+                "curseforge": "288885"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "FastWorkbench-1.20.1-8.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5101/229/FastWorkbench-1.20.1-8.0.4.jar",
+                    "id": "5101229",
+                    "parent_id": "288885",
+                    "hashes": {
+                        "sha1": "1a322a85e7c7024b8a0715c12d27b5ed0930d729",
+                        "md5": "2b55c4786cc726b0757689af28b97e7e"
+                    },
+                    "required_dependencies": [
+                        "283644"
+                    ],
+                    "size": 28188,
+                    "date_published": "2024-02-12T05:39:41.417Z"
                 }
             ]
         },
@@ -3675,6 +3871,43 @@
                     "required_dependencies": [],
                     "size": 552486,
                     "date_published": "2025-08-06T14:19:52.700Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "mB5omkwfxgWtfhaA",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "jinxedlib"
+            },
+            "name": {
+                "curseforge": "JinxedLib"
+            },
+            "id": {
+                "curseforge": "1203401"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "JinxedLib-forge-1.20.1-1.0.3.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6630/668/JinxedLib-forge-1.20.1-1.0.3.jar",
+                    "id": "6630668",
+                    "parent_id": "1203401",
+                    "hashes": {
+                        "sha1": "d2ee8b85b152a16f8d395a3860375278f5b2caf7",
+                        "md5": "abce4186b6fdec22c2acb39ee9ca46d3"
+                    },
+                    "required_dependencies": [],
+                    "size": 67431,
+                    "date_published": "2025-06-08T18:47:23.300Z"
                 }
             ]
         },
@@ -5412,6 +5645,43 @@
                     "required_dependencies": [],
                     "size": 40716,
                     "date_published": "2023-08-10T00:58:32.497Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "MilXL7xDZeDEGp3j",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "radium-reforged"
+            },
+            "name": {
+                "curseforge": "Radium Reforged"
+            },
+            "id": {
+                "curseforge": "570017"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5706/69/radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
+                    "id": "5706069",
+                    "parent_id": "570017",
+                    "hashes": {
+                        "sha1": "f5f5f792473bb7b85ec221f75c5afb3740afb13a",
+                        "md5": "3a46fb58e8ff12213e4dbc909f47a77d"
+                    },
+                    "required_dependencies": [],
+                    "size": 713454,
+                    "date_published": "2024-09-09T08:07:43.540Z"
                 }
             ]
         },

@@ -44,6 +44,9 @@
 			blue_mushroom = true
 			red_mushroom = true
 
+		[types.wood_type.arts_and_crafts]
+			cork = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
@@ -89,6 +92,9 @@
 			sycamore = true
 			fluorescent_maple = true
 			flowering_fluorescent_maple = true
+
+		[types.leaves_type.arts_and_crafts]
+			cork = true
 
 #Disables specific entries
 [entries]
