@@ -1,8 +1,58 @@
 {
-  "type": "minecraft:forest_rock",
+  "type": "lithostitched:composite",
   "config": {
-    "state": {
-      "Name": "minecraft:stone"
-    }
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:forest_rock",
+          "config": {
+            "state": {
+              "Name": "minecraft:stone"
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:disk",
+          "config": {
+            "state_provider": {
+              "fallback": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 85,
+                    "data": {
+                      "Name": "minecraft:stone"
+                    }
+                  },
+                  {
+                    "weight": 13,
+                    "data": {
+                      "Name": "minecraft:iron_ore"
+                    }
+                  },
+                  {
+                    "weight": 2,
+                    "data": {
+                      "Name": "minecraft:raw_iron_block"
+                    }
+                  }
+                ]
+              },
+              "rules": []
+            },
+            "radius": 2,
+            "half_height": 1,
+            "target": {
+              "type": "minecraft:matching_blocks",
+              "blocks": ["minecraft:stone"]
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
   }
 }
