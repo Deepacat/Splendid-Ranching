@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -22,6 +22,10 @@
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Press right-click to select a block."
+				"&eAbacus&r will count the distance from selected block in taxicab geometry, until right-clicked again."
+			]
 			id: "402D3F1483253B91"
 			tasks: [{
 				id: "4A63DD1C64018C4D"
@@ -34,6 +38,7 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "18F445C63F94FEFC"
+			subtitle: "&8[&7 Places Blocks &8]"
 			tasks: [{
 				id: "061C1F91F3F6488B"
 				item: "quark:trowel"
@@ -44,8 +49,14 @@
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Place 4 &eMagnetic Lights&r in a square or a rectangle (No larger than 20x20), place the &eMagnetic Quarry&r next to any edge of the rectangle, the quarry will start breaking blocks when you place the &eSmasher&r within the rectangle."
+				""
+				"Broken blocks will be thrown out of the &eQuarry&r."
+			]
 			icon: "alexscaves:quarry_smasher"
 			id: "3D9075ECF2EEE45F"
+			subtitle: "&8[&7 Groundbreaking! &8]"
 			tasks: [
 				{
 					id: "1BC6CAC33FD77711"
@@ -57,14 +68,30 @@
 					item: "alexscaves:quarry_smasher"
 					type: "item"
 				}
+				{
+					count: 4L
+					id: "63FB3D44BBADADA3"
+					item: { Count: 4, id: "alexscaves:magnetic_light" }
+					type: "item"
+				}
 			]
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"The &eConversion Crucible&r has the magical ability to change the biome around it if the correct ingredients are tossed into it."
+				""
+				"To start, eat a &eBiome Treat&r in the biome you want while starving, binding the &eBiome Treat&r to that biome."
+				"You must then collect some blocks from that biome and toss them into the &eCrucible&r."
+				"The &eCrucible&r requires nine items total: eight blocks from a given biome, and a rare item from that biome. "
+				"Most biomes will require a &eDiamond&r, although a few will require different items (e.g. a &eSweet Tooth&r). "
+				"After all items are deposited into the &eCrucible&r, the &eCrucible&r will bubble and rapidly shake, before converting the surrounding area into the wanted biome in a 12x12 range. "
+			]
 			icon: "alexscaves:conversion_crucible"
 			id: "7087F17D91E167D9"
+			subtitle: "&8[&7 World-altering powers! &8]"
 			tasks: [
 				{
 					id: "05ECEF746C07B9D2"
@@ -77,11 +104,15 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -5.5d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Holding a Candy Cane Hook in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
+				"Pressing right-click again will launch you in it's direction."
+			]
 			id: "005DDB059E76C369"
 			tasks: [{
 				id: "77F41D11A1F7D719"
@@ -99,18 +130,8 @@
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
-			id: "2B1AE9F6CDD91283"
-			tasks: [{
-				id: "143EB3ED22AA3C6A"
-				item: "alexscaves:sack_of_sating"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["641BB69F5A27AABE"]
 			id: "2B7AFE38E631A92F"
+			subtitle: "&8[&7 Rotates Rotatable Blocks &8]"
 			tasks: [{
 				id: "64CEA1F3BE6E06E5"
 				item: {
@@ -135,6 +156,7 @@
 				}
 			}
 			id: "75D45CF2A1D318FA"
+			subtitle: "&8[&7 Breaks blocks &8]"
 			tasks: [
 				{
 					id: "2247B4E0E0AB4E2E"
@@ -165,6 +187,7 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "3FA0EA79B5022DC9"
+			subtitle: "&8[&7 Cleans dyed blocks and entities &8]"
 			tasks: [{
 				id: "67EB4DF1F16D0A49"
 				item: "supplementaries:soap"
@@ -214,6 +237,12 @@
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Magnetic Levitation Rails can be used to create Minecart tracks. "
+				"Similarly to Powered Rails, they cannot curve, but unlike Powered Rails, they don't require Redstone power, and can propel Minecarts even faster."
+				""
+				"Minecarts will levitate above Magnetic Levitation Rails, even when they are not moving."
+			]
 			id: "3E9CF40B0F1D49DC"
 			tasks: [{
 				id: "5EE925035E1F407E"
@@ -225,7 +254,16 @@
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Pressing and holding right-click while having any item made from Iron or Netherite in your hands along with the &eGalena Gauntlet&r in the other will cause held item to hover about 10 to 20 blocks of the direction the user is facing. "
+				"Once the use button is let go, the item will fly back to its user. The gauntlet is preferably used with &eIron Tools&r or &eNetherite Tools&r."
+				""
+				"Aiming any item at an entity will cause it to deal damage to the target, as if the player was using the item."
+				""
+				"Aiming the specific tool or tools used to mine the targeted block will cause the tool to start mining it. The breaking speed will be the exact same as if the tool were used in the mainhand."
+			]
 			id: "75DACFA71A2496D4"
+			subtitle: "&8[&7 Put that down, it's a prototype. &8] "
 			tasks: [{
 				id: "764ADB95E3C0BD02"
 				item: {
@@ -237,30 +275,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["641BB69F5A27AABE"]
-			id: "38C5606D339FB8A5"
-			tasks: [{
-				id: "58741B9D39578DB5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Open: 0b
-							SelectedSlot: 0b
-							Size: 6
-						}
-					}
-					id: "supplementaries:lunch_basket"
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["53EBD9587E86A7B9"]
