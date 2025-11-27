@@ -1995,90 +1995,6 @@
             ]
         },
         {
-            "pakku_id": "gRNa4X0eM5IRs6EC",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "default-options"
-            },
-            "name": {
-                "curseforge": "Default Options"
-            },
-            "id": {
-                "curseforge": "232131"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "mc_versions": [
-                        "1.20.1",
-                        "1.20"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/483/defaultoptions-forge-1.20.1-18.0.4.jar",
-                    "id": "6972483",
-                    "parent_id": "232131",
-                    "hashes": {
-                        "sha1": "37ef64d3ae7fda292c882ee949a0280bf6c7f033",
-                        "md5": "2a453bba939907b55d4d7e0c31e6d8ad"
-                    },
-                    "required_dependencies": [
-                        "531761"
-                    ],
-                    "size": 94684,
-                    "date_published": "2025-09-07T12:29:22.480Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "aQwjb3QdZU195hmp",
-            "pakku_links": [
-                "U7qkldBi2jmGL2y2"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "defaultsettings"
-            },
-            "name": {
-                "curseforge": "DefaultSettings"
-            },
-            "id": {
-                "curseforge": "318012"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "DefaultSettings-1.20.x-4.0.7-Forge.jar",
-                    "mc_versions": [
-                        "1.20.2",
-                        "1.20.3",
-                        "1.20.1",
-                        "1.20",
-                        "1.20.4"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5141/86/DefaultSettings-1.20.x-4.0.7-Forge.jar",
-                    "id": "5141086",
-                    "parent_id": "318012",
-                    "hashes": {
-                        "sha1": "787645dd7602ca80face4180d6a3826f8e057a54",
-                        "md5": "3723212a3657e6d011b9e789218277c2"
-                    },
-                    "required_dependencies": [
-                        "659192"
-                    ],
-                    "size": 95942,
-                    "date_published": "2024-02-27T18:09:34.043Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "j8baivCIhiKYUYdQ",
             "type": "MOD",
             "slug": {
@@ -4782,6 +4698,43 @@
             ]
         },
         {
+            "pakku_id": "StaMcQPv3gr4ZumW",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "necronomicon"
+            },
+            "name": {
+                "curseforge": "Necronomicon API"
+            },
+            "id": {
+                "curseforge": "586157"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5772/681/Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "id": "5772681",
+                    "parent_id": "586157",
+                    "hashes": {
+                        "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf",
+                        "md5": "a1f1433ea551925436e6b170ac2ff619"
+                    },
+                    "required_dependencies": [],
+                    "size": 33251,
+                    "date_published": "2024-10-01T04:09:07.960Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "57EC0mYv4CXcsrc6",
             "type": "MOD",
             "slug": {
@@ -6446,6 +6399,49 @@
                     "required_dependencies": [],
                     "size": 1105891,
                     "date_published": "2025-03-23T19:12:56.087Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CZFghpS6VP69bsB5",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "yosby"
+            },
+            "name": {
+                "curseforge": "Your Options Shall Be Yours (YOSBY)"
+            },
+            "id": {
+                "curseforge": "569868"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "YOSBY-Forge-1.1.0.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "neoforge",
+                        "forge",
+                        "quilt"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4803/559/YOSBY-Forge-1.1.0.jar",
+                    "id": "4803559",
+                    "parent_id": "569868",
+                    "hashes": {
+                        "sha1": "e7765999fd4bfacf569a085450e3fc0d947bfc6c",
+                        "md5": "e1c6232a25d0e4ed9dad904cec1178fd"
+                    },
+                    "required_dependencies": [
+                        "586157"
+                    ],
+                    "size": 7064,
+                    "date_published": "2023-10-17T19:56:06.760Z"
                 }
             ]
         },

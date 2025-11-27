@@ -56,7 +56,7 @@ hs_err*
 /kubejs/*/jsconfig.json
 
 # Client configs (with exceptions below)
-/config/**/*client.*
+/config/*client.*
 
 !/config/defaultsettings/**
 !/config/sophisticatedstorage-client.toml
