@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.2.0]
+### Changes
+- More slime spawning tweaks
+- Updated splendid slimes, many happiness mechanic tweaks, and fixing alot
+- Added a quest giving the proper tools for Co-op bank sharing
+- Fixed research quests not being submit tasks
+- Documented some items in gadgets page
+- Added important little logistics items to automation tools page
+- Added some ores to natural rocks in the reef
+- Added a market display monitor, allowing you to see updating plort prices in world
+- Prettied up the menu with a changelog and custom logo
+- Add world favoriting and playtime indicator
+- Fix some mod configurations
+- Fix incorrect tooltips
+- Made most slime hearts cheaper to dupe
+- Adjust wares prices
+- Added double jumping
+- Move splendid wares shop quests to an in world shop terminal
+- Updated contributors!
+- Removed heroslime.
+
 ## [0.1.2]
 ### Changes
 - Much improved slime spawning, only spawn on natural blocks (or in caves)
