@@ -1,6 +1,7 @@
 {
   "type": "lithostitched:composite",
   "config": {
+  "placement_type": "cancel_on_failure",
     "features": [
       {
         "feature": {
