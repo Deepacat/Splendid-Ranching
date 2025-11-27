@@ -114,6 +114,11 @@
     "modId": "computercraft",
     "version": "1.116.2"
   },
+  "cherishedworlds-forge-6.1.7+1.20.1.jar": {
+    "jarName": "cherishedworlds-forge-6.1.7+1.20.1.jar",
+    "modId": "cherishedworlds",
+    "version": "6.1.7+1.20.1"
+  },
   "Chunky-1.3.146.jar": {
     "jarName": "Chunky-1.3.146.jar",
     "modId": "chunky",
@@ -449,11 +454,6 @@
     "modId": "geckolib",
     "version": "4.8.2"
   },
-  "gnetum-2.3.1.jar": {
-    "jarName": "gnetum-2.3.1.jar",
-    "modId": "gnetum",
-    "version": "2.3.1"
-  },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
     "modId": "guideme",
@@ -740,6 +740,11 @@
     "modId": "smoothchunk",
     "version": "1.20.1-4.1"
   },
+  "society_trading-0.9.jar": {
+    "jarName": "society_trading-0.9.jar",
+    "modId": "society_trading",
+    "version": "0.9"
+  },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
     "modId": "sodiumdynamiclights",
@@ -765,10 +770,10 @@
     "modId": "spark",
     "version": "1.10.53"
   },
-  "splendid_slimes-0.15.0.jar": {
-    "jarName": "splendid_slimes-0.15.0.jar",
+  "splendid_slimes-0.16.0.jar": {
+    "jarName": "splendid_slimes-0.16.0.jar",
     "modId": "splendid_slimes",
-    "version": "0.15.0"
+    "version": "0.16.0"
   },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
@@ -814,6 +819,11 @@
     "jarName": "woodworks-1.20.1-3.0.2.jar",
     "modId": "woodworks",
     "version": "3.0.2"
+  },
+  "worldplaytime-1.2.3-1.20.x-FORGE.jar": {
+    "jarName": "worldplaytime-1.2.3-1.20.x-FORGE.jar",
+    "modId": "worldplaytime",
+    "version": "1.2.3"
   },
   "Xaeros_Minimap_25.2.10_Forge_1.20.jar": {
     "jarName": "Xaeros_Minimap_25.2.10_Forge_1.20.jar",
