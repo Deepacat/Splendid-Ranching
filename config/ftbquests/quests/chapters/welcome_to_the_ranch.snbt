@@ -634,18 +634,11 @@
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			min_width: 300
-			rewards: [
-				{
-					id: "1D8E4637405EF104"
-					item: "kubejs:splendid_wares_shop"
-					type: "item"
-				}
-				{
-					id: "35A2B2ECB6B98645"
-					item: "numismatics:sprocket"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1D8E4637405EF104"
+				item: "kubejs:splendid_wares_shop"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Shopping!"
 			tasks: [{
@@ -761,8 +754,8 @@
 			id: "6352FC5322CFD542"
 			min_width: 350
 			rewards: [{
-				count: 5
-				id: "591872EA475BF1F9"
+				count: 10
+				id: "03ACC41A87BB5168"
 				item: "splendid_slimes:slime_candy"
 				type: "item"
 			}]
