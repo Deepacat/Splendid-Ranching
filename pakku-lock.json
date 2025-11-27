@@ -1004,42 +1004,6 @@
             ]
         },
         {
-            "pakku_id": "Gal7Dn3hBjyi9kuj",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "common-network"
-            },
-            "name": {
-                "curseforge": "Common Network"
-            },
-            "id": {
-                "curseforge": "806044"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "common-networking-forge-1.0.5-1.20.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5486/134/common-networking-forge-1.0.5-1.20.1.jar",
-                    "id": "5486134",
-                    "parent_id": "806044",
-                    "hashes": {
-                        "sha1": "986597ae06f01c9209c111ba6276a171e8977a2c",
-                        "md5": "420b80bc67b01b4e86ed29a88b1155c3"
-                    },
-                    "required_dependencies": [],
-                    "size": 20701,
-                    "date_published": "2024-06-29T18:02:23.160Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "7qM7TQgvvspfLEvH",
             "type": "SHADER",
             "slug": {
@@ -3228,45 +3192,6 @@
             ]
         },
         {
-            "pakku_id": "oYVcW82IJIkMco0d",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "fzzy-config"
-            },
-            "name": {
-                "curseforge": "Fzzy Config"
-            },
-            "id": {
-                "curseforge": "1005914"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "fzzy_config-0.7.3+1.20.1+forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7085/17/fzzy_config-0.7.3+1.20.1+forge.jar",
-                    "id": "7085017",
-                    "parent_id": "1005914",
-                    "hashes": {
-                        "sha1": "e771e543e930bd7c733f803bdbc0d3f2ecfb46c4",
-                        "md5": "bcbfb7e94f16a15ad5d13fb4999a5b78"
-                    },
-                    "required_dependencies": [
-                        "351264"
-                    ],
-                    "size": 2312969,
-                    "date_published": "2025-10-09T02:39:14.310Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "jvVfmeqTioCBBhEH",
             "type": "MOD",
             "slug": {
@@ -4220,44 +4145,39 @@
             ]
         },
         {
-            "pakku_id": "3GnX8qCeOTJdkD2o",
-            "pakku_links": [
-                "ftltSIjTBwBSHRaI"
-            ],
+            "pakku_id": "2PYLPl86f4FiY7N4",
             "type": "MOD",
             "slug": {
-                "curseforge": "loot-beams-refork"
+                "curseforge": "loot-beams"
             },
             "name": {
-                "curseforge": "Loot Beams: Refork"
+                "curseforge": "Loot Beams: Relooted!"
             },
             "id": {
-                "curseforge": "1150640"
+                "curseforge": "506757"
             },
-            "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Loot Beams Refork-forge-1.20.1-3.2.9.jar",
+                    "file_name": "lootbeams-1.20.1-1.2.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
+                        "neoforge",
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7231/298/Loot Beams Refork-forge-1.20.1-3.2.9.jar",
-                    "id": "7231298",
-                    "parent_id": "1150640",
+                    "url": "https://edge.forgecdn.net/files/5548/970/lootbeams-1.20.1-1.2.6.jar",
+                    "id": "5548970",
+                    "parent_id": "506757",
                     "hashes": {
-                        "sha1": "2fa9232e3e54560c483b71b8df293f5b0adb01fb",
-                        "md5": "0c56c28d9e74ba4fb73334e8818e2dfb"
+                        "sha1": "6b36aa6fb6adf19ce5c6c045e5cf0c292d28d505",
+                        "md5": "2c9f998231e2e11de9fbf909bc8ae028"
                     },
-                    "required_dependencies": [
-                        "1164411"
-                    ],
-                    "size": 534453,
-                    "date_published": "2025-11-17T02:57:52.417Z"
+                    "required_dependencies": [],
+                    "size": 163914,
+                    "date_published": "2024-07-20T16:48:04.943Z"
                 }
             ]
         },
@@ -4858,45 +4778,6 @@
                     "required_dependencies": [],
                     "size": 215119,
                     "date_published": "2023-08-19T13:57:24.937Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "ftltSIjTBwBSHRaI",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "nirvana-library"
-            },
-            "name": {
-                "curseforge": "Nirvana Library"
-            },
-            "id": {
-                "curseforge": "1164411"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Nirvana Lib-forge-1.20.1-2.0.17.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7188/81/Nirvana Lib-forge-1.20.1-2.0.17.jar",
-                    "id": "7188081",
-                    "parent_id": "1164411",
-                    "hashes": {
-                        "sha1": "f3f4d987bd5858189b49dbacfeb39bac63c0812a",
-                        "md5": "3bf4f2170a001b31674137f471973e76"
-                    },
-                    "required_dependencies": [
-                        "1005914",
-                        "806044"
-                    ],
-                    "size": 1107581,
-                    "date_published": "2025-11-05T06:33:11.140Z"
                 }
             ]
         },
