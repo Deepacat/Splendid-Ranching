@@ -1,6 +1,7 @@
 {
     "name": "Splendid Ranching",
     "version": "DEV",
+    "release_type": "release",
     "description": "Slime rancher inspired modpack for the JEO Modpack Jam",
     "author": "Deepacat, Meeprdib, Vnator, Uni",
     "overrides": [
