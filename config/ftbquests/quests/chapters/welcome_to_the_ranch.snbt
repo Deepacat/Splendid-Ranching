@@ -77,11 +77,13 @@
 				""
 				"For starter items: &8[&a➡&8]&r"
 				"{@pagebreak}"
-				"- &eSlime-Vac&r, for collecting &dslimes&r you find (don't hold too many of them though)"
+				"- &eSlime-Vac&r, for collecting &dslimes&r you find. (don't hold too many of them though)"
 				""
-				"- &eBank meter&r, this is a trinket you can equip (with Curios) to display a bank account hud on the top left of your interface."
+				"- &eBank meter&r, this is a trinket you can equip &8[&7 with Curios &8]&r to display a bank account hud on the top left of your interface."
 				""
-				"This quest also awards you"
+				"- &eBank Card&r, this is equipped to link yourself to a bank account, useful in a co-op ranch with a blaze banker."
+				""
+				"This quest also awards you a"
 				"- &eMining Laser Mk1&r, a handy tool to quickly clear blocks out. Upgradeable from our Splendid Wares™ shop!"
 			]
 			icon: {
@@ -398,16 +400,31 @@
 			}]
 			shape: "rsquare"
 			subtitle: "How hungry."
-			tasks: [{
-				id: "130D6E3DEAC237CF"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "130D6E3DEAC237CF"
+					type: "checkmark"
+				}
+				{
+					id: "257D55FE4344DEF3"
+					item: {
+						Count: 1
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "or(item_tag(forge:vegetables)item_tag(forge:fruits)item_tag(minecraft:fishes)item_tag(forge:berries)item_tag(forge:raw_meat))"
+						}
+					}
+					title: "Any Food"
+					type: "item"
+				}
+			]
 			title: "&fFeeding &dSlimes"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
+			dependency_requirement: "one_completed"
 			description: [
 				"&ePlorts&r are gelatinous balls left on the ground when a &dslime&r is fed at it's max size."
 				""
@@ -431,8 +448,9 @@
 			id: "1E8294B92E62B946"
 			min_width: 350
 			rewards: [{
-				id: "480D7E663F6FD9B3"
-				item: "mbd2:selling_port"
+				count: 32
+				id: "33945C7E146400E4"
+				item: "splendid_slimes:corral_block"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -468,18 +486,25 @@
 			id: "3A30D0E70BEA4946"
 			min_width: 300
 			rewards: [{
-				count: 32
-				id: "25E0880387928BEF"
-				item: "splendid_slimes:corral_block"
+				id: "714FE9DA21148F8B"
+				item: "mbd2:selling_port"
 				type: "item"
 			}]
 			shape: "rsquare"
 			subtitle: "Cha-ching!"
-			tasks: [{
-				id: "157C41866305863C"
-				title: "Sales Time!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "157C41866305863C"
+					title: "Sales Time!"
+					type: "checkmark"
+				}
+				{
+					count: 2L
+					id: "4594406D9CAD6398"
+					item: { Count: 2, id: "numismatics:cog" }
+					type: "item"
+				}
+			]
 			title: "&fSelling &ePlorts"
 			x: -2.0d
 			y: 2.0d
@@ -733,6 +758,7 @@
 				"- When not fed for a while a &dslime&r will begin starving and happiness will gradually decrease"
 				"- When killed and reduced to a lower size, a &dslimes&r happiness greatly decreases"
 				"- If fed and near 7 or more other &dslimes&r, happiness greatly decreases. You should keep 8 at most in a pen, and keep 3-4 blocks of space between your pens!"
+				"- If fed and cramped with other &dslimes&r in a small space, happiness greatly decreases. Don't keep them in prisons!"
 				""
 				"&l&nVery important info on &dslime&f happiness states:&r &8[&a➡&8]&r"
 				"{@pagebreak}"
@@ -752,7 +778,7 @@
 			]
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"
-			min_width: 350
+			min_width: 400
 			rewards: [{
 				count: 10
 				id: "03ACC41A87BB5168"
@@ -1232,6 +1258,59 @@
 			title: "Co-op banking"
 			x: 0.5d
 			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2FDFFE3208FF3C16"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "kubejs:splendid_wares_shop"
+			id: "3BF9F9A577769CDB"
+			optional: true
+			rewards: [{
+				id: "7BD049577263748C"
+				item: "kubejs:splendid_wares_shop"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Don't lose it!!"
+			tasks: [{
+				consume_items: true
+				id: "6368125FD54A3A33"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Emergency Wares"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3A30D0E70BEA4946"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "mbd2:selling_port"
+			id: "725BB42D888A7B66"
+			optional: true
+			rewards: [{
+				id: "23B25F85E7E2BE61"
+				item: "mbd2:selling_port"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Don't lose it!!"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "2B31C860F0DF6761"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Emergency Sales"
+			x: -1.5d
+			y: 6.0d
 		}
 	]
 	title: "&d Ranching &r✔"
