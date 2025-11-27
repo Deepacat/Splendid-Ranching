@@ -27,7 +27,8 @@
       "splendid_ranching:moss_blanket/melon_placed",
       "splendid_ranching:moss_blanket/pumpkin_placed",
       "splendid_ranching:moss_blanket/mushroom_shelf_placed",
-      "splendid_ranching:moss_blanket/huge_red_mushroom"
+      "splendid_ranching:moss_blanket/huge_red_mushroom",
+      "splendid_ranching:grass_placed"
     ],
     [],
     ["minecraft:amethyst_geode"],
