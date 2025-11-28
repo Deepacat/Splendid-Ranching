@@ -110,6 +110,13 @@ ServerEvents.tags('block', e => {
         'architects_palette:onyx', 'supplementaries:flint_block', // magma mounts
         'minecraft:sand', 'atmospheric:arid_sand' // opal desert
     ])
+
+    e.add('kubejs:terrain_non_replace', [
+        'minecraft:grass_block',
+        'minecraft:pink_terracotta',
+        "minecraft:dirt",
+        "minecraft:terracotta"
+    ])
 })
 
 ServerEvents.tags('worldgen/biome', e => {
