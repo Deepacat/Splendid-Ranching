@@ -1038,6 +1038,43 @@
             ]
         },
         {
+            "pakku_id": "24jSbuMrthfLWIcw",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cofh-core"
+            },
+            "name": {
+                "curseforge": "CoFH Core"
+            },
+            "id": {
+                "curseforge": "69162"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cofh_core-1.20.1-11.0.2.56.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5374/122/cofh_core-1.20.1-11.0.2.56.jar",
+                    "id": "5374122",
+                    "parent_id": "69162",
+                    "hashes": {
+                        "sha1": "6f7c0056fece31bf393df450d79482810ed444af",
+                        "md5": "8d5ecdae594951c49899b6bf38b41b7d"
+                    },
+                    "required_dependencies": [],
+                    "size": 1509649,
+                    "date_published": "2024-05-26T17:44:14.577Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "vYRoHak5bniIVXsH",
             "type": "MOD",
             "slug": {
@@ -6327,6 +6364,207 @@
                     ],
                     "size": 13650491,
                     "date_published": "2025-10-16T13:05:18.250Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "fBjoGYg6tUlPQLn5",
+            "pakku_links": [
+                "8kqBGipUYecNynSx"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-cultivation"
+            },
+            "name": {
+                "curseforge": "Thermal Cultivation"
+            },
+            "id": {
+                "curseforge": "271835"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_cultivation-1.20.1-11.0.1.24.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/746/thermal_cultivation-1.20.1-11.0.1.24.jar",
+                    "id": "5372746",
+                    "parent_id": "271835",
+                    "hashes": {
+                        "sha1": "1973b5142aedca44aefa66d2406643e7d00205c7",
+                        "md5": "5ad77d70a9fd5c8b191d3a1ae40b3f97"
+                    },
+                    "required_dependencies": [
+                        "222880"
+                    ],
+                    "size": 622032,
+                    "date_published": "2024-05-26T06:05:01.883Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "kQuhfpoOiXIoTXkb",
+            "pakku_links": [
+                "8kqBGipUYecNynSx"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-dynamics"
+            },
+            "name": {
+                "curseforge": "Thermal Dynamics"
+            },
+            "id": {
+                "curseforge": "227443"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_dynamics-1.20.1-11.0.1.23.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/747/thermal_dynamics-1.20.1-11.0.1.23.jar",
+                    "id": "5372747",
+                    "parent_id": "227443",
+                    "hashes": {
+                        "sha1": "7a9b3691dfca81e52d3e34738c6bc0a98b58bf93",
+                        "md5": "2818f087d5d862c7e9e03d69f18d9a06"
+                    },
+                    "required_dependencies": [
+                        "222880"
+                    ],
+                    "size": 622948,
+                    "date_published": "2024-05-26T06:05:19.070Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8kqBGipUYecNynSx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-foundation"
+            },
+            "name": {
+                "curseforge": "Thermal Foundation"
+            },
+            "id": {
+                "curseforge": "222880"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_foundation-1.20.1-11.0.6.70.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5443/583/thermal_foundation-1.20.1-11.0.6.70.jar",
+                    "id": "5443583",
+                    "parent_id": "222880",
+                    "hashes": {
+                        "sha1": "7c1fbd79c9bda7478560faa886eaadf0dd8d181f",
+                        "md5": "00cf83270e22559998cc82cfe48579d7"
+                    },
+                    "required_dependencies": [
+                        "69162"
+                    ],
+                    "size": 4549423,
+                    "date_published": "2024-06-19T06:42:29.730Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "a8uULFPTajIGQHNl",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-innovation"
+            },
+            "name": {
+                "curseforge": "Thermal Innovation"
+            },
+            "id": {
+                "curseforge": "291737"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_innovation-1.20.1-11.0.1.23.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/751/thermal_innovation-1.20.1-11.0.1.23.jar",
+                    "id": "5372751",
+                    "parent_id": "291737",
+                    "hashes": {
+                        "sha1": "5c6881416ff4fb116d05f4a48acf12b30f10af82",
+                        "md5": "996ae2825dc7cba004a0930ae81f615f"
+                    },
+                    "required_dependencies": [
+                        "222880"
+                    ],
+                    "size": 225344,
+                    "date_published": "2024-05-26T06:06:07.107Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "lIH8Ykr7uMhjQJyD",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "thermal-locomotion"
+            },
+            "name": {
+                "curseforge": "Thermal Locomotion"
+            },
+            "id": {
+                "curseforge": "406959"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "thermal_locomotion-1.20.1-11.0.1.19.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5372/752/thermal_locomotion-1.20.1-11.0.1.19.jar",
+                    "id": "5372752",
+                    "parent_id": "406959",
+                    "hashes": {
+                        "sha1": "f39c3b75c4a34bc838c1abcc1ba88a8e724b11ec",
+                        "md5": "81cd56abe04ddfaf5f558ada820d85b6"
+                    },
+                    "required_dependencies": [
+                        "222880"
+                    ],
+                    "size": 235698,
+                    "date_published": "2024-05-26T06:06:20.800Z"
                 }
             ]
         },

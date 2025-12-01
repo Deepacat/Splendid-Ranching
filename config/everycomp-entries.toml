@@ -44,11 +44,18 @@
 			blue_mushroom = true
 			red_mushroom = true
 
+		[types.wood_type.thermal]
+			rubberwood = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
 			chocolate_cake = true
 			honey_cake = true
+
+		[types.cake.thermal]
+			chocolate_cake = true
+			spice_cake = true
 
 	[types.leaves_type]
 
@@ -89,6 +96,9 @@
 			sycamore = true
 			fluorescent_maple = true
 			flowering_fluorescent_maple = true
+
+		[types.leaves_type.thermal]
+			rubberwood = true
 
 #Disables specific entries
 [entries]
