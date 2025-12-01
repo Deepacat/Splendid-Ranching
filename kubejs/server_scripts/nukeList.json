@@ -31,7 +31,24 @@
 		"essentials:fertile_soil_wheat",
 		"mininggadgets:upgrade_battery_creative",
 		"mininggadgets:upgrade_efficiency_2",
-		"mininggadgets:upgrade_efficiency_4"
+		"mininggadgets:upgrade_efficiency_4",
+		"thermal:apple_block",
+		"thermal:beetroot_block",
+		"thermal:carrot_block",
+		"thermal:flax",
+		"thermal:flax_block",
+		"thermal:flax_seeds",
+		"thermal:onion",
+		"thermal:onion_block",
+		"thermal:onion_seeds",
+		"thermal:potato_block",
+		"thermal:rice",
+		"thermal:rice_block",
+		"thermal:rice_seeds",
+		"thermal:sugar_cane_block",
+		"thermal:tomato",
+		"thermal:tomato_block",
+		"thermal:tomato_seeds"
 	],
 	"remove_from_nuke_list": []
 }
