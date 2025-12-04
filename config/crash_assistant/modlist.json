@@ -810,11 +810,6 @@
     "modId": "thermal_cultivation",
     "version": "11.0.1"
   },
-  "thermal_dynamics-1.20.1-11.0.1.23.jar": {
-    "jarName": "thermal_dynamics-1.20.1-11.0.1.23.jar",
-    "modId": "thermal_dynamics",
-    "version": "11.0.1"
-  },
   "thermal_foundation-1.20.1-11.0.6.70.jar": {
     "jarName": "thermal_foundation-1.20.1-11.0.6.70.jar",
     "modId": "thermal_foundation",
@@ -823,11 +818,6 @@
   "thermal_innovation-1.20.1-11.0.1.23.jar": {
     "jarName": "thermal_innovation-1.20.1-11.0.1.23.jar",
     "modId": "thermal_innovation",
-    "version": "11.0.1"
-  },
-  "thermal_locomotion-1.20.1-11.0.1.19.jar": {
-    "jarName": "thermal_locomotion-1.20.1-11.0.1.19.jar",
-    "modId": "thermal_locomotion",
     "version": "11.0.1"
   },
   "ToastControl-1.20.1-8.0.3.jar": {

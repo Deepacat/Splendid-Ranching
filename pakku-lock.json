@@ -6410,48 +6410,6 @@
             ]
         },
         {
-            "pakku_id": "kQuhfpoOiXIoTXkb",
-            "pakku_links": [
-                "8kqBGipUYecNynSx"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "thermal-dynamics"
-            },
-            "name": {
-                "curseforge": "Thermal Dynamics"
-            },
-            "id": {
-                "curseforge": "227443"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "thermal_dynamics-1.20.1-11.0.1.23.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5372/747/thermal_dynamics-1.20.1-11.0.1.23.jar",
-                    "id": "5372747",
-                    "parent_id": "227443",
-                    "hashes": {
-                        "sha1": "7a9b3691dfca81e52d3e34738c6bc0a98b58bf93",
-                        "md5": "2818f087d5d862c7e9e03d69f18d9a06"
-                    },
-                    "required_dependencies": [
-                        "222880"
-                    ],
-                    "size": 622948,
-                    "date_published": "2024-05-26T06:05:19.070Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "8kqBGipUYecNynSx",
             "type": "MOD",
             "slug": {
@@ -6526,45 +6484,6 @@
                     ],
                     "size": 225344,
                     "date_published": "2024-05-26T06:06:07.107Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "lIH8Ykr7uMhjQJyD",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "thermal-locomotion"
-            },
-            "name": {
-                "curseforge": "Thermal Locomotion"
-            },
-            "id": {
-                "curseforge": "406959"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "thermal_locomotion-1.20.1-11.0.1.19.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5372/752/thermal_locomotion-1.20.1-11.0.1.19.jar",
-                    "id": "5372752",
-                    "parent_id": "406959",
-                    "hashes": {
-                        "sha1": "f39c3b75c4a34bc838c1abcc1ba88a8e724b11ec",
-                        "md5": "81cd56abe04ddfaf5f558ada820d85b6"
-                    },
-                    "required_dependencies": [
-                        "222880"
-                    ],
-                    "size": 235698,
-                    "date_published": "2024-05-26T06:06:20.800Z"
                 }
             ]
         },
