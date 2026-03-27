@@ -55,7 +55,7 @@
 				type: "checkmark"
 			}]
 			title: "&fWelcome, &5Rancher&r!"
-			x: -2.0d
+			x: -2.25d
 			y: 0.0d
 		}
 		{
@@ -116,7 +116,7 @@
 				type: "checkmark"
 			}]
 			title: "&l&9SSCCOGAC&r Standard-Issue &eEquipment"
-			x: -0.5d
+			x: -0.75d
 			y: -2.0d
 		}
 		{
@@ -196,7 +196,7 @@
 				type: "checkmark"
 			}]
 			title: "&fYour &6&lGrand&r Assignment!"
-			x: 0.0d
+			x: -0.25d
 			y: 0.0d
 		}
 		{
@@ -243,7 +243,7 @@
 				type: "checkmark"
 			}]
 			title: "&9&lSSCCOGAC&r &eTerminology Guide&r©"
-			x: -2.0d
+			x: -2.25d
 			y: -2.0d
 		}
 		{
@@ -304,7 +304,7 @@
 				}
 			]
 			title: "&fWhat on &aearth&f is a &cGlub&r?"
-			x: 0.5d
+			x: 0.25d
 			y: -2.0d
 		}
 		{
@@ -339,6 +339,15 @@
 			subtitle: "Your greed sickens me."
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "splendid_slimes:slime_item"
+						tag: {
+							slime: {
+								id: "splendid_slimes:slimy"
+							}
+						}
+					}
 					id: "4A2874C5E000BAE9"
 					item: {
 						Count: 1
@@ -355,7 +364,7 @@
 				}
 			]
 			title: "&fCollecting &dSlimes"
-			x: 2.0d
+			x: 1.75d
 			y: 0.0d
 		}
 		{
@@ -403,8 +412,8 @@
 				type: "checkmark"
 			}]
 			title: "&fFeeding &dSlimes"
-			x: 2.0d
-			y: 2.0d
+			x: 1.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
@@ -450,8 +459,8 @@
 				}
 			]
 			title: "&fCultivating &ePlorts"
-			x: 0.0d
-			y: 2.0d
+			x: -0.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
@@ -481,8 +490,8 @@
 				type: "checkmark"
 			}]
 			title: "&fSelling &ePlorts"
-			x: -2.0d
-			y: 2.0d
+			x: -2.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -534,8 +543,8 @@
 				}
 			]
 			title: "Resource Harvesting"
-			x: -3.5d
-			y: 4.0d
+			x: -3.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -558,8 +567,8 @@
 				type: "checkmark"
 			}]
 			title: "&eSlime Heart&f Formation"
-			x: -4.0d
-			y: 2.0d
+			x: -4.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -611,8 +620,8 @@
 				}
 			]
 			title: "&fGrowing &eSlime Hearts"
-			x: -4.5d
-			y: 4.0d
+			x: -4.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -654,8 +663,8 @@
 				type: "checkmark"
 			}]
 			title: "&eSplendid Wares"
-			x: -2.5d
-			y: 4.0d
+			x: -2.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -693,7 +702,7 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&f Fusion Breeding"
-			x: -4.0d
+			x: -4.25d
 			y: 0.0d
 		}
 		{
@@ -707,6 +716,8 @@
 				""
 				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches."
 			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			min_width: 300
@@ -718,7 +729,7 @@
 				type: "checkmark"
 			}]
 			title: "&eGelapedia"
-			x: 2.0d
+			x: 1.75d
 			y: -2.0d
 		}
 		{
@@ -774,8 +785,8 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&r Happiness"
-			x: 4.0d
-			y: 2.0d
+			x: 3.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
@@ -825,8 +836,8 @@
 				type: "checkmark"
 			}]
 			title: "&dLargo Slimes"
-			x: 0.0d
-			y: 4.0d
+			x: -0.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -850,8 +861,8 @@
 				type: "checkmark"
 			}]
 			title: "Automation \\& Mods"
-			x: -6.0d
-			y: 1.975d
+			x: -6.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["75A4584FAAEC2937"]
@@ -888,7 +899,7 @@
 				}
 			]
 			title: "&6Congratulations &5Rancher&r!"
-			x: -4.0d
+			x: -4.25d
 			y: -2.0d
 		}
 		{
@@ -931,8 +942,8 @@
 				}
 			]
 			title: "Elven Magics"
-			x: -5.25d
-			y: 0.75d
+			x: -5.625d
+			y: 2.5d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -963,8 +974,8 @@
 				}
 			]
 			title: "Mechanical Machinations"
-			x: -6.75d
-			y: 0.75d
+			x: -6.875d
+			y: 2.5d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -1000,8 +1011,8 @@
 				}
 			]
 			title: "Redstone Engineering"
-			x: -6.0d
-			y: 0.0d
+			x: -6.25d
+			y: 1.875d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -1037,8 +1048,8 @@
 				type: "checkmark"
 			}]
 			title: "&fThe &cPlort Market"
-			x: -1.5d
-			y: 4.0d
+			x: -1.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["540EA146149A0210"]
@@ -1076,7 +1087,7 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&rkeeping"
-			x: 4.0d
+			x: 3.75d
 			y: 0.0d
 		}
 		{
@@ -1091,6 +1102,8 @@
 				"&8[&r &7Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs &8]&r"
 			]
 			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
 			min_width: 250
@@ -1119,8 +1132,8 @@
 				}
 			]
 			title: "&b The Lab"
-			x: -6.0d
-			y: 4.0d
+			x: -6.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
@@ -1140,8 +1153,8 @@
 				type: "checkmark"
 			}]
 			title: "Farming Animals"
-			x: 2.0d
-			y: 4.0d
+			x: 1.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["540EA146149A0210"]
@@ -1154,6 +1167,8 @@
 				""
 				"And remember to explore below! There could be new &dslimes&r to be found. &9^o^"
 			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "naturescompass:naturescompass"
@@ -1176,7 +1191,7 @@
 				type: "checkmark"
 			}]
 			title: "&aHabitats&f of the &aSphere"
-			x: 4.0d
+			x: 3.75d
 			y: -2.0d
 		}
 		{
@@ -1203,7 +1218,7 @@
 				type: "checkmark"
 			}]
 			title: "Completion lol"
-			x: -4.0d
+			x: -4.25d
 			y: -4.0d
 		}
 		{
@@ -1237,7 +1252,7 @@
 				type: "checkmark"
 			}]
 			title: "Co-op banking"
-			x: 0.5d
+			x: 0.25d
 			y: -4.0d
 		}
 	]
