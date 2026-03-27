@@ -9,7 +9,8 @@
 	drop_book_on_death: false
 	drop_loot_crates: false
 	emergency_items_cooldown: 300
-	grid_scale: 0.5d
+	grid_scale: 0.25d
+	hide_excluded_quests: false
 	icon: {
 		Count: 1
 		id: "splendid_slimes:plort"

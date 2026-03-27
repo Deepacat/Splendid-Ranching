@@ -97,9 +97,9 @@
 			description: [
 				"The initial alpha release of splendid ranching!"
 				""
-				"Made for JEO Packjam #1, theme: Biology"
+				"Made for JEO Packjam #1 with the theme: \"Biology\""
 				""
-				"Yes, the pack is unfinished. Lol"
+				"The pack was in a pretty rough state with very little playability due to oversights progression, but were quickly patched for people playing the pack for packjam testing"
 			]
 			disable_toast: true
 			icon: {
@@ -112,17 +112,28 @@
 				}
 			}
 			id: "24E863D73CB9070F"
+			min_width: 300
 			shape: "gear"
 			subtitle: "Splendid Ranching Alpha!"
 			tasks: [{
 				dimension: "minecraft:overworld"
 				disable_toast: true
+				icon: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:slimy"
+						}
+					}
+				}
 				id: "39464D40DC334A06"
 				secret: true
+				title: "Exist!"
 				type: "dimension"
 			}]
 			title: "Version 0.1.0"
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -155,12 +166,72 @@
 			tasks: [{
 				dimension: "minecraft:overworld"
 				disable_toast: true
+				icon: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rocky"
+						}
+					}
+				}
 				id: "1849A042C615B4A0"
 				secret: true
+				title: "Exist!"
 				type: "dimension"
 			}]
 			title: "Version 0.1.1"
-			x: -0.5d
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"First hotfix for some essential issues and other things"
+				""
+				"- Tweaked slime spawning to be much better"
+				"- Updated splendid slimes fixing many issues with the happiness system"
+				"- Gave the proper items to share items with friends in Co-op play"
+				"- Added plort market display monitors"
+				"- Added naturally generating ores to the rocks in the reef"
+				"- Improved questbook"
+				"- Moved the shop from the questbook to a block with society trading"
+				"- Add double jumping!"
+				"- New custom main menu with changelogs!"
+				"- Lots of other fixes especially with quests"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:puddle"
+					}
+				}
+			}
+			id: "19587874F8DEC073"
+			min_width: 300
+			shape: "gear"
+			subtitle: "Major gameplay improvements!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:puddle"
+						}
+					}
+				}
+				id: "190B9180BD0A114E"
+				secret: true
+				title: "Exist!"
+				type: "dimension"
+			}]
+			title: "Version 0.2.0"
+			x: 0.0d
 			y: -2.0d
 		}
 	]

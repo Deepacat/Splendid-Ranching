@@ -32,6 +32,18 @@
 		[types.wood_type.enhanced_mushrooms]
 			mushroom = true
 
+		[types.wood_type.cluttered]
+			willow = true
+			flowering_willow = true
+			poplar = true
+			flowering_poplar = true
+			crabapple = true
+			flowering_crabapple = true
+			sycamore = true
+			fluorescent_maple = true
+			blue_mushroom = true
+			red_mushroom = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
@@ -66,6 +78,17 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.cluttered]
+			willow = true
+			flowering_willow = true
+			poplar = true
+			flowering_poplar = true
+			crabapple = true
+			flowering_crabapple = true
+			sycamore = true
+			fluorescent_maple = true
+			flowering_fluorescent_maple = true
 
 #Disables specific entries
 [entries]

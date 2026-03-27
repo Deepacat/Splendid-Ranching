@@ -13,20 +13,22 @@
       },
       {
         "offer": { "item": "mininggadgets:mininggadget_fancy", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
-        "numismatics_cost": 64,
+        "request": { "item": "numismatics:crown", "count": 1 },
+        "second_request": { "item": "mininggadgets:mininggadget_simple", "count": 1 },
+        "numismatics_cost": 512,
         "trade_id": "splendid_mining_laser_mk2"
       },
       {
         "offer": { "item": "mininggadgets:mininggadget", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
-        "numismatics_cost": 64,
+        "request": { "item": "numismatics:sun", "count": 1 },
+        "second_request": { "item": "mininggadgets:mininggadget_fancy", "count": 1 },
+        "numismatics_cost": 4096,
         "trade_id": "splendid_mining_laser_mk3"
       },
       {
         "offer": { "item": "mininggadgets:modificationtable", "count": 1 },
-        "request": { "item": "numismatics:crown", "count": 1 },
-        "numismatics_cost": 512,
+        "request": { "item": "numismatics:cog", "count": 1 },
+        "numismatics_cost": 64,
         "trade_id": "splendid_modification_table"
       },
       {

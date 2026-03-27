@@ -36,14 +36,14 @@ MBDMachineEvents.onTick("mbd2:splendid_generator", e => {
             return
         }
 
-        // Determine how much glubcoin can be converted into energy
-        // Each glubcoin = 2500 energy, up to 10 gips at once for 25000 energy,
+        // Can generate with up to 10 gips at once for 10 * energyPerGip energy,
         // and limited by balance and storage capacity
-        let maxDollarsPossible = Math.min(10, balance, Math.floor(spaceAvailable / 2500))
+        let energyPerGip = 5000 // (Gips are 1 glubcoin value)
+        let maxDollarsPossible = Math.min(10, balance, Math.floor(spaceAvailable / energyPerGip))
 
         if (maxDollarsPossible > 0) {
             account.deduct(maxDollarsPossible)
-            energyStorage.receiveEnergy(maxDollarsPossible * 2500, false)
+            energyStorage.receiveEnergy(maxDollarsPossible * energyPerGip, false)
             machine.triggerGeckolibAnim('working', 1)
             machine.customData.putInt("anim_time", 5)
         }

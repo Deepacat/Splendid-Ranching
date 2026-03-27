@@ -55,7 +55,7 @@
 				type: "checkmark"
 			}]
 			title: "&fWelcome, &5Rancher&r!"
-			x: -2.0d
+			x: -2.25d
 			y: 0.0d
 		}
 		{
@@ -77,13 +77,11 @@
 				""
 				"For starter items: &8[&a➡&8]&r"
 				"{@pagebreak}"
-				"- &eSlime-Vac&r, for collecting &dslimes&r you find. (don't hold too many of them though)"
+				"- &eSlime-Vac&r, for collecting &dslimes&r you find (don't hold too many of them though)"
 				""
-				"- &eBank meter&r, this is a trinket you can equip &8[&7 with Curios &8]&r to display a bank account hud on the top left of your interface."
+				"- &eBank meter&r, this is a trinket you can equip (with Curios) to display a bank account hud on the top left of your interface."
 				""
-				"- &eBank Card&r, this is equipped to link yourself to a bank account, useful in a co-op ranch with a blaze banker."
-				""
-				"This quest also awards you a"
+				"This quest also awards you"
 				"- &eMining Laser Mk1&r, a handy tool to quickly clear blocks out. Upgradeable from our Splendid Wares™ shop!"
 			]
 			icon: {
@@ -118,7 +116,7 @@
 				type: "checkmark"
 			}]
 			title: "&l&9SSCCOGAC&r Standard-Issue &eEquipment"
-			x: -0.5d
+			x: -0.75d
 			y: -2.0d
 		}
 		{
@@ -198,7 +196,7 @@
 				type: "checkmark"
 			}]
 			title: "&fYour &6&lGrand&r Assignment!"
-			x: 0.0d
+			x: -0.25d
 			y: 0.0d
 		}
 		{
@@ -245,7 +243,7 @@
 				type: "checkmark"
 			}]
 			title: "&9&lSSCCOGAC&r &eTerminology Guide&r©"
-			x: -2.0d
+			x: -2.25d
 			y: -2.0d
 		}
 		{
@@ -306,7 +304,7 @@
 				}
 			]
 			title: "&fWhat on &aearth&f is a &cGlub&r?"
-			x: 0.5d
+			x: 0.25d
 			y: -2.0d
 		}
 		{
@@ -341,6 +339,15 @@
 			subtitle: "Your greed sickens me."
 			tasks: [
 				{
+					icon: {
+						Count: 1
+						id: "splendid_slimes:slime_item"
+						tag: {
+							slime: {
+								id: "splendid_slimes:slimy"
+							}
+						}
+					}
 					id: "4A2874C5E000BAE9"
 					item: {
 						Count: 1
@@ -357,7 +364,7 @@
 				}
 			]
 			title: "&fCollecting &dSlimes"
-			x: 2.0d
+			x: 1.75d
 			y: 0.0d
 		}
 		{
@@ -400,31 +407,16 @@
 			}]
 			shape: "rsquare"
 			subtitle: "How hungry."
-			tasks: [
-				{
-					id: "130D6E3DEAC237CF"
-					type: "checkmark"
-				}
-				{
-					id: "257D55FE4344DEF3"
-					item: {
-						Count: 1
-						id: "ftbfiltersystem:smart_filter"
-						tag: {
-							"ftbfiltersystem:filter": "or(item_tag(forge:vegetables)item_tag(forge:fruits)item_tag(minecraft:fishes)item_tag(forge:berries)item_tag(forge:raw_meat))"
-						}
-					}
-					title: "Any Food"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "130D6E3DEAC237CF"
+				type: "checkmark"
+			}]
 			title: "&fFeeding &dSlimes"
-			x: 2.0d
-			y: 2.0d
+			x: 1.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
-			dependency_requirement: "one_completed"
 			description: [
 				"&ePlorts&r are gelatinous balls left on the ground when a &dslime&r is fed at it's max size."
 				""
@@ -448,9 +440,8 @@
 			id: "1E8294B92E62B946"
 			min_width: 350
 			rewards: [{
-				count: 32
-				id: "33945C7E146400E4"
-				item: "splendid_slimes:corral_block"
+				id: "480D7E663F6FD9B3"
+				item: "mbd2:selling_port"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -468,8 +459,8 @@
 				}
 			]
 			title: "&fCultivating &ePlorts"
-			x: 0.0d
-			y: 2.0d
+			x: -0.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
@@ -486,8 +477,9 @@
 			id: "3A30D0E70BEA4946"
 			min_width: 300
 			rewards: [{
-				id: "714FE9DA21148F8B"
-				item: "mbd2:selling_port"
+				count: 32
+				id: "25E0880387928BEF"
+				item: "splendid_slimes:corral_block"
 				type: "item"
 			}]
 			shape: "rsquare"
@@ -498,8 +490,8 @@
 				type: "checkmark"
 			}]
 			title: "&fSelling &ePlorts"
-			x: -2.0d
-			y: 2.0d
+			x: -2.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -547,12 +539,13 @@
 						id: "splendid_slimes:plort"
 						tag: { }
 					}
+					match_nbt: false
 					type: "item"
 				}
 			]
 			title: "Resource Harvesting"
-			x: -3.5d
-			y: 4.0d
+			x: -3.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -583,8 +576,8 @@
 				}
 			]
 			title: "&eSlime Heart&f Formation"
-			x: -4.0d
-			y: 2.0d
+			x: -4.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -632,12 +625,13 @@
 						id: "splendid_slimes:slime_heart"
 						tag: { }
 					}
+					match_nbt: false
 					type: "item"
 				}
 			]
 			title: "&fGrowing &eSlime Hearts"
-			x: -4.5d
-			y: 4.0d
+			x: -4.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -659,11 +653,18 @@
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			min_width: 300
-			rewards: [{
-				id: "1D8E4637405EF104"
-				item: "kubejs:splendid_wares_shop"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1D8E4637405EF104"
+					item: "kubejs:splendid_wares_shop"
+					type: "item"
+				}
+				{
+					id: "35A2B2ECB6B98645"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "Shopping!"
 			tasks: [{
@@ -672,8 +673,8 @@
 				type: "checkmark"
 			}]
 			title: "&eSplendid Wares"
-			x: -2.5d
-			y: 4.0d
+			x: -2.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -711,7 +712,7 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&f Fusion Breeding"
-			x: -4.0d
+			x: -4.25d
 			y: 0.0d
 		}
 		{
@@ -725,6 +726,8 @@
 				""
 				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches."
 			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			min_width: 300
@@ -736,7 +739,7 @@
 				type: "checkmark"
 			}]
 			title: "&eGelapedia"
-			x: 2.0d
+			x: 1.75d
 			y: -2.0d
 		}
 		{
@@ -758,7 +761,6 @@
 				"- When not fed for a while a &dslime&r will begin starving and happiness will gradually decrease"
 				"- When killed and reduced to a lower size, a &dslimes&r happiness greatly decreases"
 				"- If fed and near 7 or more other &dslimes&r, happiness greatly decreases. You should keep 8 at most in a pen, and keep 3-4 blocks of space between your pens!"
-				"- If fed and cramped with other &dslimes&r in a small space, happiness greatly decreases. Don't keep them in prisons!"
 				""
 				"&l&nVery important info on &dslime&f happiness states:&r &8[&a➡&8]&r"
 				"{@pagebreak}"
@@ -778,10 +780,10 @@
 			]
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"
-			min_width: 400
+			min_width: 350
 			rewards: [{
-				count: 10
-				id: "03ACC41A87BB5168"
+				count: 5
+				id: "591872EA475BF1F9"
 				item: "splendid_slimes:slime_candy"
 				type: "item"
 			}]
@@ -793,8 +795,8 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&r Happiness"
-			x: 4.0d
-			y: 2.0d
+			x: 3.75d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1E8294B92E62B946"]
@@ -844,8 +846,8 @@
 				type: "checkmark"
 			}]
 			title: "&dLargo Slimes"
-			x: 0.0d
-			y: 4.0d
+			x: -0.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["605E7F63ACF29D56"]
@@ -869,8 +871,8 @@
 				type: "checkmark"
 			}]
 			title: "Automation \\& Mods"
-			x: -6.0d
-			y: 1.975d
+			x: -6.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["75A4584FAAEC2937"]
@@ -907,7 +909,7 @@
 				}
 			]
 			title: "&6Congratulations &5Rancher&r!"
-			x: -4.0d
+			x: -4.25d
 			y: -2.0d
 		}
 		{
@@ -950,8 +952,8 @@
 				}
 			]
 			title: "Elven Magics"
-			x: -5.25d
-			y: 0.75d
+			x: -5.625d
+			y: 2.5d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -982,8 +984,8 @@
 				}
 			]
 			title: "Mechanical Machinations"
-			x: -6.75d
-			y: 0.75d
+			x: -6.875d
+			y: 2.5d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -1019,8 +1021,8 @@
 				}
 			]
 			title: "Redstone Engineering"
-			x: -6.0d
-			y: 0.0d
+			x: -6.25d
+			y: 1.875d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -1050,14 +1052,15 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Lets go gambling!"
 			tasks: [{
 				id: "592DB0227656D80C"
 				title: "Let's go gambling!"
 				type: "checkmark"
 			}]
 			title: "&fThe &cPlort Market"
-			x: -1.5d
-			y: 4.0d
+			x: -1.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["540EA146149A0210"]
@@ -1095,7 +1098,7 @@
 				type: "checkmark"
 			}]
 			title: "&dSlime&rkeeping"
-			x: 4.0d
+			x: 3.75d
 			y: 0.0d
 		}
 		{
@@ -1110,6 +1113,8 @@
 				"&8[&r &7Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs &8]&r"
 			]
 			hide_dependent_lines: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
 			min_width: 250
@@ -1131,15 +1136,16 @@
 					id: "760AAEF7A16DEC88"
 					item: {
 						Count: 1
-						id: "splendid_slimes:plort"
+						id: "splendid_slimes:slime_heart"
 						tag: { }
 					}
+					match_nbt: false
 					type: "item"
 				}
 			]
 			title: "&b The Lab"
-			x: -6.0d
-			y: 4.0d
+			x: -6.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["24EC9B4811458C2E"]
@@ -1159,8 +1165,8 @@
 				type: "checkmark"
 			}]
 			title: "Farming Animals"
-			x: 2.0d
-			y: 4.0d
+			x: 1.75d
+			y: 5.5d
 		}
 		{
 			dependencies: ["540EA146149A0210"]
@@ -1173,6 +1179,8 @@
 				""
 				"And remember to explore below! There could be new &dslimes&r to be found. &9^o^"
 			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "naturescompass:naturescompass"
@@ -1195,7 +1203,7 @@
 				type: "checkmark"
 			}]
 			title: "&aHabitats&f of the &aSphere"
-			x: 4.0d
+			x: 3.75d
 			y: -2.0d
 		}
 		{
@@ -1222,7 +1230,7 @@
 				type: "checkmark"
 			}]
 			title: "Completion lol"
-			x: -4.0d
+			x: -4.25d
 			y: -4.0d
 		}
 		{
@@ -1256,61 +1264,8 @@
 				type: "checkmark"
 			}]
 			title: "Co-op banking"
-			x: 0.5d
+			x: 0.25d
 			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["2FDFFE3208FF3C16"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_until_deps_complete: true
-			icon: "kubejs:splendid_wares_shop"
-			id: "3BF9F9A577769CDB"
-			optional: true
-			rewards: [{
-				id: "7BD049577263748C"
-				item: "kubejs:splendid_wares_shop"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "Don't lose it!!"
-			tasks: [{
-				consume_items: true
-				id: "6368125FD54A3A33"
-				item: "numismatics:cog"
-				type: "item"
-			}]
-			title: "Emergency Wares"
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["3A30D0E70BEA4946"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			hide_until_deps_complete: true
-			icon: "mbd2:selling_port"
-			id: "725BB42D888A7B66"
-			optional: true
-			rewards: [{
-				id: "23B25F85E7E2BE61"
-				item: "mbd2:selling_port"
-				type: "item"
-			}]
-			shape: "gear"
-			subtitle: "Don't lose it!!"
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "2B31C860F0DF6761"
-				item: "numismatics:cog"
-				type: "item"
-			}]
-			title: "Emergency Sales"
-			x: -1.5d
-			y: 6.0d
 		}
 	]
 	title: "&d Ranching &r✔"

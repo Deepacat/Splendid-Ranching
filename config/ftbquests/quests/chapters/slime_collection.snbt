@@ -875,13 +875,14 @@
 				""
 				"Fusion slimes have rankings depending on which slimes are used to fuse it, the ranking is determined by the highest ranking slime required in fusion, plus one."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_details_until_startable: false
 			hide_until_deps_complete: true
 			hide_until_deps_visible: false
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "42831C5E7A8C2BA0"
+			min_width: 300
 			tasks: [{
 				id: "0B0DF56BEEDCCDA1"
 				title: "I totally get fusion breeding!"
