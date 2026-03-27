@@ -1,4 +1,4 @@
-//priority: 1000
+// priority: 1000
 
 // Global variable for storing recipe stages, done in startup for server and client access without
 // data sending (didn't work great kinda)
