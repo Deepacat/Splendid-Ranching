@@ -1,10 +1,15 @@
+//priority: 1000
+
 // Global variable for storing recipe stages, done in startup for server and client access without
 // data sending (didn't work great kinda)
 
-// stage_id: { name: stageDisplayName, ingredients: itemids[] }
-global.recipeStages = {
-    // PLEEEEEEEEEASE DON'T MAKE DUPLICATE ITEMS IN STAGES THANK YOU.
+/* stage_id: {
+    name: stageDisplayName, // Used for tooltips, should probably match the research quest name
+    ingredients: itemids[] // All the items that are recipe gated behind this stage (ONLY VANILLA RECIPE TYPES)
+} */
 
+// PLEEEEEEEEEASE DON'T MAKE DUPLICATE ITEMS IN STAGES THANK YOU. (WILL BREAK EVERYTHING I THINK)
+global.recipeStages = {
     // crate
     "create_basic": {
         "name": "Basic Mechanical Components",
