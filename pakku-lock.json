@@ -1940,6 +1940,47 @@
             ]
         },
         {
+            "pakku_id": "pcAmfWQR5NPJKnDi",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cucumberjs"
+            },
+            "name": {
+                "curseforge": "CucumberJS"
+            },
+            "id": {
+                "curseforge": "981646"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cucumberjs-0.0.4-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5170/423/cucumberjs-0.0.4-1.20.1.jar",
+                    "id": "5170423",
+                    "parent_id": "981646",
+                    "hashes": {
+                        "sha1": "1f474ad85646286d0a0b2600e17135491f39e556",
+                        "md5": "42739795c8d0b629a06b4f5264e09c4f"
+                    },
+                    "required_dependencies": [
+                        "272335",
+                        "238086",
+                        "416294",
+                        "419699"
+                    ],
+                    "size": 223666,
+                    "date_published": "2024-03-09T23:28:12.527Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FEkUrpIa3sWXPFN0",
             "type": "MOD",
             "slug": {
@@ -4344,41 +4385,39 @@
             ]
         },
         {
-            "pakku_id": "2PYLPl86f4FiY7N4",
+            "pakku_id": "Qenrkz1XwPDc6kcZ",
             "type": "MOD",
             "slug": {
-                "curseforge": "loot-beams-refork"
+                "curseforge": "loot-beams"
             },
             "name": {
-                "curseforge": "Loot Beams: Refork"
+                "curseforge": "Loot Beams: Relooted!"
             },
             "id": {
-                "curseforge": "1150640"
+                "curseforge": "506757"
             },
-            "redistributable": false,
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Loot Beams Refork-forge-1.20.1-3.2.9.jar",
+                    "file_name": "lootbeams-1.20.1-1.2.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
+                        "neoforge",
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7231/298/Loot Beams Refork-forge-1.20.1-3.2.9.jar",
-                    "id": "7231298",
-                    "parent_id": "1150640",
+                    "url": "https://edge.forgecdn.net/files/5548/970/lootbeams-1.20.1-1.2.6.jar",
+                    "id": "5548970",
+                    "parent_id": "506757",
                     "hashes": {
-                        "sha1": "2fa9232e3e54560c483b71b8df293f5b0adb01fb",
-                        "md5": "0c56c28d9e74ba4fb73334e8818e2dfb"
+                        "sha1": "6b36aa6fb6adf19ce5c6c045e5cf0c292d28d505",
+                        "md5": "2c9f998231e2e11de9fbf909bc8ae028"
                     },
-                    "required_dependencies": [
-                        "1164411"
-                    ],
-                    "size": 534453,
-                    "date_published": "2025-11-17T02:57:52.417Z"
+                    "required_dependencies": [],
+                    "size": 163914,
+                    "date_published": "2024-07-20T16:48:04.943Z"
                 }
             ]
         },
@@ -4683,6 +4722,42 @@
                     "required_dependencies": [],
                     "size": 7239,
                     "date_published": "2024-11-25T21:37:20.700Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "TH8Y9ToWqnjauLxv",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "mob-catcher-unofficial"
+            },
+            "name": {
+                "curseforge": "Mob Catcher Unofficial"
+            },
+            "id": {
+                "curseforge": "1283340"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MobCatcherUnofficial-Forge-1.20.1-6.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6633/516/MobCatcherUnofficial-Forge-1.20.1-6.jar",
+                    "id": "6633516",
+                    "parent_id": "1283340",
+                    "hashes": {
+                        "sha1": "bf0fc6f86e0985a07b1915fcd6c11072295b2967",
+                        "md5": "a899dbef6b46baa9d57c9867c892d1aa"
+                    },
+                    "required_dependencies": [],
+                    "size": 25497,
+                    "date_published": "2025-06-09T15:44:15.540Z"
                 }
             ]
         },

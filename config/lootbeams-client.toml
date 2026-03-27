@@ -17,7 +17,7 @@
 	["Loot Beams".Beam]
 		#The radius of the Loot Beam.
 		#Range: 0.0 ~ 5.0
-		beam_radius = 0.55
+		beam_radius = 0.7
 		#The height of the Loot Beam.
 		#Range: 0.0 ~ 10.0
 		beam_height = 1.5
@@ -31,7 +31,7 @@
 		beam_alpha = 0.75
 		#The distance from the player the beam should start fading.
 		#Range: 0.0 ~ 100.0
-		beam_fade_distance = 2.0
+		beam_fade_distance = 48.0
 		#If the Loot Beam should use a solid texture or the beacon style texture.
 		solid_beam = true
 		#If the Loot Beam should have a white center.
@@ -39,14 +39,14 @@
 		#If the Loot Beam should be glowing.
 		glowing_beam = true
 		#If the Loot Beam should have a glow effect around the base of the item.
-		glow_effect = true
+		glow_effect = false
 		#The radius of the glow effect.
 		#Range: 1.0E-5 ~ 1.0
 		glow_effect_radius = 0.5
 		#If the glow effect should be animated.
 		animate_glow = true
 		#If the item must be on the ground to render a beam.
-		require_on_ground = false
+		require_on_ground = true
 
 	#Particle Config
 	["Loot Beams".Particles]
@@ -105,7 +105,7 @@
 		#If items should glow.
 		items_glow = false
 		#If all Items Loot Beams should be rendered. Has priority over only_equipment and only_rare.
-		all_items = false
+		all_items = true
 		#If Loot Beams should only be rendered on items with rarity.
 		only_rare = true
 		#If Loot Beams should only be rendered on equipment. (Equipment includes: Swords, Tools, Armor, Shields, Bows, Crossbows, Tridents, Arrows, and Fishing Rods)
@@ -124,14 +124,14 @@
 		#Render nametags as bordered. Set to false for flat nametag with background.
 		borders = true
 		#If Item nametags should be rendered.
-		render_nametags = false
+		render_nametags = true
 		#If Item nametags should be rendered when looking at items.
-		render_nametags_onlook = true
+		render_nametags_onlook = false
 		#If the count of item's should also be shown in the nametag.
-		render_stackcount = false
+		render_stackcount = true
 		#How close the player has to look at the item to render the nametag.
 		#Range: 0.0 ~ 5.0
-		nametag_look_sensitivity = 0.018
+		nametag_look_sensitivity = 5.0
 		#Transparency of the nametag text.
 		#Range: 0.0 ~ 1.0
 		nametag_text_alpha = 1.0
@@ -153,7 +153,7 @@
 		#If vanilla rarities should be rendered.
 		vanilla_rarities = true
 		#If the player should be crouching to see extended advanced tooltips.
-		screen_tooltips_require_crouch = true
+		screen_tooltips_require_crouch = false
 		#If the name and rarity should be combined into one tooltip.
 		combine_name_and_rarity = false
 
