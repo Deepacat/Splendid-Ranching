@@ -17,4 +17,33 @@ StartupEvents.registry('item', e => {
     e.create('kubejs:lumber_axe', 'axe')
         .tier('iron')
         .displayName('Lumber Axe')
+        .tag('minecraft:tools')
+        .tag('minecraft:axes')
+        .tag('forge:tools')
+        .tag('forge:tools/axes')
+
+    // Generate generic paxels without funny tier naming
+    Array('stone', 'iron', 'diamond', 'netherite').forEach(mat => {
+        e.create(`kubejs:${mat}_paxel`, 'paxel')
+            .tier(mat)
+            .displayName(`${mat.charAt(0).toUpperCase() + mat.slice(1)} Paxel`)
+            .tag('minecraft:tools')
+            .tag('forge:tools')
+            .tag('forge:tools/paxels')
+    })
+
+    // Paxels with names that don't match their tier
+    e.create('kubejs:wooden_paxel', 'paxel')
+        .tier('wood')
+        .displayName('Wooden Paxel')
+        .tag('minecraft:tools')
+        .tag('forge:tools')
+        .tag('forge:tools/paxels')
+    e.create('kubejs:golden_paxel', 'paxel')
+        .tier('gold')
+        .displayName('Golden Paxel')
+        .tag('minecraft:tools')
+        .tag('forge:tools')
+        .tag('forge:tools/paxels')
+
 })
