@@ -20,43 +20,43 @@
       {
         "offer": { "item": "splendid_slimes:slime_incubator", "count": 1 },
         "request": { "item": "numismatics:crown", "count": 1 },
-        "numismatics_cost": 6144,
+        "numismatics_cost": 512,
         "trade_id": "splendid_incubator"
       },
       {
         "offer": { "item": "splendid_slimes:plort_press", "count": 1 },
         "request": { "item": "numismatics:crown", "count": 1 },
-        "numismatics_cost": 6144,
+        "numismatics_cost": 512,
         "trade_id": "splendid_plort_press"
       },
       {
         "offer": { "item": "splendid_slimes:plort_rippit", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
-        "numismatics_cost": 256,
+        "request": { "item": "numismatics:crown", "count": 2 },
+        "numismatics_cost": 1024,
         "trade_id": "splendid_plort_rippit"
       },
       {
         "offer": { "item": "splendid_slimes:slime_feeder", "count": 1 },
-        "request": { "item": "numismatics:crown", "count": 1 },
+        "request": { "item": "numismatics:crown", "count": 2 },
         "numismatics_cost": 1024,
         "trade_id": "splendid_slime_feeder"
       },
       {
         "offer": { "item": "mbd2:slime_breeder", "count": 1 },
-        "request": { "item": "numismatics:crown", "count": 1 },
+        "request": { "item": "numismatics:crown", "count": 2 },
         "numismatics_cost": 1024,
         "trade_id": "splendid_slime_breeder"
       },
       {
         "offer": { "item": "quark:feeding_trough", "count": 1 },
-        "request": { "item": "numismatics:crown", "count": 1 },
-        "numismatics_cost": 6144,
+        "request": { "item": "numismatics:crown", "count": 2 },
+        "numismatics_cost": 1024,
         "trade_id": "splendid_animal_feeder"
       },
       {
         "offer": { "item": "torchmaster:dreadlamp", "count": 1 },
         "request": { "item": "numismatics:cog", "count": 1 },
-        "numismatics_cost": 256,
+        "numismatics_cost": 64,
         "trade_id": "splendid_dread_lamp"
       },
       {
@@ -65,7 +65,7 @@
           "count": 1,
           "nbt": "{blueprint_name:\"basic_corral_template\", owner_name: \"SSCCOGAC\", display:{Name:'{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: Basic Corral\"}'}}"
         },
-        "request": { "item": "numismatics:cog", "count": 1 },
+        "request": { "item": "numismatics:cog", "count": 4 },
         "numismatics_cost": 256,
         "trade_id": "splendid_basic_corral"
       }
