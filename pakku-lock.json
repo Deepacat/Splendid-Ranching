@@ -4195,6 +4195,42 @@
             ]
         },
         {
+            "pakku_id": "5ocux9cn6zwAjNmd",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "leaf-me-be"
+            },
+            "name": {
+                "curseforge": "Leaf Me Be!"
+            },
+            "id": {
+                "curseforge": "1496786"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "leaf_me_be-1.20.1-1.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7822/218/leaf_me_be-1.20.1-1.0.jar",
+                    "id": "7822218",
+                    "parent_id": "1496786",
+                    "hashes": {
+                        "sha1": "972a3b94cf1b7f9421cb34a28852f59af739f654",
+                        "md5": "f17d26a79054ced74335172a679d68be"
+                    },
+                    "required_dependencies": [],
+                    "size": 140877,
+                    "date_published": "2026-03-27T11:25:59.297Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "14cg6qRAnr5vlyMq",
             "type": "MOD",
             "side": "CLIENT",
@@ -4758,6 +4794,42 @@
                     "required_dependencies": [],
                     "size": 25497,
                     "date_published": "2025-06-09T15:44:15.540Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "NADtJM8uipKirPUh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "modern-dynamics-forge-port"
+            },
+            "name": {
+                "curseforge": "Modern Dynamics Forge Port"
+            },
+            "id": {
+                "curseforge": "1496857"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Modern-Dynamics-Forge-0.0.2-alpha.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7822/602/Modern-Dynamics-Forge-0.0.2-alpha.jar",
+                    "id": "7822602",
+                    "parent_id": "1496857",
+                    "hashes": {
+                        "sha1": "a51ba8dd6ccca6bc48e1b5a42f3b669d1cc02929",
+                        "md5": "7e35b650575678ff452d89c62b1ad80e"
+                    },
+                    "required_dependencies": [],
+                    "size": 625812,
+                    "date_published": "2026-03-27T13:10:49.343Z"
                 }
             ]
         },
@@ -6067,6 +6139,45 @@
                     "required_dependencies": [],
                     "size": 1508496,
                     "date_published": "2024-11-22T21:48:02.250Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "UGakKkWCDIf9gFI7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "simple-discord-rich-presence"
+            },
+            "name": {
+                "curseforge": "Simple Discord Rich Presence (Forge /  Fabric)"
+            },
+            "id": {
+                "curseforge": "334853"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4964/550/SimpleDiscordRichPresence-forge-4.0.3-build.40+mc1.20.1.jar",
+                    "id": "4964550",
+                    "parent_id": "334853",
+                    "hashes": {
+                        "sha1": "f56b1d7e02c25e2e0c91ef9b51ed10ceb492a0d4",
+                        "md5": "8ba6c024a9affa595738a26205ddf52f"
+                    },
+                    "required_dependencies": [
+                        "348521",
+                        "419699"
+                    ],
+                    "size": 1198997,
+                    "date_published": "2023-12-17T22:09:26.180Z"
                 }
             ]
         },
