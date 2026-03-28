@@ -1,4 +1,4 @@
-// @ts-check
+// Script for slowing the player when holding over 4 slimes
 
 PlayerEvents.inventoryChanged(e => {
     if (e.player.isFake() || !e.player.isPlayer()) { return }

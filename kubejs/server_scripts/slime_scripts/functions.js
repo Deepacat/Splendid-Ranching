@@ -111,3 +111,28 @@ function marketUpdates(e) {
         player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
     }
 }
+
+/**
+ * @param {Internal.SimplePlayerEventJS} player
+ */
+function getSlimeCollectionData(player) {
+    let collectedSlimes = []
+    for (let [slime, slimeData] of Object.entries(global.slimeDefinitionsData)) {
+        let questId = slimeData.ftb_quests_completion_id
+
+        let questObj = FTBQuests.getObject(player.level, questId)
+        if (!questObj) { continue }
+
+        let isCompleted = FTBQuests.getData(player).isCompleted(questObj)
+        if (isCompleted) { collectedSlimes.push(slime) }
+    }
+
+    return {
+        collectedSlimeList: collectedSlimes,
+        collectedTotal: collectedSlimes.length,
+        allTotal: Object.keys(global.slimeDefinitionsData).length
+    }
+    // console.log(getSlimeCollectionData(e.player).collectedSlimeList)
+    // console.log(getSlimeCollectionData(e.player).collectedTotal)
+    // console.log(getSlimeCollectionData(e.player).allTotal)
+}

@@ -390,8 +390,7 @@ jobs:
           MINECRAFT_VERSION=${{ needs.info.outputs.mc_version }}
 
           sed -i -e "s/DEV/${VERSION}/g" pakku.json
-
-          # sed -i -e "s/DEV/${VERSION}/g" config/mod-director/modpack.json
+          sed -i -e "s/DEV/${VERSION}/g" kubejs/splendidRanchingData.json
           sed -i -e "s/DEV/${VERSION}/g" config/fancymenu/customization/title_screen_layout.txt
 
           sed -i -e "s/LOADER_VERSION/${LOADER_VERSION}/g" .pakku/server-overrides/forge-auto-install.txt
