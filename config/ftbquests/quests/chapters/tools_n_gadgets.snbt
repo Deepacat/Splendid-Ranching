@@ -11,7 +11,14 @@
 	quests: [
 		{
 			dependencies: ["641BB69F5A27AABE"]
+			description: ["A modern angel block"]
 			id: "7375603289BF47C2"
+			rewards: [{
+				id: "51D3A0B8DB5406B2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "&8[&7 Can be placed in the air! &8]"
 			tasks: [{
 				id: "1232B13DE8418A4B"
 				item: "quark:bottled_cloud"
@@ -27,6 +34,7 @@
 				"&eAbacus&r will count the distance from selected block in taxicab geometry, until right-clicked again."
 			]
 			id: "402D3F1483253B91"
+			subtitle: "&8[&7 Mathematical! &8]"
 			tasks: [{
 				id: "4A63DD1C64018C4D"
 				item: "quark:abacus"
@@ -131,7 +139,7 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "2B7AFE38E631A92F"
-			subtitle: "&8[&7 Rotates Rotatable Blocks &8]"
+			subtitle: "&8[&7 Rotates... Rotatable Blocks! &8]"
 			tasks: [{
 				id: "64CEA1F3BE6E06E5"
 				item: {
@@ -156,7 +164,7 @@
 				}
 			}
 			id: "75D45CF2A1D318FA"
-			subtitle: "&8[&7 Breaks blocks &8]"
+			subtitle: "&8[&7 Breaks blocks at a distance &8]"
 			tasks: [
 				{
 					id: "2247B4E0E0AB4E2E"
@@ -187,6 +195,19 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "3FA0EA79B5022DC9"
+			rewards: [{
+				id: "49B08C51784BB2AC"
+				item: {
+					Count: 1
+					id: "splendid_slimes:plort"
+					tag: {
+						plort: {
+							id: "splendid_slimes:alien"
+						}
+					}
+				}
+				type: "item"
+			}]
 			subtitle: "&8[&7 Cleans dyed blocks and entities &8]"
 			tasks: [{
 				id: "67EB4DF1F16D0A49"
@@ -215,8 +236,8 @@
 				item: "mininggadgets:upgrade_magnet"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -415,6 +436,21 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "74F38EFE74B5C788"
+			rewards: [{
+				count: 3
+				id: "591FFB27DFA90EE9"
+				item: {
+					Count: 1
+					id: "splendid_slimes:plort"
+					tag: {
+						plort: {
+							id: "splendid_slimes:fire"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&8[&7 Rocket jumping! &8]"
 			tasks: [{
 				id: "5FE5A55BC1E440E3"
 				item: "splendid_slimes:rocket_pod"
@@ -422,6 +458,70 @@
 			}]
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["641BB69F5A27AABE"]
+			id: "6E48F3961D1F4438"
+			subtitle: "&8[&7 Fells entire trees! &8]"
+			tasks: [{
+				id: "46223DE7012C1254"
+				item: {
+					Count: 1
+					id: "kubejs:lumber_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["641BB69F5A27AABE"]
+			description: [
+				"Combined shovel, axe, and pickaxe for any tier!"
+				""
+				"Don't quite make for very good weapons though..."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:diamond_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0CBFC540E3E68541"
+			min_width: 300
+			rewards: [{
+				id: "589D0839AB299009"
+				item: {
+					Count: 1
+					id: "splendid_slimes:plort"
+					tag: {
+						plort: {
+							id: "splendid_slimes:tree"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&8[&7 All in one tools! &8]"
+			tasks: [{
+				id: "35032895BC740E43"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:tools/paxels)"
+					}
+				}
+				title: "Any Paxel"
+				type: "item"
+			}]
+			title: "Paxels"
+			x: -1.0d
+			y: 0.5d
 		}
 	]
 	title: "&9 Tools n' Gadgets"
