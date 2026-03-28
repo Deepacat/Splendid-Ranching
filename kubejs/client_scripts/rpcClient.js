@@ -8,6 +8,7 @@ SDRP.setState(`${status}`, "hai :3", "menu")
 
 NetworkEvents.dataReceived('kubejs:rpc', e => {
     let dataObj = e.data
+    let version = JsonIO.read('kubejs/splendidRanchingData.json').version
     let slimesCollected = dataObj.collection.collectedTotal
     let slimesTotal = dataObj.collection.allTotal
     let balanceNum = Math.floor(Number(dataObj.balance)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
@@ -16,7 +17,7 @@ NetworkEvents.dataReceived('kubejs:rpc', e => {
 
     SDRP.setState(
         `${status}`,
-        "Download Splendid Ranching on curseforge!",
+        `Download Splendid Ranching on curseforge! v:${version}`,
         "curseforgeicon"
     )
 })
