@@ -1,5 +1,3 @@
-const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
-
 MBDMachineEvents.onTick("mbd2:splendid_generator", e => {
     if (Utils.server.tickCount % 20 != 0) { return }
 
@@ -23,8 +21,8 @@ MBDMachineEvents.onTick("mbd2:splendid_generator", e => {
         let stack = itemStorage.getStackInSlot(0)
         if (!stack.nbt || stack.nbt['AccountID'] == null) return
 
-        let accountUUID = $NbtUtils.loadUUID(stack.nbt['AccountID'])
-        let account = global.GLOBAL_BANK.getAccount(accountUUID)
+        let account = getAccountOfCardItem(stack)
+
         let balance = account.balance
         let setMaxEnergy = machine.customData.getInt("max_energy")
 

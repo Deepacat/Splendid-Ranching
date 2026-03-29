@@ -6,7 +6,7 @@
  * @param {Internal.SimplePlayerEventJS} e
  */
 function updateRPC(e) {
-    let account = global.GLOBAL_BANK["getAccount(net.minecraft.world.entity.player.Player)"](e.player)
+    let account = getNumismaticAccount(e.player)
     let balance = account.balance
     let day = Math.round(e.server.getLevel('minecraft:overworld').dayTime() / 24000) // convert to days, rounded for display purposes
     let collection = getSlimeCollectionData(e.player)
