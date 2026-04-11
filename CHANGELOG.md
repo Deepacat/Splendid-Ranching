@@ -1,8 +1,22 @@
 # Changelog
 
+## [0.3.0]
+### Changes
+- Added EMI++, Leaf me be, Treechopping, TMRV Replaces JEI, modern dynamics (Will balance recipes later as part of thermal progression)
+- Fixed incorrect lang on bitwise slime
+- Add back cooler lootbeam
+- Added paxels for QOL
+- Added an early game Lumberaxe for tree felling
+- "Fixed" glowberries falling off trees from block updates! (They can be on leaves now)
+- Added a new custom scripted discord rich presence
+- Updated some quest subtitles on the item tips page
+- Replace the debug function to reset all market data that I forgot to remove for release!
+- Removed several license violations!
+- Removed heroslime.
+
 ## [0.2.1]
 ### Changes
-- Fixed sales terminal being "unobtainable" breaking progression 
+- Fixed sales terminal being "unobtainable" breaking progression
 
 ## [0.2.0]
 ### Changes
