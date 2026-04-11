@@ -52,8 +52,8 @@
 				item: "quark:trowel"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -430,7 +430,7 @@
 				}
 			]
 			title: "Building Wands"
-			x: 2.0d
+			x: -2.0d
 			y: 0.5d
 		}
 		{
@@ -484,13 +484,6 @@
 				""
 				"Don't quite make for very good weapons though..."
 			]
-			icon: {
-				Count: 1
-				id: "kubejs:diamond_paxel"
-				tag: {
-					Damage: 0
-				}
-			}
 			id: "0CBFC540E3E68541"
 			min_width: 300
 			rewards: [{
