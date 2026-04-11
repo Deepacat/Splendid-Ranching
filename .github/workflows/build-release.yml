@@ -144,6 +144,12 @@ jobs:
         with:
           file_path: "pakku.json"
 
+      - name: Get Modpack Metadata
+        id: modpack_metadata
+        uses: ActionsTools/read-json-action@v1.0.5
+        with:
+          file_path: "sr-meta.json"
+
       - name: Get Pakku-lock Info
         id: pakku_lock_info
         uses: ActionsTools/read-json-action@v1.0.5
@@ -216,7 +222,7 @@ jobs:
           fi
 
           echo "project_name=${{ steps.pakku_info.outputs.name }}" >> $GITHUB_OUTPUT
-          echo "release_type=${{ steps.pakku_info.outputs.release_type }}" >> $GITHUB_OUTPUT
+          echo "release_type=${{ steps.modpack_metadata.outputs.release_type }}" >> $GITHUB_OUTPUT
           echo "exists=${{ steps.check_tag.outputs.exists }}" >> $GITHUB_OUTPUT
           echo "make_release=${{ steps.check_tag.outputs.exists == 'false' && env.DEV_ENVIRONMENT == 'false' }}" >> $GITHUB_OUTPUT
           echo "make_pr=${{ steps.check_tag.outputs.exists  == 'false'  && env.DEV_ENVIRONMENT == 'true' }}" >> $GITHUB_OUTPUT
