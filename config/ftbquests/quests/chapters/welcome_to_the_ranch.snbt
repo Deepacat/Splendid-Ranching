@@ -557,10 +557,18 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			tasks: [{
-				id: "7AA1ED39BBD0C2EB"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7AA1ED39BBD0C2EB"
+					type: "checkmark"
+				}
+				{
+					count: 2L
+					id: "2E22EDEEC0C07FA2"
+					item: { Count: 2, id: "numismatics:cog" }
+					type: "item"
+				}
+			]
 			title: "&eSlime Heart&f Formation"
 			x: -4.25d
 			y: 3.5d
