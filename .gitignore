@@ -14,22 +14,24 @@
 /ESM/
 /xaero/
 /XaeroWaypoints*
-/shaderpacks
-/debug
-/asm
+/shaderpacks/
+/debug/
+/asm/
 /patchouli_data.json
 /ds_private_storage.json
 /cherishedworlds-favorites.dat
-
+/portable_blueprints/
+/.bobby/
 /icon.png
 /options.txt
 /rhino.local.properties
 /usercache.json
 /usernamecache.json
 /emi.json
-servers.dat
-servers.dat_old
-hs_err*
+/servers.dat
+/servers.dat_old
+/hs_err*
+/data/
 
 # Pakku
 /build/
