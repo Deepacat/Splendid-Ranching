@@ -18,25 +18,16 @@ ServerEvents.commandRegistry(e => {
             })
         )
     )
+
     // command to interact with daily reset cooldown
-    e.register(Commands.literal("srDailyReset")
-        .then(Commands.literal("get")
-            .executes(ctx => {
-                let player = ctx.source.player
-                player.tell(`daily reset cooldown is ${player.server.persistentData['reset_cooldown']}`)
-                return 1
-            })
-        )
-        .then(Commands.literal("set")
-            .then(Commands.argument("value", Arguments.INTEGER.create(e))
-                .executes(ctx => {
-                    let player = ctx.source.player
-                    player.server.persistentData['reset_cooldown'] = Arguments.INTEGER.getResult(ctx, "value")
-                    player.tell(`daily reset cooldown set to ${player.server.persistentData['reset_cooldown']}`)
-                    return 1
-                })
-            )
-        )
+    e.register(Commands.literal("srResetPlortValueData")
+        .executes(ctx => {
+            Utils.server.persistentData['slime_value_data'] = global.baseSlimeValueData
+            Utils.server.persistentData['daily_sold_plorts'] = {}
+            Utils.server.persistentData['daily_sold_total'] = 0
+            ctx.source.player.tell(`§cSlime value data and daily sold plort data reset to defaults!§r`)
+            return 1
+        })
     )
 
     // patchouli command requires OP normally, but this bypasses that
