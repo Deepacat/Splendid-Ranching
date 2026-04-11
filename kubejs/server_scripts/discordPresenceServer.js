@@ -4,28 +4,28 @@
  * @param {Internal.SimplePlayerEventJS} e
  */
 function updateRPC(e) {
-	let account = getNumismaticAccount(e.player)
+    let account = getNumismaticAccount(e.player)
     let balance = account.balance
 
-	let day = Math.round(e.server.getLevel('minecraft:overworld').dayTime() / 24000)
-	let collection = getSlimeCollectionData(e.player)
+    let day = Math.round(e.server.getLevel('minecraft:overworld').dayTime() / 24000)
+    let collection = getSlimeCollectionData(e.player)
 
-	let dataObj = {
-		balance: balance,
-		day: day,
-		collection: collection
-	}
+    let dataObj = {
+        balance: balance,
+        day: day,
+        collection: collection
+    }
 
-	e.player.sendData('kubejs:rpc', dataObj)
+    e.player.sendData('kubejs:rpc', dataObj)
 }
 
 PlayerEvents.loggedIn(e => {
-	updateRPC(e)
+    updateRPC(e)
 })
 
 PlayerEvents.tick(e => {
-	if (Utils.server.tickCount % (20 * 10) != 0) { return }
-	updateRPC(e)
+    if (Utils.server.tickCount % (20 * 10) != 0) { return }
+    updateRPC(e)
 })
 
 // FTBQuestsEvents.completed(e => {
