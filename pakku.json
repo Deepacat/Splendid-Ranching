@@ -9,7 +9,7 @@
         "kubejs",
         "ldlib",
         "!kubejs/probe/**",
-        "!resourcepacks"        
+        "!resourcepacks"
     ],
     "server_overrides": [
         "!kubejs/assets",
@@ -21,8 +21,6 @@
         "server-icon.png",
         "start_server.bat",
         "README.md"
-    ],
-    "client_overrides": [
     ],
     "projects": {
         "legendary-tooltips": {
