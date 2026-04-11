@@ -2,13 +2,14 @@
     "name": "Splendid Ranching",
     "version": "DEV",
     "description": "Slime rancher inspired modpack for the JEO Modpack Jam",
-    "author": "Deepacat, Meeprdib, Vnator, Uni",
+    "author": "Deepacat, Meeprdib",
     "overrides": [
         "config",
         "defaultconfigs",
         "kubejs",
         "ldlib",
-        "!kubejs/probe/**"
+        "!kubejs/probe/**",
+        "!resourcepacks"        
     ],
     "server_overrides": [
         "!kubejs/assets",
@@ -22,7 +23,6 @@
         "README.md"
     ],
     "client_overrides": [
-        "resourcepacks"
     ],
     "projects": {
         "legendary-tooltips": {
