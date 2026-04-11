@@ -1,12 +1,7 @@
 // PresenceJS client script for KubeJS
-//
-// Edit this current script in place and replace the client ID/image keys below
-// with assets from your own
-// Discord application: https://discord.com/developers/applications
-// PresenceJS stays disabled until you set a real Discord application ID.
+// server_scripts/discordPresenceServer.js includes the network data sent
 
-const $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
-const $I18n = Java.loadClass('net.minecraft.client.resources.language.I18n')
+let $I18n = Java.loadClass('net.minecraft.client.resources.language.I18n')
 
 const USER_SETTINGS = {
   appId: '1487269951512248350',
@@ -24,10 +19,9 @@ const USER_SETTINGS = {
 }
 const STATUS_SETTINGS = {
   rotateInWorldStatuses: true,
-  rotationIntervalSeconds: 12,
-  economy: true,
+  rotationIntervalSeconds: 8,
+  base: true,
   collection: true,
-  heldPlort: true,
   hotPlort: true,
   world: true
 }
@@ -38,9 +32,7 @@ const PACK_VERSION = USER_SETTINGS.packVersion
 const LARGE_IMAGE_KEY = USER_SETTINGS.imageKeys.large
 const SMALL_IMAGE_KEY = USER_SETTINGS.imageKeys.small
 const BUTTONS = USER_SETTINGS.buttons
-const PRESENCE_OPTIONS = {
-  useServerRPCStats: USER_SETTINGS.useServerRPCStats
-}
+const PRESENCE_OPTIONS = { useServerRPCStats: USER_SETTINGS.useServerRPCStats }
 const STATUS_OPTIONS = STATUS_SETTINGS
 const RPC_STATE = {
   balance: null,
@@ -164,51 +156,6 @@ NetworkEvents.dataReceived('kubejs:slime_value_data', event => {
   SLIME_VALUE_DATA = event.data || {}
 })
 
-function getHeldPlortStatus(itemName) {
-  try {
-    const mc = $Minecraft.getInstance()
-    const player = mc == null ? null : mc.player
-
-    if (player == null) {
-      return null
-    }
-
-    const stack = player.getMainHandItem()
-    if (stack == null || stack.isEmpty()) {
-      return null
-    }
-
-    const item = Item.of(stack)
-    if (item == null || item.id !== 'splendid_slimes:plort' || item.nbt == null || item.nbt.plort == null) {
-      return null
-    }
-
-    const plortId = String(item.nbt.plort.id || '')
-    const breedId = plortId.includes(':') ? plortId.split(':')[1] : plortId
-    const plortData = SLIME_VALUE_DATA[breedId]
-
-    if (plortData == null) {
-      return null
-    }
-
-    const parts = [
-      `${formatBalance(plortData.currentValue)}¤`,
-      formatSignedPercent(plortData.multPercent)
-    ]
-
-    if (plortData.isHot) {
-      parts.push('Hot')
-    }
-
-    return {
-      details: `Holding ${itemName || getLocalizedPlortName(breedId)}`,
-      state: parts.join(' • ')
-    }
-  } catch (error) {
-    return null
-  }
-}
-
 function getHotPlortStatus() {
   const hotPlorts = Object.entries(SLIME_VALUE_DATA)
     .filter(([, data]) => data != null && data.isHot)
@@ -217,11 +164,13 @@ function getHotPlortStatus() {
   if (hotPlorts.length === 0) {
     return null
   }
-
   const [breedId, plortData] = hotPlorts[0]
+
+  let fluc = plortData.flucPercent
+  let flucText = fluc > 0 ? `+${fluc}% :)` : `${fluc}% :(`
   return {
-    details: `Hot Plort: ${getLocalizedPlortName(breedId)}`,
-    state: `${formatBalance(plortData.currentValue)}¤ • ${formatSignedPercent(plortData.multPercent)} market`
+    details: `Hot Plort: ${getLocalizedPlortName(breedId)} (${formatBalance(plortData.currentValue)}¤ / ${formatSignedPercent(plortData.multPercent)})`,
+    state: `fluc: ${flucText}`
   }
 }
 
@@ -243,25 +192,18 @@ function pickStatus(statuses) {
 function buildInWorldStatuses(data) {
   const statuses = []
 
-  if (STATUS_OPTIONS.economy && hasRPCStats()) {
+  if (STATUS_OPTIONS.base && hasRPCStats()) {
     statuses.push({
-      details: `Glubcoins: ${formatBalance(RPC_STATE.balance)}¤`,
-      state: `Day ${RPC_STATE.day} • ${data.modeLabel}`
+      details: `${data.modeLabel} • Day ${RPC_STATE.day}`,
+      state: `Glubcoins: ${formatBalance(RPC_STATE.balance)}¤`
     })
   }
 
   if (STATUS_OPTIONS.collection && hasRPCStats()) {
     statuses.push({
-      details: `Slimes: ${RPC_STATE.slimesCollected}/${RPC_STATE.slimesTotal}`,
-      state: `${data.completedAdvancementCount}/${data.advancementCount} Advancements`
+      details: `Ranchin' in the ${data.biomeName}`,
+      state: `${RPC_STATE.slimesCollected}/${RPC_STATE.slimesTotal} Slimes collected`
     })
-  }
-
-  if (STATUS_OPTIONS.heldPlort) {
-    const heldPlortStatus = getHeldPlortStatus(data.itemName)
-    if (heldPlortStatus != null) {
-      statuses.push(heldPlortStatus)
-    }
   }
 
   if (STATUS_OPTIONS.hotPlort) {
@@ -269,13 +211,6 @@ function buildInWorldStatuses(data) {
     if (hotPlortStatus != null) {
       statuses.push(hotPlortStatus)
     }
-  }
-
-  if (STATUS_OPTIONS.world) {
-    statuses.push({
-      details: `${data.modeLabel} • ${data.worldName}`,
-      state: `${data.dimension} • ${data.biomeName}`
-    })
   }
 
   return statuses
@@ -348,42 +283,30 @@ PresenceJSEvents.build(event => {
     return
   }
 
-  const worldName = ctx.getWorldName() || ctx.getServerName() || ctx.getServerAddress() || 'Unknown world'
-  const dimensionId = ctx.getDimensionId() || 'minecraft:overworld'
   const biomeId = ctx.getBiomeId() || null
-  const dimension = translateResourceId('dimension', dimensionId, 'Overworld')
   const biomeName = translateResourceId('biome', biomeId, 'Unknown biome')
-  const itemName = ctx.getSelectedItemName() || 'Exploring'
   const modeLabel = ctx.isSingleplayer() ? 'Singleplayer' : 'Multiplayer'
-  const advancementCount = typeof ctx.getAdvancementCount === 'function' ? ctx.getAdvancementCount() : 0
-  const completedAdvancementCount = typeof ctx.getCompletedAdvancementCount === 'function'
-    ? ctx.getCompletedAdvancementCount()
-    : 0
   const activeStatus = pickStatus(buildInWorldStatuses({
-    worldName: worldName,
-    dimension: dimension,
     biomeName: biomeName,
-    itemName: itemName,
-    modeLabel: modeLabel,
-    advancementCount: advancementCount,
-    completedAdvancementCount: completedAdvancementCount
+    modeLabel: modeLabel
   }))
 
-  if (activeStatus != null) {
+  if (activeStatus) {
     presence.setDetails(activeStatus.details)
     presence.setState(activeStatus.state)
   } else {
-    presence.setDetails(`${modeLabel} • ${worldName}`)
-    presence.setState(`${completedAdvancementCount}/${advancementCount} Advancements • ${dimension}`)
+    presence.setDetails(`Day ${RPC_STATE.day} • ${modeLabel}`)
+    presence.setState(`Glubcoins: ${formatBalance(RPC_STATE.balance)}¤`)
   }
+
   if (LARGE_IMAGE_KEY) {
-    presence.setLargeImage(LARGE_IMAGE_KEY, `${getPackLabel()} • ${biomeName}`)
+    presence.setLargeImage(LARGE_IMAGE_KEY, `${getPackLabel()}`)
   } else {
     presence.clearLargeImage()
   }
 
   if (SMALL_IMAGE_KEY) {
-    presence.setSmallImage(SMALL_IMAGE_KEY, `${itemName} • ${dimension}`)
+    presence.setSmallImage(SMALL_IMAGE_KEY, `Help!!! I'm trapped in a discord presence!!!`)
   } else {
     presence.clearSmallImage()
   }

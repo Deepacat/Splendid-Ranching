@@ -1,4 +1,4 @@
-// Simple Discord Rich Presence packet bridge for PresenceJS.
+// Simple Discord Rich network bridge for PresenceJS.
 
 /**
  * @param {Internal.SimplePlayerEventJS} e
@@ -6,9 +6,6 @@
 function updateRPC(e) {
 	let account = getNumismaticAccount(e.player)
     let balance = account.balance
-
-	// console.log(balance);
-	// console.log(account.balance);
 
 	let day = Math.round(e.server.getLevel('minecraft:overworld').dayTime() / 24000)
 	let collection = getSlimeCollectionData(e.player)

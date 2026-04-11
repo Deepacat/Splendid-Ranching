@@ -95,6 +95,9 @@ function marketUpdates(e) {
             `${plortData.baseValue} * ${marketFluctuation} * ${individualFluctuation} ` +
             `* ${volumeModifier} * ${bonusMultiplier}`
 
+        // Saved for presence and client stuff
+        newValueData[plortType].flucPercent = Math.round((marketFluctuation - 1) * 100)
+
         // Round and set the new price value for the plort
         newValueData[plortType].currentValue = Math.round(newPrice)
 
@@ -106,7 +109,8 @@ function marketUpdates(e) {
     e.server.persistentData['slime_value_data'] = newValueData
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
-    e.server.tell(`| Market fluctuation is ` + (fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`))
+    let flucText = fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`
+    e.server.tell(`| Market fluctuation is ` + flucText)
 
     // reset daily data
     e.server.persistentData['daily_sold_plorts'] = {}
