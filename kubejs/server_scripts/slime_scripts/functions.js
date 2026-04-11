@@ -1,4 +1,7 @@
 // main daily update functions to run
+/**
+ * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; }; }} e
+ */
 function dailyUpdates(e) {
     let dailySoldPlorts = e.server.persistentData['daily_sold_plorts']
     let dailySoldTotal = e.server.persistentData['daily_sold_total']
@@ -18,6 +21,9 @@ function dailyUpdates(e) {
 }
 
 // mostly ai generated but very manually edited price adjustment slop
+/**
+ * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; players: any; }; }} e
+ */
 function marketUpdates(e) {
     let slimeValueData = e.server.persistentData['slime_value_data']
     let dailySoldPlorts = e.server.persistentData['daily_sold_plorts']
@@ -89,6 +95,9 @@ function marketUpdates(e) {
             `${plortData.baseValue} * ${marketFluctuation} * ${individualFluctuation} ` +
             `* ${volumeModifier} * ${bonusMultiplier}`
 
+        // Saved for presence and client stuff
+        newValueData[plortType].flucPercent = Math.round((marketFluctuation - 1) * 100)
+
         // Round and set the new price value for the plort
         newValueData[plortType].currentValue = Math.round(newPrice)
 
@@ -100,7 +109,8 @@ function marketUpdates(e) {
     e.server.persistentData['slime_value_data'] = newValueData
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
-    e.server.tell(`| Market fluctuation is ` + (fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`))
+    let flucText = fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`
+    e.server.tell(`| Market fluctuation is ` + flucText)
 
     // reset daily data
     e.server.persistentData['daily_sold_plorts'] = {}
@@ -110,4 +120,59 @@ function marketUpdates(e) {
     for (let player of e.server.players) {
         player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
     }
+}
+
+/**
+ * @param {Internal.SimplePlayerEventJS} player
+ */
+function getSlimeCollectionData(player) {
+    let collectedSlimes = []
+    for (let [slime, slimeData] of Object.entries(global.slimeDefinitionsData)) {
+        let questId = slimeData.ftb_quests_completion_id
+
+        let questObj = FTBQuests.getObject(player.level, questId)
+        if (!questObj) { continue }
+
+        let isCompleted = FTBQuests.getData(player).isCompleted(questObj)
+        if (isCompleted) { collectedSlimes.push(slime) }
+    }
+
+    return {
+        collectedSlimeList: collectedSlimes,
+        collectedTotal: collectedSlimes.length,
+        allTotal: Object.keys(global.slimeDefinitionsData).length
+    }
+    // console.log(getSlimeCollectionData(e.player).collectedSlimeList)
+    // console.log(getSlimeCollectionData(e.player).collectedTotal)
+    // console.log(getSlimeCollectionData(e.player).allTotal)
+}
+
+const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
+// Gets the numismatics account data of a numismatics bank card itemstack
+/**
+ * @param {Internal.ItemStack} itemStack
+ */
+function getAccountOfCardItem(itemStack) {
+    if (!itemStack.nbt || itemStack.nbt['AccountID'] == null) return
+
+    let accountUUID = $NbtUtils.loadUUID(itemStack.nbt['AccountID'])
+    let account = global.GLOBAL_BANK.getAccount(accountUUID)
+    return account
+}
+
+
+const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
+// Function to get player numismatics account, and also check if they have a bank card equipped to use that account instead
+// Only works for online players
+function getNumismaticAccount(player) {
+    let account = global.GLOBAL_BANK["getAccount(net.minecraft.world.entity.player.Player)"](player)
+    $CuriosApi.getCuriosInventory(player).ifPresent(inventory => {
+        for (let curio of inventory.getEquippedCurios().allItems) {
+            if (new RegExp(/numismatics:.*card$/).test(curio.id)) {
+                account = getAccountOfCardItem(curio)
+                break
+            }
+        }
+    })
+    return account
 }

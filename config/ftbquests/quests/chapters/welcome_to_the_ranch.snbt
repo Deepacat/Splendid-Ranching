@@ -1,4 +1,5 @@
 {
+	autofocus_id: "540EA146149A0210"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome_to_the_ranch"
@@ -270,18 +271,11 @@
 			icon_scale: 1.2d
 			id: "7BC9569B15296756"
 			min_width: 300
-			rewards: [
-				{
-					id: "06FA49A7CB056011"
-					item: "numismatics:cog"
-					type: "item"
-				}
-				{
-					id: "7AE0C9C3A26B3577"
-					item: "numismatics:blaze_banker"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "06FA49A7CB056011"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "I will become a Glubillionaire!"
 			tasks: [

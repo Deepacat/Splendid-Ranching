@@ -28,7 +28,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "alexscaves:sea_pig"
-        }
+        },
+        ftb_quests_completion_id: "052D444FE3B9943E"
     },
     alien: {
         breed: "alien",
@@ -45,7 +46,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "supplementaries:soap"
-        }
+        },
+        ftb_quests_completion_id: "3169DD099A3FF5E0"
     },
     all_seeing: {
         breed: "all_seeing",
@@ -76,7 +78,8 @@ global.slimeDefinitionsData = {
                 duration: 300,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "06BB4671BDC0A766"
     },
     bitwise: {
         breed: "bitwise",
@@ -87,7 +90,8 @@ global.slimeDefinitionsData = {
         },
         diet: "diet.splendid_slimes.bitwise",
         foods: [{ tag: "forge:chests" }],
-        favorite_food: { item: "woodworks:jungle_chest" }
+        favorite_food: { item: "woodworks:jungle_chest" },
+        ftb_quests_completion_id: "51DBC0A96CCD6627"
     },
     blazing: {
         breed: "blazing",
@@ -107,7 +111,8 @@ global.slimeDefinitionsData = {
         },
         traits: [
             "flaming"
-        ]
+        ],
+        ftb_quests_completion_id: "530B9AF1192EDDF4"
     },
     bony: {
         breed: "bony",
@@ -123,7 +128,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "farmersdelight:cake_slice"
-        }
+        },
+        ftb_quests_completion_id: "50AE7ECCF58F4E9F"
     },
     boomcat: {
         breed: "boomcat",
@@ -141,7 +147,8 @@ global.slimeDefinitionsData = {
         },
         traits: [
             "explosive"
-        ]
+        ],
+        ftb_quests_completion_id: "4F42D5F847508066"
     },
     burger: {
         breed: "burger",
@@ -154,7 +161,8 @@ global.slimeDefinitionsData = {
         diet: "diet.splendid_slimes.burger",
         foods: [
             { item: "farmersdelight:hamburger" }
-        ]
+        ],
+        ftb_quests_completion_id: "37F6889DC0F2CCFA"
     },
     candy: {
         breed: "candy",
@@ -173,7 +181,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "alexscaves:sweetish_fish_red"
-        }
+        },
+        ftb_quests_completion_id: "423926AA90B65D90"
     },
     charred: {
         breed: "charred",
@@ -189,7 +198,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "quark:azalea_log"
-        }
+        },
+        ftb_quests_completion_id: "333675D30B044EF9"
     },
     crimson: {
         breed: "crimson",
@@ -205,7 +215,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:twisting_vines"
-        }
+        },
+        ftb_quests_completion_id: "587AA23E52AD9750"
     },
     crystal: {
         breed: "crystal",
@@ -221,7 +232,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:glow_berries"
-        }
+        },
+        ftb_quests_completion_id: "0F3184AA9A7F9215"
     },
     dark: {
         breed: "dark",
@@ -240,7 +252,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:glow_ink_sac"
-        }
+        },
+        ftb_quests_completion_id: "362B6F293019118E"
     },
     dusty: {
         breed: "dusty",
@@ -254,7 +267,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "supplementaries:ash" }, { item: "create:powdered_obsidian" }],
         favorite_food: {
             item: "create:powdered_obsidian"
-        }
+        },
+        ftb_quests_completion_id: "7FFCBAE693712C5E"
     },
     ender: {
         breed: "ender",
@@ -275,7 +289,8 @@ global.slimeDefinitionsData = {
         negative_commands: [
             "tp @e[distance=..8] @e[limit=1,sort=nearest]",
             "playsound minecraft:entity.enderman.teleport block @a[distance=..10]"
-        ]
+        ],
+        ftb_quests_completion_id: "2735966429A60088"
     },
     fire: {
         breed: "fire",
@@ -293,7 +308,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "supplementaries:lumisene_bottle"
-        }
+        },
+        ftb_quests_completion_id: "2C9811B1825871A6"
     },
     forge: {
         breed: "forge",
@@ -309,7 +325,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:blue_orchid"
-        }
+        },
+        ftb_quests_completion_id: "3491F153A469180E"
     },
     forlorn: {
         breed: "forlorn",
@@ -326,7 +343,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "alexscaves:thornwood_branch"
-        }
+        },
+        ftb_quests_completion_id: "5A1749298FC9BB0B"
     },
     fungus: {
         breed: "fungus",
@@ -348,7 +366,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:blue_orchid"
-        }
+        },
+        ftb_quests_completion_id: "3BD8B65993252638"
     },
     gem: {
         breed: "gem",
@@ -366,7 +385,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:calcite"
-        }
+        },
+        ftb_quests_completion_id: "7F0B238E29C48562"
     },
     geode: {
         breed: "geode",
@@ -384,7 +404,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "architects_palette:myonite"
-        }
+        },
+        ftb_quests_completion_id: "6C8B7196598C9E73"
     },
     gold: {
         breed: "gold",
@@ -404,7 +425,8 @@ global.slimeDefinitionsData = {
         traits: [
             "moody",
             "picky"
-        ]
+        ],
+        ftb_quests_completion_id: "3B7CE5A7EAA96817"
     },
     infernal: {
         breed: "infernal",
@@ -420,7 +442,8 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "architects_palette:molten_nether_bricks"
-        }
+        },
+        ftb_quests_completion_id: "73A752FF0F865C2A"
     },
     jewel: {
         breed: "jewel",
@@ -434,7 +457,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:amethyst_shard" }, { item: "minecraft:amethyst_cluster" }, { item: "minecraft:prismarine_crystals" }],
         favorite_food: {
             item: "minecraft:amethyst_cluster"
-        }
+        },
+        ftb_quests_completion_id: "717D653598BBDEEA"
     },
     jurassic: {
         breed: "jurassic",
@@ -448,7 +472,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:cooked_meat" }],
         favorite_food: {
             item: "minecraft:cooked_beef"
-        }
+        },
+        ftb_quests_completion_id: "6877F6A473DAF722"
     },
     luminous: {
         breed: "luminous",
@@ -468,7 +493,8 @@ global.slimeDefinitionsData = {
                 duration: 220,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "54F64EB116EEA59C"
     },
     lush: {
         breed: "lush",
@@ -482,7 +508,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:seeds" }, { item: "minecraft:bone_meal" }, { item: "quark:moss_paste" }],
         favorite_food: {
             item: "quark:moss_paste"
-        }
+        },
+        ftb_quests_completion_id: "28D85A3B22E4845F"
     },
     magma: {
         breed: "magma",
@@ -496,7 +523,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:magma_block" }, { item: "alexscaves:primal_magma" }],
         favorite_food: {
             item: "alexscaves:primal_magma"
-        }
+        },
+        ftb_quests_completion_id: "2AFBCAC9F0546D94"
     },
     magnetic: {
         breed: "magnetic",
@@ -510,7 +538,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:ingots" }],
         favorite_food: {
             item: "minecraft:iron_ingot"
-        }
+        },
+        ftb_quests_completion_id: "1DC6F245FD83CEDB"
     },
     mechanical: {
         breed: "mechanical",
@@ -524,7 +553,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:andesite" }, { item: "create:andesite_alloy" }],
         favorite_food: {
             item: "create:andesite_alloy"
-        }
+        },
+        ftb_quests_completion_id: "4E69B32B4FB927FC"
     },
     metallic: {
         breed: "metallic",
@@ -538,7 +568,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:raw_materials" }],
         favorite_food: {
             item: "galosphere:raw_silver"
-        }
+        },
+        ftb_quests_completion_id: "05FE873E813664F3"
     },
     minty: {
         breed: "minty",
@@ -572,7 +603,8 @@ global.slimeDefinitionsData = {
                 duration: 40,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "142374BD43478FDE"
     },
     monster: {
         breed: "monster",
@@ -586,7 +618,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:raw_meat" }, { tag: "forge:cooked_meat" }],
         favorite_food: {
             item: "minecraft:cooked_porkchop"
-        }
+        },
+        ftb_quests_completion_id: "707488F243981774"
     },
     neodymium: {
         breed: "neodymium",
@@ -600,7 +633,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:nuggets" }],
         favorite_food: {
             item: "minecraft:iron_nugget"
-        }
+        },
+        ftb_quests_completion_id: "5A047ED5158DAF07"
     },
     nuclear: {
         breed: "nuclear",
@@ -611,7 +645,8 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.nuclear",
-        foods: [{ item: "alexscaves:uranium_rod" }]
+        foods: [{ item: "alexscaves:uranium_rod" }],
+        ftb_quests_completion_id: "7E5A4ACA36E06A22"
     },
     ocean: {
         breed: "ocean",
@@ -625,7 +660,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:kelp" }, { item: "minecraft:dried_kelp" }, { tag: "forge:raw_fishes" }],
         favorite_food: {
             item: "minecraft:pufferfish"
-        }
+        },
+        ftb_quests_completion_id: "0319A496D4974231"
     },
     orby: {
         breed: "orby",
@@ -655,7 +691,8 @@ global.slimeDefinitionsData = {
                 effect: "minecraft:strength",
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "1A6990DB1DE87EED"
     },
     phantom: {
         breed: "phantom",
@@ -678,7 +715,8 @@ global.slimeDefinitionsData = {
                 effect: "minecraft:slow_falling",
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "3D01A0106E5D0D22"
     },
     prisma: {
         breed: "prisma",
@@ -721,7 +759,8 @@ global.slimeDefinitionsData = {
                 duration: 600,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "0F78CB79755F9CB5"
     },
     puddle: {
         breed: "puddle",
@@ -759,7 +798,8 @@ global.slimeDefinitionsData = {
                 duration: 600,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "09E217B6D14E3634",
     },
     quantum: {
         breed: "quantum",
@@ -770,7 +810,8 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.quantum",
-        foods: [{ item: "architects_palette:unobtanium" }]
+        foods: [{ item: "architects_palette:unobtanium" }],
+        ftb_quests_completion_id: "26AFDD9B638581F9"
     },
     rad: {
         breed: "rad",
@@ -784,7 +825,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "alexscaves:radgill" }, { item: "alexscaves:spelunkie" }, { item: "alexscaves:slam" }, { item: "alexscaves:green_soylent" }],
         favorite_food: {
             item: "alexscaves:slam"
-        }
+        },
+        ftb_quests_completion_id: "2B2365F43F9D88DE"
     },
     radiant: {
         breed: "radiant",
@@ -798,7 +840,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "alexscaves:sundae" }],
         favorite_food: {
             item: "alexscaves:sundae"
-        }
+        },
+        ftb_quests_completion_id: "218F7AFD98D56939"
     },
     rocky: {
         breed: "rocky",
@@ -812,7 +855,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:vegetables" }, { item: 'minecraft:pumpkin_pie' }],
         favorite_food: {
             item: "minecraft:pumpkin_pie"
-        }
+        },
+        ftb_quests_completion_id: "5EC77BFC2038ABA2"
     },
     rotting: {
         breed: "rotting",
@@ -849,7 +893,8 @@ global.slimeDefinitionsData = {
         ],
         attack_commands: [
             "summon zombie ~ ~ ~ {DeathLootTable:\"minecraft:empty\",Health:8f,ArmorItems:[{},{},{},{id:\"minecraft:slime_block\",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.max_health,Base:8}]}"
-        ]
+        ],
+        ftb_quests_completion_id: "256C54725BEFD9B1"
     },
     sandy: {
         breed: "sandy",
@@ -863,7 +908,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "forge:fruits" }],
         favorite_food: {
             item: "atmospheric:passion_fruit"
-        }
+        },
+        ftb_quests_completion_id: "46220822EECA2E67"
     },
     sculk: {
         breed: "sculk",
@@ -875,7 +921,8 @@ global.slimeDefinitionsData = {
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.sculk",
         foods: [{ item: "create:experience_nugget" }],
-        favorite_food: { item: "create:experience_nugget" }
+        favorite_food: { item: "create:experience_nugget" },
+        ftb_quests_completion_id: "63A1286AF1A93756"
     },
     shulking: {
         breed: "shulking",
@@ -900,7 +947,8 @@ global.slimeDefinitionsData = {
                 duration: 120,
                 amplifier: 0
             }
-        ]
+        ],
+        ftb_quests_completion_id: "67193DFECF2CC18E"
     },
     slimy: {
         breed: "slimy",
@@ -914,7 +962,8 @@ global.slimeDefinitionsData = {
         foods: [{ tag: "minecraft:flowers" }, { tag: "forge:vegetables" }, { tag: "forge:fruits" }, { tag: "forge:cooked_meat" }, { tag: "forge:raw_meat" },],
         favorite_food: {
             item: "minecraft:blue_orchid"
-        }
+        },
+        ftb_quests_completion_id: "57C0B3292BFDF2AB"
     },
     stony: {
         breed: "stony",
@@ -928,7 +977,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:gravel" }, { item: "create:scoria" }, { item: "minecraft:basalt" }],
         favorite_food: {
             item: "create:scoria"
-        }
+        },
+        ftb_quests_completion_id: "4F2ACF039376327F"
     },
     sweet: {
         breed: "sweet",
@@ -956,7 +1006,8 @@ global.slimeDefinitionsData = {
                 duration: 200,
                 amplifier: 3
             }
-        ]
+        ],
+        ftb_quests_completion_id: "2DC21C014D1555CC"
     },
     tabby: {
         breed: "tabby",
@@ -972,7 +1023,8 @@ global.slimeDefinitionsData = {
             "minecraft:rabbit",
             "minecraft:chicken"
         ],
-        favorite_entity: "minecraft:rabbit"
+        favorite_entity: "minecraft:rabbit",
+        ftb_quests_completion_id: "4F8209100D13F58D"
     },
     tendril: {
         breed: "tendril",
@@ -983,7 +1035,8 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.tendril",
-        foods: [{ item: "minecraft:sculk_sensor" }]
+        foods: [{ item: "minecraft:sculk_sensor" }],
+        ftb_quests_completion_id: "11A3EBB6B3DE9C51"
     },
     time: {
         breed: "time",
@@ -994,7 +1047,8 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.time",
-        foods: [{ item: "create:experience_block" }]
+        foods: [{ item: "create:experience_block" }],
+        ftb_quests_completion_id: "704D7E516BDEA169"
     },
     tree: {
         breed: "tree",
@@ -1008,7 +1062,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:bone_meal" }, { item: "create:tree_fertilizer" }, { item: "alexscaves:guano" }],
         favorite_food: {
             item: "create:tree_fertilizer"
-        }
+        },
+        ftb_quests_completion_id: "6739425141BF426D"
     },
     warped: {
         breed: "warped",
@@ -1022,7 +1077,8 @@ global.slimeDefinitionsData = {
         foods: [{ item: "minecraft:blaze_powder" }, { item: "minecraft:weeping_vines" }],
         favorite_food: {
             item: "minecraft:weeping_vines"
-        }
+        },
+        ftb_quests_completion_id: "183C39E060E3E5A3"
     },
     webby: {
         breed: "webby",
@@ -1031,7 +1087,7 @@ global.slimeDefinitionsData = {
         particle: {
             item: "minecraft:cobweb"
         },
-        diet: "disabled",
+        diet: "disabled"
     },
     weeping: {
         breed: "weeping",
@@ -1047,6 +1103,7 @@ global.slimeDefinitionsData = {
         ],
         favorite_food: {
             item: "minecraft:warped_fungus"
-        }
+        },
+        ftb_quests_completion_id: "19B9A4B363552F3A"
     }
 }

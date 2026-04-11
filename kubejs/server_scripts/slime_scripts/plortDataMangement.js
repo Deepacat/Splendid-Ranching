@@ -23,14 +23,6 @@ PlayerEvents.tick(e => {
     }
 })
 
-// debug used for testing, comment on release
-ItemEvents.firstLeftClicked('minecraft:diamond_sword', e => {
-    e.player.tell(`reset all stored server data to defaults!`)
-    e.server.persistentData['slime_value_data'] = global.baseSlimeValueData
-    e.server.persistentData['daily_sold_plorts'] = {}
-    e.server.persistentData['daily_sold_total'] = 0
-})
-
 // Checking if daily updates should run
 ServerEvents.tick(e => {
     try {

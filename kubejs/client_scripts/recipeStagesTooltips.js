@@ -1,4 +1,4 @@
-const $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
+let $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
 
 let recipeStages = global.recipeStages
 
