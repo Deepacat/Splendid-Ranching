@@ -1,9 +1,5 @@
-const $IElementHelper = Java.loadClass("snownee.jade.api.ui.IElementHelper")
-const HELPER = $IElementHelper.get()
-const $Block = Java.loadClass("net.minecraft.world.level.block.Block")
-
 function returnOg(accessor) {
-    return HELPER.item(Item.of(accessor.block.id))
+    return $IElementHelper.item(Item.of(accessor.block.id))
 }
 
 /**
@@ -16,7 +12,7 @@ global["marketMonitorIconCallback"] = (accessor, config, currentIcon) => {
     if (accessor.block.id != 'kubejs:market_monitor') { return returnOg(accessor) }
     let nbt = accessor.getServerData()
     if (!nbt.plort) return returnOg(accessor)
-    return HELPER.item(Item.of('splendid_slimes:plort', { plort: { id: nbt.plort } }))
+    return $IElementHelper.item(Item.of('splendid_slimes:plort', { plort: { id: nbt.plort } }))
 
 }
 /**

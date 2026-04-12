@@ -1,5 +1,3 @@
-let $Minecraft = Java.loadClass('net.minecraft.client.Minecraft')
-
 let recipeStages = global.recipeStages
 
 ItemEvents.tooltip(e => {
@@ -13,7 +11,7 @@ ItemEvents.tooltip(e => {
             }
             for (let curItem of curItems) {
                 e.addAdvanced(curItem, (item, advanced, text) => {
-                    let player = $Minecraft.getInstance().player
+                    let player = $Minecraft.player
                     if (player == null) return
                     if (player.stages.has(stageId)) { return }
 

@@ -147,7 +147,6 @@ function getSlimeCollectionData(player) {
     // console.log(getSlimeCollectionData(e.player).allTotal)
 }
 
-const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
 // Gets the numismatics account data of a numismatics bank card itemstack
 /**
  * @param {Internal.ItemStack} itemStack
@@ -161,7 +160,6 @@ function getAccountOfCardItem(itemStack) {
 }
 
 
-const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 // Function to get player numismatics account, and also check if they have a bank card equipped to use that account instead
 // Only works for online players
 function getNumismaticAccount(player) {

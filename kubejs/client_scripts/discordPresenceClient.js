@@ -1,8 +1,6 @@
 // PresenceJS client script for KubeJS
 // server_scripts/discordPresenceServer.js includes the network data sent
 
-let $I18n = Java.loadClass('net.minecraft.client.resources.language.I18n')
-
 const USER_SETTINGS = {
     appId: '1487269951512248350',
     activityName: 'Splendid Ranching',

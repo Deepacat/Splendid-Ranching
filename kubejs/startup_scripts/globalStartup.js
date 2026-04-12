@@ -1,6 +1,8 @@
 // priority: -20
 // Borrowed from society
 const $Numismatics = Java.loadClass("dev.ithundxr.createnumismatics.Numismatics")
+const $BlockEntity = Java.loadClass("net.minecraft.world.level.block.entity.BlockEntity");
+
 global.GLOBAL_BANK = $Numismatics.BANK
 
 global.showPonderLayer = (scene, speed, height, exclude) => {
