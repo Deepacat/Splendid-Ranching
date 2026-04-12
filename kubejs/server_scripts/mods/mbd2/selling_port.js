@@ -2,7 +2,7 @@ ServerEvents.recipes(e => {
     // auto generated plort selling fake recipes
     for (const [slimeType, _] of Object.entries(slimeBaseDefinitions)) {
         let plortValueData = slimeBaseValues[slimeType]
-        let disabled = global.disabledSlimes.includes(slimeType)
+        let disabled = disabledSlimes.includes(slimeType)
 
         if (plortValueData && disabled) { // skip and log if slimes disabled but has value data
             console.warn(`"${slimeType}" slime is disabled but has value data!`)
