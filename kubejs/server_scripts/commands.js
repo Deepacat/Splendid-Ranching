@@ -22,7 +22,7 @@ ServerEvents.commandRegistry(e => {
     // command to interact with daily reset cooldown
     e.register(Commands.literal("srResetPlortValueData")
         .executes(ctx => {
-            Utils.server.persistentData['slime_value_data'] = global.baseSlimeValueData
+            Utils.server.persistentData['slime_value_data'] = slimeBaseValues
             Utils.server.persistentData['daily_sold_plorts'] = {}
             Utils.server.persistentData['daily_sold_total'] = 0
             ctx.source.player.tell(`§cSlime value data and daily sold plort data reset to defaults!§r`)

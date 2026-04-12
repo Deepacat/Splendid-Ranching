@@ -323,7 +323,7 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'splendid_slimes:plort_ripping' })
 
     // loop over all slimes
-    for (const [slimeType, slimeData] of Object.entries(global.slimeDefinitionsData)) {
+    for (const [slimeType, slimeData] of Object.entries(slimeBaseDefinitions)) {
         let recipeData = rippitOutputs[slimeType]
         // skip and log if slime type has no recipe data
         // not all slimes *need* the data this is just for noting

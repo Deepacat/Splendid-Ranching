@@ -12,7 +12,7 @@ function dailyUpdates(e) {
         e.server.tell(`|| Yesterday you sold:`)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]
-            e.server.tell(Text.of(`|| ${count} ${plortBreed} plorts`).color(global.slimeDefinitionsData[plortBreed].color))
+            e.server.tell(Text.of(`|| ${count} ${plortBreed} plorts`).color(slimeBaseDefinitions[plortBreed].color))
         }
         e.server.tell(`|| For a total of §6${dailySoldTotal}§a☻!`)
     }
@@ -35,7 +35,7 @@ function marketUpdates(e) {
 
     e.server.tell(`| Today's hot §dplort§r demands are:`)
     for (let plortBreed of hotDemands) {
-        e.server.tell(Text.of(`|| ${plortBreed}`).color(global.slimeDefinitionsData[plortBreed].color))
+        e.server.tell(Text.of(`|| ${plortBreed}`).color(slimeBaseDefinitions[plortBreed].color))
     }
 
     // Deep clone the input object to avoid mutations
@@ -127,7 +127,7 @@ function marketUpdates(e) {
  */
 function getSlimeCollectionData(player) {
     let collectedSlimes = []
-    for (let [slime, slimeData] of Object.entries(global.slimeDefinitionsData)) {
+    for (let [slime, slimeData] of Object.entries(slimeBaseDefinitions)) {
         let questId = slimeData.ftb_quests_completion_id
 
         let questObj = FTBQuests.getObject(player.level, questId)
@@ -140,7 +140,7 @@ function getSlimeCollectionData(player) {
     return {
         collectedSlimeList: collectedSlimes,
         collectedTotal: collectedSlimes.length,
-        allTotal: Object.keys(global.slimeDefinitionsData).length
+        allTotal: Object.keys(slimeBaseDefinitions).length
     }
     // console.log(getSlimeCollectionData(e.player).collectedSlimeList)
     // console.log(getSlimeCollectionData(e.player).collectedTotal)

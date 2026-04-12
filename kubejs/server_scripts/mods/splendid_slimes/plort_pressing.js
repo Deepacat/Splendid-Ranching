@@ -3,18 +3,18 @@ ServerEvents.recipes(e => {
     e.remove({ type: 'splendid_slimes:plort_pressing' })
 
     // loop over all slimes
-    for (const [slimeType, slimeData] of Object.entries(global.slimeDefinitionsData)) {
-        let valueData = global.baseSlimeValueData[slimeType]
+    for (const [slimeType, slimeData] of Object.entries(slimeBaseDefinitions)) {
+        let plortValueData = slimeBaseValues[slimeType]
 
         // continue if slime has no value data or no slime dupe cost
-        if (valueData === undefined) { continue }
-        if (1 > valueData.slimeDupeCost || valueData.slimeDupeCost === undefined) { continue }
+        if (plortValueData === undefined) { continue }
+        if (1 > plortValueData.slimeDupeCost || plortValueData.slimeDupeCost === undefined) { continue }
 
         // add slime heart duplication recipe
         e.custom({
             type: "splendid_slimes:plort_pressing",
             ingredient: {
-                count: valueData.slimeDupeCost,
+                count: plortValueData.slimeDupeCost,
                 item: "splendid_slimes:plort",
                 nbt: {
                     plort: {

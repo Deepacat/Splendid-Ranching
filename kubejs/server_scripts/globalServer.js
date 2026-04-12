@@ -4,6 +4,9 @@
 const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
 const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 
+const slimeBaseDefinitions = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc");
+const slimeBaseValues = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseValues.jsonc");
+
 global.mainUiElementIds = [
 
 ];

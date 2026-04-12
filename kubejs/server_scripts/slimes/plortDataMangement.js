@@ -6,7 +6,7 @@ ServerEvents.loaded(e => {
     //  it should instead check if the entries are equal to base data and merge them if not for update compatibility
     if (e.server.persistentData['slime_value_data'] === undefined) {
         // set all base server values
-        e.server.persistentData['slime_value_data'] = global.baseSlimeValueData
+        e.server.persistentData['slime_value_data'] = slimeBaseValues
         e.server.persistentData['daily_sold_plorts'] = {}
         e.server.persistentData['daily_sold_total'] = 0
 
