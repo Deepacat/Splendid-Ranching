@@ -1,4 +1,4 @@
-// Must use /reload to reload this file! 
+// Must use /reload to reload this file!
 // /kubejs reload server_scripts will not reload command registry
 
 // Converts a number value into the highest glubcoin equivalents

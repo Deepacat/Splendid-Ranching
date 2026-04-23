@@ -158,7 +158,7 @@ function checkAndUpdateSlimeValues() {
                 oldServerSlime.formula.individualFluctuation *
                 calculateVolumeModifier(newValueData[plortType]) *
                 oldServerSlime.formula.bonusMultiplier
-                
+
             newValueData[plortType].currentValue = Math.round(newPrice)
             newValueData[plortType].flucPercent = Math.round((oldServerSlime.formula.marketFluctuation - 1) * 100)
             newValueData[plortType].multPercent = Math.round(((newValueData[plortType].currentValue / plortData.baseValue - 1) * 100))
