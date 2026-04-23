@@ -5,15 +5,15 @@ const getValuePrefix = (mult, isHot) => {
 
 const getDisplayOffsetFromFacing = (facing, offset) => {
     switch (facing) {
-        case "north":
-            return offset.equals('x') ? 0.5 : 0.86;
-        case "east":
-            return offset.equals('x') ? 0.14 : 0.5;
-        case "south":
-            return offset.equals('x') ? 0.5 : 0.14;
-        default:
-        case "west":
-            return offset.equals('x') ? 0.86 : 0.5;
+    case "north":
+        return offset.equals('x') ? 0.5 : 0.86;
+    case "east":
+        return offset.equals('x') ? 0.14 : 0.5;
+    case "south":
+        return offset.equals('x') ? 0.5 : 0.14;
+    default:
+    case "west":
+        return offset.equals('x') ? 0.86 : 0.5;
     }
 }
 
