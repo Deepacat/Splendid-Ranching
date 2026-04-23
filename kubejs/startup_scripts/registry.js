@@ -45,5 +45,4 @@ StartupEvents.registry('item', e => {
         .tag('minecraft:tools')
         .tag('forge:tools')
         .tag('forge:tools/paxels')
-
 })
