@@ -17,29 +17,32 @@ ItemEvents.tooltip(e => {
             let plortData = slimeData[plort]
             let cost = plortData.currentValue
             let mult = plortData.multPercent
+            let isHot = plortData.isHot
 
+            let valColor = (mult, isHot) => {
+                if (isHot) return "§6";
+                return mult == 0 ? '§7' : mult < 0 ? '§c' : '§a'
+            }
+
+            // Base value and smiley
+            let valueText = e.shift && item.count > 1 ?
+                `§6${global.calculateCost(cost, 1, item.count)}§a☻ §rx${item.count} ` : // Shifted
+                `§6${global.calculateCost(cost, 1, 1)}§a☻ ` // Not shifted
+
+            // only add multiplier text if it's not 0 and not shifted
+            if (mult !== 0)
+                valueText +=
+                    `§7| ${valColor(mult, isHot)}${isHot ? '🔥 ' : ''}${mult}% ` +
+                    `${valColor(mult, isHot)}${mult === 0 ? '' : mult < 0 ? '↓ ' : '↑ '}`
+
+            if (!e.shift && item.count > 1) {
+                valueText += `§8[§7Shift§8]`
+            }
+
+            // Add final text
             text.add(text.length, [
-                `§6${global.calculateCost(cost, 1, 1)}§a☻`,
+                `${valueText}`
             ])
-            if (item.count > 1) {
-                text.add(text.length, [
-                    `§7Stack Value: §6${global.calculateCost(cost, 1, item.count)}§a☻`
-                ])
-            }
-            if (mult != 0 && mult != undefined) {
-                text.add(text.length, [
-                    `${mult < 0 ? '§c' : '§a+'}${mult}%`
-                ])
-            }
-
-            if (e.ctrl) { // show all plort data on ctrl (For debug mostly)
-                let plortDataArr = Object.entries(plortData)
-                for (let [key, val] of plortDataArr) {
-                    text.add(3 + plortDataArr.indexOf(key), [
-                        `${key}: §6${val}`
-                    ])
-                }
-            }
         } catch (err) {
             console.log(err)
         }

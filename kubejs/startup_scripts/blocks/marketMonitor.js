@@ -1,7 +1,4 @@
-const getValuePrefix = (mult, isHot) => {
-    if (isHot) return "§6🔥 ";
-    return mult == 0 ? '§7' : mult < 0 ? '§c' : '§a'
-}
+
 
 const getDisplayOffsetFromFacing = (facing, offset) => {
     switch (facing) {
@@ -60,10 +57,7 @@ global.handleMarketMonitorTick = (entity, forced) => {
     if (value !== nbt.data.value) {
         nbt.merge({ data: { value: value } });
         block.setEntityData(nbt);
-        let plortText =
-            `${getValuePrefix(mult, plortData.isHot)}` +
-            `${global.calculateCost(plortData.currentValue, 1, 1)}` +
-            `${mult === 0 ? '' : mult < 0 ? '↓' : '↑'}`
+        let plortText = global.getPlortText(mult, plortData);
 
         global.clearOldDisplay(block, "market_monitor_text");
         global.clearOldDisplay(block, "market_monitor_plort");

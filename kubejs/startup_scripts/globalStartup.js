@@ -58,6 +58,19 @@ global.coinMap = [
     { coin: "numismatics:spur", value: 1 },
 ]
 
+global.getValuePrefix = (mult, isHot) => {
+    if (isHot) return "§6🔥 ";
+    return mult == 0 ? '§7' : mult < 0 ? '§c' : '§a'
+}
+
+global.getPlortText = (mult, plortData) => {
+    let text =
+        `${global.getValuePrefix(mult, plortData.isHot)}` +
+        `${global.calculateCost(plortData.currentValue, 1, 1)}` +
+        `${mult === 0 ? '' : mult < 0 ? '↓' : '↑'}`
+    return text
+}
+
 // For cases where prices are auto-generated, round
 const roundPrice = (price) => {
     for (let i = 0; i < global.coinMap.length; i++) {
@@ -77,26 +90,26 @@ const roundPrice = (price) => {
 global.calculateCoinValue = (coin) => {
     let value = 0;
     switch (coin.id.split(":")[1]) {
-    case "spur":
-        value = 1
-        break
-    case "bevel":
-        value = 8
-        break
-    case "sprocket":
-        value = 16
-        break
-    case "cog":
-        value = 64
-        break
-    case "crown":
-        value = 512
-        break
-    case "sun":
-        value = 4096
-        break
-    default:
-        console.log(`Invalid coin`)
+        case "spur":
+            value = 1
+            break
+        case "bevel":
+            value = 8
+            break
+        case "sprocket":
+            value = 16
+            break
+        case "cog":
+            value = 64
+            break
+        case "crown":
+            value = 512
+            break
+        case "sun":
+            value = 4096
+            break
+        default:
+            console.log(`Invalid coin`)
     }
     return value * coin.count
 };
@@ -149,14 +162,14 @@ global.clearOldDisplay = (block, id) => {
 
 global.rotationFromFacing = (facing) => {
     switch (facing) {
-    case "north":
-        return 180;
-    case "east":
-        return 270;
-    case "south":
-        return 360;
-    default:
-    case "west":
-        return 90;
+        case "north":
+            return 180;
+        case "east":
+            return 270;
+        case "south":
+            return 360;
+        default:
+        case "west":
+            return 90;
     }
 };
