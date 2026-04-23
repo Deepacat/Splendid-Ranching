@@ -80,20 +80,20 @@ function marketUpdates(e) {
 
         // calculate new plort price from all variables
         let newPrice =
-            plortData.baseValue *
-            marketFluctuation *
-            individualFluctuation *
-            volumeModifier *
-            bonusMultiplier
+            plortData.baseValue * marketFluctuation * individualFluctuation
+            * volumeModifier * bonusMultiplier
 
         // // Ensure price stays within bounds
         // // * Disabling this is actually way more fun and cooler, hell yea I want up to +460% value
         // newPrice = Math.max(plortData.priceRange[0], Math.min(plortData.priceRange[1], newPrice))
 
         // shows in ctrl tooltip for debug
-        newValueData[plortType].formula =
-            `${plortData.baseValue} * ${marketFluctuation} * ${individualFluctuation} ` +
-            `* ${volumeModifier} * ${bonusMultiplier}`
+        newValueData[plortType].formula = {
+            marketFluctuation: marketFluctuation,
+            individualFluctuation: individualFluctuation,
+            volumeModifier: volumeModifier,
+            bonusMultiplier: bonusMultiplier
+        }
 
         // Saved for presence and client stuff
         newValueData[plortType].flucPercent = Math.round((marketFluctuation - 1) * 100)
@@ -104,6 +104,12 @@ function marketUpdates(e) {
         // Calculate multPercent as percentage difference from base value
         newValueData[plortType].multPercent = Math.round(((newValueData[plortType].currentValue / plortData.baseValue - 1) * 100))
     }
+
+    writeAndBackupJson(
+        "kubejs/modpackData/autoMarketValueDataBackup",
+        nbtToObject(Utils.server.persistentData['slime_value_data']),
+        5
+    )
 
     // set new slime value data on server
     e.server.persistentData['slime_value_data'] = newValueData
@@ -119,6 +125,25 @@ function marketUpdates(e) {
     // update all players with new slime data for tooltips
     for (let player of e.server.players) {
         player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
+    }
+}
+
+// Update server values from file, used for update compatibility
+// Only ran on initial server start or by debug command
+function checkAndUpdateSlimeValues() {
+    writeAndBackupJson(
+        "kubejs/modpackData/updateValueDataBackup",
+        nbtToObject(Utils.server.persistentData['slime_value_data']),
+        5
+    )
+    for (let [slimeType, slimeData] of Object.entries(slimeBaseValues)) {
+        let curServerSlime = Utils.server.persistentData['slime_value_data'][slimeType]
+        let oldServerSlime = Object.assign({}, Utils.server.persistentData['slime_value_data'][slimeType])
+        if (curServerSlime != undefined) {
+            Object.assign(curServerSlime, slimeData)
+            curServerSlime.currentValue = oldServerSlime.currentValue
+            curServerSlime.currentVolume = Math.min(curServerSlime.maxVolume, oldServerSlime.currentVolume)
+        }
     }
 }
 
@@ -142,9 +167,6 @@ function getSlimeCollectionData(player) {
         collectedTotal: collectedSlimes.length,
         allTotal: Object.keys(slimeBaseDefinitions).length
     }
-    // console.log(getSlimeCollectionData(e.player).collectedSlimeList)
-    // console.log(getSlimeCollectionData(e.player).collectedTotal)
-    // console.log(getSlimeCollectionData(e.player).allTotal)
 }
 
 // Gets the numismatics account data of a numismatics bank card itemstack
@@ -158,8 +180,6 @@ function getAccountOfCardItem(itemStack) {
     let account = global.GLOBAL_BANK.getAccount(accountUUID)
     return account
 }
-
-
 // Function to get player numismatics account, and also check if they have a bank card equipped to use that account instead
 // Only works for online players
 function getNumismaticAccount(player) {
@@ -173,4 +193,60 @@ function getNumismaticAccount(player) {
         }
     })
     return account
+}
+
+// Converts java compountTag into a JS Object for use getting data from persistentData
+// ai generated deepa is liable kill me
+function nbtToObject(tag) {
+    if (tag === null || tag === undefined) return null
+
+    const id = tag.getId()  // numeric NBT type ID
+
+    // CompoundTag (id 10)
+    if (id === 10) {
+        const obj = {}
+        for (let key of tag.getAllKeys()) {
+            obj[key] = nbtToObject(tag.get(key))
+        }
+        return obj
+    }
+
+    // ListTag (id 9)
+    if (id === 9) {
+        const arr = []
+        for (let i = 0; i < tag.size(); i++) {
+            arr.push(nbtToObject(tag.get(i)))
+        }
+        return arr
+    }
+
+    // Numeric tags (1=Byte,2=Short,3=Int,4=Long,5=Float,6=Double)
+    if ([1, 2, 3, 4, 5, 6].includes(id)) {
+        return tag.getAsNumber()
+    }
+
+    // String (id 8)
+    if (id === 8) return tag.getAsString()
+
+    // ByteArray (id 7), IntArray (11), LongArray (12)
+    if (id === 7) return tag.getAsByteArray()
+    if (id === 11) return tag.getAsIntArray()
+    if (id === 12) return tag.getAsLongArray()
+
+    return tag.toString()
+}
+
+// create backups files 1-x, overwrite first one and copy rest
+function writeAndBackupJson(filePath, writeData, maxBackups) {
+    let existingCount = 1
+    for (let i = 1; i <= maxBackups; i++) {
+        if (JsonIO.read(`${filePath}-bak${i}.json`) != null) {
+            existingCount = i
+        }
+    }
+    for (let i = existingCount; i >= 1; i--) {
+        if (i === maxBackups) { continue }
+        JsonIO.write(`${filePath}-bak${i + 1}.json`, JsonIO.read(`${filePath}-bak${i}.json`))
+    }
+    JsonIO.write(`${filePath}-bak1.json`, writeData)
 }

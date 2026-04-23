@@ -6,7 +6,7 @@
         "priceRange": [ 5, 15 ], // min and max price (CURRENTLY DISABLED AND DOES NOTHING, READ MARKET FLUCTUATION SCRIPT)
         /* The current market volume of the plort to scale off.
         Every sold plort increases this value by 1, and the price is scaled off this value
-        up to the max volume, at which point the price is halv*ed.
+        up to the max volume, at which point the price is halved.
         each day the current volume is reduced by 25% of its previous value */
         "currentVolume": 10, // initial volume on day 0 before any daily adjustments
         "maxVolume": 200,
