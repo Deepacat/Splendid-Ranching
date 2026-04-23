@@ -19,7 +19,7 @@ ItemEvents.tooltip(e => {
             let plort = item.nbt['plort'].id.path // get plort breed
 
             if (slimeData && slimeData[plort] === undefined) { // if no data entry loaded for plort
-                text.add(text.length, [
+                text.add(text.length + 1, [
                     `§cNo data found for plort: ${plort}`,
                     `\n§cIf this lasts longer than 10 seconds it's likely bugged. Report this please!`
                 ])
@@ -34,7 +34,7 @@ ItemEvents.tooltip(e => {
             if (e.ctrl) { // show all plort data on ctrl (For debug mostly)
                 let plortDataArr = Object.entries(plortData)
                 for (let [key, val] of plortDataArr) {
-                    text.add(text.length + plortDataArr.indexOf(key), [
+                    text.add(text.length + 1 + plortDataArr.indexOf(key), [
                         `${key}: §6${val}`
                     ])
                 }
