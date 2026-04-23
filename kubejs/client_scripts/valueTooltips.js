@@ -1,7 +1,13 @@
 let slimeData = {}
 
+// Update slime value data, server sends it to clients automatically every 5 seconds
 NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
-    slimeData = e.data
+    slimeData = e.data || {}
+})
+
+// Request slime value data when reloading assets (f3+t)
+ClientEvents.highPriorityAssets(e => {
+    Utils.server.sendData('kubejs:slime_value_data_client_request')
 })
 
 // Plort dynamic valuing tooltips
@@ -12,12 +18,28 @@ ItemEvents.tooltip(e => {
 
             let plort = item.nbt['plort'].id.path // get plort breed
 
-            if (slimeData && slimeData[plort] === undefined) return // return if plort breed has no data entry
+            if (slimeData && slimeData[plort] === undefined) { // if no data entry loaded for plort
+                text.add(text.length, [
+                    `§cNo data found for plort: ${plort}`,
+                    `\n§cIf this lasts longer than 10 seconds it's likely bugged. Report this please!`
+                ])
+                return
+            }
 
             let plortData = slimeData[plort]
             let cost = plortData.currentValue
             let mult = plortData.multPercent
             let isHot = plortData.isHot
+
+            if (e.ctrl) { // show all plort data on ctrl (For debug mostly)
+                let plortDataArr = Object.entries(plortData)
+                for (let [key, val] of plortDataArr) {
+                    text.add(text.length + plortDataArr.indexOf(key), [
+                        `${key}: §6${val}`
+                    ])
+                }
+                return
+            }
 
             let valColor = (mult, isHot) => {
                 if (isHot) return "§6";

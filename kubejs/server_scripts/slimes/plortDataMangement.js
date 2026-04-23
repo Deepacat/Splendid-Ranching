@@ -19,9 +19,13 @@ ServerEvents.loaded(e => {
 
 // send slime value data to clients for tooltip information
 PlayerEvents.tick(e => {
-    if (Utils.server.tickCount % 200 === 0) { // update every 10 seconds
+    if (Utils.server.tickCount % 100 === 0) { // update every 5 seconds
         e.player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
     }
+})
+
+NetworkEvents.dataReceived('kubejs:slime_value_data_client_request', e => {
+    e.player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
 })
 
 // Checking if daily updates should run
