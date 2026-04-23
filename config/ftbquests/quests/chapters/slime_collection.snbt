@@ -93,7 +93,6 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
@@ -885,7 +884,7 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_details_until_startable: false
-			hide_until_deps_complete: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "42831C5E7A8C2BA0"

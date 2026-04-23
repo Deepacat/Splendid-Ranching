@@ -59,7 +59,6 @@
 		{
 			dependencies: ["528ED809C83D224D"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			icon: "create:cogwheel"
 			id: "011F6A2FAF01FECF"
 			rewards: [{
@@ -111,7 +110,6 @@
 			dependencies: ["528ED809C83D224D"]
 			description: ["&7\"&rIt seems so that here on Gelatine-XB47, the barrier to... something? &oSomewhere...&r is weak. Blueprints of foreign concepts are being sent to the Hologuide's lab page.. I wonder what they could be for. Although they don't seem to care for the Glubcoins currency for their designs like the SSCCOGAC does, just a variety of plorts.&7\"&r"]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
 			icon: "botania:pure_daisy"
 			id: "38D8C5BC12219E38"
 			min_width: 300

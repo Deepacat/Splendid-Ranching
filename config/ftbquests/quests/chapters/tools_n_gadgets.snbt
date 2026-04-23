@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -302,7 +302,6 @@
 		{
 			dependencies: ["53EBD9587E86A7B9"]
 			description: [""]
-			hide_until_deps_complete: true
 			id: "641BB69F5A27AABE"
 			tasks: [{
 				id: "64A85F04D00289B0"

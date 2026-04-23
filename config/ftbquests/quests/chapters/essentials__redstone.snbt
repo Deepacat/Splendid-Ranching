@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "436E38D04AA33B83"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -410,7 +410,6 @@
 				""
 				"Supplementaries is a mod for Vanilla+ additions, with plenty of decor and functional blocks."
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -436,7 +435,6 @@
 				""
 				"Note that not everything in the wiki may be enabled in this pack such as mobs, but almost everything redstone related should be!"
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -470,7 +468,6 @@
 				""
 				"And more (See wiki)"
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -497,7 +494,6 @@
 				""
 				"It adds new logistics tools, redstone circuits and more utilities."
 			]
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -617,7 +613,6 @@
 				""
 				"Advanced Peripherals \\& Turtlematic have been provided as addons to extend automation capabilities of Computer Craft."
 			]
-			hide_until_deps_complete: true
 			icon: "computercraft:computer_normal"
 			id: "75426B66A09DD940"
 			tasks: [{
@@ -709,7 +704,6 @@
 				""
 				"Little Logistics is a mod for Minecraft Forge focused on efficient, affordable, long-distance transport."
 			]
-			hide_until_deps_complete: true
 			icon: "littlelogistics:steam_locomotive"
 			id: "59C819B383448D7C"
 			rewards: [{
