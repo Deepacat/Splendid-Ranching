@@ -20,6 +20,17 @@ function dailyUpdates(e) {
     marketUpdates(e) // run daily market updates
 }
 
+function calculateVolumeModifier(plortData) {
+    let volumeModifier
+    if (plortData.currentVolume >= plortData.maxVolume) {
+        volumeModifier = 0.5 // Half price when at or above max volume
+    } else if (plortData.currentVolume > 0) {
+        // Linear reduction between 100% and 50% based on volume
+        volumeModifier = 1 - (0.5 * (plortData.currentVolume / plortData.maxVolume))
+    }
+    return volumeModifier
+}
+
 // mostly ai generated but very manually edited price adjustment slop
 /**
  * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; players: any; }; }} e
@@ -60,15 +71,9 @@ function marketUpdates(e) {
         let individualFluctuation = 1 + (Math.random() * 0.6 - 0.3) // -30% to +30%
 
         // calculate modifier based on volume
-        let volumeModifier = 1
-        if (plortData.currentVolume >= plortData.maxVolume) {
-            volumeModifier = 0.5 // Half price when at or above max volume
-        } else if (plortData.currentVolume > 0) {
-            // Linear reduction between 100% and 50% based on volume
-            volumeModifier = 1 - (0.5 * (plortData.currentVolume / plortData.maxVolume))
-        }
+        let volumeModifier = calculateVolumeModifier(plortData)
 
-        // Apply bonus if plortType is in the daily bonus array
+        // Apply bonus if plortType is in the daily bonus (hot demands) array
         let bonusMultiplier = 1
         if (hotDemands && hotDemands.includes(plortType)) {
             // random between 2 and 4 times multiplier for daily bonus
@@ -105,7 +110,7 @@ function marketUpdates(e) {
         newValueData[plortType].multPercent = Math.round(((newValueData[plortType].currentValue / plortData.baseValue - 1) * 100))
     }
 
-    writeAndBackupJson(
+    writeAndBackupJson( // Create a backup of the old data before saving the market updates
         "kubejs/modpackData/autoMarketValueDataBackup",
         nbtToObject(Utils.server.persistentData['slime_value_data']),
         5
@@ -136,15 +141,30 @@ function checkAndUpdateSlimeValues() {
         nbtToObject(Utils.server.persistentData['slime_value_data']),
         5
     )
-    for (let [slimeType, slimeData] of Object.entries(slimeBaseValues)) {
-        let curServerSlime = Utils.server.persistentData['slime_value_data'][slimeType]
-        let oldServerSlime = Object.assign({}, Utils.server.persistentData['slime_value_data'][slimeType])
-        if (curServerSlime != undefined) {
-            Object.assign(curServerSlime, slimeData)
-            curServerSlime.currentValue = oldServerSlime.currentValue
-            curServerSlime.currentVolume = Math.min(curServerSlime.maxVolume, oldServerSlime.currentVolume)
+    let serverOldData = Object.assign({}, Utils.server.persistentData['slime_value_data'])
+    let newValueData = {}
+    for (let [plortType, plortData] of Object.entries(slimeBaseValues)) {
+        let oldServerSlime = Object.assign({}, Utils.server.persistentData['slime_value_data'][plortType])
+        newValueData[plortType] = Object.assign(serverOldData[plortType], plortData)
+        // Reset the currentvalues to previous as they're overwritten to defaults
+        newValueData[plortType].currentValue = oldServerSlime.currentValue
+        newValueData[plortType].currentVolume = Math.min(newValueData[plortType].maxVolume, oldServerSlime.currentVolume)
+
+        // Reapply the original daily market formula to the new plort data if old formula exists
+        // Future me please make a function for these both
+        if (oldServerSlime.formula) {
+            let newPrice = newValueData[plortType].baseValue *
+                oldServerSlime.formula.marketFluctuation *
+                oldServerSlime.formula.individualFluctuation *
+                calculateVolumeModifier(newValueData[plortType]) *
+                oldServerSlime.formula.bonusMultiplier
+                
+            newValueData[plortType].currentValue = Math.round(newPrice)
+            newValueData[plortType].flucPercent = Math.round((oldServerSlime.formula.marketFluctuation - 1) * 100)
+            newValueData[plortType].multPercent = Math.round(((newValueData[plortType].currentValue / plortData.baseValue - 1) * 100))
         }
     }
+    Utils.server.persistentData['slime_value_data'] = newValueData
 }
 
 /**
