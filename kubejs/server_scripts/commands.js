@@ -1,3 +1,7 @@
+// Must use /reload to reload this file! 
+// /kubejs reload server_scripts will not reload command registry
+
+// Converts a number value into the highest glubcoin equivalents
 function coinsFromValueCommand(ctx, Commands, Arguments) {
     let player = ctx.source.player
     let amount = Arguments.INTEGER.getResult(ctx, "amount")
@@ -8,7 +12,7 @@ function coinsFromValueCommand(ctx, Commands, Arguments) {
         player.tell(`${coin.count}x ${Item.of(coin.id).hoverName.string}`)
     }
 }
-
+// Reset plort value data to the base definitions (defined on server load, not always current file)
 function resetPlortValueDataCommand(ctx, Commands, Arguments) {
     writeAndBackupJson(
         "kubejs/modpackData/resetValueDataBackup",
@@ -21,11 +25,30 @@ function resetPlortValueDataCommand(ctx, Commands, Arguments) {
     Utils.server.persistentData['daily_sold_total'] = 0
     ctx.source.player.tell(`§dSlime value data and daily sold plort data reset to defaults!`)
 }
-
+// Update plort value data by hand from command, otherwise only runs on server load
 function updatePlortValueDataCommand(ctx, Commands, Arguments) {
     ctx.source.player.tell(`§cSaved a backup to /minecraft/kubejs/modpackData/`)
     checkAndUpdateSlimeValues()
     ctx.source.player.tell(`§dSlime value data updated!`)
+}
+
+// Load plort value data from existing file or backup (bak-x.json)
+function loadPlortValueDataFile(ctx, Commands, Arguments, filenamepath) {
+    let file = JsonIO.read(filenamepath)
+    if (file === null) {
+        ctx.source.player.tell(`§cFile not found: ${filenamepath}`)
+        ctx.source.player.tell(`§cSearched: /.minecraft/${filenamepath}`)
+        return
+    }
+    ctx.source.player.tell(`§cSaved a backup to /minecraft/kubejs/modpackData/`)
+    writeAndBackupJson(
+        "kubejs/modpackData/loadValueDataBackup",
+        nbtToObject(Utils.server.persistentData['slime_value_data']),
+        5
+    )
+
+    Utils.server.persistentData['slime_value_data'] = file
+    ctx.source.player.tell(`§dSlime value data updated from file: ${filenamepath}`)
 }
 
 ServerEvents.commandRegistry(e => {
@@ -56,6 +79,16 @@ ServerEvents.commandRegistry(e => {
                 updatePlortValueDataCommand(ctx, Commands, Arguments)
                 return 1
             })
+        )
+        .then(Commands.literal("loadPlortValueDataFile")
+            .requires(s => s.hasPermission(2))
+            .then(Commands.argument("filename", Arguments.STRING.create(e))
+                .executes(ctx => {
+                    let filename = Arguments.STRING.getResult(ctx, "filename")
+                    loadPlortValueDataFile(ctx, Commands, Arguments, filename)
+                    return 1
+                })
+            )
         )
     )
 
