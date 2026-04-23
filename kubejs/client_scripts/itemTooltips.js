@@ -50,5 +50,4 @@ ItemEvents.tooltip(e => {
     e.add('numismatics:cog', "§8[§c I guess you can spend me :| §8]")
     e.add('numismatics:crown', "§8[§6 What're you lookin' at :P §8]")
     e.add('numismatics:sun', "§8[§d Mornin' Rancher :) §8]")
-
 })

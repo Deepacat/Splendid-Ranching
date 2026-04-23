@@ -150,8 +150,8 @@ if (PRESENCE_OPTIONS.useServerRPCStats) {
     })
 }
 
-NetworkEvents.dataReceived('kubejs:slime_value_data', event => {
-    SLIME_VALUE_DATA = event.data || {}
+NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
+    SLIME_VALUE_DATA = e.data || {}
 })
 
 function getHotPlortStatus() {
