@@ -691,6 +691,13 @@
 		}
 		{
 			dependencies: ["42831C5E7A8C2BA0"]
+			description: [
+				"Orby slimes are hungry for live things, and will fight for their meal!"
+				""
+				"Right clicking an Orby Slime can give it your item! Regardless of it being an accident or not..."
+				""
+				"In case of accident, you may want to trade it something it deems a stronger weapon in return!"
+			]
 			id: "1A6990DB1DE87EED"
 			tasks: [{
 				id: "75A96CDC8273058D"
