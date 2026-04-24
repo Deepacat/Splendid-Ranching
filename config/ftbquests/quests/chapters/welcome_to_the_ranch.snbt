@@ -1237,7 +1237,7 @@
 			description: [
 				"The &eBlaze Banker&r lets you create a new group &cbank account&r, linked to the burner itself!"
 				""
-				"You may place a &nblank&r &eBank Card&r into the &eBlaze Banker&r create a new shareable account, making you the owner of it!"
+				"You may place a &eBlaze Banker&r to become the owner of it, other people cannot open your &eBlaze Banker&r initially! You may also rename it by clicking its name at the top"
 				""
 				"Then other players may right click their &eID Card&r to assign themselves to it, and hand you the card to deposit into the shared accounts &eID Card&r storage, giving them access!"
 				""
