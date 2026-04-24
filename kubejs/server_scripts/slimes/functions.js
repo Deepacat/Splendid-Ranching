@@ -218,7 +218,7 @@ function getNumismaticAccount(player) {
     return account
 }
 
-// Converts java compountTag into a JS Object for use getting data from persistentData
+// Converts java compoungTag into a JS Object for use getting data from persistentData
 // ai generated deepa is liable kill me
 function nbtToObject(tag) {
     if (tag === null || tag === undefined) return null

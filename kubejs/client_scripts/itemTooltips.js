@@ -57,8 +57,8 @@ ItemEvents.tooltip(e => {
         "§7- At the touch of a beacons beam, ", "§7becomes infused with §rradiance",
         "§7- In the dark of the voids despair, ", "§7becomes infused with §8shadows"
     ])
-
     e.add('create:refined_radiance', "§7Forged by a §rgreat light.")
     e.add('create:shadow_steel', "§7Forged by a §8dark void.")
-    // Architects palette
+    // Alexscaves
+    e.add('alexscaves:acid_bucket', "§7An §cexplosion§7 in this could probably destroy... §8anything§7!.")
 })
