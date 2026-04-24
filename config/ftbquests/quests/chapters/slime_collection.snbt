@@ -154,6 +154,17 @@
 			x: 7.5d
 			y: -1.0d
 		}
+		{
+			click: " "
+			dependency: "37F6889DC0F2CCFA"
+			height: 1.0d
+			hover: ["Tier... ∞??? World threatening slimes??"]
+			image: "sophisticatedbackpacks:item/infinity_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 10.5d
+		}
 	]
 	order_index: 1
 	progression_mode: "flexible"
@@ -1458,9 +1469,11 @@
 				"7E5A4ACA36E06A22"
 				"26AFDD9B638581F9"
 			]
+			description: [""]
 			id: "37F6889DC0F2CCFA"
 			invisible: true
 			secret: true
+			subtitle: "What have you created?"
 			tasks: [{
 				id: "56AD8590E1D6A330"
 				item: {
