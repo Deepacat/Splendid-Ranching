@@ -165,10 +165,10 @@ function getHotPlortStatus() {
     const [breedId, plortData] = hotPlorts[0]
 
     let fluc = plortData.flucPercent
-    let flucText = fluc > 0 ? `+${fluc}% :)` : `${fluc}% :(`
+    let flucText = fluc >= 0 ? `+${fluc}% :)` : `${fluc}% :(`
     return {
         details: `Hot Plort: ${getLocalizedPlortName(breedId)} (${formatBalance(plortData.currentValue)}¤ / ${formatSignedPercent(plortData.multPercent)})`,
-        state: `fluc: ${flucText}`
+        state: `Market fluctuation: ${flucText}`
     }
 }
 
