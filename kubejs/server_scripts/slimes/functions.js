@@ -7,14 +7,17 @@ function dailyUpdates(e) {
     let dailySoldTotal = e.server.persistentData['daily_sold_total']
 
     // if within 20 ticks of "6 am"
-    e.server.tell("| §6Goooood morning, Rancher!")
+    e.server.tell("— §6Goooood morning§r, Rancher!")
     if (dailySoldTotal > 0) { // if there was anything sold, tell about it
-        e.server.tell(`|| Yesterday you sold:`)
+        e.server.tell(`—— Yesterday you sold:`)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]
-            e.server.tell(Text.of(`|| ${count} ${plortBreed} plorts`).color(slimeBaseDefinitions[plortBreed].color))
+            e.server.tell(
+                Text.of(`—— ${count} ${plortBreed} plorts`)
+                    .color(slimeBaseDefinitions[plortBreed].color)
+            )
         }
-        e.server.tell(`|| For a total of §6${dailySoldTotal}§a☻!`)
+        e.server.tell(`—— For a total of §6${dailySoldTotal}§a☻!`)
     }
 
     marketUpdates(e) // run daily market updates
@@ -44,9 +47,9 @@ function marketUpdates(e) {
         .sort(() => Math.random() - 0.5)
         .slice(0, Math.floor(Math.random() * 3) + 1)
 
-    e.server.tell(`| Today's hot §dplort§r demands are:`)
+    e.server.tell(`— Today's hot §dplort§r demands are:`)
     for (let plortBreed of hotDemands) {
-        e.server.tell(Text.of(`|| ${plortBreed}`).color(slimeBaseDefinitions[plortBreed].color))
+        e.server.tell(Text.of(`—— ${plortBreed}`).color(slimeBaseDefinitions[plortBreed].color))
     }
 
     // Deep clone the input object to avoid mutations
@@ -121,7 +124,7 @@ function marketUpdates(e) {
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
     let flucText = fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`
-    e.server.tell(`| Market fluctuation is ` + flucText)
+    e.server.tell(`— General Market fluctuation is at ` + flucText)
 
     // reset daily data
     e.server.persistentData['daily_sold_plorts'] = {}
