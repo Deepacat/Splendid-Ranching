@@ -119,3 +119,5 @@ hs_err*
 /.DS_Store
 /.AppleDouble
 /.LSOverride
+config/xaeroworldmap.txt
+config/xaerominimap_entities.json

@@ -117,6 +117,13 @@ ServerEvents.tags('block', e => {
         "minecraft:dirt",
         "minecraft:terracotta"
     ])
+
+    e.add('minecraft:mooshrooms_spawnable_on', [
+        'botania:metamorphic_fungal_stone',
+        'galosphere:lichen_moss',
+        'architects_palette:myonite'
+    ])
+
 })
 
 ServerEvents.tags('worldgen/biome', e => {

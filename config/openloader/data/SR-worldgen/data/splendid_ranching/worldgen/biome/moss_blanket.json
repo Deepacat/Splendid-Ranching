@@ -2,12 +2,14 @@
   "carvers": {
     "air": []
   },
-  "downfall": 0.0,
+  "downfall": 0,
   "effects": {
     "fog_color": 12638463,
+    "grass_color": 248832,
+    "foliage_color": 248832,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2.0,
+      "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
@@ -28,10 +30,17 @@
       "splendid_ranching:moss_blanket/pumpkin_placed",
       "splendid_ranching:moss_blanket/mushroom_shelf_placed",
       "splendid_ranching:moss_blanket/huge_red_mushroom",
+      "splendid_ranching:moss_blanket/moss_placed",
+      "splendid_ranching:moss_blanket/sweet_berry_placed",
+      "splendid_ranching:moss_blanket/passion_vines_placed",
+      "splendid_ranching:moss_blanket/flower_placed",
+      "splendid_ranching:moss_blanket/mushroom_placed",      
       "splendid_ranching:grass_placed"
     ],
     [],
-    ["minecraft:amethyst_geode"],
+    [
+      "minecraft:amethyst_geode"
+    ],
     [],
     [],
     [],
@@ -54,6 +63,12 @@
       },
       {
         "type": "minecraft:mooshroom",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 2
+      },     
+      {
+        "type": "minecraft:sniffer",
         "maxCount": 4,
         "minCount": 4,
         "weight": 2

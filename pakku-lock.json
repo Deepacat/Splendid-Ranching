@@ -356,48 +356,6 @@
             ]
         },
         {
-            "pakku_id": "TBe9MbxqyLZHQXdK",
-            "pakku_links": [
-                "mB5omkwfxgWtfhaA"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "artsandcrafts"
-            },
-            "name": {
-                "curseforge": "Arts & Crafts"
-            },
-            "id": {
-                "curseforge": "1034791"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "arts_and_crafts-forge-1.20.1-1.5.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6689/158/arts_and_crafts-forge-1.20.1-1.5.1.jar",
-                    "id": "6689158",
-                    "parent_id": "1034791",
-                    "hashes": {
-                        "sha1": "afe0671281f6b20e1ecae5dc5d873d4cf1acca9f",
-                        "md5": "ff0136352598581529495ccc1a9dfccb"
-                    },
-                    "required_dependencies": [
-                        "1203401"
-                    ],
-                    "size": 5185017,
-                    "date_published": "2025-06-23T23:14:13.033Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "oUsUIhFiEsRxHODF",
             "pakku_links": [
                 "2XeoiF7rC1gNA2Ek"
@@ -1101,11 +1059,11 @@
                     "mc_versions": [
                         "1.20.2",
                         "1.20.5",
-                        "1.20.3",
                         "1.20.1",
                         "1.20",
                         "1.20.6",
-                        "1.20.4"
+                        "1.20.4",
+                        "1.20.3"
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/7090/226/ComplementaryReimagined_r5.6.1.zip",
@@ -3660,11 +3618,11 @@
                     "mc_versions": [
                         "1.20.2",
                         "1.20.5",
-                        "1.20.3",
                         "1.20.1",
                         "1.20",
                         "1.20.6",
-                        "1.20.4"
+                        "1.20.4",
+                        "1.20.3"
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/6670/772/Icon Xaero's 1.21.zip",
@@ -4581,7 +4539,7 @@
                 "curseforge": "mandala-gui-dark-mode-utopia-extension"
             },
             "name": {
-                "curseforge": "Mandala's GUI - Dark mode - Utopia extension [on break]"
+                "curseforge": "Mandala's GUI - Dark mode - Utopia extension"
             },
             "id": {
                 "curseforge": "1193697"

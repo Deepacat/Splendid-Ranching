@@ -1,9 +1,9 @@
 {
-  "feature": "splendid_ranching:moss_blanket/honey_lake_configured",
+  "feature": "splendid_ranching:magma_mounts/lava_river_configured",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "minecraft:count",
+      "count": 125
     },
     {
       "type": "minecraft:in_square"

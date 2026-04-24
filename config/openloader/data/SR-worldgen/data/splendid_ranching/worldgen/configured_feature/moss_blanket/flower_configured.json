@@ -20,13 +20,25 @@
             "slow_scale": 1,
             "states": [
               {
-                "Name": "botania:white_mushroom"
+                "Name": "botania:red_shiny_flower"
               },
               {
-                "Name": "botania:light_gray_mushroom"
+                "Name": "botania:orange_shiny_flower"
               },
               {
-                "Name": "botania:gray_mushroom"
+                "Name": "botania:yellow_shiny_flower"
+              },
+              {
+                "Name": "botania:lime_shiny_flower"
+              },
+              {
+                "Name": "botania:green_shiny_flower"
+              },
+              {
+                "Name": "botania:brown_shiny_flower"
+              },
+              {
+                "Name": "minecraft:grass"
               }
             ],
             "variety": [1, 3]

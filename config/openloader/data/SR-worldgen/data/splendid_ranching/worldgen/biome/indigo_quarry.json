@@ -48,13 +48,7 @@
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 2
-      },
-      {
-        "type": "minecraft:cow",
+        "type": "minecraft:mooshroom",
         "maxCount": 4,
         "minCount": 4,
         "weight": 2
