@@ -3316,46 +3316,6 @@
             ]
         },
         {
-            "pakku_id": "8hOMMRrv43HYo6Iy",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "fog-overrides"
-            },
-            "name": {
-                "curseforge": "Fog Overrides"
-            },
-            "id": {
-                "curseforge": "398134"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "fogoverrides-1.20.1-2.3.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "fabric",
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6512/891/fogoverrides-1.20.1-2.3.0.jar",
-                    "id": "6512891",
-                    "parent_id": "398134",
-                    "hashes": {
-                        "sha1": "2069db14c417d281755918a45d869975343b3bb5",
-                        "md5": "bbdb44a5d19ddef23dc38143e9e3287e"
-                    },
-                    "required_dependencies": [
-                        "348521",
-                        "419699"
-                    ],
-                    "size": 345173,
-                    "date_published": "2025-05-09T15:31:57.477Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "mw2DKkWUSc5zF4Va",
             "type": "MOD",
             "slug": {

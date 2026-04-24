@@ -4,10 +4,12 @@
   "has_precipitation": false,
   "temperature_modifier": "none",
   "effects": {
-    "sky_color": 12638463,
-    "fog_color": 12638463,
+    "sky_color": 14669721,
+    "fog_color": 12103535,
     "water_color": 2748927,
-    "water_fog_color": 2748927
+    "water_fog_color": 2748927,
+    "foliage_color": 16675289,
+    "grass_color": 16675289
   },
   "spawners": {
     "creature": [
@@ -23,16 +25,16 @@
         "minCount": 4,
         "weight": 2
       },
-			{
-				"type": "splendid_slimes:splendid_slime",
-				"maxCount": 4,
-				"minCount": 2,
-				"weight": 10
-			}
+      {
+        "type": "splendid_slimes:splendid_slime",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 10
+      }
     ]
   },
-  "spawn_costs": { },
-  "carvers": { },
+  "spawn_costs": {},
+  "carvers": {},
   "features": [
     [
       "splendid_ranching:opal_desert/opal_spike_placed",
@@ -41,16 +43,16 @@
       "atmospheric:dune_rock",
       "atmospheric:patch_arid_sprouts"
     ],
-    [ ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
       "minecraft:glow_lichen",
       "minecraft:flower_default",

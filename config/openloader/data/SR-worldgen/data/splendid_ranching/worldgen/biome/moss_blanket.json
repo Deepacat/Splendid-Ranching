@@ -1,15 +1,18 @@
 {
   "carvers": {
-    "air": [ ]
+    "air": []
   },
-  "downfall": 0.0,
+  "downfall": 0,
   "effects": {
-    "fog_color": 12638463,
+    "sky_color": 11199394,
+    "fog_color": 10675122,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
     "foliage_color": 10387789,
     "grass_color": 9470285,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2.0,
+      "offset": 2,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
@@ -18,26 +21,23 @@
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.badlands"
-    },
-    "sky_color": 7254527,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    }
   },
   "features": [
     [
       "splendid_ranching:moss_blanket/honey_lake_placed",
       "splendid_ranching:moss_blanket/myonite_spike_placed"
     ],
-    [ ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
       "minecraft:flower_flower_forest",
       "minecraft:flower_swamp",
@@ -58,10 +58,10 @@
     ]
   ],
   "has_precipitation": false,
-  "spawn_costs": { },
+  "spawn_costs": {},
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
+    "ambient": [],
+    "axolotls": [],
     "creature": [
       {
         "type": "minecraft:sheep",
@@ -75,16 +75,16 @@
         "minCount": 4,
         "weight": 2
       },
-			{
-				"type": "splendid_slimes:splendid_slime",
-				"maxCount": 4,
-				"minCount": 2,
-				"weight": 10
-			}
+      {
+        "type": "splendid_slimes:splendid_slime",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 10
+      }
     ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [
       {
         "type": "minecraft:salmon",
@@ -99,7 +99,7 @@
         "weight": 5
       }
     ],
-    "water_creature": [ ]
+    "water_creature": []
   },
   "temperature": 0.8
 }

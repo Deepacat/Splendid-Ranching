@@ -1,10 +1,13 @@
 {
   "carvers": {
-    "air": [ ]
+    "air": []
   },
   "downfall": 0,
   "effects": {
-    "fog_color": 12638463,
+    "sky_color": 1221838,
+    "fog_color": 10675122,
+    "water_color": 2748927,
+    "water_fog_color": 2748927,
     "foliage_color": 2748927,
     "grass_color": 2748927,
     "mood_sound": {
@@ -18,23 +21,20 @@
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.badlands"
-    },
-    "sky_color": 7254527,
-    "water_color": 2748927,
-    "water_fog_color": 2748927
+    }
   },
   "features": [
-    [ 
+    [
       "splendid_ranching:slimey_sea/kelp_placed"
     ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
-    [ ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
       "minecraft:glow_lichen",
       "minecraft:flower_default",
@@ -54,14 +54,14 @@
     ]
   ],
   "has_precipitation": false,
-  "spawn_costs": { },
+  "spawn_costs": {},
   "spawners": {
-    "ambient": [ ],
-    "axolotls": [ ],
-    "creature": [ ],
-    "misc": [ ],
-    "monster": [ ],
-    "underground_water_creature": [ ],
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
     "water_ambient": [
       {
         "type": "minecraft:pufferfish",
