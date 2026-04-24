@@ -4570,6 +4570,44 @@
             ]
         },
         {
+            "pakku_id": "G6BbNODm6q4haZJ7",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lychee"
+            },
+            "name": {
+                "curseforge": "Lychee (Neo/Forge)"
+            },
+            "id": {
+                "curseforge": "567403"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Lychee-1.20.1-Forge-5.2.0.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "alpha",
+                    "url": "https://edge.forgecdn.net/files/7652/24/Lychee-1.20.1-Forge-5.2.0.jar",
+                    "id": "7652024",
+                    "parent_id": "567403",
+                    "hashes": {
+                        "sha1": "8524261350169ed3dd677849bcc984b24aa778bc",
+                        "md5": "d2757d04c258080b9a44d411290a7897"
+                    },
+                    "required_dependencies": [],
+                    "size": 694474,
+                    "date_published": "2026-02-20T04:14:44.623Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3V5H8soCsERMh5tZ",
             "type": "RESOURCE_PACK",
             "slug": {
@@ -4836,7 +4874,7 @@
             ]
         },
         {
-            "pakku_id": "yb9hgCaCXI5hrTbL",
+            "pakku_id": "6yI4eIB6uQDrnlLO",
             "type": "MOD",
             "slug": {
                 "curseforge": "modernfix"
@@ -4850,7 +4888,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modernfix-forge-5.26.2+mc1.20.1.jar",
+                    "file_name": "modernfix-forge-5.27.10+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4858,16 +4896,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7515/215/modernfix-forge-5.26.2+mc1.20.1.jar",
-                    "id": "7515215",
+                    "url": "https://edge.forgecdn.net/files/7969/597/modernfix-forge-5.27.10+mc1.20.1.jar",
+                    "id": "7969597",
                     "parent_id": "790626",
                     "hashes": {
-                        "sha1": "0adfc122e9f632d8847688c4c3ed20a1af182afa",
-                        "md5": "61332114c9c317080faaf35f8183d67b"
+                        "sha1": "122bf61991d94c8aa6acf0420c292a99e178dbd9",
+                        "md5": "040a4a75e942cee4810107150826ece6"
                     },
                     "required_dependencies": [],
-                    "size": 826829,
-                    "date_published": "2026-01-24T01:51:57.657Z"
+                    "size": 945146,
+                    "date_published": "2026-04-22T23:10:02.710Z"
                 }
             ]
         },
@@ -5204,42 +5242,6 @@
                     ],
                     "size": 1268900,
                     "date_published": "2026-02-04T02:24:55.653Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "57EC0mYv4CXcsrc6",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "nonetherportal"
-            },
-            "name": {
-                "curseforge": "No Nether Portal"
-            },
-            "id": {
-                "curseforge": "628663"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "nonetherportal-1.20.1-1.0.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4654/671/nonetherportal-1.20.1-1.0.jar",
-                    "id": "4654671",
-                    "parent_id": "628663",
-                    "hashes": {
-                        "sha1": "772155ead7f8aab06a3404c31377f26e3867f1f3",
-                        "md5": "9122c5e1e58e4ff6c448610b9a19380c"
-                    },
-                    "required_dependencies": [],
-                    "size": 3066,
-                    "date_published": "2023-07-20T09:21:57.737Z"
                 }
             ]
         },
