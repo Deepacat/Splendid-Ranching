@@ -24,7 +24,8 @@
         "favorite_food": {
             "item": "alexscaves:sea_pig"
         },
-        "ftb_quests_completion_id": "052D444FE3B9943E"
+        "ftb_quests_completion_id": "052D444FE3B9943E",
+        "slime_fusion_tier": "3"
     },
     "alien": {
         "breed": "alien",
@@ -42,7 +43,8 @@
         "favorite_food": {
             "item": "supplementaries:soap"
         },
-        "ftb_quests_completion_id": "3169DD099A3FF5E0"
+        "ftb_quests_completion_id": "3169DD099A3FF5E0",
+        "slime_fusion_tier": "0"
     },
     "all_seeing": {
         "breed": "all_seeing",
@@ -74,7 +76,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "06BB4671BDC0A766"
+        "ftb_quests_completion_id": "06BB4671BDC0A766",
+        "slime_fusion_tier": "1"
     },
     "bitwise": {
         "breed": "bitwise",
@@ -86,7 +89,8 @@
         "diet": "diet.splendid_slimes.bitwise",
         "foods": [ { "tag": "forge:chests" } ],
         "favorite_food": { "item": "woodworks:jungle_chest" },
-        "ftb_quests_completion_id": "51DBC0A96CCD6627"
+        "ftb_quests_completion_id": "51DBC0A96CCD6627",
+        "slime_fusion_tier": "1"
     },
     "blazing": {
         "breed": "blazing",
@@ -107,7 +111,8 @@
         "traits": [
             "flaming"
         ],
-        "ftb_quests_completion_id": "530B9AF1192EDDF4"
+        "ftb_quests_completion_id": "530B9AF1192EDDF4",
+        "slime_fusion_tier": "1"
     },
     "bony": {
         "breed": "bony",
@@ -124,7 +129,8 @@
         "favorite_food": {
             "item": "farmersdelight:cake_slice"
         },
-        "ftb_quests_completion_id": "50AE7ECCF58F4E9F"
+        "ftb_quests_completion_id": "50AE7ECCF58F4E9F",
+        "slime_fusion_tier": "1"
     },
     "boomcat": {
         "breed": "boomcat",
@@ -143,7 +149,8 @@
         "traits": [
             "explosive"
         ],
-        "ftb_quests_completion_id": "4F42D5F847508066"
+        "ftb_quests_completion_id": "4F42D5F847508066",
+        "slime_fusion_tier": "1"
     },
     "burger": {
         "breed": "burger",
@@ -157,7 +164,8 @@
         "foods": [
             { "item": "farmersdelight:hamburger" }
         ],
-        "ftb_quests_completion_id": "37F6889DC0F2CCFA"
+        "ftb_quests_completion_id": "37F6889DC0F2CCFA",
+        "slime_fusion_tier": "∞"
     },
     "candy": {
         "breed": "candy",
@@ -177,7 +185,8 @@
         "favorite_food": {
             "item": "alexscaves:sweetish_fish_red"
         },
-        "ftb_quests_completion_id": "423926AA90B65D90"
+        "ftb_quests_completion_id": "423926AA90B65D90",
+        "slime_fusion_tier": "0"
     },
     "charred": {
         "breed": "charred",
@@ -194,7 +203,8 @@
         "favorite_food": {
             "item": "quark:azalea_log"
         },
-        "ftb_quests_completion_id": "333675D30B044EF9"
+        "ftb_quests_completion_id": "333675D30B044EF9",
+        "slime_fusion_tier": "2"
     },
     "crimson": {
         "breed": "crimson",
@@ -211,7 +221,8 @@
         "favorite_food": {
             "item": "minecraft:twisting_vines"
         },
-        "ftb_quests_completion_id": "587AA23E52AD9750"
+        "ftb_quests_completion_id": "587AA23E52AD9750",
+        "slime_fusion_tier": "2"
     },
     "crystal": {
         "breed": "crystal",
@@ -228,7 +239,8 @@
         "favorite_food": {
             "item": "minecraft:glow_berries"
         },
-        "ftb_quests_completion_id": "0F3184AA9A7F9215"
+        "ftb_quests_completion_id": "0F3184AA9A7F9215",
+        "slime_fusion_tier": "0"
     },
     "dark": {
         "breed": "dark",
@@ -248,7 +260,8 @@
         "favorite_food": {
             "item": "minecraft:glow_ink_sac"
         },
-        "ftb_quests_completion_id": "362B6F293019118E"
+        "ftb_quests_completion_id": "362B6F293019118E",
+        "slime_fusion_tier": "2"
     },
     "dusty": {
         "breed": "dusty",
@@ -263,7 +276,8 @@
         "favorite_food": {
             "item": "create:powdered_obsidian"
         },
-        "ftb_quests_completion_id": "7FFCBAE693712C5E"
+        "ftb_quests_completion_id": "7FFCBAE693712C5E",
+        "slime_fusion_tier": "0"
     },
     "ender": {
         "breed": "ender",
@@ -285,7 +299,8 @@
             "tp @e[distance=..8] @e[limit=1,sort=nearest]",
             "playsound minecraft:entity.enderman.teleport block @a[distance=..10]"
         ],
-        "ftb_quests_completion_id": "2735966429A60088"
+        "ftb_quests_completion_id": "2735966429A60088",
+        "slime_fusion_tier": "2"
     },
     "fire": {
         "breed": "fire",
@@ -304,7 +319,8 @@
         "favorite_food": {
             "item": "supplementaries:lumisene_bottle"
         },
-        "ftb_quests_completion_id": "2C9811B1825871A6"
+        "ftb_quests_completion_id": "2C9811B1825871A6",
+        "slime_fusion_tier": "0"
     },
     "forge": {
         "breed": "forge",
@@ -321,7 +337,8 @@
         "favorite_food": {
             "item": "minecraft:blue_orchid"
         },
-        "ftb_quests_completion_id": "3491F153A469180E"
+        "ftb_quests_completion_id": "3491F153A469180E",
+        "slime_fusion_tier": "4"
     },
     "forlorn": {
         "breed": "forlorn",
@@ -339,7 +356,8 @@
         "favorite_food": {
             "item": "alexscaves:thornwood_branch"
         },
-        "ftb_quests_completion_id": "5A1749298FC9BB0B"
+        "ftb_quests_completion_id": "5A1749298FC9BB0B",
+        "slime_fusion_tier": "0"
     },
     "fungus": {
         "breed": "fungus",
@@ -362,7 +380,8 @@
         "favorite_food": {
             "item": "minecraft:blue_orchid"
         },
-        "ftb_quests_completion_id": "3BD8B65993252638"
+        "ftb_quests_completion_id": "3BD8B65993252638",
+        "slime_fusion_tier": "1"
     },
     "gem": {
         "breed": "gem",
@@ -381,7 +400,8 @@
         "favorite_food": {
             "item": "minecraft:calcite"
         },
-        "ftb_quests_completion_id": "7F0B238E29C48562"
+        "ftb_quests_completion_id": "7F0B238E29C48562",
+        "slime_fusion_tier": "2"
     },
     "geode": {
         "breed": "geode",
@@ -400,7 +420,8 @@
         "favorite_food": {
             "item": "architects_palette:myonite"
         },
-        "ftb_quests_completion_id": "6C8B7196598C9E73"
+        "ftb_quests_completion_id": "6C8B7196598C9E73",
+        "slime_fusion_tier": "2"
     },
     "gold": {
         "breed": "gold",
@@ -421,7 +442,8 @@
             "moody",
             "picky"
         ],
-        "ftb_quests_completion_id": "3B7CE5A7EAA96817"
+        "ftb_quests_completion_id": "3B7CE5A7EAA96817",
+        "slime_fusion_tier": "4"
     },
     "infernal": {
         "breed": "infernal",
@@ -438,7 +460,8 @@
         "favorite_food": {
             "item": "architects_palette:molten_nether_bricks"
         },
-        "ftb_quests_completion_id": "73A752FF0F865C2A"
+        "ftb_quests_completion_id": "73A752FF0F865C2A",
+        "slime_fusion_tier": "3"
     },
     "jewel": {
         "breed": "jewel",
@@ -453,7 +476,8 @@
         "favorite_food": {
             "item": "minecraft:amethyst_cluster"
         },
-        "ftb_quests_completion_id": "717D653598BBDEEA"
+        "ftb_quests_completion_id": "717D653598BBDEEA",
+        "slime_fusion_tier": "3"
     },
     "jurassic": {
         "breed": "jurassic",
@@ -468,7 +492,8 @@
         "favorite_food": {
             "item": "minecraft:cooked_beef"
         },
-        "ftb_quests_completion_id": "6877F6A473DAF722"
+        "ftb_quests_completion_id": "6877F6A473DAF722",
+        "slime_fusion_tier": "0"
     },
     "luminous": {
         "breed": "luminous",
@@ -489,7 +514,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "54F64EB116EEA59C"
+        "ftb_quests_completion_id": "54F64EB116EEA59C",
+        "slime_fusion_tier": "2"
     },
     "lush": {
         "breed": "lush",
@@ -504,7 +530,8 @@
         "favorite_food": {
             "item": "quark:moss_paste"
         },
-        "ftb_quests_completion_id": "28D85A3B22E4845F"
+        "ftb_quests_completion_id": "28D85A3B22E4845F",
+        "slime_fusion_tier": "0"
     },
     "magma": {
         "breed": "magma",
@@ -519,7 +546,8 @@
         "favorite_food": {
             "item": "alexscaves:primal_magma"
         },
-        "ftb_quests_completion_id": "2AFBCAC9F0546D94"
+        "ftb_quests_completion_id": "2AFBCAC9F0546D94",
+        "slime_fusion_tier": "2"
     },
     "magnetic": {
         "breed": "magnetic",
@@ -534,7 +562,8 @@
         "favorite_food": {
             "item": "minecraft:iron_ingot"
         },
-        "ftb_quests_completion_id": "1DC6F245FD83CEDB"
+        "ftb_quests_completion_id": "1DC6F245FD83CEDB",
+        "slime_fusion_tier": "2"
     },
     "mechanical": {
         "breed": "mechanical",
@@ -549,7 +578,8 @@
         "favorite_food": {
             "item": "create:andesite_alloy"
         },
-        "ftb_quests_completion_id": "4E69B32B4FB927FC"
+        "ftb_quests_completion_id": "4E69B32B4FB927FC",
+        "slime_fusion_tier": "3"
     },
     "metallic": {
         "breed": "metallic",
@@ -564,7 +594,8 @@
         "favorite_food": {
             "item": "galosphere:raw_silver"
         },
-        "ftb_quests_completion_id": "05FE873E813664F3"
+        "ftb_quests_completion_id": "05FE873E813664F3",
+        "slime_fusion_tier": "3"
     },
     "minty": {
         "breed": "minty",
@@ -599,7 +630,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "142374BD43478FDE"
+        "ftb_quests_completion_id": "142374BD43478FDE",
+        "slime_fusion_tier": "3"
     },
     "monster": {
         "breed": "monster",
@@ -614,7 +646,8 @@
         "favorite_food": {
             "item": "minecraft:cooked_porkchop"
         },
-        "ftb_quests_completion_id": "707488F243981774"
+        "ftb_quests_completion_id": "707488F243981774",
+        "slime_fusion_tier": "0"
     },
     "neodymium": {
         "breed": "neodymium",
@@ -629,7 +662,8 @@
         "favorite_food": {
             "item": "minecraft:iron_nugget"
         },
-        "ftb_quests_completion_id": "5A047ED5158DAF07"
+        "ftb_quests_completion_id": "5A047ED5158DAF07",
+        "slime_fusion_tier": "0"
     },
     "nuclear": {
         "breed": "nuclear",
@@ -641,7 +675,8 @@
         "hat_y_offset": -0.55,
         "diet": "diet.splendid_slimes.nuclear",
         "foods": [ { "item": "alexscaves:uranium_rod" } ],
-        "ftb_quests_completion_id": "7E5A4ACA36E06A22"
+        "ftb_quests_completion_id": "7E5A4ACA36E06A22",
+        "slime_fusion_tier": "5"
     },
     "ocean": {
         "breed": "ocean",
@@ -656,7 +691,8 @@
         "favorite_food": {
             "item": "minecraft:pufferfish"
         },
-        "ftb_quests_completion_id": "0319A496D4974231"
+        "ftb_quests_completion_id": "0319A496D4974231",
+        "slime_fusion_tier": "1"
     },
     "orby": {
         "breed": "orby",
@@ -687,7 +723,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "1A6990DB1DE87EED"
+        "ftb_quests_completion_id": "1A6990DB1DE87EED",
+        "slime_fusion_tier": "0"
     },
     "phantom": {
         "breed": "phantom",
@@ -711,7 +748,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "3D01A0106E5D0D22"
+        "ftb_quests_completion_id": "3D01A0106E5D0D22",
+        "slime_fusion_tier": "1"
     },
     "prisma": {
         "breed": "prisma",
@@ -755,7 +793,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "0F78CB79755F9CB5"
+        "ftb_quests_completion_id": "0F78CB79755F9CB5",
+        "slime_fusion_tier": "1"
     },
     "puddle": {
         "breed": "puddle",
@@ -794,7 +833,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "09E217B6D14E3634"
+        "ftb_quests_completion_id": "09E217B6D14E3634",
+        "slime_fusion_tier": "0"
     },
     "quantum": {
         "breed": "quantum",
@@ -806,7 +846,8 @@
         "hat_y_offset": -0.55,
         "diet": "diet.splendid_slimes.quantum",
         "foods": [ { "item": "architects_palette:unobtanium" } ],
-        "ftb_quests_completion_id": "26AFDD9B638581F9"
+        "ftb_quests_completion_id": "26AFDD9B638581F9",
+        "slime_fusion_tier": "5"
     },
     "rad": {
         "breed": "rad",
@@ -821,7 +862,8 @@
         "favorite_food": {
             "item": "alexscaves:slam"
         },
-        "ftb_quests_completion_id": "2B2365F43F9D88DE"
+        "ftb_quests_completion_id": "2B2365F43F9D88DE",
+        "slime_fusion_tier": "0"
     },
     "radiant": {
         "breed": "radiant",
@@ -836,7 +878,8 @@
         "favorite_food": {
             "item": "alexscaves:sundae"
         },
-        "ftb_quests_completion_id": "218F7AFD98D56939"
+        "ftb_quests_completion_id": "218F7AFD98D56939",
+        "slime_fusion_tier": "3"
     },
     "rocky": {
         "breed": "rocky",
@@ -851,7 +894,8 @@
         "favorite_food": {
             "item": "minecraft:pumpkin_pie"
         },
-        "ftb_quests_completion_id": "5EC77BFC2038ABA2"
+        "ftb_quests_completion_id": "5EC77BFC2038ABA2",
+        "slime_fusion_tier": "0"
     },
     "rotting": {
         "breed": "rotting",
@@ -889,7 +933,8 @@
         "attack_commands": [
             "summon zombie ~ ~ ~ {DeathLootTable:\"minecraft:empty\",Health:8f,ArmorItems:[{},{},{},{id:\"minecraft:slime_block\",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:generic.max_health,Base:8}]}"
         ],
-        "ftb_quests_completion_id": "256C54725BEFD9B1"
+        "ftb_quests_completion_id": "256C54725BEFD9B1",
+        "slime_fusion_tier": "1"
     },
     "sandy": {
         "breed": "sandy",
@@ -904,7 +949,8 @@
         "favorite_food": {
             "item": "atmospheric:passion_fruit"
         },
-        "ftb_quests_completion_id": "46220822EECA2E67"
+        "ftb_quests_completion_id": "46220822EECA2E67",
+        "slime_fusion_tier": "0"
     },
     "sculk": {
         "breed": "sculk",
@@ -917,7 +963,8 @@
         "diet": "diet.splendid_slimes.sculk",
         "foods": [ { "item": "create:experience_nugget" } ],
         "favorite_food": { "item": "create:experience_nugget" },
-        "ftb_quests_completion_id": "63A1286AF1A93756"
+        "ftb_quests_completion_id": "63A1286AF1A93756",
+        "slime_fusion_tier": "2"
     },
     "shulking": {
         "breed": "shulking",
@@ -943,7 +990,8 @@
                 "amplifier": 0
             }
         ],
-        "ftb_quests_completion_id": "67193DFECF2CC18E"
+        "ftb_quests_completion_id": "67193DFECF2CC18E",
+        "slime_fusion_tier": "3"
     },
     "slimy": {
         "breed": "slimy",
@@ -958,7 +1006,8 @@
         "favorite_food": {
             "item": "minecraft:blue_orchid"
         },
-        "ftb_quests_completion_id": "57C0B3292BFDF2AB"
+        "ftb_quests_completion_id": "57C0B3292BFDF2AB",
+        "slime_fusion_tier": "0"
     },
     "stony": {
         "breed": "stony",
@@ -973,7 +1022,8 @@
         "favorite_food": {
             "item": "create:scoria"
         },
-        "ftb_quests_completion_id": "4F2ACF039376327F"
+        "ftb_quests_completion_id": "4F2ACF039376327F",
+        "slime_fusion_tier": "1"
     },
     "sweet": {
         "breed": "sweet",
@@ -1002,7 +1052,8 @@
                 "amplifier": 3
             }
         ],
-        "ftb_quests_completion_id": "2DC21C014D1555CC"
+        "ftb_quests_completion_id": "2DC21C014D1555CC",
+        "slime_fusion_tier": "0"
     },
     "tabby": {
         "breed": "tabby",
@@ -1019,7 +1070,8 @@
             "minecraft:chicken"
         ],
         "favorite_entity": "minecraft:rabbit",
-        "ftb_quests_completion_id": "4F8209100D13F58D"
+        "ftb_quests_completion_id": "4F8209100D13F58D",
+        "slime_fusion_tier": "0"
     },
     "tendril": {
         "breed": "tendril",
@@ -1031,7 +1083,8 @@
         "hat_y_offset": -0.55,
         "diet": "diet.splendid_slimes.tendril",
         "foods": [ { "item": "minecraft:sculk_sensor" } ],
-        "ftb_quests_completion_id": "11A3EBB6B3DE9C51"
+        "ftb_quests_completion_id": "11A3EBB6B3DE9C51",
+        "slime_fusion_tier": "3"
     },
     "time": {
         "breed": "time",
@@ -1043,7 +1096,8 @@
         "hat_y_offset": -0.55,
         "diet": "diet.splendid_slimes.time",
         "foods": [ { "item": "create:experience_block" } ],
-        "ftb_quests_completion_id": "704D7E516BDEA169"
+        "ftb_quests_completion_id": "704D7E516BDEA169",
+        "slime_fusion_tier": "4"
     },
     "tree": {
         "breed": "tree",
@@ -1058,7 +1112,8 @@
         "favorite_food": {
             "item": "create:tree_fertilizer"
         },
-        "ftb_quests_completion_id": "6739425141BF426D"
+        "ftb_quests_completion_id": "6739425141BF426D",
+        "slime_fusion_tier": "1"
     },
     "warped": {
         "breed": "warped",
@@ -1073,7 +1128,8 @@
         "favorite_food": {
             "item": "minecraft:weeping_vines"
         },
-        "ftb_quests_completion_id": "183C39E060E3E5A3"
+        "ftb_quests_completion_id": "183C39E060E3E5A3",
+        "slime_fusion_tier": "2"
     },
     "webby": {
         "breed": "webby",
@@ -1082,7 +1138,8 @@
         "particle": {
             "item": "minecraft:cobweb"
         },
-        "diet": "disabled"
+        "diet": "disabled",
+        "slime_fusion_tier": "0"
     },
     "weeping": {
         "breed": "weeping",
@@ -1099,6 +1156,7 @@
         "favorite_food": {
             "item": "minecraft:warped_fungus"
         },
-        "ftb_quests_completion_id": "19B9A4B363552F3A"
+        "ftb_quests_completion_id": "19B9A4B363552F3A",
+        "slime_fusion_tier": "2"
     }
 }
