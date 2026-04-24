@@ -50,4 +50,15 @@ ItemEvents.tooltip(e => {
     e.add('numismatics:cog', "§8[§c I guess you can spend me :| §8]")
     e.add('numismatics:crown', "§8[§6 What're you lookin' at :P §8]")
     e.add('numismatics:sun', "§8[§d Mornin' Rancher :) §8]")
+    // Vanilla
+    e.add('minecraft:flint_and_steel', ["§8[§7 Portals may be created, however", "§cthe nether is disabled! §8]"])
+    // Create
+    e.add('create:chromatic_compound', [
+        "§7- At the touch of a beacons beam, ", "§7becomes infused with §rradiance",
+        "§7- In the dark of the voids despair, ", "§7becomes infused with §8shadows"
+    ])
+
+    e.add('create:refined_radiance', "§7Forged by a §rgreat light.")
+    e.add('create:shadow_steel', "§7Forged by a §8dark void.")
+    // Architects palette
 })
