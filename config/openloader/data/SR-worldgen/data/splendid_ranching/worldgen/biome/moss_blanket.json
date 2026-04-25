@@ -3,13 +3,14 @@
     "air": []
   },
   "downfall": 0,
+  "downfall": 0,
   "effects": {
     "sky_color": 11199394,
     "fog_color": 10675122,
     "water_color": 4159204,
     "water_fog_color": 329011,
-    "foliage_color": 10387789,
-    "grass_color": 9470285,
+    "grass_color": 248832,
+    "foliage_color": 248832,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2,
@@ -26,7 +27,16 @@
   "features": [
     [
       "splendid_ranching:moss_blanket/honey_lake_placed",
-      "splendid_ranching:moss_blanket/myonite_spike_placed"
+      "splendid_ranching:moss_blanket/melon_placed",
+      "splendid_ranching:moss_blanket/pumpkin_placed",
+      "splendid_ranching:moss_blanket/mushroom_shelf_placed",
+      "splendid_ranching:moss_blanket/huge_red_mushroom",
+      "splendid_ranching:moss_blanket/moss_placed",
+      "splendid_ranching:moss_blanket/sweet_berry_placed",
+      "splendid_ranching:moss_blanket/passion_vines_placed",
+      "splendid_ranching:moss_blanket/flower_placed",
+      "splendid_ranching:moss_blanket/mushroom_placed",      
+      "splendid_ranching:grass_placed"
     ],
     [],
     [
@@ -70,7 +80,13 @@
         "weight": 2
       },
       {
-        "type": "minecraft:pig",
+        "type": "minecraft:mooshroom",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 2
+      },     
+      {
+        "type": "minecraft:sniffer",
         "maxCount": 4,
         "minCount": 4,
         "weight": 2

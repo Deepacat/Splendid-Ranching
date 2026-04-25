@@ -1,9 +1,9 @@
 {
-  "feature": "splendid_ranching:dry_reef/dry_rock_configured",
+  "feature": "minecraft:patch_berry_bush",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 2
+      "type": "minecraft:rarity_filter",
+      "chance": 32
     },
     {
       "type": "minecraft:in_square"
@@ -14,10 +14,6 @@
     },
     {
       "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 4
     }
   ]
 }

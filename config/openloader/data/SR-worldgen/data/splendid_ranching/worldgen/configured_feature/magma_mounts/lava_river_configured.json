@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:lava"
+        }
+      },
+      "rules": []
+    },
+    "radius": 8,
+    "half_height": 4,
+    "target": {
+      "type": "minecraft:matching_fluids",
+      "fluids": "minecraft:water"
+    }
+  }
+}

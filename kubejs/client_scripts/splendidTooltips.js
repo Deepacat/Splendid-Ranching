@@ -8,6 +8,7 @@ NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
 
 // Request slime value data when reloading assets (f3+t)
 ClientEvents.highPriorityAssets(e => {
+    if (Utils.server === null) { return }
     Utils.server.sendData('kubejs:slime_value_data_client_request')
 })
 

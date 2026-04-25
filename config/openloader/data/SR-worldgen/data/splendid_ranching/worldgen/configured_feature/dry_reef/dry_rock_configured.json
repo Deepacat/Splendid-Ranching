@@ -11,7 +11,7 @@
             }
           }
         },
-        "placement": [ ]
+        "placement": []
       },
       {
         "feature": {
@@ -22,42 +22,36 @@
                 "type": "minecraft:weighted_state_provider",
                 "entries": [
                   {
-                    "weight": 65,
+                    "weight": 85,
                     "data": {
                       "Name": "minecraft:stone"
                     }
                   },
                   {
-                    "weight": 20,
-                    "data": {
-                      "Name": "minecraft:coal_ore"
-                    }
-                  },
-                  {
-                    "weight": 14,
+                    "weight": 13,
                     "data": {
                       "Name": "minecraft:iron_ore"
                     }
                   },
                   {
-                    "weight": 1,
+                    "weight": 2,
                     "data": {
                       "Name": "minecraft:raw_iron_block"
                     }
                   }
                 ]
               },
-              "rules": [ ]
+              "rules": []
             },
             "radius": 2,
             "half_height": 1,
             "target": {
               "type": "minecraft:matching_blocks",
-              "blocks": [ "minecraft:stone" ]
+              "blocks": ["minecraft:stone"]
             }
           }
         },
-        "placement": [ ]
+        "placement": []
       }
     ]
   }

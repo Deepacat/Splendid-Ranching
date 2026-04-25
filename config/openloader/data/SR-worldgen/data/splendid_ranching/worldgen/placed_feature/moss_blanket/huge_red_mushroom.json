@@ -1,9 +1,9 @@
 {
-  "feature": "atmospheric:yucca",
+  "feature": "splendid_ranching:moss_blanket/huge_red_mushroom_configured",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 1
+      "chance": 4
     },
     {
       "type": "minecraft:in_square"
@@ -20,10 +20,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:birch_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:red_mushroom"
         }
       }
     }

@@ -1,9 +1,9 @@
 {
-  "feature": "atmospheric:yucca",
+  "feature": "cluttered:blue_mushroom",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 1
+      "type": "minecraft:count",
+      "count": 1
     },
     {
       "type": "minecraft:in_square"
@@ -20,12 +20,13 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:birch_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:red_mushroom"
         }
       }
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 4
     }
   ]
 }
