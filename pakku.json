@@ -8,7 +8,9 @@
         "defaultconfigs",
         "kubejs",
         "ldlib",
-        "!kubejs/probe/**",
+        "!kubejs/probe/",
+        "!kubejs/modpackData/**",
+        "kubejs/modpackData/*.txt",
         "!resourcepacks"
     ],
     "server_overrides": [

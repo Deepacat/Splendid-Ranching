@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.4.0]
+### Changes
+- Toooons of item tooltips!
+- Improved existing tooltips
+- More tooltips... but on slimes!
+- Made the plort market monitors glow in the dark
+- Cleaned up bank sharing quest
+- Gadgets quest page has had some touchups
+- Unhid the quest chapters that were previously hidden, 
+    get a better look at your future with the SSCCOGAC!
+- Edited the xaeromap configs to be a bit better about not covering your minimap with names
+- New textures on some common blocks around the dry reef
+- Improved the market code backend alot... Preparing for future updates!
+- Improved sky and fog coloring across biomes
+- Added carryon but it only works on regular animals (To bring them home easier)
+- Made quantum slime food actually obtainable!
+- In relation... The void is now legally accessible...
+- Added many debug commands under /splendidranching, maybe you'll like coinsFromValue?
+
 ## [0.3.0]
 ### Changes
 - Added EMI++, Leaf me be, Treechopping, TMRV Replaces JEI, modern dynamics (Will balance recipes later as part of thermal progression)

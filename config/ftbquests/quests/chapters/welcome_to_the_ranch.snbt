@@ -677,7 +677,7 @@
 				""
 				"Fusion Breeding is the process of merging multiple &dslimes&r in an area, giving a chance to create entirely new &dslimes&r that are &6essential&r to improving your home base and equipment"
 				""
-				"The &eFusion Breeder&r intakes &dslimes&r in an area behind it to perform fusions, some &dslimes&r may require certain &ecatalyst input items&r using the machines interface"
+				"The &eFusion Breeder&r intakes &d&nprimitive slimes&r in an area behind it to perform fusions, some &dslimes&r may require certain &ecatalyst input items&r using the machines interface"
 				""
 				"Fusion breeding outputs &none single &eslime heart&r! The chances displayed in the recipe guide are weights"
 				""
@@ -721,7 +721,6 @@
 				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches."
 			]
 			hide_details_until_startable: true
-			hide_until_deps_complete: true
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			min_width: 300
@@ -928,7 +927,7 @@
 			tasks: [
 				{
 					id: "129E4003BAD1A743"
-					title: "The nature of the druids calls to me"
+					title: "The nature of the druids calls to me!"
 					type: "checkmark"
 				}
 				{
@@ -997,7 +996,7 @@
 			tasks: [
 				{
 					id: "109898E1B0AB47CF"
-					title: "I am a computer scientist!"
+					title: "I am a computer scientist! Maybe... I want these regardless"
 					type: "checkmark"
 				}
 				{
@@ -1108,7 +1107,6 @@
 			]
 			hide_dependent_lines: true
 			hide_details_until_startable: true
-			hide_until_deps_complete: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
 			min_width: 250
@@ -1174,7 +1172,6 @@
 				"And remember to explore below! There could be new &dslimes&r to be found. &9^o^"
 			]
 			hide_details_until_startable: true
-			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "naturescompass:naturescompass"
@@ -1208,7 +1205,15 @@
 				"436E38D04AA33B83"
 				"001EDDF575B9A323"
 			]
-			description: ["view deps"]
+			description: [
+				"The pack is still in development ! !"
+				""
+				"This quest chapter was an introduction to the ranching mechanics, with not many longterm goals"
+				""
+				"This quest serves as an end goal with every research \\& collection dependency, although it's... Likely incompletable currently!"
+				""
+				"Go research the things and automate the slimes :) Look forward to more content soon!"
+			]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -1230,11 +1235,16 @@
 		{
 			dependencies: ["7BC9569B15296756"]
 			description: [
-				"Blaze banker lets you create a new group bank account linked to the burner itself"
+				"The &eBlaze Banker&r lets you create a new group &cbank account&r, linked to the burner itself!"
 				""
-				"You can place a card in the banker to link the card to the banker account, then equip it to access the account from a bank terminal"
+				"You may place a &eBlaze Banker&r to become the owner of it, other people cannot open your &eBlaze Banker&r initially! You may also rename it by clicking its name at the top"
 				""
-				"place ID cards in the banker to allow other players accessing the bank account"
+				"Then other players may right click their &eID Card&r to assign themselves to it, and hand you the card to deposit into the shared accounts &eID Card&r storage, giving them access!"
+				""
+				"All players can then place their &eBank Card&r into the &eBlaze Burner&r to link it, retrieve the newly linked card, and equip in their Curios/Accessory slots to link themself to it!"
+				""
+				"&a[&r!&a]"
+				"&8[&7 You can shift right-click with a &eBank Card&7 or &eID Card&7 to clear its ownership (view on tooltip) &8]"
 			]
 			icon: "numismatics:magenta_id_card"
 			id: "35DE5B33B2B4ABDE"
@@ -1251,15 +1261,22 @@
 					team_reward: false
 					type: "item"
 				}
+				{
+					id: "66CFE9886ED477E9"
+					item: "numismatics:magenta_card"
+					team_reward: false
+					type: "item"
+				}
 			]
+			subtitle: "Share a bank account together!"
 			tasks: [{
 				id: "3584AA35BD54FBB9"
 				title: "coop starter pack "
 				type: "checkmark"
 			}]
-			title: "Co-op banking"
+			title: "Co-Operative Bank Sharing!"
 			x: 0.25d
-			y: -4.0d
+			y: -3.25d
 		}
 	]
 	title: "&d Ranching &r✔"

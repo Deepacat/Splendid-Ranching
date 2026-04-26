@@ -1,6 +1,8 @@
 // priority: -20
 // Borrowed from society
 const $Numismatics = Java.loadClass("dev.ithundxr.createnumismatics.Numismatics")
+const $BlockEntity = Java.loadClass("net.minecraft.world.level.block.entity.BlockEntity");
+
 global.GLOBAL_BANK = $Numismatics.BANK
 
 global.showPonderLayer = (scene, speed, height, exclude) => {
@@ -55,6 +57,19 @@ global.coinMap = [
     { coin: "numismatics:bevel", value: 8 },
     { coin: "numismatics:spur", value: 1 },
 ]
+
+global.getValuePrefix = (mult, isHot) => {
+    if (isHot) return "§6🔥 ";
+    return mult == 0 ? '§7' : mult < 0 ? '§c' : '§a'
+}
+
+global.getPlortText = (mult, plortData) => {
+    let text =
+        `${global.getValuePrefix(mult, plortData.isHot)}` +
+        `${global.calculateCost(plortData.currentValue, 1, 1)}` +
+        `${mult === 0 ? '' : mult < 0 ? '↓' : '↑'}`
+    return text
+}
 
 // For cases where prices are auto-generated, round
 const roundPrice = (price) => {

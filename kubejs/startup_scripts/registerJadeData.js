@@ -1,5 +1,3 @@
-let $BlockEntity = Java.loadClass("net.minecraft.world.level.block.entity.BlockEntity");
-
 JadeEvents.onCommonRegistration(e => {
     function setNbtKeys(blockEntity, tag, keys) {
         for (let key of keys) {

@@ -25,17 +25,17 @@ EntityEvents.spawned('splendid_slimes:splendid_slime', e => {
         e.cancel()
     }
 
-    let randomType = slimeBiomeList[biome][Math.floor(Math.random() * slimeBiomeList[biome].length)]
+    let randomSlimeBreed = slimeBiomeList[biome][Math.floor(Math.random() * slimeBiomeList[biome].length)]
 
-    if (global.slimeDefinitionsData[randomType] === undefined) {
-        console.error(`slime type ${randomType} not found in slimeDefinitionsData`)
+    if (slimeBaseDefinitions[randomSlimeBreed] === undefined) {
+        console.error(`slime breed ${randomSlimeBreed} not found in slimeDefinitionsData`)
         e.cancel()
     }
 
     let copyNbt = Object.assign({}, slimeMob.nbt)
 
     let newSlimeNbt = {
-        "Breed": `splendid_slimes:${randomType}`,
+        "Breed": `splendid_slimes:${randomSlimeBreed}`,
         "Attributes": [
             {
                 "Name": "minecraft:generic.max_health",

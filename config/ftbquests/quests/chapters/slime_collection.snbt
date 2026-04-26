@@ -93,7 +93,6 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
 			height: 1.0d
 			image: "polylib:textures/gui/widgets/progress_arrow_full.png"
 			rotation: 0.0d
@@ -154,6 +153,17 @@
 			width: 1.0d
 			x: 7.5d
 			y: -1.0d
+		}
+		{
+			click: " "
+			dependency: "37F6889DC0F2CCFA"
+			height: 1.0d
+			hover: ["Tier... ∞??? World threatening slimes??"]
+			image: "sophisticatedbackpacks:item/infinity_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 10.5d
 		}
 	]
 	order_index: 1
@@ -691,6 +701,13 @@
 		}
 		{
 			dependencies: ["42831C5E7A8C2BA0"]
+			description: [
+				"Orby slimes are hungry for live things, and will fight for their meal!"
+				""
+				"Right clicking an Orby Slime can give it your item! Regardless of it being an accident or not..."
+				""
+				"In case of accident, you may want to trade it something it deems a stronger weapon in return!"
+			]
 			id: "1A6990DB1DE87EED"
 			tasks: [{
 				id: "75A96CDC8273058D"
@@ -877,8 +894,8 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			hide_details_until_startable: false
-			hide_until_deps_complete: true
+			hide_details_until_startable: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: false
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "42831C5E7A8C2BA0"
@@ -1452,9 +1469,11 @@
 				"7E5A4ACA36E06A22"
 				"26AFDD9B638581F9"
 			]
+			description: [""]
 			id: "37F6889DC0F2CCFA"
 			invisible: true
 			secret: true
+			subtitle: "What have you created?"
 			tasks: [{
 				id: "56AD8590E1D6A330"
 				item: {

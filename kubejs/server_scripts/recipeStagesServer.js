@@ -4,7 +4,8 @@ ServerEvents.recipes(e => {
     for (let [stageId, stageObj] of Object.entries(global.recipeStages)) {
         // loop over recipes that output the staged ingredient
         for (let ingredient of stageObj.ingredients) {
-            e.stage({ output: ingredient }, stageId)
+            e.stage({ output: ingredient, type: "minecraft:crafting_shaped" }, stageId)
+            e.stage({ output: ingredient, type: "minecraft:crafting_shapeless" }, stageId)
         }
     }
 })

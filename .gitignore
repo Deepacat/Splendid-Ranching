@@ -56,6 +56,9 @@
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
 /kubejs/*/jsconfig.json
+# Generated data for scripts
+kubejs/modpackData/**
+!kubejs/modpackData/*.txt
 
 # Client configs (with exceptions below)
 /config/*client.*
@@ -123,3 +126,5 @@
 /.DS_Store
 /.AppleDouble
 /.LSOverride
+config/xaeroworldmap.txt
+config/xaerominimap_entities.json

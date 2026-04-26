@@ -57,7 +57,7 @@
   "treechop": {
     "plugin": true,
     "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
+    "show_num_chops_remaining": false
   },
   "kubejs": {
     "market_monitor": true
@@ -104,8 +104,5 @@
   },
   "supplementaries": {
     "hat_stand": true
-  },
-  "astages": {
-    "block_component_provider": true
   }
 }

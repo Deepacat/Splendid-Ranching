@@ -6,7 +6,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -24,8 +24,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -41,7 +41,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -52,8 +52,8 @@
 				item: "quark:trowel"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -151,8 +151,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -190,7 +190,7 @@
 				}
 			]
 			x: -1.0d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -214,8 +214,8 @@
 				item: "supplementaries:soap"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -301,9 +301,13 @@
 		}
 		{
 			dependencies: ["53EBD9587E86A7B9"]
-			description: [""]
-			hide_until_deps_complete: true
+			description: [
+				"Very much recommend reading into these! Especially that bottom left row..."
+				""
+				"Many helpful tools to be found, especially the Felling Axe and paxels!"
+			]
 			id: "641BB69F5A27AABE"
+			subtitle: "&8[&r Helpful gadgets! &8]"
 			tasks: [{
 				id: "64A85F04D00289B0"
 				title: "Gadgets!"
@@ -431,7 +435,7 @@
 			]
 			title: "Building Wands"
 			x: -2.0d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -475,7 +479,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["641BB69F5A27AABE"]
@@ -514,7 +518,19 @@
 			}]
 			title: "Paxels"
 			x: -1.0d
-			y: 0.5d
+			y: -1.5d
+		}
+		{
+			description: ["Can probably be used for something &8dark&r."]
+			id: "13BE8A6893F6F8E0"
+			subtitle: "What is... &8Anything&r?"
+			tasks: [{
+				id: "4B87C7CE70060050"
+				item: "alexscaves:acid_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
 		}
 	]
 	title: "&9 Tools n' Gadgets"

@@ -525,7 +525,7 @@
 	"Enhanced Ladders" = true
 	"Glass Shard" = true
 	"Gold Tools Have Fortune" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Hoe Harvesting" = true
 	"Horses Swim" = true
 	"Improved Sponges" = true

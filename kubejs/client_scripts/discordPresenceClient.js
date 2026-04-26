@@ -1,12 +1,10 @@
 // PresenceJS client script for KubeJS
 // server_scripts/discordPresenceServer.js includes the network data sent
 
-let $I18n = Java.loadClass('net.minecraft.client.resources.language.I18n')
-
 const USER_SETTINGS = {
     appId: '1487269951512248350',
     activityName: 'Splendid Ranching',
-    packVersion: 'DEV',
+    packVersion: JsonIO.read('kubejs/splendidRanchingData.json')['version'],
     imageKeys: {
         large: 'menu',
         small: 'curseforgeicon'
@@ -152,8 +150,8 @@ if (PRESENCE_OPTIONS.useServerRPCStats) {
     })
 }
 
-NetworkEvents.dataReceived('kubejs:slime_value_data', event => {
-    SLIME_VALUE_DATA = event.data || {}
+NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
+    SLIME_VALUE_DATA = e.data || {}
 })
 
 function getHotPlortStatus() {
@@ -167,10 +165,10 @@ function getHotPlortStatus() {
     const [breedId, plortData] = hotPlorts[0]
 
     let fluc = plortData.flucPercent
-    let flucText = fluc > 0 ? `+${fluc}% :)` : `${fluc}% :(`
+    let flucText = fluc >= 0 ? `+${fluc}% :)` : `${fluc}% :(`
     return {
         details: `Hot Plort: ${getLocalizedPlortName(breedId)} (${formatBalance(plortData.currentValue)}¤ / ${formatSignedPercent(plortData.multPercent)})`,
-        state: `fluc: ${flucText}`
+        state: `Market fluctuation: ${flucText}`
     }
 }
 

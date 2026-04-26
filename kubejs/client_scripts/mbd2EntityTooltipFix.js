@@ -1,10 +1,5 @@
 // just a small workaround by cyb.. pls dont cringe ^-^
 let patch = (() => {
-    let mc = Java.loadClass('net.minecraft.client.Minecraft').getInstance();
-    let egg = Java.loadClass('net.minecraftforge.common.ForgeSpawnEggItem');
-    let emiItem = Java.loadClass('dev.emi.emi.api.stack.ItemEmiStack');
-    let forgeClient = Java.loadClass('net.minecraftforge.client.ForgeHooksClient');
-    let base = Java.loadClass('com.lowdragmc.mbd2.common.gui.recipe.ingredient.entity.EntityPreviewWidget');
     let fields = Utils.newList();
     let clazz = base.__javaObject__;
     while (clazz) {
@@ -38,7 +33,7 @@ let patch = (() => {
                     item = new JavaAdapter(emiItem, {
                         getTooltip: function() {
                             return forgeClient.gatherTooltipComponents(
-                                this.stack, nameComps, 0, 0x7FFFFFFF, 0x7FFFFFFF, mc.font
+                                this.stack, nameComps, 0, 0x7FFFFFFF, 0x7FFFFFFF, $Minecraft.font
                             );
                         }
                     }, Item.of(item));

@@ -1,5 +1,27 @@
 // priority: 1000
-// Lots taken from Society
+// Should always be the highest priority script in server
+
+const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
+const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
+const $SlimyConfig = Java.loadClass("io.github.chakyl.splendidslimes.SlimyConfig")
+const $UsernameCache = Java.loadClass("net.minecraftforge.common.UsernameCache")
+
+// List of known players on server for tooltips (Set in plortDataMangement)
+let knownPlayers = {}
+
+// Splendid Slimes config elements for tooltips
+const splendid_config = {
+    HAPPY_THRESHOLD: $SlimyConfig.slimeHappyThreshold,
+    UNHAPPY_THRESHOLD: $SlimyConfig.slimeUnhappyThreshold,
+    FURIOUS_THRESHOLD: $SlimyConfig.slimeFuriousThreshold,
+    MAX_EATING_COOLDOWN: $SlimyConfig.slimeStarvingTime
+}
+
+const slimeBaseDefinitions = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc");
+const slimeBaseValues = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseValues.jsonc");
+
+// base slimes from splendid slimes that are disabled in this modpack
+const disabledSlimes = ["webby"]
 
 global.mainUiElementIds = [
 
