@@ -4,10 +4,7 @@
   },
   "downfall": 0,
   "effects": {
-    "sky_color": 11199394,
-    "fog_color": 10675122,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
+    "fog_color": 12638463,
     "grass_color": 248832,
     "foliage_color": 248832,
     "mood_sound": {
@@ -21,7 +18,10 @@
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.badlands"
-    }
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [
@@ -47,24 +47,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:flower_flower_forest",
-      "minecraft:flower_swamp",
-      "minecraft:flower_swamp",
-      "minecraft:flower_meadow",
-      "minecraft:forest_flowers",
-      "minecraft:glow_lichen",
-      "minecraft:lush_caves_ceiling_vegetation",
-      "minecraft:cave_vines",
-      "minecraft:lush_caves_vegetation",
-      "minecraft:rooted_azalea_tree",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane",
-      "minecraft:spore_blossom",
-      "minecraft:patch_melon",
-      "minecraft:classic_vines_cave_feature"
-    ]
+    []
   ],
   "has_precipitation": false,
   "spawn_costs": {},

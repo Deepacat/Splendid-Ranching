@@ -1,87 +1,87 @@
 {
-  "carvers": {
-    "air": []
-  },
-  "downfall": 0,
-  "effects": {
-    "sky_color": 1221838,
-    "fog_color": 10675122,
-    "water_color": 2748927,
-    "water_fog_color": 2748927,
-    "foliage_color": 16675289,
-    "grass_color": 16675289,
-    "mood_sound": {
-      "block_search_extent": 8,
-      "offset": 2,
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000
-    },
-    "music": {
-      "max_delay": 24000,
-      "min_delay": 12000,
-      "replace_current_music": false,
-      "sound": "minecraft:music.overworld.badlands"
-    }
-  },
-  "features": [
-    [
-      "splendid_ranching:dry_reef/dry_tree_placed",
-      "splendid_ranching:grass_placed",
-      "splendid_ranching:dry_reef/carrots_placed",
-      "splendid_ranching:dry_reef/potatoes_placed",
-      "splendid_ranching:dry_reef/tomatoes_placed",
-      "splendid_ranching:dry_reef/onions_placed",
-      "splendid_ranching:dry_reef/dry_rock_placed"
-    ],
-    [],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "minecraft:glow_lichen",
-      "minecraft:patch_grass_badlands",
-      "minecraft:patch_berry_bush",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_sugar_cane_badlands"
-    ]
-  ],
-  "has_precipitation": false,
-  "spawn_costs": {},
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:rabbit",
-        "maxCount": 6,
-        "minCount": 2,
-        "weight": 3
-      },
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 3
-      },
-      {
-        "type": "splendid_slimes:splendid_slime",
-        "maxCount": 4,
-        "minCount": 2,
-        "weight": 10
-      }
-    ],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
-  "temperature": 0.8
+	"carvers": {
+		"air": [ ]
+	},
+	"downfall": 0.0,
+	"effects": {
+		"fog_color": 12638463,
+		"foliage_color": 16675289,
+		"water_fog_color": 2748927,
+		"grass_color": 16675289,
+		"mood_sound": {
+			"block_search_extent": 8,
+			"offset": 2.0,
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000
+		},
+		"music": {
+			"max_delay": 24000,
+			"min_delay": 12000,
+			"replace_current_music": false,
+			"sound": "minecraft:music.overworld.badlands"
+		},
+		"sky_color": 12638463,
+		"water_color": 2748927
+	},
+	"features": [
+		[
+			"splendid_ranching:dry_reef/dry_tree_placed",
+			"splendid_ranching:grass_placed",
+			"splendid_ranching:dry_reef/carrots_placed",
+			"splendid_ranching:dry_reef/potatoes_placed",
+			"splendid_ranching:dry_reef/tomatoes_placed",
+			"splendid_ranching:dry_reef/onions_placed",
+			"splendid_ranching:dry_reef/dry_rock_placed"
+		],
+		[ ],
+		[
+			"minecraft:amethyst_geode"
+		],
+		[ ],
+		[ ],
+		[ ],
+		[ ],
+		[ ],
+		[ ],
+		[
+			"minecraft:glow_lichen",
+			"minecraft:patch_grass_badlands",
+			"minecraft:patch_berry_bush",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal",
+			"minecraft:patch_sugar_cane_badlands"
+		]
+	],
+	"has_precipitation": false,
+	"spawn_costs": { },
+	"spawners": {
+		"ambient": [ ],
+		"axolotls": [ ],
+		"creature": [
+			{
+				"type": "minecraft:rabbit",
+				"maxCount": 6,
+				"minCount": 2,
+				"weight": 3
+			},
+			{
+				"type": "minecraft:sheep",
+				"maxCount": 4,
+				"minCount": 2,
+				"weight": 3
+			},
+			{
+				"type": "splendid_slimes:splendid_slime",
+				"maxCount": 4,
+				"minCount": 2,
+				"weight": 10
+			}
+		],
+		"misc": [ ],
+		"monster": [ ],
+		"underground_water_creature": [ ],
+		"water_ambient": [ ],
+		"water_creature": [ ]
+	},
+	"temperature": 0.8
 }

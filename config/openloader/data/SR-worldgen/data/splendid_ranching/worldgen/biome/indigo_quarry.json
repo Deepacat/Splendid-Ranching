@@ -2,17 +2,14 @@
   "carvers": {
     "air": []
   },
-  "downfall": 0,
+  "downfall": 0.0,
   "effects": {
-    "sky_color": 7308472,
-    "fog_color": 8810424,
-    "water_color": 4159204,
-    "water_fog_color": 329011,
+    "fog_color": 12638463,
     "foliage_color": 3416944,
     "grass_color": 3416944,
     "mood_sound": {
       "block_search_extent": 8,
-      "offset": 2,
+      "offset": 2.0,
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
@@ -21,7 +18,10 @@
       "min_delay": 12000,
       "replace_current_music": false,
       "sound": "minecraft:music.overworld.badlands"
-    }
+    },
+    "sky_color": 7254527,
+    "water_color": 4159204,
+    "water_fog_color": 329011
   },
   "features": [
     [
