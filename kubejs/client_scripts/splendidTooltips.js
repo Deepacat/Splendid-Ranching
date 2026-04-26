@@ -119,7 +119,6 @@ ItemEvents.tooltip(e => {
         let tamedText = tamed ?
             `§8Owned by: §7${knownPlayers[$NbtUtils.loadUUID(OwnerUUID).toString()]}` :
             Component.translatable("entity.splendid_slimes.wild").withStyle(Color.RED)
-
         addTierTooltip(item, text) // Tier text
         text.add(text.length, Component.literal("State: ").darkGray().append(happinessComponent)) // Happiness text
         text.add(text.length, `§8Hunger: §7${currentHunger}/${maxHunger}`) // Hunger text

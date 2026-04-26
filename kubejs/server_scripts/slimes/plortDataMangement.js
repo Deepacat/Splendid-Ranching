@@ -3,6 +3,7 @@
 
 // On world load, set servers slime value data if not set yet in the world
 ServerEvents.loaded(e => {
+    // On server load update the known player list
     // this SHOULD only occur on first world load, but in the future if the pack continues
     if (e.server.persistentData['slime_value_data'] === undefined) {
         // Set all base server values (These are edited by market data updates)
@@ -25,6 +26,7 @@ PlayerEvents.tick(e => {
         // Send Splendid Slimes config elements, see: https://github.com/Chakyl/splendid-slimes/blob/main/src/main/java/io/github/chakyl/splendidslimes/SlimyConfig.java
         e.player.sendData('kubejs:splendid_slimes_config_data', splendid_config)
         // Send list of known players
+        $UsernameCache.getMap().forEach((key, value) => { knownPlayers[key] = value })
         e.player.sendData('kubejs:known_players', knownPlayers)
     }
 })

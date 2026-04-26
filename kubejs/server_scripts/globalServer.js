@@ -6,9 +6,8 @@ const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")
 const $SlimyConfig = Java.loadClass("io.github.chakyl.splendidslimes.SlimyConfig")
 const $UsernameCache = Java.loadClass("net.minecraftforge.common.UsernameCache")
 
-// List of known players on server for tooltips
+// List of known players on server for tooltips (Set in plortDataMangement)
 let knownPlayers = {}
-$UsernameCache.getMap().forEach((key, value) => { knownPlayers[key] = value })
 
 // Splendid Slimes config elements for tooltips
 const splendid_config = {
