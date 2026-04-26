@@ -4,7 +4,7 @@
 const USER_SETTINGS = {
     appId: '1487269951512248350',
     activityName: 'Splendid Ranching',
-    packVersion: 'DEV',
+    packVersion: JsonIO.read('kubejs/splendidRanchingData.json')['version'],
     imageKeys: {
         large: 'menu',
         small: 'curseforgeicon'
