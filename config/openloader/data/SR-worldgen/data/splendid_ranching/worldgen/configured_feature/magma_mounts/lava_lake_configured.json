@@ -4,7 +4,7 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "architects_palette:onyx"
+        "Name": "minecraft:stone"
       }
     },
     "fluid": {
