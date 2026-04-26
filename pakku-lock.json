@@ -5771,42 +5771,6 @@
             ]
         },
         {
-            "pakku_id": "w0vOjnkPVRp3nw1V",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "presencejs"
-            },
-            "name": {
-                "curseforge": "PresenceJS"
-            },
-            "id": {
-                "curseforge": "1498700"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "presencejs-0.0.1-alpha.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7840/511/presencejs-0.0.1-alpha.jar",
-                    "id": "7840511",
-                    "parent_id": "1498700",
-                    "hashes": {
-                        "sha1": "543e542b27c442e05779fa45be4ff664d2124ca4",
-                        "md5": "c3ead382c35998e64510f2024fab7450"
-                    },
-                    "required_dependencies": [],
-                    "size": 128106,
-                    "date_published": "2026-03-29T12:46:43.550Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "JRC7rHExVbKSxfEx",
             "type": "MOD",
             "slug": {

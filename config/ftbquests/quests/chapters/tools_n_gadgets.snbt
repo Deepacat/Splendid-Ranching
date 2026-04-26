@@ -19,12 +19,6 @@
 				type: "item"
 			}]
 			subtitle: "&8[&7 Can be placed in the air! &8]"
-			rewards: [{
-				id: "51D3A0B8DB5406B2"
-				item: "numismatics:bevel"
-				type: "item"
-			}]
-			subtitle: "&8[&7 Can be placed in the air! &8]"
 			tasks: [{
 				id: "1232B13DE8418A4B"
 				item: "quark:bottled_cloud"
@@ -40,7 +34,6 @@
 				"&eAbacus&r will count the distance from selected block in taxicab geometry, until right-clicked again."
 			]
 			id: "402D3F1483253B91"
-			subtitle: "&8[&7 Mathematical! &8]"
 			subtitle: "&8[&7 Mathematical! &8]"
 			tasks: [{
 				id: "4A63DD1C64018C4D"
@@ -147,7 +140,6 @@
 			dependencies: ["641BB69F5A27AABE"]
 			id: "2B7AFE38E631A92F"
 			subtitle: "&8[&7 Rotates... Rotatable Blocks! &8]"
-			subtitle: "&8[&7 Rotates... Rotatable Blocks! &8]"
 			tasks: [{
 				id: "64CEA1F3BE6E06E5"
 				item: {
@@ -172,7 +164,6 @@
 				}
 			}
 			id: "75D45CF2A1D318FA"
-			subtitle: "&8[&7 Breaks blocks at a distance &8]"
 			subtitle: "&8[&7 Breaks blocks at a distance &8]"
 			tasks: [
 				{
@@ -217,19 +208,6 @@
 				}
 				type: "item"
 			}]
-			rewards: [{
-				id: "49B08C51784BB2AC"
-				item: {
-					Count: 1
-					id: "splendid_slimes:plort"
-					tag: {
-						plort: {
-							id: "splendid_slimes:alien"
-						}
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "&8[&7 Cleans dyed blocks and entities &8]"
 			tasks: [{
 				id: "67EB4DF1F16D0A49"
@@ -258,8 +236,6 @@
 				item: "mininggadgets:upgrade_magnet"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
 			x: 2.0d
 			y: -4.5d
 		}
@@ -464,21 +440,6 @@
 		{
 			dependencies: ["641BB69F5A27AABE"]
 			id: "74F38EFE74B5C788"
-			rewards: [{
-				count: 3
-				id: "591FFB27DFA90EE9"
-				item: {
-					Count: 1
-					id: "splendid_slimes:plort"
-					tag: {
-						plort: {
-							id: "splendid_slimes:fire"
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "&8[&7 Rocket jumping! &8]"
 			rewards: [{
 				count: 3
 				id: "591FFB27DFA90EE9"
