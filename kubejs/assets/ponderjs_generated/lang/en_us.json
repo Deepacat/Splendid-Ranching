@@ -1,1 +1,12 @@
-{}
+{
+  "kubejs.ponder.tag.getting_started": "Getting started.",
+  "kubejs.ponder.tag.getting_started.description": "We ponder now!",
+  "kubejs.ponder.tag.tips": "Misc Ranchin\u0027 Tips",
+  "kubejs.ponder.tag.tips.description": "Tips about ranching that aren\u0027t entirely about the slimes!",
+  "kubejs.ponder.fel_pumpkin_blaze.header": "Spawning a blaze",
+  "kubejs.ponder.fel_pumpkin_blaze.text_1": "Placing a Fel Pumpkin atop 2 iron bars...",
+  "kubejs.ponder.fel_pumpkin_blaze.text_2": "Spawns a blaze! This blaze will only drop blaze powder.",
+  "kubejs.ponder.fel_pumpkin_blaze.text_3": "Though it can still be placed inside a blaze burner.",
+  "kubejs.ponder.our_first_scene.header": "First example scene",
+  "kubejs.ponder.our_first_scene.text_1": "Example text"
+}
