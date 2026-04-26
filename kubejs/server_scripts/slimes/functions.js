@@ -1,3 +1,5 @@
+// Most functions here are used for plortDataManagement, but many are used elsewhere. Probably just Ctrl+F it since ProbeJS hardly works!
+
 // main daily update functions to run
 /**
  * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; }; }} bwabwa
@@ -8,7 +10,7 @@ function dailyUpdates(server) {
 
     // if within 20 ticks of "6 am"
     server.tell("— §6Goooood morning§r, Rancher!")
-    if (dailySoldTotal > 0) { // if there was anything sold, tell about it
+    if (dailySoldTotal > 0 && Object.assign({}, dailySoldPlorts).length > 0) { // if there was anything sold, tell about it
         server.tell(`—— Yesterday you sold:`)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]

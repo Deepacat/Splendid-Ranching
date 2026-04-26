@@ -33,7 +33,7 @@ let patch = (() => {
                     item = new JavaAdapter(emiItem, {
                         getTooltip: function() {
                             return forgeClient.gatherTooltipComponents(
-                                this.stack, nameComps, 0, 0x7FFFFFFF, 0x7FFFFFFF, mc.font
+                                this.stack, nameComps, 0, 0x7FFFFFFF, 0x7FFFFFFF, $Minecraft.font
                             );
                         }
                     }, Item.of(item));

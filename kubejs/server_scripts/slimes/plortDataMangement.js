@@ -17,13 +17,19 @@ ServerEvents.loaded(e => {
     checkAndUpdateSlimeValues()
 })
 
-// send slime value data to clients for tooltip information
+// send data to clients for tooltip information
 PlayerEvents.tick(e => {
     if (Utils.server.tickCount % 100 === 0) { // update every 5 seconds
+        // Send slime value data
         e.player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
+        // Send Splendid Slimes config elements, see: https://github.com/Chakyl/splendid-slimes/blob/main/src/main/java/io/github/chakyl/splendidslimes/SlimyConfig.java
+        e.player.sendData('kubejs:splendid_slimes_config_data', splendid_config)
+        // Send list of known players
+        e.player.sendData('kubejs:known_players', knownPlayers)
     }
 })
 
+// Send slime value data to clients that request it
 NetworkEvents.dataReceived('kubejs:slime_value_data_client_request', e => {
     e.player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
 })

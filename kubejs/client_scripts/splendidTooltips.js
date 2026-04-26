@@ -1,10 +1,14 @@
-let slimeValueData = {}
+
+
 let slimeDefData = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc")
 
-// Update slime value data, server sends it to clients automatically every 5 seconds
-NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
-    slimeValueData = e.data || {}
-})
+// Update vars from server, sent to clients automatically every 5 seconds
+let slimeValueData = {}
+let splendidSlimesConfig = {}
+let knownPlayers = {}
+NetworkEvents.dataReceived('kubejs:slime_value_data', e => { slimeValueData = e.data })
+NetworkEvents.dataReceived('kubejs:splendid_slimes_config_data', e => { splendidSlimesConfig = e.data })
+NetworkEvents.dataReceived('kubejs:known_players', e => { knownPlayers = e.data })
 
 // Request slime value data when reloading assets (f3+t)
 ClientEvents.highPriorityAssets(e => {
@@ -59,7 +63,7 @@ ItemEvents.tooltip(e => {
             }
 
             let valColor = (mult, isHot) => {
-                if (isHot) return "§6";
+                if (isHot) return "§6"
                 return mult == 0 ? '§7' : mult < 0 ? '§c' : '§a'
             }
 
@@ -82,21 +86,50 @@ ItemEvents.tooltip(e => {
             text.add(text.length, [
                 `${valueText}`
             ])
+            // Add tier tooltip after value
+            addTierTooltip(item, text)
         } catch (err) {
             console.log(err)
         }
     })
-    e.addAdvanced(`splendid_slimes:plort`, (item, advanced, text) => {
-        addTierTooltip(item, text)
-    })
-    // Slime tier tooltips
+
+    // Slime item tooltipss
     e.addAdvanced(`splendid_slimes:slime_item`, (item, advanced, text) => {
-        addTierTooltip(item, text)
+        if (!item.nbt || !item.nbt.entity || !splendidSlimesConfig.HAPPY_THRESHOLD) { return }
+        let slime = item.nbt.entity
+        let happinessComponent
+        let happiness = slime['Happiness']
+        let tamed = slime['Tamed']
+        let EatingCooldown = slime['EatingCooldown']
+        let OwnerUUID = slime['Owner']
+        let currentHunger = Math.round((EatingCooldown / splendidSlimesConfig.MAX_EATING_COOLDOWN) * 10.0)
+        let maxHunger = Math.round((splendidSlimesConfig.MAX_EATING_COOLDOWN / splendidSlimesConfig.MAX_EATING_COOLDOWN) * 10.0)
+
+        if (happiness >= splendidSlimesConfig.HAPPY_THRESHOLD) {
+            happinessComponent = Component.translatable("entity.splendid_slimes.happy").withStyle(Color.GREEN)
+        } else if (happiness <= splendidSlimesConfig.FURIOUS_THRESHOLD) {
+            happinessComponent = Component.translatable("entity.splendid_slimes.furious").withStyle(Color.RED)
+        } else if (happiness <= splendidSlimesConfig.UNHAPPY_THRESHOLD) {
+            happinessComponent = Component.translatable("entity.splendid_slimes.sad").withStyle(Color.GOLD)
+        } else {
+            happinessComponent = Component.translatable("entity.splendid_slimes.neutral")
+        }
+
+        let tamedText = tamed ?
+            `§8Owned by: §7${knownPlayers[$NbtUtils.loadUUID(OwnerUUID).toString()]}` :
+            Component.translatable("entity.splendid_slimes.wild").withStyle(Color.RED)
+
+        addTierTooltip(item, text) // Tier text
+        text.add(text.length, Component.literal("State: ").darkGray().append(happinessComponent)) // Happiness text
+        text.add(text.length, `§8Hunger: §7${currentHunger}/${maxHunger}`) // Hunger text
+        text.add(text.length, tamedText) // Owner/wild text
     })
+
     // Slime heart tooltips
     e.addAdvanced(`splendid_slimes:slime_heart`, (item, advanced, text) => {
         addTierTooltip(item, text)
     })
+
     // Coin value tooltips
     for (let coinEntry of Object.entries(global.coinObj)) {
         e.addAdvanced(coinEntry[0], (item, advanced, text) => {
