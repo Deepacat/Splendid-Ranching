@@ -278,7 +278,7 @@ function nbtToObject(tag) {
 
 // create backups files 1-x, overwrite first one and copy rest
 function writeAndBackupJson(filePath, writeData, maxBackups) {
-    let existingCount = 1
+    let existingCount = 0
     for (let i = 1; i <= maxBackups; i++) {
         if (JsonIO.read(`${filePath}-bak${i}.json`) != null) {
             existingCount = i
@@ -288,5 +288,6 @@ function writeAndBackupJson(filePath, writeData, maxBackups) {
         if (i === maxBackups) { continue }
         JsonIO.write(`${filePath}-bak${i + 1}.json`, JsonIO.read(`${filePath}-bak${i}.json`))
     }
+    console.log(`backing up ${filePath} to ${filePath}-bak1.json`)
     JsonIO.write(`${filePath}-bak1.json`, writeData)
 }

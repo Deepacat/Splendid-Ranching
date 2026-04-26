@@ -1,0 +1,12 @@
+This file mostly exists to make pakku actually add the folder
+Rather than ignoring adding it to overrides since its empty!
+
+Although I might as well explain the directory
+
+Backups are made using the "writeAndBackupJson" function within server_scripts/slimes/functions.js
+
+this function will create backups of filename-bak1.json to filename-bak5.json
+
+I use this to create backups in case of faulty value data updating, 
+to read about the issue and revert using command "/splendidranching loadPlortValueDataFile".
+E.g. /splendidranching loadPlortValueDataFile "kubejs/server_scripts/modpackData/updateValueDataBackup-bak1.json"

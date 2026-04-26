@@ -9,7 +9,8 @@
         "kubejs",
         "ldlib",
         "!kubejs/probe/",
-        "!kubejs/modpackData/",
+        "!kubejs/modpackData/**",
+        "kubejs/modpackData/*.txt",
         "!resourcepacks"
     ],
     "server_overrides": [
