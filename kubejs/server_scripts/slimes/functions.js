@@ -1,26 +1,26 @@
 // main daily update functions to run
 /**
- * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; }; }} e
+ * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; }; }} bwabwa
  */
-function dailyUpdates(e) {
-    let dailySoldPlorts = e.server.persistentData['daily_sold_plorts']
-    let dailySoldTotal = e.server.persistentData['daily_sold_total']
+function dailyUpdates(server) {
+    let dailySoldPlorts = server.persistentData['daily_sold_plorts'] || {}
+    let dailySoldTotal = server.persistentData['daily_sold_total'] || 0
 
     // if within 20 ticks of "6 am"
-    e.server.tell("— §6Goooood morning§r, Rancher!")
+    server.tell("— §6Goooood morning§r, Rancher!")
     if (dailySoldTotal > 0) { // if there was anything sold, tell about it
-        e.server.tell(`—— Yesterday you sold:`)
+        server.tell(`—— Yesterday you sold:`)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]
-            e.server.tell(
+            server.tell(
                 Text.of(`—— ${count} ${plortBreed} plorts`)
                     .color(slimeBaseDefinitions[plortBreed].color)
             )
         }
-        e.server.tell(`—— For a total of §6${dailySoldTotal}§a☻!`)
+        server.tell(`—— For a total of §6${dailySoldTotal}§a☻!`)
     }
 
-    marketUpdates(e) // run daily market updates
+    marketUpdates(server) // run daily market updates
 }
 
 function calculateVolumeModifier(plortData) {
@@ -36,20 +36,20 @@ function calculateVolumeModifier(plortData) {
 
 // mostly ai generated but very manually edited price adjustment slop
 /**
- * @param {{ server: { persistentData: { [x: string]: any; }; tell: (arg0: string | Internal.MutableComponent) => void; players: any; }; }} e
+ * @param {Internal.MinecraftServer} server
  */
-function marketUpdates(e) {
-    let slimeValueData = e.server.persistentData['slime_value_data']
-    let dailySoldPlorts = e.server.persistentData['daily_sold_plorts']
+function marketUpdates(server) {
+    let slimeValueData = server.persistentData['slime_value_data']
+    let dailySoldPlorts = server.persistentData['daily_sold_plorts']
 
     // 1-4 random plorts to have double value
     let hotDemands = Object.keys(slimeValueData)
         .sort(() => Math.random() - 0.5)
         .slice(0, Math.floor(Math.random() * 3) + 1)
 
-    e.server.tell(`— Today's hot §dplort§r demands are:`)
+    server.tell(`— Today's hot §dplort§r demands are:`)
     for (let plortBreed of hotDemands) {
-        e.server.tell(Text.of(`—— ${plortBreed}`).color(slimeBaseDefinitions[plortBreed].color))
+        server.tell(Text.of(`—— ${plortBreed}`).color(slimeBaseDefinitions[plortBreed].color))
     }
 
     // Deep clone the input object to avoid mutations
@@ -120,19 +120,19 @@ function marketUpdates(e) {
     )
 
     // set new slime value data on server
-    e.server.persistentData['slime_value_data'] = newValueData
+    server.persistentData['slime_value_data'] = newValueData
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
     let flucText = fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`
-    e.server.tell(`— General Market fluctuation is at ` + flucText)
+    server.tell(`— General Market fluctuation is at ` + flucText)
 
     // reset daily data
-    e.server.persistentData['daily_sold_plorts'] = {}
-    e.server.persistentData['daily_sold_total'] = 0
+    server.persistentData['daily_sold_plorts'] = {}
+    server.persistentData['daily_sold_total'] = 0
 
     // update all players with new slime data for tooltips
-    for (let player of e.server.players) {
-        player.sendData('kubejs:slime_value_data', e.server.persistentData['slime_value_data'])
+    for (let player of server.players) {
+        player.sendData('kubejs:slime_value_data', server.persistentData['slime_value_data'])
     }
 }
 
@@ -144,24 +144,39 @@ function checkAndUpdateSlimeValues() {
         nbtToObject(Utils.server.persistentData['slime_value_data']),
         5
     )
+    // Copies old slime data to a JS object for use and readability
     let serverOldData = Object.assign({}, Utils.server.persistentData['slime_value_data'])
     let newValueData = {}
-    for (let [plortType, plortData] of Object.entries(slimeBaseValues)) {
-        let oldServerSlime = Object.assign({}, Utils.server.persistentData['slime_value_data'][plortType])
+
+    // Just a reference for clarity when reading
+    let newSlimeBaseValues = slimeBaseValues
+
+    for (let [plortType, plortData] of Object.entries(newSlimeBaseValues)) {
+        // Gets old server data for slime
+        let oldServerSlime = Object.assign({}, serverOldData[plortType])
+
+        // Checks if slime existed previously, if not set to default data and continue to next slime
+        if (oldServerSlime === undefined) {
+            newValueData[plortType] = Object.assign({}, plortData)
+            continue
+        }
+
+        // Merge the new slime data into the old data
         newValueData[plortType] = Object.assign(serverOldData[plortType], plortData)
+
         // Reset the currentvalues to previous as they're overwritten to defaults
         newValueData[plortType].currentValue = oldServerSlime.currentValue
         newValueData[plortType].currentVolume = Math.min(newValueData[plortType].maxVolume, oldServerSlime.currentVolume)
 
-        // Reapply the original daily market formula to the new plort data if old formula exists
+        // Reapply the original daily market formula to the new plort data if old formula exists in the new format
         // Future me please make a function for these both
-        if (oldServerSlime.formula) {
+        // (v0.3.0 data cannot be updated to v0.4.0, only v0.4.0+ supports migration)
+        if (oldServerSlime.formula && oldServerSlime.formula.marketFluctuation) {
             let newPrice = newValueData[plortType].baseValue *
                 oldServerSlime.formula.marketFluctuation *
                 oldServerSlime.formula.individualFluctuation *
                 calculateVolumeModifier(newValueData[plortType]) *
                 oldServerSlime.formula.bonusMultiplier
-
             newValueData[plortType].currentValue = Math.round(newPrice)
             newValueData[plortType].flucPercent = Math.round((oldServerSlime.formula.marketFluctuation - 1) * 100)
             newValueData[plortType].multPercent = Math.round(((newValueData[plortType].currentValue / plortData.baseValue - 1) * 100))

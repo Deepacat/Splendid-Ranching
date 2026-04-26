@@ -1,5 +1,5 @@
 // priority: 1000
-// Lots taken from Society
+// Should always be the highest priority script in server
 
 const $NbtUtils = Java.loadClass("net.minecraft.nbt.NbtUtils")
 const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi")

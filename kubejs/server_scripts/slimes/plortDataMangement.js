@@ -1,18 +1,19 @@
 // priority: 999
+// Happens after globalServer
 
 // On world load, set servers slime value data if not set yet in the world
 ServerEvents.loaded(e => {
     // this SHOULD only occur on first world load, but in the future if the pack continues
-    //  it should instead check if the entries are equal to base data and merge them if not for update compatibility
     if (e.server.persistentData['slime_value_data'] === undefined) {
         // Set all base server values (These are edited by market data updates)
         e.server.persistentData['slime_value_data'] = slimeBaseValues
         e.server.persistentData['daily_sold_plorts'] = {}
         e.server.persistentData['daily_sold_total'] = 0
 
-        e.server.tell(`| §6Goooood morning, Rancher!`)
-        dailyUpdates(e)
+        // The function that gives daily plort announcements runs market updates
+        dailyUpdates(e.server)
     }
+    // Update servers slime values
     checkAndUpdateSlimeValues()
 })
 

@@ -90,6 +90,13 @@ ServerEvents.commandRegistry(e => {
                 })
             )
         )
+        .then(Commands.literal("runMarketUpdates")
+            .requires(s => s.hasPermission(2))
+            .executes(ctx => {
+                dailyUpdates(Utils.server)
+                return 1
+            })
+        )
     )
 
     // patchouli command requires OP normally, but this bypasses that
