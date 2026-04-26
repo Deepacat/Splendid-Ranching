@@ -53,9 +53,15 @@ ItemEvents.tooltip(e => {
     // Vanilla
     e.add('minecraft:flint_and_steel', ["§8[§7 Portals may be created, however", "§cthe nether is disabled! §8]"])
     // Create
+    e.add('create:blaze_burner', '§8[§7 Blazes can be created with Fel Pumpkins §8]')
     e.add('create:chromatic_compound', [
         "§7- At the touch of a beacons beam, ", "§7becomes infused with §rradiance",
         "§7- In the dark of the voids despair, ", "§7becomes infused with §8shadows"
+    ])
+    // Botania
+    e.add('botania:fel_pumpkin', [
+        "§8[§7 Place on top of 2 iron bars to summon a blaze §8]",
+        "§8[§7 Summoned blaze only drops powder §8]"
     ])
     e.add('create:refined_radiance', "§7Forged by a §rgreat light.")
     e.add('create:shadow_steel', "§7Forged by a §8dark void.")
