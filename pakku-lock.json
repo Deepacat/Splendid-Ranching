@@ -3578,6 +3578,44 @@
             ]
         },
         {
+            "pakku_id": "d4mGdbEbjvCzH6MY",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "great-scrollable-tooltips"
+            },
+            "name": {
+                "curseforge": "Great Scrollable Tooltips"
+            },
+            "id": {
+                "curseforge": "982671"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "great_scrollable_tooltips-15.5.0+forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6707/703/great_scrollable_tooltips-15.5.0+forge.jar",
+                    "id": "6707703",
+                    "parent_id": "982671",
+                    "hashes": {
+                        "sha1": "ade466d86105965cd06ca7caf5189cb326e7922c",
+                        "md5": "9cfd9a6775c820df74181ffa169a9804"
+                    },
+                    "required_dependencies": [
+                        "306612"
+                    ],
+                    "size": 440740,
+                    "date_published": "2025-06-29T11:30:26.097Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "HQsx1ee2bdB41dMK",
             "type": "MOD",
             "slug": {

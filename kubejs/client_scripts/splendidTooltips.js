@@ -1,5 +1,3 @@
-
-
 let slimeDefData = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc")
 
 // Update vars from server, sent to clients automatically every 5 seconds
@@ -95,7 +93,10 @@ ItemEvents.tooltip(e => {
 
     // Slime item tooltipss
     e.addAdvanced(`splendid_slimes:slime_item`, (item, advanced, text) => {
-        if (!item.nbt || !item.nbt.entity || !splendidSlimesConfig.HAPPY_THRESHOLD) { return }
+        if (!item.nbt || !item.nbt.entity || !splendidSlimesConfig.HAPPY_THRESHOLD) {
+            addTierTooltip(item, text) // Tier text
+            return
+        }
         let slime = item.nbt.entity
         let happinessComponent
         let happiness = slime['Happiness']
