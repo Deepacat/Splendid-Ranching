@@ -355,7 +355,7 @@
     // t3
     "shulking": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -363,7 +363,7 @@
     },
     "metallic": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -371,7 +371,7 @@
     },
     "minty": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -379,7 +379,7 @@
     },
     "jewel": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -387,7 +387,7 @@
     },
     "infernal": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -395,7 +395,7 @@
     },
     "mechanical": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -403,7 +403,7 @@
     },
     "tendril": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -411,7 +411,7 @@
     },
     "radiant": {
         "baseValue": 30,
-        "currentValue": 40,
+        "currentValue": 30,
         "priceRange": [ 20, 50 ],
         "currentVolume": 10,
         "maxVolume": 150,
@@ -420,7 +420,7 @@
     // t4
     "gold": {
         "baseValue": 40,
-        "currentValue": 50,
+        "currentValue": 40,
         "priceRange": [ 25, 70 ],
         "currentVolume": 10,
         "maxVolume": 100,
@@ -428,7 +428,7 @@
     },
     "forge": {
         "baseValue": 40,
-        "currentValue": 50,
+        "currentValue": 40,
         "priceRange": [ 25, 70 ],
         "currentVolume": 10,
         "maxVolume": 100,
@@ -436,31 +436,31 @@
     },
     "time": {
         "baseValue": 40,
-        "currentValue": 50,
+        "currentValue": 40,
         "priceRange": [ 25, 70 ],
         "currentVolume": 10,
         "maxVolume": 100,
         "slimeDupeCost": 64
     },
     "quantum": {
-        "baseValue": 60,
-        "currentValue": 75,
+        "baseValue": 80,
+        "currentValue": 80,
         "priceRange": [ 40, 90 ],
         "currentVolume": 10,
         "maxVolume": 30,
         "slimeDupeCost": 0
     },
     "nuclear": {
-        "baseValue": 60,
-        "currentValue": 75,
+        "baseValue": 55,
+        "currentValue": 55,
         "priceRange": [ 40, 90 ],
         "currentVolume": 10,
         "maxVolume": 30,
         "slimeDupeCost": 0
     },
     "burger": {
-        "baseValue": 50,
-        "currentValue": 50,
+        "baseValue": 100,
+        "currentValue": 100,
         "priceRange": [ 10, 150 ],
         "currentVolume": 1,
         "maxVolume": 2147000000,
