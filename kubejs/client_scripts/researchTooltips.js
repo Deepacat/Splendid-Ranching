@@ -20,7 +20,7 @@ ItemEvents.tooltip(e => {
             }
         }
     }
-    
+
     e.addAdvancedToAll((item, advanced, text) => {
         // Return if the item does not have a related stage or stage data not received from server yet
         if (!itemStages[item.id] || playerStages.length === 0) return
