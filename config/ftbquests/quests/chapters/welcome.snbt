@@ -10,12 +10,15 @@
 		{
 			click: "https://discord.gg/dc62e25CEu"
 			height: 1.0d
-			hover: ["Discord Link"]
+			hover: [
+				"Our discord link!"
+				"Join for support or to share your ranch"
+			]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: 2.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			click: "https://www.curseforge.com/minecraft/modpacks/splendid-ranching"
@@ -24,18 +27,31 @@
 			image: "supplementaries:textures/gui/book/icon/curseforge.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -0.5d
-			y: 2.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			click: "https://discord.gg/q6awVhcPeJ"
 			height: 1.0d
-			hover: ["Just Enough Opinions"]
+			hover: [
+				"Just Enough Opinions"
+				"The podcast that hosted the Modpack-Jam"
+				"That splendid Ranching was made for"
+			]
 			image: "kubejs:textures/gui/icons/jeo.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
 			y: 1.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Splendid History of Updates"]
+			image: "minecraft:block/bookshelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: -3.0d
 		}
 	]
 	order_index: 0
@@ -54,18 +70,18 @@
 				"&bUni &7-&r Help with worldgen, biome placements \\& world \"shape\""
 				"&5Vnator &7-&r Assistance with data entry, general feedback"
 				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug \\& helping with scripts"
-				"&bPansmith &7-&r Menu placeholder, panpack template, help with actions"
-				"&bJuiceybeans &7-&r Misc fixes and edits"
+				"&9Pansmith &7-&r Menu placeholder, panpack template, help with actions"
+				"&dJuiceybeans &7-&r Misc fixes and edits"
 				"&cChakyl &7-&r Market Monitor block \\& Splendid Slimes additions"
 				"&6Leha44581&r &7-&r Some quest stuffs, bug reporting"
+				"&bChakyl/Society modpacks&r &7-&r Code from society, made the plort monitor"
 				""
 				"&l&nSpecial Mentions&r&r"
 				""
-				"&aJust Enough Opinions Podcast&r &7-&r Hosting the biology themed Modpack jam"
-				"&bChakyl/Society modpacks&r &7-&r some economy related code and referencing"
-				"&bKilabash&r &7-&r Multiblocked2"
-				"&bUni and Stardust Labs&r &7-&r help with world generation"
-				"&bCC:Tweaked Team &7-&r computercraft from modrinth"
+				"&cChakyl &7-&r Again for making the Splendid Slimes mod and adding stuff for us :)"
+				"&aJust Enough Opinions Podcast&r &7-&r Hosting the biology themed Modpack-Jam"
+				"&5Kilabash&r &7-&r Multiblocked2"
+				"&bCC:Tweaked Team &7-&r ComputerCraft from Modrinth"
 			]
 			disable_toast: true
 			icon: {
@@ -99,7 +115,7 @@
 				""
 				"Made for JEO Packjam #1 with the theme: \"Biology\""
 				""
-				"The pack was in a pretty rough state with very little playability due to oversights progression, but were quickly patched for people playing the pack for packjam testing"
+				"The pack was in a pretty rough state with very little playability due to oversights in the progression, but it was quickly patched for people playing the pack for the packjam testing"
 			]
 			disable_toast: true
 			icon: {
@@ -133,7 +149,7 @@
 				type: "dimension"
 			}]
 			title: "Version 0.1.0"
-			x: -2.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
@@ -181,7 +197,7 @@
 				type: "dimension"
 			}]
 			title: "Version 0.1.1"
-			x: -1.0d
+			x: -2.0d
 			y: -2.0d
 		}
 		{
@@ -231,7 +247,139 @@
 				type: "dimension"
 			}]
 			title: "Version 0.2.0"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Just some fixes and visual cleanup"
+				""
+				"- Added tree felling with the lumberaxe"
+				"- Added paxels (All in one tool)"
+				"- Fixed glowberries fallin off all the trees!"
+				"- Questbook got more descriptions"
+				"- Added a cool new custom discord rich presence!"
+				"- Removed a debug function I accidentally left in allowing anyone with a diamond sword to reset the market! Oops!"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:monster"
+					}
+				}
+			}
+			id: "2FDFB2402735B030"
+			min_width: 300
+			shape: "gear"
+			subtitle: "Cleaning and QOL"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				id: "4B5BC6A5EF51BC20"
+				secret: true
+				title: "Exist!"
+				type: "dimension"
+			}]
+			title: "Version 0.3.0"
 			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"A youtuber picked up the pack and the downloads pretty much quintupled in a week!"
+				""
+				"Returned quickly to work on the pack and polish up anything that was confusing or misleading the new audience"
+				""
+				"A big feature todo list was posted as goals toward a 1.0 release."
+				""
+				"- Tooltipped many items for improved clarity"
+				"- Improved existing tooltips on plorts, giving a prettier value showcase"
+				"- Plort market monitors now glow in the dark! It made me sad seeing them dim."
+				"- The bank sharing quest and items related to it have much clearer info"
+				"- Unhid the quest chapters in the beginning so everyone can see what's ahead"
+				"- Retextured some blocks in the dry reef to improve the vibe"
+				"- Improved the market backend code to support future updates to changing values in the plort value config"
+				"- Improved the sky and fog for each biome, now with their unique colors and smoothly shifting when biome changes"
+				"- Added carryon for wild animals only"
+				"- Made quantum slime food (unobtanium...) obtainable!"
+				"- In relation... The void is now legally accesible..."
+				"- Added a few commands under /splendidranching mostly for debug"
+				""
+				"&nThe 1.0 Goals:&r"
+				""
+				"Here are some of the bigger goals or tasks we want to get done for the modpacks improvement and to progress towards our 1.0 vision!"
+				"(The roadmap)"
+				""
+				"&l&nTutorial&r"
+				""
+				"- A tutorial world or some alternative tutorial about slimes outside of the questbook, the questbook currently has waaay too much reading for the mechanics and that reading should be reserved for very specifics, instead basic decent setups should be shown to reference"
+				""
+				"&l&nDiets \\& feeding"
+				""
+				"- An overhaul to slime diets, this one is somewhat waiting on a mod update that will help us be alot more controlling over diets to make eventual automation more interesting"
+				""
+				"&l&nMissing links"
+				""
+				"- Reimplementing some unobtainable items! Plenty of items are currently unobtainable due to the entirely custom world and need to be thought upon for where they can be placed back into the game"
+				""
+				"&l&nThermal expansion"
+				""
+				"- We've wanted to add a fourth tech option to the create-botania-redstone trifecta, opting for a higher-tech route that many existing modded players would be familiar with! This however is a much bigger mod than the other tech routes, especially world generation wise! It'll take a fair bit to get the items obtainable and the researches layed out"
+				""
+				"&l&nMuch more research"
+				""
+				"- I'd like to eventually make pretty much anything that is modded part of the research mechanic! computercraft, little logistics, and many of the other toys especially those involved in automation would be a part of the system with their own plort requirements"
+				""
+				"&l&nCustom behaviors"
+				""
+				"- Many slimes have written concepts for custom behaviors they would exhibit, such as nuclear slimes slowly increasing a meltdown state as their anger is prolonged until exploding. We never got to doing these scripts as the pack was rushed out for the modpack jam, and there was many things to cleanup and improve upon first before focusing on singular interesting mechanics, but with their implementations I feel the world will feel plenty more lively!"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:orby"
+					}
+				}
+			}
+			id: "7C7EE66FF01285C2"
+			min_width: 350
+			shape: "gear"
+			subtitle: "Polish galore!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:orby"
+						}
+					}
+				}
+				id: "67A359135A4F1080"
+				secret: true
+				title: "Exist!"
+				type: "dimension"
+			}]
+			title: "Version 0.4.0"
+			x: 1.0d
 			y: -2.0d
 		}
 	]

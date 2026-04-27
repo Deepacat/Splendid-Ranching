@@ -13,8 +13,8 @@
     },
     {
       "offer": { "item": "alexscaves:rainbounce_boots", "count": 1 },
-      "request": { "item": "numismatics:cog", "count": 4 },
-      "numismatics_cost": 256,
+      "request": { "item": "numismatics:cog", "count": 2 },
+      "numismatics_cost": 128,
       "trade_id": "splendid_rainbounce_boots"
     },
     {

@@ -28,6 +28,11 @@ PlayerEvents.tick(e => {
         // Send list of known players
         $UsernameCache.getMap().forEach((key, value) => { knownPlayers[key] = value })
         e.player.sendData('kubejs:known_players', knownPlayers)
+
+        let stagesObj = { stages: [] }
+        let stagesArray = e.player.stages.all.toArray()
+        for (let stageId of stagesArray) { stagesObj['stages'].push(stageId) }
+        e.player.sendData('kubejs:research_stages', stagesObj)
     }
 })
 

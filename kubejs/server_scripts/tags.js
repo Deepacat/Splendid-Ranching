@@ -1,11 +1,11 @@
-ServerEvents.tags('item', e => {
-    function tagRegex(tag, regex) {
-        console.log(`tag: ${tag}, regex: ${regex}`)
-        regex = new RegExp(regex)
-        let list = Item.getList().filter(item => regex.test(item.id))
-        e.add(tag, list.map(item => item.id))
-    }
+function tagRegex(tagEvent, tag, regex) {
+    console.log(`tag: ${tag}, regex: ${regex}`)
+    regex = new RegExp(regex)
+    let list = Item.getList().filter(item => regex.test(item.id))
+    tagEvent.add(tag, list.map(item => item.id))
+}
 
+ServerEvents.tags('item', e => {
     // causes ftb to check nbt on these items in quests without setting per quest
     e.add('itemfilters:check_nbt', [
         'splendid_slimes:plort', 'splendid_slimes:slime_heart', 'splendid_slimes:slime_item'
@@ -86,11 +86,6 @@ ServerEvents.tags('item', e => {
 
     // re enable alex cave locating
     e.remove('alexscaves:restricted_biome_locators', 'naturescompass:naturescompass')
-
-    // gamestage/research related
-    tagRegex('kubejs:apothecaries', /^botania:apothecary_/)
-    e.add('kubejs:extra_gauges', '@extra_gauges')
-    e.add('kubejs:fluid_logistics', '@create_factory_logistics')
 })
 
 ServerEvents.tags('block', e => {
