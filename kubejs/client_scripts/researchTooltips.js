@@ -22,9 +22,12 @@ ItemEvents.tooltip(e => {
 
         let stageId = itemStages[item.id]
         let displayName = global.researchStages[stageId].name
-        let researched = playerStages.includes(stageId) ? "§a✔" : "§c❌"
+        let researched = playerStages.includes(stageId)
+        let researchedText = researched ? "§a✔" : "§c❌"
 
-        text.add(text.length, [`§6Requires research to craft:`])
-        text.add(text.length, [`§8[ §7${displayName}§8 ${researched} §8]`])
+        if (!researched) {
+            text.add(text.length, [`§6Requires research to craft:`])
+        }
+        text.add(text.length, [`§8[ §7${displayName}§8 ${researchedText} §8]`])
     })
 })
