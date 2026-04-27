@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.1]
+### Changes
+- Fixed incorrect wares costs
+- Moved backpacks to their own wares tab
+- Research tweaks & Placeholders for future research
+- Added a gadgets quest for tug rails
+- Improved research tooltips
+- Fixed daily updates literally not happening! Oops!
+- Remove fastworkbench
+
 ## [0.4.0]
 ### Changes
 - Toooons of item tooltips!

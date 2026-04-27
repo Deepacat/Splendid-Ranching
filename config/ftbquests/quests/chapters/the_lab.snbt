@@ -9,42 +9,24 @@
 	id: "112484FF0BE3AF63"
 	images: [
 		{
-			dependency: "2FDFFE3208FF3C16"
-			dev: true
-			height: 1.5d
-			hover: [
-				"deear future deveroper/deepa"
-				"please make this quest page "
-				"datagenerated in kubejs"
-				"or some other scripting"
-				"because kube can only do json"
-				"without copy pasting"
-				"thanks -deepa"
-				"(hidden in non editor mode)"
-			]
-			image: "quark:block/tiny_potato/trans"
-			rotation: 0.0d
-			width: 1.5d
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			dependency: "528ED809C83D224D"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
-			y: 0.0d
+			y: 0.25d
 		}
 		{
 			dependency: "528ED809C83D224D"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			order: 1
 			rotation: 0.0d
 			width: 1.0d
 			x: 1.0d
-			y: 0.0d
+			y: 0.25d
 		}
 	]
 	order_index: 2
@@ -53,7 +35,7 @@
 		id: "0217D7599DC00022"
 		linked_quest: "528ED809C83D224D"
 		x: 0.0d
-		y: 0.0d
+		y: 0.25d
 	}]
 	quests: [
 		{
@@ -76,6 +58,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to cogs, shafts, gearbox, chaindrive"
 			tasks: [
 				{
 					consume_items: true
@@ -83,7 +66,7 @@
 					disable_toast: true
 					id: "7BF5E6B2C8DC09E7"
 					item: {
-						Count: 8
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -95,16 +78,29 @@
 				}
 				{
 					consume_items: true
-					disable_toast: true
-					id: "4AC0CB4632E8F6FC"
-					item: "numismatics:cog"
-					only_from_crafting: false
+					count: 8L
+					id: "370116C4C0379C48"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:tree"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3FF37C3D2694AF57"
+					item: { Count: 2, id: "numismatics:cog" }
 					type: "item"
 				}
 			]
 			title: "Basic Mechanical Components"
 			x: 0.0d
-			y: -1.5d
+			y: -1.75d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -128,10 +124,11 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to floral fertilizer, Petal apothecary"
 			tasks: [
 				{
 					consume_items: true
-					count: 8L
+					count: 16L
 					disable_toast: true
 					id: "7F9D62CD6837E7A6"
 					item: {
@@ -163,7 +160,7 @@
 			]
 			title: "Botanic Beginnings"
 			x: 0.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["38D8C5BC12219E38"]
@@ -184,6 +181,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to mana spreader, mana pools, sparks"
 			tasks: [
 				{
 					consume_items: true
@@ -234,7 +232,7 @@
 			]
 			title: "Mana Management"
 			x: 0.0d
-			y: 3.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["436831977D9577CB"]
@@ -255,6 +253,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to alchemy catalyst"
 			tasks: [
 				{
 					consume_items: true
@@ -320,7 +319,7 @@
 			]
 			title: "Transmutation"
 			x: 1.5d
-			y: 3.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["436831977D9577CB"]
@@ -342,6 +341,7 @@
 				title: "Botanic Beginnings"
 				type: "gamestage"
 			}]
+			subtitle: "Access to the Runic Altar"
 			tasks: [
 				{
 					consume_items: true
@@ -392,7 +392,7 @@
 			]
 			title: "Runic Altar"
 			x: -1.5d
-			y: 3.0d
+			y: 3.75d
 		}
 		{
 			dependencies: ["27D359B4DCEA4A68"]
@@ -413,6 +413,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to the terrestrial agglomeration plate"
 			tasks: [
 				{
 					consume_items: true
@@ -463,7 +464,7 @@
 			]
 			title: "Terra Agglomeration"
 			x: 0.0d
-			y: 4.5d
+			y: 5.25d
 		}
 		{
 			dependencies: ["5C6A95DE77DF7DE3"]
@@ -484,6 +485,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to Alfheims Gateway"
 			tasks: [
 				{
 					consume_items: true
@@ -503,10 +505,10 @@
 				}
 				{
 					consume_items: true
-					count: 32L
+					count: 16L
 					id: "30E81026440DE17F"
 					item: {
-						Count: 32
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -521,7 +523,7 @@
 					count: 8L
 					id: "4442B2FE6AECD8DE"
 					item: {
-						Count: 8
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -549,7 +551,7 @@
 			]
 			title: "Elven Gateway"
 			x: 0.0d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["62984FA4655FE4FF"]
@@ -570,6 +572,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to Gaia pylons"
 			tasks: [
 				{
 					consume_items: true
@@ -619,10 +622,10 @@
 				}
 				{
 					consume_items: true
-					count: 6L
+					count: 16L
 					id: "29E0560CF8537D27"
 					item: {
-						Count: 6
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -634,10 +637,10 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 16L
 					id: "2BB807B81C9095C7"
 					item: {
-						Count: 4
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -665,7 +668,7 @@
 			]
 			title: "Gaia Guardian"
 			x: 0.0d
-			y: 7.5d
+			y: 8.25d
 		}
 		{
 			dependencies: ["62984FA4655FE4FF"]
@@ -686,6 +689,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to Corporea index, Corporea spark"
 			tasks: [
 				{
 					consume_items: true
@@ -781,7 +785,7 @@
 			]
 			title: "Spiritual Networking"
 			x: 1.5d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["62984FA4655FE4FF"]
@@ -802,6 +806,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to the conjuration Catalyst"
 			tasks: [
 				{
 					consume_items: true
@@ -867,10 +872,11 @@
 			]
 			title: "Duplication"
 			x: -1.5d
-			y: 6.0d
+			y: 6.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:windmill_bearing"
 			id: "6914CDE780D9FBEA"
 			rewards: [{
@@ -888,6 +894,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to windmills"
 			tasks: [
 				{
 					consume_items: true
@@ -929,10 +936,11 @@
 			]
 			title: "Wind Rotation"
 			x: 0.5d
-			y: -3.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:water_wheel"
 			id: "7818005B33425CC7"
 			rewards: [{
@@ -950,6 +958,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to water wheels"
 			tasks: [
 				{
 					consume_items: true
@@ -991,11 +1000,12 @@
 				}
 			]
 			title: "Water Rotation"
-			x: -0.5d
-			y: -3.0d
+			x: 0.5d
+			y: -2.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				id: "create:super_glue"
@@ -1019,10 +1029,11 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to using superglue"
 			tasks: [
 				{
 					consume_items: true
-					count: 24L
+					count: 32L
 					disable_toast: true
 					id: "3000D4F9F9F6C83B"
 					item: {
@@ -1039,25 +1050,18 @@
 				{
 					consume_items: true
 					id: "78E9DF5BD4EB5200"
-					item: "numismatics:cog"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
 			title: "Super Glue"
 			x: 1.5d
-			y: -3.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
-			icon: {
-				Count: 1
-				id: "splendid_slimes:plort"
-				tag: {
-					plort: {
-						id: "splendid_slimes:fire"
-					}
-				}
-			}
+			hide_dependency_lines: true
+			icon: "create:blaze_burner"
 			id: "36B75F3D57DF06D6"
 			rewards: [{
 				auto: "enabled"
@@ -1074,6 +1078,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to blaze burners"
 			tasks: [
 				{
 					consume_items: true
@@ -1114,10 +1119,11 @@
 			]
 			title: "Blaze Burning"
 			x: -1.5d
-			y: -3.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:mechanical_harvester"
 			id: "77E0A3D9082A6B22"
 			rewards: [{
@@ -1135,6 +1141,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to harvesters and Saws"
 			tasks: [
 				{
 					consume_items: true
@@ -1169,9 +1176,8 @@
 				}
 				{
 					consume_items: true
-					count: 3L
 					id: "64495C85981202BF"
-					item: { Count: 3, id: "numismatics:cog" }
+					item: "numismatics:crown"
 					type: "item"
 				}
 				{
@@ -1191,11 +1197,13 @@
 				}
 			]
 			title: "Harvesting \\& Sawing"
-			x: -1.5d
-			y: -4.0d
+			x: -0.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			description: [""]
+			hide_dependency_lines: true
 			icon: "create:mechanical_mixer"
 			id: "2B4D9A56B1659543"
 			rewards: [{
@@ -1213,6 +1221,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Mixer, Press, and millstone"
 			tasks: [
 				{
 					consume_items: true
@@ -1247,6 +1256,7 @@
 				}
 				{
 					consume_items: true
+					count: 4L
 					id: "23978CCACD939110"
 					item: "numismatics:cog"
 					type: "item"
@@ -1269,10 +1279,11 @@
 			]
 			title: "Mechanical Processing"
 			x: -0.5d
-			y: -4.0d
+			y: -2.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:deployer"
 			id: "09191C59662E9387"
 			rewards: [{
@@ -1290,6 +1301,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Deployers and Drills"
 			tasks: [
 				{
 					consume_items: true
@@ -1305,12 +1317,6 @@
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "740E7EF9973933D4"
-					item: { Count: 6, id: "numismatics:crown" }
 					type: "item"
 				}
 				{
@@ -1358,13 +1364,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "15DF00CD3B303AB5"
+					item: "numismatics:crown"
+					type: "item"
+				}
 			]
 			title: "Placing \\& Breaking"
-			x: 0.5d
-			y: -4.0d
+			x: -0.5d
+			y: -4.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:cart_assembler"
 			id: "465DCD3BBE0C1F38"
 			rewards: [{
@@ -1382,6 +1394,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to the cart assembler"
 			tasks: [
 				{
 					consume_items: true
@@ -1438,11 +1451,12 @@
 				}
 			]
 			title: "Cart Assembling"
-			x: 1.5d
-			y: -4.0d
+			x: 0.5d
+			y: -4.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:track"
 			id: "5F6D5A5DA0AA50AD"
 			rewards: [{
@@ -1460,6 +1474,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to trains"
 			tasks: [
 				{
 					consume_items: true
@@ -1515,11 +1530,12 @@
 				}
 			]
 			title: "Trains"
-			x: 1.5d
-			y: -5.0d
+			x: 0.5d
+			y: -5.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:package_frogport"
 			id: "7F9F72D1B749007B"
 			rewards: [{
@@ -1537,14 +1553,15 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to high logistics"
 			tasks: [
 				{
 					consume_items: true
-					count: 24L
+					count: 64L
 					disable_toast: true
 					id: "19B836CE83149E97"
 					item: {
-						Count: 8
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1556,7 +1573,7 @@
 				}
 				{
 					consume_items: true
-					count: 16L
+					count: 32L
 					id: "73A52432FA2482FE"
 					item: {
 						Count: 1
@@ -1587,16 +1604,31 @@
 				{
 					consume_items: true
 					id: "192F0E84E6AB662D"
-					item: "numismatics:crown"
+					item: "numismatics:sun"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "46DDCFBD544646C7"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:magma"
+							}
+						}
+					}
 					type: "item"
 				}
 			]
 			title: "Package Logistics"
-			x: 0.5d
-			y: -5.0d
+			x: 1.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create_factory_logistics:jar_packager"
 			id: "4650B366E4547DCD"
 			rewards: [{
@@ -1617,10 +1649,10 @@
 			tasks: [
 				{
 					consume_items: true
-					count: 16L
+					count: 32L
 					id: "7182DDE91423552E"
 					item: {
-						Count: 16
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1632,10 +1664,10 @@
 				}
 				{
 					consume_items: true
-					count: 8L
+					count: 4L
 					id: "26AEF8B4B4F37574"
 					item: {
-						Count: 8
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1647,10 +1679,10 @@
 				}
 				{
 					consume_items: true
-					count: 16L
+					count: 8L
 					id: "7B414BABEB0576F9"
 					item: {
-						Count: 16
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1661,19 +1693,18 @@
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 2L
-					id: "42795CEED1AA1B79"
-					item: { Count: 2, id: "numismatics:cog" }
+					id: "7E4A16A7D14B59A7"
+					item: "numismatics:crown"
 					type: "item"
 				}
 			]
 			title: "Fluid Logistics"
-			x: -0.5d
-			y: -5.0d
+			x: 1.5d
+			y: -5.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:factory_gauge"
 			id: "7A23B36E280FA99C"
 			rewards: [{
@@ -1709,10 +1740,10 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "4AF974CDF5286011"
 					item: {
-						Count: 4
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1739,17 +1770,19 @@
 				}
 				{
 					consume_items: true
+					count: 2L
 					id: "0F9E6E682721B17C"
 					item: "numismatics:cog"
 					type: "item"
 				}
 			]
 			title: "Factory Gauges"
-			x: -1.5d
-			y: -5.0d
+			x: 1.5d
+			y: -4.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:steam_engine"
 			id: "3FD21CD0AFD2F0F2"
 			rewards: [{
@@ -1823,11 +1856,12 @@
 			]
 			title: "Steam Boilers"
 			x: -1.5d
-			y: -6.0d
+			y: -3.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
-			icon: "createaddition:capacitor"
+			hide_dependency_lines: true
+			icon: "createaddition:large_connector"
 			id: "71220CE934ABA266"
 			rewards: [{
 				auto: "enabled"
@@ -1840,17 +1874,18 @@
 				}
 				id: "7A7748228EDB3CE2"
 				ignore_reward_blocking: true
-				stage: "crete_electric"
+				stage: "create_electric"
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Rolling Mill, Energy interface, Connectors"
 			tasks: [
 				{
 					consume_items: true
-					count: 8L
+					count: 16L
 					id: "30AC040415BDA0C7"
 					item: {
-						Count: 8
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1862,10 +1897,10 @@
 				}
 				{
 					consume_items: true
-					count: 4L
+					count: 8L
 					id: "112FA00E5E971067"
 					item: {
-						Count: 4
+						Count: 1
 						id: "splendid_slimes:plort"
 						tag: {
 							plort: {
@@ -1892,17 +1927,19 @@
 				}
 				{
 					consume_items: true
+					count: 2L
 					id: "0F9986284D8C788A"
 					item: "numismatics:cog"
 					type: "item"
 				}
 			]
 			title: "Electrical Management"
-			x: -0.5d
-			y: -6.0d
+			x: -1.5d
+			y: -4.75d
 		}
 		{
 			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
 			icon: "create:mechanical_crafter"
 			id: "17DD13AC8EE7AF75"
 			rewards: [{
@@ -1920,6 +1957,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
+			subtitle: "Access to mechanical crafting"
 			tasks: [
 				{
 					consume_items: true
@@ -2004,8 +2042,192 @@
 				}
 			]
 			title: "Mechanical Crafter"
-			x: 0.5d
-			y: -6.0d
+			x: -0.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "moderndynamics:item_pipe"
+			id: "0538622961A81A81"
+			min_width: 300
+			tasks: [{
+				id: "655157C0F602DC63"
+				title: "Placeholder"
+				type: "checkmark"
+			}]
+			title: "Modern Dynamics Placeholder"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["011F6A2FAF01FECF"]
+			hide_dependency_lines: true
+			icon: "createaddition:electric_motor"
+			id: "381917A800B8CD36"
+			rewards: [{
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "create:item/schematic"
+					}
+				}
+				id: "65B6952F6700746B"
+				ignore_reward_blocking: true
+				stage: "create_powering"
+				team_reward: true
+				type: "gamestage"
+			}]
+			subtitle: "Access to Capacitor, Motor, Alternator"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "1186C86E6F7DEA4E"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:crystal"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "05EC3CEFAA6910B7"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:bitwise"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "28D5817A0317076C"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:metallic"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "56605474415D052B"
+					item: {
+						Count: 1
+						id: "splendid_slimes:plort"
+						tag: {
+							plort: {
+								id: "splendid_slimes:luminous"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D42183A592F32B9"
+					item: "numismatics:crown"
+					type: "item"
+				}
+			]
+			title: "Electrical Generation"
+			x: -1.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:block/energy_input"
+				}
+			}
+			id: "20B6F272AEB2CF58"
+			min_width: 300
+			tasks: [{
+				id: "0D08F4A2EF09AEA4"
+				title: "Placeholder"
+				type: "checkmark"
+			}]
+			title: "Thermal Expansion Placeholder"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "littlelogistics:steam_locomotive"
+			id: "3CB47EA41A741E3E"
+			min_width: 300
+			tasks: [{
+				id: "7647A0C14B5C392D"
+				title: "Placeholder"
+				type: "checkmark"
+			}]
+			title: "Little Logistics Placeholder"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: "computercraft:computer_advanced"
+			id: "43F292BBC19C90DA"
+			min_width: 300
+			tasks: [{
+				id: "0BEC7FE61CE7E563"
+				title: "Placeholder"
+				type: "checkmark"
+			}]
+			title: "ComputerCraft Placeholder"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["528ED809C83D224D"]
+			description: [""]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "buildinggadgets2:item/gadget_building"
+				}
+			}
+			id: "17887BDCB3998620"
+			min_width: 300
+			tasks: [{
+				id: "5EE84807B4365908"
+				title: "Placeholder"
+				type: "checkmark"
+			}]
+			title: "Building Gadgets Placeholder"
+			x: 7.5d
+			y: 1.5d
 		}
 	]
 	title: "&b The Lab &r✔"

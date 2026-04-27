@@ -310,6 +310,7 @@
 			dependencies: ["32DE8BA397A5E12D"]
 			icon: "essentials:item_shifter"
 			id: "0594D08A6981B178"
+			subtitle: "Straight pipes..."
 			tasks: [
 				{
 					id: "79DA3C29CAD135F9"
@@ -722,7 +723,7 @@
 				title: "Little Logistics"
 				type: "checkmark"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: -5.5d
 		}
 		{
@@ -731,6 +732,7 @@
 			icon: "littlelogistics:chest_car"
 			id: "5E41E4C363CC21D6"
 			min_required_tasks: 1
+			subtitle: "Storage!"
 			tasks: [
 				{
 					id: "43F0574C8252D5ED"
@@ -763,6 +765,7 @@
 			icon: "littlelogistics:steam_locomotive"
 			id: "215AE280A2204C0B"
 			min_required_tasks: 1
+			subtitle: "Steam powered!"
 			tasks: [
 				{
 					id: "33EBAE5E322D717B"
@@ -793,6 +796,7 @@
 			dependencies: ["59C819B383448D7C"]
 			description: ["Performs fishing passively, must be in open water for nets to be deployed."]
 			id: "27D0E0CCEB4EE20B"
+			subtitle: "Fishe :)"
 			tasks: [{
 				id: "2088AF659CFE8D93"
 				item: "littlelogistics:fishing_barge"
@@ -806,6 +810,7 @@
 			description: ["Collects nearby items, requires a &eChest&r or &eBarrel Barge&r."]
 			id: "0591718C2722B68B"
 			min_required_tasks: 1
+			subtitle: "Magnetization!"
 			tasks: [{
 				id: "1BAC172BC6ADB8EE"
 				item: "littlelogistics:vacuum_barge"
@@ -819,6 +824,7 @@
 			description: ["Used to link vehicles (such as barges and train cars) together."]
 			id: "5AB754CD6F9E12F3"
 			min_required_tasks: 1
+			subtitle: "Linking together!"
 			tasks: [{
 				id: "1FE339DDE3E777E7"
 				item: "littlelogistics:spring"
@@ -833,6 +839,7 @@
 			icon: "littlelogistics:tug_route"
 			id: "67D72022D728C551"
 			min_required_tasks: 1
+			subtitle: "Routing!"
 			tasks: [
 				{
 					id: "6AD76D5153C797E9"
@@ -855,6 +862,7 @@
 			icon: "littlelogistics:tug_dock"
 			id: "52AF8EF95EF3E205"
 			min_required_tasks: 1
+			subtitle: "The dropoff!"
 			tasks: [
 				{
 					id: "00B4B1E63235B3FC"
@@ -891,6 +899,26 @@
 				type: "item"
 			}]
 			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59C819B383448D7C"]
+			description: ["Used to properly guide tugboats along edges and corners (See the book)"]
+			id: "78B6DD5B35294A2C"
+			subtitle: "Guidance!"
+			tasks: [
+				{
+					id: "37E0B2BC627AB950"
+					item: "littlelogistics:guide_rail_corner"
+					type: "item"
+				}
+				{
+					id: "5E2ABDB3C2D95166"
+					item: "littlelogistics:guide_rail_tug"
+					type: "item"
+				}
+			]
+			x: -13.5d
 			y: -4.5d
 		}
 	]

@@ -1124,7 +1124,8 @@
 					type: "checkmark"
 				}
 				{
-					count: 16L
+					consume_items: true
+					count: 4L
 					id: "760AAEF7A16DEC88"
 					item: {
 						Count: 1

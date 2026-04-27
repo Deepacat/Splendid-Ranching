@@ -165,6 +165,123 @@
 			x: -4.0d
 			y: 10.5d
 		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -2.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -3.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -4.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -5.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -6.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -7.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -2.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -3.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -4.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -5.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -6.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.75d
+			y: -7.0d
+		}
+		{
+			dependency: "42831C5E7A8C2BA0"
+			height: 1.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -7.0d
+		}
 	]
 	order_index: 1
 	progression_mode: "flexible"

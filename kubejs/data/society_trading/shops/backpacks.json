@@ -1,0 +1,63 @@
+{
+	"shop_id": "backpacks",
+	"name": "shop.society_trading.backpacks",
+	"texture": "sophisticatedbackpacks:textures/item/upgrade_base",
+	"block_tag": "splendid_ranching:open_backpacks",
+	"jei_catalyst": { "item": "sophisticatedbackpacks:backpack" },
+	"trades": [
+		{
+			"offer": { "item": "sophisticatedbackpacks:backpack", "count": 1 },
+			"request": { "item": "numismatics:crown", "count": 2 },
+			"numismatics_cost": 1024,
+			"trade_id": "splendid_backpack"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:deposit_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 2 },
+			"numismatics_cost": 128,
+			"trade_id": "splendid_deposit_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:restock_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 2 },
+			"numismatics_cost": 128,
+			"trade_id": "splendid_restock_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:feeding_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 1 },
+			"numismatics_cost": 64,
+			"trade_id": "splendid_feeding_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:filter_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 1 },
+			"numismatics_cost": 64,
+			"trade_id": "splendid_filter_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:pickup_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 1 },
+			"numismatics_cost": 64,
+			"trade_id": "splendid_pickup_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:magnet_upgrade", "count": 1 },
+			"request": { "item": "numismatics:crown", "count": 2 },
+			"numismatics_cost": 1024,
+			"trade_id": "splendid_magnet_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:void_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 2 },
+			"numismatics_cost": 128,
+			"trade_id": "splendid_void_upgrade"
+		},
+		{
+			"offer": { "item": "sophisticatedbackpacks:battery_upgrade", "count": 1 },
+			"request": { "item": "numismatics:cog", "count": 1 },
+			"numismatics_cost": 64,
+			"trade_id": "splendid_battery_upgrade"
+		}
+	]
+}

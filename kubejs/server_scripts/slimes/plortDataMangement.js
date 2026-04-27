@@ -28,6 +28,11 @@ PlayerEvents.tick(e => {
         // Send list of known players
         $UsernameCache.getMap().forEach((key, value) => { knownPlayers[key] = value })
         e.player.sendData('kubejs:known_players', knownPlayers)
+
+        let stagesObj = { stages: [] }
+        let stagesArray = e.player.stages.all.toArray()
+        for (let stageId of stagesArray) { stagesObj['stages'].push(stageId) }
+        e.player.sendData('kubejs:research_stages', stagesObj)
     }
 })
 
@@ -38,15 +43,11 @@ NetworkEvents.dataReceived('kubejs:slime_value_data_client_request', e => {
 
 // Checking if daily updates should run
 ServerEvents.tick(e => {
-    try {
-        if (Utils.server.tickCount % 20 != 0) { return } // update once a second
-        let dayTime = e.server.getLevel('minecraft:overworld').dayTime()
-        let morningModulo = dayTime % 24000 // "6 am" every minecraft day
+    if (Utils.server.tickCount % 20 != 0) { return } // update once a second
+    let dayTime = e.server.getLevel('minecraft:overworld').dayTime()
+    let morningModulo = dayTime % 24000 // "6 am" every minecraft day
 
-        if (!(morningModulo >= 0 && morningModulo < 20)) { return }
+    if (!(morningModulo >= 0 && morningModulo < 20)) { return }
 
-        dailyUpdates(e) // run daily updates
-    } catch (err) {
-        console.error(err)
-    }
+    dailyUpdates(e.server) // run daily updates
 })

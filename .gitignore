@@ -105,9 +105,7 @@ kubejs/modpackData/**
 /config/defaultsettings.json
 /config/embeddium-options.json
 /config/xaerominimap.txt
-/config/crash_assistant/modlist.json
 /config/tunnelyrefab.json
-/config/crash_assistant/*
 
 # Linux
 *~
