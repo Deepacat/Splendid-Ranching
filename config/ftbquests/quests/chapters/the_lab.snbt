@@ -77,6 +77,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					count: 8L
 					id: "370116C4C0379C48"
 					item: {
