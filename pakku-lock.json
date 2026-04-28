@@ -3317,6 +3317,85 @@
             ]
         },
         {
+            "pakku_id": "AzmHkUZ7PNnvZCmR",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "fusion-connected-textures"
+            },
+            "name": {
+                "curseforge": "Fusion (Connected Textures)"
+            },
+            "id": {
+                "curseforge": "854949"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "fusion-1.2.12-forge-mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7471/518/fusion-1.2.12-forge-mc1.20.1.jar",
+                    "id": "7471518",
+                    "parent_id": "854949",
+                    "hashes": {
+                        "sha1": "ec5c8a552493297842543140fed1b0a327c217f4",
+                        "md5": "aad8a16b48cd54cd75e34bf4f40eec1b"
+                    },
+                    "required_dependencies": [],
+                    "size": 544586,
+                    "date_published": "2026-01-17T02:39:03.600Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "zmE5oh1AbGHs8Qfn",
+            "type": "RESOURCE_PACK",
+            "slug": {
+                "curseforge": "fusion-connected-glass"
+            },
+            "name": {
+                "curseforge": "Fusion Connected Glass"
+            },
+            "id": {
+                "curseforge": "1315459"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4",
+                        "1.20.3"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7051/90/Fusion Connected Glass v1.0.1 for Minecraft 1.20-1.21.8.zip",
+                    "id": "7051090",
+                    "parent_id": "1315459",
+                    "hashes": {
+                        "sha1": "48210e165b4df035509c2cdaba654afdb0ad27b3",
+                        "md5": "5182efbf1b9301715532c7e4aabe19bd"
+                    },
+                    "required_dependencies": [
+                        "854949"
+                    ],
+                    "size": 191578,
+                    "date_published": "2025-09-30T21:43:40.557Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "AWp9SSeH0sgcMLLE",
             "type": "MOD",
             "slug": {
@@ -3720,6 +3799,44 @@
                     "required_dependencies": [],
                     "size": 361894,
                     "date_published": "2026-01-09T05:39:22.677Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DRLDtU5rwfxuQj7d",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "interactive-corporea-reinfused"
+            },
+            "name": {
+                "curseforge": "Interactive Corporea Reinfused"
+            },
+            "id": {
+                "curseforge": "1526815"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "interactive_corporea_reinfused-1.0.0-beta.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8000/366/interactive_corporea_reinfused-1.0.0-beta.jar",
+                    "id": "8000366",
+                    "parent_id": "1526815",
+                    "hashes": {
+                        "sha1": "336d1d198ae485b05fe4477ccec5c500e6a1e312",
+                        "md5": "d84dc91151a7e19a098d2aacdf37d49b"
+                    },
+                    "required_dependencies": [
+                        "225643"
+                    ],
+                    "size": 736967,
+                    "date_published": "2026-04-27T13:45:43.053Z"
                 }
             ]
         },
