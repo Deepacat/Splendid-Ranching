@@ -1,7 +1,7 @@
 StartupEvents.registry('block', e => {
     // splendid wares shop terminal block for accessing the shop
     /** @type {Internal.BasicBlockJS$Builder} */
-    let wares = e.create('splendid_wares_shop')
+    let wares = e.create('splendid_wares_shop', 'cardinal')
         .displayName('Splendid Wares Shop')
         .hardness(30)
         .tagBlock('minecraft:mineable/pickaxe')

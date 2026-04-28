@@ -1,0 +1,20 @@
+{
+    "society_trading:trade": {
+        "order": 1
+    },
+    "minecraft:crafting": {
+        "order": 2
+    },
+    "ali:block_loot": {
+        "order": 3
+    },
+    "emi:anvil_repairing": {
+        "order": 4
+    },
+    "emi:grinding": {
+        "order": 4
+    },
+    "ali:gameplay_loot": {
+        "order": 5
+    }
+}

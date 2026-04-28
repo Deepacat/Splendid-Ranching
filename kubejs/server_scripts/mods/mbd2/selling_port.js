@@ -93,7 +93,6 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
         machine.level.playSound(null, machine.pos.x, machine.pos.y, machine.pos.z, "create:stock_ticker_trade", "blocks", 1, 1)
 
         // iterate through coin items and pop them out of the machines top face
-
         machine.level.server.scheduleInTicks(10, () => {
             for (let i = 0; i < coinItems.length; i++) {
                 let block = machine.level.getBlock(machine.pos)

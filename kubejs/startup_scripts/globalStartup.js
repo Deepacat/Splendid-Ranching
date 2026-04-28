@@ -1,7 +1,9 @@
 // priority: -20
 // Borrowed from society
 const $Numismatics = Java.loadClass("dev.ithundxr.createnumismatics.Numismatics")
-const $BlockEntity = Java.loadClass("net.minecraft.world.level.block.entity.BlockEntity");
+const $BlockEntity = Java.loadClass("net.minecraft.world.level.block.entity.BlockEntity")
+const $CompoundTag = Java.loadClass("net.minecraft.nbt.CompoundTag")
+const $MachineBlockEntity = Java.loadClass("com.lowdragmc.mbd2.common.blockentity.MachineBlockEntity")
 
 global.GLOBAL_BANK = $Numismatics.BANK
 

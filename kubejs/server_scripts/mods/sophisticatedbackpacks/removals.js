@@ -1,16 +1,24 @@
-// removing recipes for items that are probably purchased
+// Removing recipes for items that are probably purchased in wares
+// Full removals should be in nuking
 ServerEvents.recipes(e => {
-    e.remove({ output: 'sophisticatedbackpacks:backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:copper_backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:iron_backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:gold_backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:diamond_backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:netherite_backpack' })
-    e.remove({ output: 'sophisticatedbackpacks:restock_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:deposit_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:filter_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:void_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:pickup_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:battery_upgrade' })
-    e.remove({ output: 'sophisticatedbackpacks:feeding_upgrade' })
+    e.remove({
+        output: [
+            "sophisticatedbackpacks:backpack",
+            "sophisticatedbackpacks:restock_upgrade",
+            "sophisticatedbackpacks:deposit_upgrade",
+            "sophisticatedbackpacks:filter_upgrade",
+            "sophisticatedbackpacks:void_upgrade",
+            "sophisticatedbackpacks:pickup_upgrade",
+            "sophisticatedbackpacks:battery_upgrade",
+            "sophisticatedbackpacks:feeding_upgrade"
+        ]
+    })
+
+    let recipeIdList = [
+        "sophisticatedbackpacks:magnet_upgrade",
+        "sophisticatedbackpacks:advanced_magnet_upgrade"
+    ]
+    for (let recipeId of recipeIdList) {
+        e.remove({ id: recipeId }) // Can't just remove an array for some reason
+    }
 })

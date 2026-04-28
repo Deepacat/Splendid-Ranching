@@ -61,6 +61,14 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
+  "appleskin-forge-mc1.20.1-2.5.1.jar": {
+    "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
+    "modId": "appleskin",
+    "name": "AppleSkin",
+    "version": "2.5.1+mc1.20.1",
+    "curseForgeHash": 1671637789,
+    "modrinthHash": "81919356f84eab14258db98924b66c3c38e372b1"
+  },
   "Architects-Palette-1.20.1-1.3.6.1.jar": {
     "jarName": "Architects-Palette-1.20.1-1.3.6.1.jar",
     "modId": "architects_palette",
@@ -685,6 +693,14 @@
     "curseForgeHash": 2646303899,
     "modrinthHash": "4b100de40338247a3fbf4d1fd1846257c5338189"
   },
+  "fusion-1.2.12-forge-mc1.20.1.jar": {
+    "jarName": "fusion-1.2.12-forge-mc1.20.1.jar",
+    "modId": "fusion",
+    "name": "Fusion",
+    "version": "1.2.12",
+    "curseForgeHash": 1574254045,
+    "modrinthHash": "ec5c8a552493297842543140fed1b0a327c217f4"
+  },
   "fzzy_config-0.7.6+1.20.1+forge.jar": {
     "jarName": "fzzy_config-0.7.6+1.20.1+forge.jar",
     "modId": "fzzy_config",
@@ -748,6 +764,14 @@
     "version": "1.20-9.4.6",
     "curseForgeHash": 438981801,
     "modrinthHash": "0d324b97af98938f28f58f696e0b992c42eb8f31"
+  },
+  "interactive_corporea_reinfused-1.0.0-beta.jar": {
+    "jarName": "interactive_corporea_reinfused-1.0.0-beta.jar",
+    "modId": "interactive_corporea",
+    "name": "Interactive Corporea",
+    "version": "1.0.0-beta",
+    "curseForgeHash": 1695881009,
+    "modrinthHash": "336d1d198ae485b05fe4477ccec5c500e6a1e312"
   },
   "ItemBorders-1.20.1-forge-1.2.2.jar": {
     "jarName": "ItemBorders-1.20.1-forge-1.2.2.jar",

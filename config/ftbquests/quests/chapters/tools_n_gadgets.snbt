@@ -6,11 +6,38 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
+	images: [
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "3654487B08949138"
+		linked_quest: "6786A03351AC6A56"
+		x: 1.0d
+		y: -2.5d
+	}]
 	quests: [
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: ["A modern angel block"]
 			id: "7375603289BF47C2"
 			rewards: [{
@@ -24,11 +51,11 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -2.25d
+			y: -0.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Press right-click to select a block."
 				"&eAbacus&r will count the distance from selected block in taxicab geometry, until right-clicked again."
@@ -40,11 +67,11 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -1.25d
+			y: -0.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "18F445C63F94FEFC"
 			subtitle: "&8[&7 Places Blocks &8]"
 			tasks: [{
@@ -52,11 +79,11 @@
 				item: "quark:trowel"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -0.25d
+			y: -0.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Place 4 &eMagnetic Lights&r in a square or a rectangle (No larger than 20x20), place the &eMagnetic Quarry&r next to any edge of the rectangle, the quarry will start breaking blocks when you place the &eSmasher&r within the rectangle."
 				""
@@ -83,11 +110,11 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: -0.25d
+			y: -4.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"The &eConversion Crucible&r has the magical ability to change the biome around it if the correct ingredients are tossed into it."
 				""
@@ -112,16 +139,20 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -3.5d
+			x: -1.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
-				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
+				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it "
+				""
 				"Pressing right-click again will launch you in it's direction."
+				""
+				"Enchantable for VERY improved grappling!"
 			]
 			id: "005DDB059E76C369"
+			min_width: 250
 			tasks: [{
 				id: "77F41D11A1F7D719"
 				item: {
@@ -133,11 +164,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: -2.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "2B7AFE38E631A92F"
 			subtitle: "&8[&7 Rotates... Rotatable Blocks! &8]"
 			tasks: [{
@@ -151,11 +182,11 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -0.25d
+			y: 0.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			icon: {
 				Count: 1
 				id: "quark:pickarang"
@@ -189,11 +220,11 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 0.5d
+			x: -1.25d
+			y: 0.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "3FA0EA79B5022DC9"
 			rewards: [{
 				id: "49B08C51784BB2AC"
@@ -214,33 +245,33 @@
 				item: "supplementaries:soap"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -2.25d
+			y: 0.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "0F74E0F850312F6B"
 			tasks: [{
 				id: "7ACB794B4D9B71C0"
 				item: "mininggadgets:upgrade_void_junk"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 2.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "0205E00325E008AC"
 			tasks: [{
 				id: "3E6A71092CB1B9A7"
 				item: "mininggadgets:upgrade_magnet"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: 2.25d
+			y: -4.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "2E96D2FE6BFB50B2"
 			tasks: [{
 				id: "06723B12ACDD2D2F"
@@ -253,11 +284,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -2.25d
+			y: -4.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"&eMagnetic Levitation Rails&r can be used to create Minecart tracks. "
 				"Similarly to &ePowered Rails&r, they cannot curve, but unlike &ePowered Rails&r, they don't require Redstone power, and can propel Minecarts even faster."
@@ -270,11 +301,11 @@
 				item: "alexscaves:magnetic_levitation_rail"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -0.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Pressing and holding right-click while having any item made from Iron or Netherite in your hands along with the &eGalena Gauntlet&r in the other will cause held item to hover about 10 to 20 blocks of the direction the user is facing. "
 				"Once the use button is let go, the item will fly back to its user. The gauntlet is preferably used with &eIron Tools&r or &eNetherite Tools&r."
@@ -296,50 +327,33 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -0.25d
+			y: -5.75d
 		}
 		{
-			dependencies: ["53EBD9587E86A7B9"]
-			description: [
-				"Very much recommend reading into these! Especially that bottom left row..."
-				""
-				"Many helpful tools to be found, especially the Felling Axe and paxels!"
-			]
-			id: "641BB69F5A27AABE"
-			subtitle: "&8[&r Helpful gadgets! &8]"
-			tasks: [{
-				id: "64A85F04D00289B0"
-				title: "Gadgets!"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "386B2017BF07EB1C"
 			tasks: [{
 				id: "157FA4B719DD5BF2"
 				item: "buildinggadgets2:gadget_building"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 4.25d
+			y: -5.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "1AF59AE68550F0C1"
 			tasks: [{
 				id: "6AE250A796622963"
 				item: "buildinggadgets2:gadget_exchanging"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 5.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "504868731B06884F"
 			tasks: [{
 				id: "4BFB08B8DF074DE8"
@@ -352,11 +366,11 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 4.25d
+			y: -4.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "78C554CDA4FCD332"
 			tasks: [{
 				id: "711C7B506AFD7C68"
@@ -367,22 +381,22 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 4.25d
+			y: -3.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "52F77229B675C38C"
 			tasks: [{
 				id: "7D6A3E8EC7AF0CE5"
 				item: "buildinggadgets2:gadget_destruction"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 5.25d
+			y: -4.75d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "17806C9B83FF6179"
 			tasks: [
 				{
@@ -434,11 +448,16 @@
 				}
 			]
 			title: "Building Wands"
-			x: -2.0d
-			y: -0.5d
+			x: -2.25d
+			y: -1.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Sends you absolutely flying!!!"
+				""
+				"Great paired with the rainbounce boots for getting around"
+			]
 			id: "74F38EFE74B5C788"
 			rewards: [{
 				count: 3
@@ -460,11 +479,11 @@
 				item: "splendid_slimes:rocket_pod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.25d
+			y: -0.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "6E48F3961D1F4438"
 			subtitle: "&8[&7 Fells entire trees! &8]"
 			tasks: [{
@@ -478,11 +497,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -0.25d
+			y: -1.25d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Combined shovel, axe, and pickaxe for any tier!"
 				""
@@ -517,10 +536,11 @@
 				type: "item"
 			}]
 			title: "Paxels"
-			x: -1.0d
-			y: -1.5d
+			x: -1.25d
+			y: -1.25d
 		}
 		{
+			dependencies: ["6786A03351AC6A56"]
 			description: ["Can probably be used for something &8dark&r."]
 			id: "13BE8A6893F6F8E0"
 			subtitle: "What is... &8Anything&r?"
@@ -529,8 +549,257 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: ["Will tell you why a slime maybe unhappy"]
+			id: "10BC3B9533A79EAD"
+			subtitle: "What is your PROBLEM"
+			tasks: [{
+				id: "5C0943CCA36EB01E"
+				item: "splendid_slimes:slime_inspector"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"By default the slimevac uses the \"V\" key to change its mode between Item/Slime/All"
+				""
+				"&7-&r In \"Item mode\" sneaking while right clicking will pull items toward you"
+				"&7(Be careful of them flying too fast past you... That is a wonderful way to make Tarrs)"
+				""
+				"&7-&r In \"Slime Mode\" sneak right click will pull slimes toward you and holding shift near a slime picks it up"
+				""
+				"&7-&r \"All mode\" Simply does both things"
+			]
+			id: "7D034B6244C89A61"
+			min_width: 300
+			subtitle: "Not for ghosts... Mostly."
+			tasks: [{
+				id: "3A703B4F4370FF72"
+				item: "splendid_slimes:slime_vac"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Instantly sets slimes happiness to the next state"
+				""
+				"Furious > Neutral > Happy"
+			]
+			id: "7292A4404497DDB3"
+			subtitle: "Slime leveled up!"
+			tasks: [{
+				id: "56A82CD7713CE26F"
+				item: "splendid_slimes:slime_candy"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Beautiful mobile storage, incredible QOL and upgradable for automation setups!"
+				""
+				"Also lets you bypass the slime carry limit!"
+				"&7(It'd be really annoying to make that work)"
+			]
+			id: "478471AA1F22000B"
+			min_width: 300
+			subtitle: "Trusty Togo"
+			tasks: [{
+				id: "534670BE1E6BEF43"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Picks up items on the ground if they're within the backpacks block"
+				""
+				"Advanced allows improved filtering"
+			]
+			id: "43884FD407D8DF7D"
+			subtitle: "Picks up drops"
+			tasks: [
+				{
+					id: "44EE7A9CBEB0F153"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "4A84F0489F43ACE4"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: ["Advanced version has farther range and better filtering"]
+			id: "3AC7BA1DFD08D398"
+			subtitle: "Pickup 2.0"
+			tasks: [
+				{
+					id: "6826C29466CC0C6C"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "6C865A629C357F92"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Allows filtering what can enter or exit a backpack from external sources like hoppers"
+				""
+				"Advanced allows improved filtering"
+			]
+			id: "257E28C73FA90C19"
+			tasks: [
+				{
+					id: "3A0B4B0B6E346AAC"
+					item: "sophisticatedbackpacks:filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "720B972FD7E25B8D"
+					item: "sophisticatedbackpacks:advanced_filter_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Can write down a simple checklist"
+				""
+				"Can be placed inside a prepared schematic cannon to get a list of required materials"
+				""
+				"Can be right clicked on many create blocks to copy their config, then left click to paste to others, even including the filter inside them!"
+			]
+			id: "6C729D79CEB2DBB5"
+			min_width: 300
+			subtitle: "More useful than you think"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "create:item/clipboard"
+					}
+				}
+				id: "042E55B09BB42A4E"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "0CE61A15C2D11915"
+			subtitle: "Ctrl C + Ctrl V"
+			tasks: [{
+				id: "4D2FDD396EA08B0D"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "347CE2E76493C2B9"
+			subtitle: "Mirrored Placement"
+			tasks: [{
+				id: "43AB501D037DC4D5"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Extends player reach!"
+				"Can dual wield for some reason"
+			]
+			id: "425CD1A086EBBF8E"
+			subtitle: "Boop!"
+			tasks: [{
+				id: "56C6B04E5EAC44AF"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "466DEC5A8CC5695D"
+			subtitle: "Where have you been all my life"
+			tasks: [{
+				id: "7075C6D89CF40E69"
+				item: "createtransmission:transmission_chain"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			icon: {
+				Count: 1
+				id: "create_jetpack:jetpack"
+				tag: {
+					Air: 900
+				}
+			}
+			id: "11393586A267E64A"
+			tasks: [{
+				id: "139A78F8230E5F0D"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -5.75d
 		}
 	]
 	title: "&9 Tools n' Gadgets"
