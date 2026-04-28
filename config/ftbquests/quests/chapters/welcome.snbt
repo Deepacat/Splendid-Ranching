@@ -46,7 +46,6 @@
 		}
 		{
 			click: " "
-			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			hover: ["History of Splendid Updates"]
 			image: "atmospheric:block/chiseled_laurel_bookshelf_occupied"
@@ -67,6 +66,7 @@
 			y: 0.0d
 		}
 		{
+			alpha: 150
 			color: 5635925
 			height: 1.1d
 			image: "ftbquests:textures/shapes/square/shape.png"
