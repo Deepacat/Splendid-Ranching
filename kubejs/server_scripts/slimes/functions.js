@@ -10,8 +10,8 @@ function dailyUpdates(server) {
 
     // if within 20 ticks of "6 am"
     server.tell("— §6Goooood morning§r, Rancher!")
-    if (dailySoldTotal > 0 && Object.assign({}, dailySoldPlorts).length > 0) { // if there was anything sold, tell about it
-        server.tell(`—— Yesterday you sold:`)
+    if (dailySoldTotal > 0 && Object.entries(Object.assign({}, dailySoldPlorts)).length > 0) { // if there was anything sold, tell about it
+        server.tell(`— Yesterday you sold:`)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]
             server.tell(
