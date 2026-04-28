@@ -2,8 +2,8 @@
 
 /**
  * @param {Internal.BlockEntity} blockEntity
- * @param {Internal.CompoundTag} tag 
- * @param {String[] | String} keys 
+ * @param {Internal.CompoundTag} tag
+ * @param {String[] | String} keys
  */
 global.registerKeys = (blockEntity, tag, keys) => {
     if (blockEntity.data == null) { return }
@@ -20,8 +20,8 @@ global.registerKeys = (blockEntity, tag, keys) => {
 
 /**
  * @param {Internal.BlockAccessor} accessor
- * @param {Internal.CompoundTag} tag 
- * @param {String[] | String} keys 
+ * @param {Internal.CompoundTag} tag
+ * @param {String[] | String} keys
  */
 global.mbd2MachineKeys = (accessor, tag) => {
     if (!accessor.block || accessor.block.id != "mbd2:auto_selling_port") { return }
