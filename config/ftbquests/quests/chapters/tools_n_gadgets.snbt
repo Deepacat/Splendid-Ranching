@@ -554,7 +554,9 @@
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
+			description: ["Will tell you why a slime maybe unhappy"]
 			id: "10BC3B9533A79EAD"
+			subtitle: "What is your PROBLEM"
 			tasks: [{
 				id: "5C0943CCA36EB01E"
 				item: "splendid_slimes:slime_inspector"

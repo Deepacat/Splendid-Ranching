@@ -1,5 +1,5 @@
 {
-    // naturally spawning
+    // naturally spawning / t0
     "slimy": {
         "baseValue": 10,
         "currentValue": 10,
@@ -12,7 +12,6 @@
         "maxVolume": 200,
         "slimeDupeCost": 4
     },
-    // t0
     "puddle": {
         "baseValue": 10,
         "currentValue": 10,

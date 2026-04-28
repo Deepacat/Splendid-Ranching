@@ -774,12 +774,19 @@
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"
 			min_width: 350
-			rewards: [{
-				count: 5
-				id: "591872EA475BF1F9"
-				item: "splendid_slimes:slime_candy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 5
+					id: "591872EA475BF1F9"
+					item: "splendid_slimes:slime_candy"
+					type: "item"
+				}
+				{
+					id: "73A371D9F7DF7EC1"
+					item: "splendid_slimes:slime_inspector"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "You're not you when you're hungry"
 			tasks: [{
@@ -1288,7 +1295,7 @@
 			description: [
 				"Unlocks the gadgets tab!"
 				""
-				"Very much recommend reading into these! Especially that lower left group of generally useful tools"
+				"Very much recommend reading into these! Especially that lower left group of generally useful tools, as well as the extra ranching utilities"
 				"&7(Please get a Lumberaxe)"
 				""
 				"Many helpful tools to be found, especially the Lumberaxe and paxels!"
