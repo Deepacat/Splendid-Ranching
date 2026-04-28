@@ -1286,12 +1286,17 @@
 				"611599F122718E16"
 			]
 			description: [
-				"Very much recommend reading into these! Especially that bottom left row..."
+				"Unlocks the gadgets tab!"
 				""
-				"Many helpful tools to be found, especially the Felling Axe and paxels!"
+				"Very much recommend reading into these! Especially that lower left group of generally useful tools"
+				"&7(Please get a Lumberaxe)"
+				""
+				"Many helpful tools to be found, especially the Lumberaxe and paxels!"
+				"&7(I beg)"
 			]
 			icon: "create:brown_toolbox"
 			id: "6786A03351AC6A56"
+			min_width: 300
 			subtitle: "&8[&r Helpful gadgets! &8]"
 			tasks: [{
 				id: "3B1F100F35339A52"

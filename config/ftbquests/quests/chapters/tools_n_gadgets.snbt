@@ -694,7 +694,15 @@
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Can write down a simple checklist"
+				""
+				"Can be placed inside a prepared schematic cannon to get a list of required materials"
+				""
+				"Can be right clicked on many create blocks to copy their config, then left click to paste to others, even including the filter inside them!"
+			]
 			id: "6C729D79CEB2DBB5"
+			min_width: 300
 			subtitle: "More useful than you think"
 			tasks: [{
 				icon: {
@@ -726,6 +734,7 @@
 		{
 			dependencies: ["6786A03351AC6A56"]
 			id: "347CE2E76493C2B9"
+			subtitle: "Mirrored Placement"
 			tasks: [{
 				id: "43AB501D037DC4D5"
 				item: "create:wand_of_symmetry"
