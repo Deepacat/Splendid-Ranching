@@ -6,6 +6,28 @@
 	hide_quest_until_deps_visible: true
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
+	images: [
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependency: "528ED809C83D224D"
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.5d
+		}
+	]
 	order_index: 0
 	quest_links: [{
 		id: "3654487B08949138"
@@ -29,8 +51,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -2.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -45,8 +67,8 @@
 				item: "quark:abacus"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -1.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -57,8 +79,8 @@
 				item: "quark:trowel"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: -0.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -88,8 +110,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -4.5d
+			x: -0.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -117,16 +139,20 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: -3.5d
+			x: -1.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
 			description: [
-				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
+				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it "
+				""
 				"Pressing right-click again will launch you in it's direction."
+				""
+				"Enchantable for VERY improved grappling!"
 			]
 			id: "005DDB059E76C369"
+			min_width: 250
 			tasks: [{
 				id: "77F41D11A1F7D719"
 				item: {
@@ -138,8 +164,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.5d
+			x: -2.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -156,8 +182,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -0.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -194,8 +220,8 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
-			y: 0.5d
+			x: -1.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -219,8 +245,8 @@
 				item: "supplementaries:soap"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: -2.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -230,8 +256,8 @@
 				item: "mininggadgets:upgrade_void_junk"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -3.5d
+			x: 2.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -241,8 +267,8 @@
 				item: "mininggadgets:upgrade_magnet"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.5d
+			x: 2.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -258,8 +284,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -2.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -275,8 +301,8 @@
 				item: "alexscaves:magnetic_levitation_rail"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.5d
+			x: -0.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -301,8 +327,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.5d
+			x: -0.25d
+			y: -5.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -312,8 +338,8 @@
 				item: "buildinggadgets2:gadget_building"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.5d
+			x: 4.25d
+			y: -5.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -323,8 +349,8 @@
 				item: "buildinggadgets2:gadget_exchanging"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 5.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -340,8 +366,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: -0.5d
+			x: 4.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -355,8 +381,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 4.25d
+			y: -3.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -366,8 +392,8 @@
 				item: "buildinggadgets2:gadget_destruction"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -0.5d
+			x: 5.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -422,11 +448,16 @@
 				}
 			]
 			title: "Building Wands"
-			x: -2.0d
-			y: -0.5d
+			x: -2.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Sends you absolutely flying!!!"
+				""
+				"Great paired with the rainbounce boots for getting around"
+			]
 			id: "74F38EFE74B5C788"
 			rewards: [{
 				count: 3
@@ -448,8 +479,8 @@
 				item: "splendid_slimes:rocket_pod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: 3.25d
+			y: -0.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -466,8 +497,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -0.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -505,8 +536,8 @@
 				type: "item"
 			}]
 			title: "Paxels"
-			x: -1.0d
-			y: -1.5d
+			x: -1.25d
+			y: -1.25d
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
@@ -518,8 +549,246 @@
 				item: "alexscaves:acid_bucket"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "10BC3B9533A79EAD"
+			tasks: [{
+				id: "5C0943CCA36EB01E"
+				item: "splendid_slimes:slime_inspector"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"By default the slimevac uses the \"V\" key to change its mode between Item/Slime/All"
+				""
+				"&7-&r In \"Item mode\" sneaking while right clicking will pull items toward you"
+				"&7(Be careful of them flying too fast past you... That is a wonderful way to make Tarrs)"
+				""
+				"&7-&r In \"Slime Mode\" sneak right click will pull slimes toward you and holding shift near a slime picks it up"
+				""
+				"&7-&r \"All mode\" Simply does both things"
+			]
+			id: "7D034B6244C89A61"
+			min_width: 300
+			subtitle: "Not for ghosts... Mostly."
+			tasks: [{
+				id: "3A703B4F4370FF72"
+				item: "splendid_slimes:slime_vac"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Instantly sets slimes happiness to the next state"
+				""
+				"Furious > Neutral > Happy"
+			]
+			id: "7292A4404497DDB3"
+			subtitle: "Slime leveled up!"
+			tasks: [{
+				id: "56A82CD7713CE26F"
+				item: "splendid_slimes:slime_candy"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Beautiful mobile storage, incredible QOL and upgradable for automation setups!"
+				""
+				"Also lets you bypass the slime carry limit!"
+				"&7(It'd be really annoying to make that work)"
+			]
+			id: "478471AA1F22000B"
+			min_width: 300
+			subtitle: "Trusty Togo"
+			tasks: [{
+				id: "534670BE1E6BEF43"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Picks up items on the ground if they're within the backpacks block"
+				""
+				"Advanced allows improved filtering"
+			]
+			id: "43884FD407D8DF7D"
+			subtitle: "Picks up drops"
+			tasks: [
+				{
+					id: "44EE7A9CBEB0F153"
+					item: "sophisticatedbackpacks:pickup_upgrade"
+					type: "item"
+				}
+				{
+					id: "4A84F0489F43ACE4"
+					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: ["Advanced version has farther range and better filtering"]
+			id: "3AC7BA1DFD08D398"
+			subtitle: "Pickup 2.0"
+			tasks: [
+				{
+					id: "6826C29466CC0C6C"
+					item: "sophisticatedbackpacks:magnet_upgrade"
+					type: "item"
+				}
+				{
+					id: "6C865A629C357F92"
+					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Allows filtering what can enter or exit a backpack from external sources like hoppers"
+				""
+				"Advanced allows improved filtering"
+			]
+			id: "257E28C73FA90C19"
+			tasks: [
+				{
+					id: "3A0B4B0B6E346AAC"
+					item: "sophisticatedbackpacks:filter_upgrade"
+					type: "item"
+				}
+				{
+					id: "720B972FD7E25B8D"
+					item: "sophisticatedbackpacks:advanced_filter_upgrade"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -0.25d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "6C729D79CEB2DBB5"
+			subtitle: "More useful than you think"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "create:item/clipboard"
+					}
+				}
+				id: "042E55B09BB42A4E"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "0CE61A15C2D11915"
+			subtitle: "Ctrl C + Ctrl V"
+			tasks: [{
+				id: "4D2FDD396EA08B0D"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "347CE2E76493C2B9"
+			tasks: [{
+				id: "43AB501D037DC4D5"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			description: [
+				"Extends player reach!"
+				"Can dual wield for some reason"
+			]
+			id: "425CD1A086EBBF8E"
+			subtitle: "Boop!"
+			tasks: [{
+				id: "56C6B04E5EAC44AF"
+				item: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			id: "466DEC5A8CC5695D"
+			subtitle: "Where have you been all my life"
+			tasks: [{
+				id: "7075C6D89CF40E69"
+				item: "createtransmission:transmission_chain"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["6786A03351AC6A56"]
+			icon: {
+				Count: 1
+				id: "create_jetpack:jetpack"
+				tag: {
+					Air: 900
+				}
+			}
+			id: "11393586A267E64A"
+			tasks: [{
+				id: "139A78F8230E5F0D"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: -5.75d
 		}
 	]
 	title: "&9 Tools n' Gadgets"

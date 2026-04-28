@@ -1189,6 +1189,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "What might lurk beneath?"
 			tasks: [{
 				id: "67C73A64D80DDF09"
 				title: "Time to explore"

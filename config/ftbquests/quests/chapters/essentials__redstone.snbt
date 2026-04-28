@@ -94,7 +94,9 @@
 		}
 		{
 			dependencies: ["0737B276FE4AA022"]
+			description: ["Iron rods can break blocks when pushed by pistons"]
 			id: "1BFEFC155FFC3FAC"
+			subtitle: "*Loud pipe falling noise*"
 			tasks: [{
 				id: "2ED93A72D39320D8"
 				item: "quark:iron_rod"
@@ -275,12 +277,22 @@
 		}
 		{
 			dependencies: ["0923CA86BC3F72F5"]
+			description: ["Can be dyed to have different redstone connections alongside eachother"]
 			id: "27667C98B8FD1CCE"
+			subtitle: "Breaking connections"
 			tasks: [{
 				id: "42B1A79E904A1CC9"
-				item: "morered:red_alloy_wire"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(morered:red_alloy_wires)"
+					}
+				}
+				title: "Any #morered:red_alloy_wires"
 				type: "item"
 			}]
+			title: "Redwires"
 			x: -6.0d
 			y: -4.5d
 		}
@@ -373,7 +385,14 @@
 		}
 		{
 			dependencies: ["0737B276FE4AA022"]
+			description: [
+				"Drops any items put into it"
+				""
+				"It doesn't have an interface so you must put items into it from an external source, like a hopper, funnel, pipes, or whatever else you might prefer! "
+			]
 			id: "777574B35B00F1ED"
+			min_width: 250
+			subtitle: "Powerless dropper"
 			tasks: [{
 				id: "311C7E5BD91BCE61"
 				item: "quark:chute"
@@ -384,7 +403,14 @@
 		}
 		{
 			dependencies: ["0737B276FE4AA022"]
+			description: [
+				"Quark allows pistons extra functionality!"
+				""
+				"Notably moving tile entities... That's a fun one! Push around your chests alongside a flying machine or something"
+			]
 			id: "2BC80EB1CDD168EB"
+			min_width: 250
+			subtitle: "Isn't this vanilla?"
 			tasks: [{
 				id: "2D9D8848685B174A"
 				item: "minecraft:piston"
@@ -459,15 +485,15 @@
 				""
 				"More Red is a mod adding plenty of not so vanilla like redstone features, it has:"
 				""
-				"Logic gate redstone circuits, even placeable on walls."
+				"&7-&r Logic gate redstone circuits, even placeable on walls."
 				""
-				"Redstone wire that can be placed on a walls and connected into bundles for compactness."
+				"&7-&r Redstone wire that can be placed on a walls and connected into bundles for compactness."
 				""
-				"Connectors that can link redstone cables between 2 points."
+				"&7-&r Connectors that can link redstone cables between 2 points."
 				""
-				"A... jumbo furnace? Thanks dependencies."
+				"&7-&r A... jumbo furnace? Thanks dependencies."
 				""
-				"And more (See wiki)"
+				"And more! (See wiki above)"
 			]
 			icon: {
 				Count: 1
@@ -478,6 +504,7 @@
 			}
 			id: "0923CA86BC3F72F5"
 			min_width: 300
+			subtitle: "Redstone connectors"
 			tasks: [{
 				id: "7ADA58F7EB5FF55E"
 				title: "More Red"
@@ -514,6 +541,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Redstone additions"
 			tasks: [{
 				id: "0DEA125EFAD2F423"
 				title: "Essentials"
@@ -626,7 +654,18 @@
 		}
 		{
 			dependencies: ["0737B276FE4AA022"]
+			description: [
+				"Can store up to 640 of any items"
+				""
+				"The fun part is that it's not restricted to slots, so you can do a whole 640 unstackable wooden hoes! "
+				""
+				"Or other tools if you for SOME reason use anything else I guess?"
+				""
+				"You can also just a dump for a bunch of items you don't have many of! It's very efficient"
+			]
 			id: "22A8936C2A476C30"
+			min_width: 300
+			subtitle: "Shoving my unstackables here"
 			tasks: [{
 				id: "156FE0AE76619D74"
 				item: "quark:crate"
@@ -718,6 +757,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Better than minecarts"
 			tasks: [{
 				id: "7A3D4D9ACFD3E0D8"
 				title: "Little Logistics"
