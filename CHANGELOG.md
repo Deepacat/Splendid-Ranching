@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.4.2]
+### Changes
+- Implemented the automated sales terminal
+- Fixed daily "last sold" message not working
+- Fixed default resourcepacks not being enabled by default
+- Edited wares prices
+- Many quest edits
+- Many tooltip edits
+- Improved recipe tab ordering/priority
+- hid inaccessible backpacks
+- Wares terminal is now rotatable
+- Fixed a singular incorrect pixel on the automated sales terminals right side! Huge, I know
+
 ## [0.4.1]
 ### Changes
 - Fixed incorrect wares costs
