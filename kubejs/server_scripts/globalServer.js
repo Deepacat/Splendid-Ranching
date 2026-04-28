@@ -27,6 +27,7 @@ global.mainUiElementIds = [
 
 ];
 
+
 const clearUiPaint = (player, ids) => {
     let removedText = {};
     let removedShadow = {};

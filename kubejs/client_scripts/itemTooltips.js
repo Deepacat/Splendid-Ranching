@@ -2,8 +2,8 @@ ItemEvents.tooltip(e => {
     // mbd2
     e.add('mbd2:selling_port', ["§8[§7 Sells plorts using the interface §8]"])
     e.add('mbd2:auto_selling_port', [
-        "§8[§7 Sells plorts on the ground §8]",
-        "§8[§4 NOT YET IMPLEMENTED §8]"
+        "§8[§7 Automatically sells plorts inside it with a cooldown of 5 minutes §8]",
+        "§8[§4 Drops the currency from the machines face §8]"
     ])
     e.add('mbd2:slime_breeder', [
         "§8[§7 Fuses slimes in a 5x4x5 area behind it §8]",

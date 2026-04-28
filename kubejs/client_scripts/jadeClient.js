@@ -1,0 +1,60 @@
+function returnOg(accessor) {
+    return $IElementHelper.item(Item.of(accessor.block.id))
+}
+
+/**
+ * @param {Internal.BlockAccessor} accessor
+ * @param {Internal.IPluginConfig} config
+ * @param {Internal.IElement} currentIcon
+ * @returns
+ */
+global["marketMonitorIconCallback"] = (accessor, config, currentIcon) => {
+    if (accessor.block.id != 'kubejs:market_monitor') { return returnOg(accessor) }
+    let nbt = accessor.getServerData()
+    if (!nbt.plort) return returnOg(accessor)
+    return $IElementHelper.item(Item.of('splendid_slimes:plort', { plort: { id: nbt.plort } }))
+
+}
+/**
+ * @param {Internal.ITooltipWrapper} tooltip
+ * @param {Internal.BlockAccessor} accessor
+ * @param {Internal.IPluginConfig} pluginConfig
+ */
+global["marketMonitorTooltipCallback"] = (tooltip, accessor, pluginConfig) => {
+    if (accessor.block.id != 'kubejs:market_monitor') return
+    let nbt = accessor.getServerData()
+    if (!nbt.plort) return
+    let item = Item.of('splendid_slimes:plort', { plort: { id: nbt.plort } })
+    tooltip.clear()
+    tooltip.append(Text.of(item.hoverName))
+}
+
+/**
+ * @param {Internal.ITooltipWrapper} tooltip
+ * @param {Internal.BlockAccessor} accessor
+ * @param {Internal.IPluginConfig} pluginConfig
+ */
+global["autoSellingPortTooltipCallback"] = (tooltip, accessor, pluginConfig) => {
+    if (accessor.block.id != 'mbd2:auto_selling_port') return
+    let nbt = accessor.getServerData()
+    let cooldownVal = nbt["customData"]["cooldown"]
+    if (!cooldownVal || cooldownVal <= 0) {
+        tooltip.add(Text.of(`§a✔ Ready to sell!`))
+    } else {
+        tooltip.add(Text.of(`⌚ Sell Cooldown: §a${cooldownVal}s`))
+    }
+}
+
+JadeEvents.onClientRegistration(e => {
+    e.block('kubejs:market_monitor', $Block)
+        .tooltip((tooltip, accessor, pluginConfig) => {
+            global["marketMonitorTooltipCallback"](tooltip, accessor, pluginConfig)
+        })
+        .icon((accessor, config, currentIcon) => {
+            return global["marketMonitorIconCallback"](accessor, config, currentIcon)
+        })
+    e.block('mbd2:auto_selling_port', $Block)
+        .tooltip((tooltip, accessor, pluginConfig) => {
+            global["autoSellingPortTooltipCallback"](tooltip, accessor, pluginConfig)
+        })
+})

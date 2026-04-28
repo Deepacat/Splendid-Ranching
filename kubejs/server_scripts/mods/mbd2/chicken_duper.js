@@ -18,7 +18,6 @@ MBDMachineEvents.onAfterRecipeWorking("mbd2:chicken_duper", e => {
             Math.random() * (1.1 - 0.9) + 0.9
         )
     }
-
     machine.customData.putInt("cooldown", 200)
 })
 
