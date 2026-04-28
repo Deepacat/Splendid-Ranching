@@ -1279,6 +1279,27 @@
 			x: 0.25d
 			y: -3.25d
 		}
+		{
+			dependencies: [
+				"53EBD9587E86A7B9"
+				"611599F122718E16"
+			]
+			description: [
+				"Very much recommend reading into these! Especially that bottom left row..."
+				""
+				"Many helpful tools to be found, especially the Felling Axe and paxels!"
+			]
+			icon: "create:brown_toolbox"
+			id: "6786A03351AC6A56"
+			subtitle: "&8[&r Helpful gadgets! &8]"
+			tasks: [{
+				id: "3B1F100F35339A52"
+				title: "Gadgets!"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
 	]
 	title: "&d Ranching &r✔"
 }

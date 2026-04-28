@@ -7,10 +7,15 @@
 	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "3654487B08949138"
+		linked_quest: "6786A03351AC6A56"
+		x: 1.0d
+		y: -2.5d
+	}]
 	quests: [
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: ["A modern angel block"]
 			id: "7375603289BF47C2"
 			rewards: [{
@@ -28,7 +33,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Press right-click to select a block."
 				"&eAbacus&r will count the distance from selected block in taxicab geometry, until right-clicked again."
@@ -44,7 +49,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "18F445C63F94FEFC"
 			subtitle: "&8[&7 Places Blocks &8]"
 			tasks: [{
@@ -56,7 +61,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Place 4 &eMagnetic Lights&r in a square or a rectangle (No larger than 20x20), place the &eMagnetic Quarry&r next to any edge of the rectangle, the quarry will start breaking blocks when you place the &eSmasher&r within the rectangle."
 				""
@@ -87,7 +92,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"The &eConversion Crucible&r has the magical ability to change the biome around it if the correct ingredients are tossed into it."
 				""
@@ -116,7 +121,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Holding a &eCandy Cane Hook&r in your hand and pressing right-click will shoot out a hook, it will stick to most surfaces it hits."
 				"Pressing right-click again will launch you in it's direction."
@@ -137,7 +142,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "2B7AFE38E631A92F"
 			subtitle: "&8[&7 Rotates... Rotatable Blocks! &8]"
 			tasks: [{
@@ -155,7 +160,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			icon: {
 				Count: 1
 				id: "quark:pickarang"
@@ -193,7 +198,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "3FA0EA79B5022DC9"
 			rewards: [{
 				id: "49B08C51784BB2AC"
@@ -218,7 +223,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "0F74E0F850312F6B"
 			tasks: [{
 				id: "7ACB794B4D9B71C0"
@@ -229,18 +234,18 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "0205E00325E008AC"
 			tasks: [{
 				id: "3E6A71092CB1B9A7"
 				item: "mininggadgets:upgrade_magnet"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "2E96D2FE6BFB50B2"
 			tasks: [{
 				id: "06723B12ACDD2D2F"
@@ -257,7 +262,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"&eMagnetic Levitation Rails&r can be used to create Minecart tracks. "
 				"Similarly to &ePowered Rails&r, they cannot curve, but unlike &ePowered Rails&r, they don't require Redstone power, and can propel Minecarts even faster."
@@ -274,7 +279,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Pressing and holding right-click while having any item made from Iron or Netherite in your hands along with the &eGalena Gauntlet&r in the other will cause held item to hover about 10 to 20 blocks of the direction the user is facing. "
 				"Once the use button is let go, the item will fly back to its user. The gauntlet is preferably used with &eIron Tools&r or &eNetherite Tools&r."
@@ -300,24 +305,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["53EBD9587E86A7B9"]
-			description: [
-				"Very much recommend reading into these! Especially that bottom left row..."
-				""
-				"Many helpful tools to be found, especially the Felling Axe and paxels!"
-			]
-			id: "641BB69F5A27AABE"
-			subtitle: "&8[&r Helpful gadgets! &8]"
-			tasks: [{
-				id: "64A85F04D00289B0"
-				title: "Gadgets!"
-				type: "checkmark"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "386B2017BF07EB1C"
 			tasks: [{
 				id: "157FA4B719DD5BF2"
@@ -328,7 +316,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "1AF59AE68550F0C1"
 			tasks: [{
 				id: "6AE250A796622963"
@@ -339,7 +327,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "504868731B06884F"
 			tasks: [{
 				id: "4BFB08B8DF074DE8"
@@ -356,7 +344,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "78C554CDA4FCD332"
 			tasks: [{
 				id: "711C7B506AFD7C68"
@@ -371,7 +359,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "52F77229B675C38C"
 			tasks: [{
 				id: "7D6A3E8EC7AF0CE5"
@@ -382,7 +370,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "17806C9B83FF6179"
 			tasks: [
 				{
@@ -438,7 +426,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "74F38EFE74B5C788"
 			rewards: [{
 				count: 3
@@ -464,7 +452,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			id: "6E48F3961D1F4438"
 			subtitle: "&8[&7 Fells entire trees! &8]"
 			tasks: [{
@@ -482,7 +470,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["641BB69F5A27AABE"]
+			dependencies: ["6786A03351AC6A56"]
 			description: [
 				"Combined shovel, axe, and pickaxe for any tier!"
 				""
@@ -521,6 +509,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["6786A03351AC6A56"]
 			description: ["Can probably be used for something &8dark&r."]
 			id: "13BE8A6893F6F8E0"
 			subtitle: "What is... &8Anything&r?"
