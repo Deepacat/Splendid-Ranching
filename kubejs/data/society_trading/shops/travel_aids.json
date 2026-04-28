@@ -19,7 +19,7 @@
     },
     {
       "offer": { "item": "alexscaves:candy_cane_hook", "count": 1 },
-      "request": { "item": "numismatics:glurb", "count": 1 },
+      "request": { "item": "numismatics:crown", "count": 1 },
       "numismatics_cost": 512,
       "trade_id": "splendid_candycane_hook"
     },
