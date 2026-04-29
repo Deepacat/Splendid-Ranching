@@ -6299,6 +6299,42 @@
             ]
         },
         {
+            "pakku_id": "gurQ8BSB3gujxfuT",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "serverconfig-updater"
+            },
+            "name": {
+                "curseforge": "ServerConfig Updater"
+            },
+            "id": {
+                "curseforge": "365281"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "serverconfigupdater-4.0.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4612/683/serverconfigupdater-4.0.2.jar",
+                    "id": "4612683",
+                    "parent_id": "365281",
+                    "hashes": {
+                        "sha1": "0c54df6e2916e6bd0743e5650df303cdedff885b",
+                        "md5": "e1ad0d55b3a0ab40205a0d8c82de4127"
+                    },
+                    "required_dependencies": [],
+                    "size": 14142,
+                    "date_published": "2023-06-27T20:42:44.243Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ies88yTKdEjIJi2q",
             "type": "MOD",
             "slug": {
