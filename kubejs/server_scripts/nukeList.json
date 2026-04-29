@@ -31,12 +31,7 @@
 		"essentials:fertile_soil_wheat",
 		"mininggadgets:upgrade_battery_creative",
 		"mininggadgets:upgrade_efficiency_2",
-		"mininggadgets:upgrade_efficiency_4",
-		"sophisticatedbackpacks:copper_backpack",
-		"sophisticatedbackpacks:diamond_backpack",
-		"sophisticatedbackpacks:gold_backpack",
-		"sophisticatedbackpacks:iron_backpack",
-		"sophisticatedbackpacks:netherite_backpack"
+		"mininggadgets:upgrade_efficiency_4"
 	],
 	"remove_from_nuke_list": []
 }
