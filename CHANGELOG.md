@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.3]
+### Changes
+- Just re-added backpack tiers, with upgrade and item slot counts rebalanced
+
 ## [0.4.2]
 ### Changes
 - Implemented the automated sales terminal
