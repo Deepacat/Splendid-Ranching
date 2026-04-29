@@ -13,4 +13,4 @@ ServerEvents.recipes(e => {
         "pattern": ["III", "IBI", "III"],
         "result": { "item": "sophisticatedbackpacks:iron_backpack" }
     }).id('kubejs:sophisticatedbackpacks/shaped/iron_backpack')
-})  
+})
