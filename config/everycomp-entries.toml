@@ -96,6 +96,9 @@
 		[types.leaves_type.arts_and_crafts]
 			cork = true
 
+		[types.leaves_type.galosphere]
+			opal = true
+
 #Disables specific entries
 [entries]
 

@@ -712,11 +712,11 @@
 		{
 			dependencies: ["540EA146149A0210"]
 			description: [
-				"&9&lWe&r have implemented a new tab to your &l&eHologuide&r™, the &eGelapedia&r!"
+				"&9&lWe&r have implemented a new tab to your &l&eHologuide&r™, the &aGelapedia&r!"
 				""
-				"The &eGelapedia&r is a listing of all the &dGelaforms&r and animals that can be found on this &asphere&r, along with which habitats they belong to."
+				"The &aGelapedia&r is a listing of all the &dGelaforms&r and animals that can be found on this &asphere&r, along with which habitats they belong to."
 				""
-				"Your &eGelapedia&r also displays all of the possible &dfusion slime&r combinations found from &dslimes&r you have located! "
+				"Your &aGelapedia&r also displays all of the possible &dfusion slime&r combinations found from &dslimes&r you have located! "
 				""
 				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches."
 			]
@@ -731,7 +731,7 @@
 				title: "I will catch em all!"
 				type: "checkmark"
 			}]
-			title: "&eGelapedia"
+			title: "&aGelapedia"
 			x: 1.75d
 			y: -2.0d
 		}
@@ -740,17 +740,15 @@
 			description: [
 				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes&r current happiness."
 				""
-				"You can view the current happiness state by looking at the &dslime&r close up."
+				"You can view the current happiness state by looking at the &dslime&r close up, or viewing it within your inventory."
 				""
-				"Both wild and fed &dslimes&r have happiness, but you can only see the state of one that has been fed before."
-				""
-				"&a&l&n^ Increasing"
+				"&a&l↑ —— Increasing Happiness ——"
 				"- &dSlimes&r have their happiness increased when fed"
 				"- Eating it's &efavorite food&r will increase by double the amount"
 				"- When eating near at least 3 &dslimes&r of the same breed, it will gain more happiness, and even more so when near up to 6 &dslimes"
 				"- Eating a &eSlime Candy&r will increase a &dslimes&r happiness state instantly"
 				""
-				"&c&l&nV Decreasing"
+				"&c&l↓ ——Decreasing Happiness ——"
 				"- When not fed for a while a &dslime&r will begin starving and happiness will gradually decrease"
 				"- When killed and reduced to a lower size, a &dslimes&r happiness greatly decreases"
 				"- If fed and near 7 or more other &dslimes&r, happiness greatly decreases. You should keep 8 at most in a pen, and keep 3-4 blocks of space between your pens!"
@@ -769,7 +767,7 @@
 				"Sad &dslimes&r will still produce Plorts, but they won't be happy about it. They'll perform negative behaviors more and more as their happiness decreases."
 				""
 				"&c&l&nFurious"
-				"At extremely low levels of happiness, &dslimes&r will attack the player. They will frequently perform negative behaviors, won't produce Plorts, and won't turn into &dLargo slimes&r."
+				"At extremely low levels of happiness, &dslimes&r will attack the player. They will frequently perform negative behaviors, won't produce Plorts, and won't turn into &dLargo slimes&r. Require being fed until reaching a higher state before being useful again."
 			]
 			icon: "numismatics:sun"
 			id: "6352FC5322CFD542"

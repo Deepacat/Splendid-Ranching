@@ -2058,7 +2058,7 @@
 				type: "checkmark"
 			}]
 			title: "Modern Dynamics Placeholder"
-			x: 4.5d
+			x: 3.25d
 			y: 1.5d
 		}
 		{
@@ -2172,8 +2172,8 @@
 				type: "checkmark"
 			}]
 			title: "Thermal Expansion Placeholder"
-			x: 6.0d
-			y: -1.5d
+			x: 4.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -2188,8 +2188,8 @@
 				type: "checkmark"
 			}]
 			title: "Little Logistics Placeholder"
-			x: -5.0d
-			y: -1.5d
+			x: -6.0d
+			y: -0.75d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -2204,7 +2204,7 @@
 				type: "checkmark"
 			}]
 			title: "ComputerCraft Placeholder"
-			x: -5.0d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -2226,7 +2226,7 @@
 				type: "checkmark"
 			}]
 			title: "Building Gadgets Placeholder"
-			x: 7.5d
+			x: 5.75d
 			y: 1.5d
 		}
 	]

@@ -554,9 +554,9 @@
 		}
 		{
 			dependencies: ["6786A03351AC6A56"]
-			description: ["Will tell you why a slime maybe unhappy"]
+			description: ["Will tell you why a slime maybe unhappy upon using it on them"]
 			id: "10BC3B9533A79EAD"
-			subtitle: "What is your PROBLEM"
+			subtitle: "What is YOUR &lPROBLEM"
 			tasks: [{
 				id: "5C0943CCA36EB01E"
 				item: "splendid_slimes:slime_inspector"
@@ -621,7 +621,7 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.25d
 			y: -1.25d
 		}
 		{
@@ -646,7 +646,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 6.25d
 			y: -1.25d
 		}
 		{
@@ -667,7 +667,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 5.25d
 			y: -0.25d
 		}
 		{
@@ -691,7 +691,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 6.25d
 			y: -0.25d
 		}
 		{

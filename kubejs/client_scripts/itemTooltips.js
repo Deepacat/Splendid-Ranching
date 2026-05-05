@@ -27,7 +27,7 @@ ItemEvents.tooltip(e => {
     ])
     e.add("splendid_slimes:plort_press", ["§8[§7 Creates slime hearts from plorts §8]"])
     e.add("splendid_slimes:plort_rippit", ["§8[§7 Extracts resources from plorts §8]"])
-    e.add("splendid_slimes:slime_feeder", ["§8[§7 Feeds slimes in a ~6³ area §8]"])
+    e.add("splendid_slimes:slime_feeder", ["§8[§7 Feeds slimes up to ~6 blocks away §8]"])
     e.add("splendid_slimes:rocket_pod", ["§8[§7 Sends you flying without damage! §8]", "§8[§7 Recommended to use with Rainbounce boots §8]"])
     // quark
     e.add("quark:feeding_trough", ["§8[§7 Nearby animals may eat from it §8]"])

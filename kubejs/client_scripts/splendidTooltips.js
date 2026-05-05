@@ -101,10 +101,10 @@ ItemEvents.tooltip(e => {
         let happinessComponent
         let happiness = slime['Happiness']
         let tamed = slime['Tamed']
-        let EatingCooldown = slime['EatingCooldown']
+        let EatingCooldown = slime['Hunger']
         let OwnerUUID = slime['Owner']
-        let currentHunger = Math.round((EatingCooldown / splendidSlimesConfig.MAX_EATING_COOLDOWN) * 10.0)
-        let maxHunger = Math.round((splendidSlimesConfig.MAX_EATING_COOLDOWN / splendidSlimesConfig.MAX_EATING_COOLDOWN) * 10.0)
+        let currentHunger = Math.round((EatingCooldown / splendidSlimesConfig.SLIME_MAX_HUNGER) * 10.0)
+        let maxHunger = Math.round((splendidSlimesConfig.SLIME_MAX_HUNGER / splendidSlimesConfig.SLIME_MAX_HUNGER) * 10.0)
 
         if (happiness >= splendidSlimesConfig.HAPPY_THRESHOLD) {
             happinessComponent = Component.translatable("entity.splendid_slimes.happy").withStyle(Color.GREEN)
