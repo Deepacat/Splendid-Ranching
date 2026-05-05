@@ -92,26 +92,26 @@ const roundPrice = (price) => {
 global.calculateCoinValue = (coin) => {
     let value = 0;
     switch (coin.id.split(":")[1]) {
-        case "spur":
-            value = 1
-            break
-        case "bevel":
-            value = 8
-            break
-        case "sprocket":
-            value = 16
-            break
-        case "cog":
-            value = 64
-            break
-        case "crown":
-            value = 512
-            break
-        case "sun":
-            value = 4096
-            break
-        default:
-            console.log(`Invalid coin`)
+    case "spur":
+        value = 1
+        break
+    case "bevel":
+        value = 8
+        break
+    case "sprocket":
+        value = 16
+        break
+    case "cog":
+        value = 64
+        break
+    case "crown":
+        value = 512
+        break
+    case "sun":
+        value = 4096
+        break
+    default:
+        console.log(`Invalid coin`)
     }
     return value * coin.count
 };
@@ -146,12 +146,12 @@ global.getSellCoins = (price) => {
     return coinItems
 }
 
-/// Text display utils
+// / Text display utils
 
 /**
  * Get all loaded entities with the given tag id
- * @param {Internal.Level} level 
- * @param {String} id 
+ * @param {Internal.Level} level
+ * @param {String} id
  * @returns {Internal.Entity[]}
  */
 global.getDisplays = (level, id) => {
@@ -168,8 +168,8 @@ global.getDisplays = (level, id) => {
 
 /**
  * Get all entities with the given tag id at a block position
- * @param {Internal.Block} block 
- * @param {String} id 
+ * @param {Internal.Block} block
+ * @param {String} id
  * @returns {Internal.Entity[]}
  */
 global.getDisplaysAtPos = (block, id) => {
@@ -187,8 +187,8 @@ global.getDisplaysAtPos = (block, id) => {
 
 /**
  * Kill all entities with the given tag id at a block position
- * @param {Internal.Block} block 
- * @param {String} id 
+ * @param {Internal.Block} block
+ * @param {String} id
  */
 global.clearDisplaysAtPos = (block, id) => {
     global.getDisplaysAtPos(block, id).forEach(entity => {
@@ -198,14 +198,14 @@ global.clearDisplaysAtPos = (block, id) => {
 
 global.rotationFromFacing = (facing) => {
     switch (facing) {
-        case "north":
-            return 180
-        case "east":
-            return 270
-        case "south":
-            return 360
-        default:
-        case "west":
-            return 90
+    case "north":
+        return 180
+    case "east":
+        return 270
+    case "south":
+        return 360
+    default:
+    case "west":
+        return 90
     }
 }
