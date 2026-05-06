@@ -10,6 +10,12 @@ StartupEvents.registry('block', e => {
         .box(0, 0, 0, 16, 8, 16)
         .box(1, 8, 1, 15, 18, 15)
         .defaultCutout()
+
+    e.create('ssccogac_casing')
+        .displayName('SSCCOGAC Certified "Splendid Casing"™')
+        .hardness(3)
+        .tagBlock('minecraft:mineable/pickaxe')
+        .soundType('netherite_block')
 })
 
 StartupEvents.registry('item', e => {

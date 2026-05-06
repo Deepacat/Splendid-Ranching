@@ -48,6 +48,12 @@
       "trade_id": "splendid_slime_breeder"
     },
     {
+      "offer": { "item": "kubejs:ssccogac_casing", "count": 4 },
+      "request": { "item": "numismatics:cog", "count": 1 },
+      "numismatics_cost": 64,
+      "trade_id": "splendid_ssccogac_casing"
+    },
+    {
       "offer": { "item": "quark:feeding_trough", "count": 1 },
       "request": { "item": "numismatics:crown", "count": 2 },
       "numismatics_cost": 1024,
