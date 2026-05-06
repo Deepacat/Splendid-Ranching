@@ -7,7 +7,6 @@
  */
 function announceDaily(prefix, target) {
     let announceTextArray = JSON.parse(Utils.server.persistentData['announce_text'])
-    console.log(Utils.server.persistentData['announce_text'])
     target.tell(`§d§n                                                       \n`) // thicc line
     target.tell(prefix)
     let finalText = Text.of("")
@@ -31,23 +30,30 @@ function announceDaily(prefix, target) {
 function dailyUpdates(server) {
     let dailySoldPlorts = server.persistentData['daily_sold_plorts'] || {}
     let dailySoldTotal = server.persistentData['daily_sold_total'] || 0
-    // if within 20 ticks of "6 am"
-    let announceTextArray = []
-    let dailySoldArray = Array(Object.entries(Object.assign({}, dailySoldPlorts)))
 
-    if (dailySoldTotal > 0 && dailySoldArray.length > 0) { // if there was anything sold, tell about it
-        announceTextArray.push(`Yesterday you sold:\n- `)
-        for (let plortBreed in dailySoldPlorts) {
-            let count = dailySoldPlorts[plortBreed]
-            let breedLang = Component.translatable(`slime.splendid_slimes.${plortBreed}`).string
+    let announceTextArray = []
+    let plortEntries = Object.entries(dailySoldPlorts)
+
+    if (dailySoldTotal > 0 && plortEntries.length > 0) {
+        announceTextArray.push(`Plorts you sold yesterday:\n- `)
+
+        let i = 1
+        for (let [breed, count] of plortEntries) {
+            let breedLang = Component.translatable(`slime.splendid_slimes.${breed}`).string
+            let color = slimeBaseDefinitions[breed].color.toString()
+            let isLast = i === plortEntries.length
 
             announceTextArray.push(`${count}§rx `)
-            announceTextArray.push([`${breedLang}`, slimeBaseDefinitions[plortBreed].color.toString()])
+            announceTextArray.push([breedLang, color]) // colored text component array
 
-            if (dailySoldArray.indexOf([plortBreed, count]) !== dailySoldArray.length - 1) {
+            if (i % 4 === 0) {
+                announceTextArray.push(`\n- `)
+            } else if (!isLast) {
                 announceTextArray.push(`, `)
             }
+            i++
         }
+
         announceTextArray.push(`\n— For a total of §6${dailySoldTotal}§a☻§r!\n\n`)
     }
 
@@ -94,11 +100,11 @@ function marketUpdates(server) {
     }
 
     // Deep clone the input object to avoid mutations
-    let newValueData = Object.assign({}, slimeValueData);
+    let newValueData = Object.assign({}, slimeValueData)
 
     // First reduce all currentVolumes by 25%
     for (const [plortType, _] of Object.entries(newValueData)) {
-        newValueData[plortType].currentVolume *= 0.75;
+        newValueData[plortType].currentVolume *= 0.75
     }
 
     // Calculate daily market fluctuation (±30% from base)
@@ -122,9 +128,9 @@ function marketUpdates(server) {
         if (hotDemands && hotDemands.includes(plortType)) {
             // random between 2 and 4 times multiplier for daily bonus
             bonusMultiplier *= Math.random() * 2 + 2
-            newValueData[plortType].isHot = true;
+            newValueData[plortType].isHot = true
         } else {
-            newValueData[plortType].isHot = false;
+            newValueData[plortType].isHot = false
         }
 
         // calculate new plort price from all variables
