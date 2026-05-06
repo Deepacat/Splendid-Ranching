@@ -15,6 +15,118 @@
 		}
 	}
 	id: "7A580CEC46A501BD"
+	images: [
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: 1.375d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -0.625d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -2.125d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -3.125d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -4.125d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -5.125d
+			y: 6.0d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -2.625d
+			y: -1.5d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -1.125d
+			y: -1.5d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: -0.125d
+			y: -1.5d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: 3.375d
+			y: 0.5d
+		}
+		{
+			alpha: 150
+			height: 0.35d
+			image: "fancymenu:textures/contextmenu/icons/info.png"
+			order: 101
+			rotation: 0.0d
+			width: 0.35d
+			x: 3.375d
+			y: 4.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -204,19 +316,25 @@
 			dependencies: ["105AAC47FE089F4B"]
 			description: [
 				"Note: &l&9We&r have &6glamorously&r &cC&6o&el&ao&2r&9e&dd&r all terminology in your &e&lHologuide&r™ to assist with your &6laughable&r reading comprehension! &9^w^"
+				"&n&7                                                                                       "
 				""
 				"&e&lHologuide&r™ : &9&lOur&r &edigital hologram tablet guidebook&r that you're reading this information on right now! &l&9We&r always refer to &eitems&r in &eyellow&r"
+				"&n&7                                                                                       "
 				""
 				"&dGela-form&r : A gelatinous being, commonly refered to as a slime! Words related to &dslimes&r or &dGela-forms&r are colored &dpink&r in your &e&lHologuide&r™!"
+				"&n&7                                                                                       "
 				""
 				"&aSphere&r : The spherical body in the vast empty you have been assigned to!! We stopped calling them planets to shut people up who kept saying \"that's actually a dwarf now\" &9^o^&r "
 				""
 				"&aSpheres&r and other mentioned &alocations&r will be marked in &agreen&r!"
+				"&n&7                                                                                       "
 				""
-				"The &9&lSSCCOGAC&r : Thats us, silly! &9&lWe&r are the &l&9Splendid Slimes Cultivation, Collection, Overseeing \\& Governing Authority Corporatation&r."
+				"The &9&lSSCCOGAC&r : Thats us, silly! &9&lWe&r are the &l&9Splendid Slimes Cultivation, Collection, Overseeing \\& Governing Authority Corporation&r."
+				""
 				"&9&lWe&r manage &4&lall&r of everything related to &dGela-forms&r in this &agalaxy&r! Including &dplort&r trade, harvesting, cultivation, research, &4&llaws&r, and more! &9^w^"
 				""
 				"&9&lOur entity&r will always be referred to in a &l&9bold blue&r."
+				"&n&7                                                                                       "
 				""
 				"&bLaboratory&r : The &bLab&r is &9&lSSCCOGAC&r&r's method of lending knowledge from &l&9our&r&r databases."
 				""
@@ -230,7 +348,7 @@
 			]
 			icon: "guideme:guide"
 			id: "0052442A797103F2"
-			min_width: 300
+			min_width: 350
 			rewards: [{
 				id: "5CF308A2FA5FE19F"
 				item: "numismatics:bevel"
@@ -724,7 +842,7 @@
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			min_width: 300
-			shape: "hexagon"
+			shape: "circle"
 			subtitle: "What kind of slime is this?"
 			tasks: [{
 				id: "3654CD3B00AA23CA"
@@ -741,12 +859,14 @@
 				"When a &dslime&r is first found it'll typically have the \"Neutral\" state, this is the &dslimes&r current happiness."
 				""
 				"You can view the current happiness state by looking at the &dslime&r close up, or viewing it within your inventory."
+				"&n&7                                                                                       "
 				""
 				"&a&l↑ —— Increasing Happiness ——"
 				"- &dSlimes&r have their happiness increased when fed"
 				"- Eating it's &efavorite food&r will increase by double the amount"
 				"- When eating near at least 3 &dslimes&r of the same breed, it will gain more happiness, and even more so when near up to 6 &dslimes"
 				"- Eating a &eSlime Candy&r will increase a &dslimes&r happiness state instantly"
+				"&n&7                                                                                       "
 				""
 				"&c&l↓ ——Decreasing Happiness ——"
 				"- When not fed for a while a &dslime&r will begin starving and happiness will gradually decrease"
@@ -756,6 +876,7 @@
 				"&l&nVery important info on &dslime&f happiness states:&r &8[&a➡&8]&r"
 				"{@pagebreak}"
 				"&dSlimes&r have 4 different happiness states: &aHappy&r, &7Neutral&r, &9Sad&r, and &cFurious&r. Each state will cause or limit certain behaviors."
+				"&n&7                                                                                       "
 				""
 				"&a&l&nHappy"
 				"Happy &dslimes&r will perform their specified positive behaviors if they exist! The more happy a &dslime&r is, the more it will perform it's positive effects."
@@ -856,11 +977,11 @@
 				""
 				"Although you can find and create your own devices using resources like redstone found on the &asphere&r."
 				""
-				"There also seems to be... what... is &2this&r?"
+				"There also seems to an &2unusuality&r with your &e&lHologuide&r™, &9&l^.^&r haha, how odd! An &2unrecognized&r entry has been added to the &blaboratory&r."
 			]
 			icon: "supplementaries:cog_block"
 			id: "611599F122718E16"
-			min_width: 250
+			min_width: 300
 			shape: "rsquare"
 			subtitle: "This pack has more than slimes??"
 			tasks: [{
@@ -913,9 +1034,13 @@
 		{
 			dependencies: ["611599F122718E16"]
 			description: [
-				"What is this? We do not recall this page being here..."
+				"What is &2this&r? We do not recall this page being here..."
 				""
-				"Whatever it is, &9&lwe&r&r would not recommend touching technology &l&9we&r&r do not understand. &9^o^"
+				"Whatever it is, &9&lwe&r&r would not recommend touching &2&otechnology&r &l&9we&r&r do not understand. &9^o^"
+				""
+				"{@pagebreak}"
+				""
+				"&2Come forth, embrace purity, botanist."
 			]
 			icon: {
 				Count: 1
@@ -926,6 +1051,7 @@
 				}
 			}
 			id: "0532AC1F6E4E760D"
+			min_width: 250
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Path of the Botanist"
@@ -955,9 +1081,14 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
-			description: ["With rotational power, much is achievable! The &9&lSSCCOGAC&r provides &bblueprints&r in the &blab&r for our designs on mechanical devices."]
+			description: [
+				"With rotational power, much is achievable!"
+				""
+				"The &9&lSSCCOGAC&r provides &bblueprints&r in the &blab&r tab of the holopedia for our schematics on mechanical utilities"
+			]
 			icon: "create:wrench"
 			id: "0DA69A84028E2CD4"
+			min_width: 250
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Path of the Mechanist"
@@ -987,7 +1118,11 @@
 		}
 		{
 			dependencies: ["611599F122718E16"]
-			description: ["&eRedstone&r, &erails&r, &ecomputers&r and more! The purist route, preferring more vanilla esque methods and or computer scripts."]
+			description: [
+				"&eRedstone&r, &erails&r, &ecomputers&r and more! "
+				""
+				"The purist route, preferring more vanilla esque methods, and or computer scripts"
+			]
 			icon: {
 				Count: 1
 				id: "essentials:circuit_wrench"
@@ -995,6 +1130,7 @@
 			}
 			icon_scale: 0.9d
 			id: "7847FF4866410017"
+			min_width: 250
 			shape: "diamond"
 			size: 1.25d
 			subtitle: "Path of the Scientist"
@@ -1120,7 +1256,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "circle"
 			subtitle: "Eureka!"
 			tasks: [
 				{
@@ -1157,6 +1293,7 @@
 			icon: "minecraft:chicken"
 			id: "015AC5B2CFF2FAAE"
 			min_width: 300
+			shape: "hexagon"
 			tasks: [{
 				id: "248D796BE455F1E0"
 				title: "I bet they're tasty"
@@ -1194,6 +1331,7 @@
 				}
 				type: "item"
 			}]
+			shape: "circle"
 			subtitle: "What might lurk beneath?"
 			tasks: [{
 				id: "67C73A64D80DDF09"
@@ -1275,6 +1413,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			subtitle: "Share a bank account together!"
 			tasks: [{
 				id: "3584AA35BD54FBB9"
@@ -1302,6 +1441,7 @@
 			icon: "create:brown_toolbox"
 			id: "6786A03351AC6A56"
 			min_width: 300
+			shape: "circle"
 			subtitle: "&8[&r Helpful gadgets! &8]"
 			tasks: [{
 				id: "3B1F100F35339A52"
@@ -1310,6 +1450,31 @@
 			}]
 			x: -8.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["75A4584FAAEC2937"]
+			description: [
+				"Previously, &9&lwe&r have given you a &ebase placeable prefab&r, but theres more where that came from!"
+				""
+				"Inside of your &eprefabs &lHologuide&r™ tab, the &9&lSSCCOGAC&r has a &6generous&r selection of &eprefab blueprints&r you may &cpurchase&r and place on your ranch."
+				""
+				"If you're so &4lazily&r inclined..."
+			]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "portable_blueprints:worn_blueprint"
+				tag: { }
+			}
+			id: "75152677EB2700CE"
+			min_width: 300
+			tasks: [{
+				id: "53623BF1A307F672"
+				type: "checkmark"
+			}]
+			title: "&9&lSSCCOGAC&r &ePrefabs"
+			x: -6.25d
+			y: 0.0d
 		}
 	]
 	title: "&d Ranching &r✔"
