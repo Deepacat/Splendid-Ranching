@@ -277,6 +277,11 @@
     "curseForgeHash": 3251861014,
     "modrinthHash": "065c2d287a52f52fc8d33d780192325ee6f4b6ae"
   },
+  "ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar": {
+    "jarName": "ConfiguredDefaults-v8.0.4-1.20.1-Forge.jar",
+    "curseForgeHash": 664193113,
+    "modrinthHash": "4ce4e836cc837a9b99dd1a9119260c640a4b5240"
+  },
   "connectivity-1.20.1-7.6.jar": {
     "jarName": "connectivity-1.20.1-7.6.jar",
     "modId": "connectivity",
@@ -493,6 +498,14 @@
     "curseForgeHash": 3377282770,
     "modrinthHash": "7de9a81d81adbe4b454a57c8a3da930cd7ab1d97"
   },
+  "EasyAnvils-v8.0.2-1.20.1-Forge.jar": {
+    "jarName": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+    "modId": "easyanvils",
+    "name": "Easy Anvils",
+    "version": "8.0.2",
+    "curseForgeHash": 1758431750,
+    "modrinthHash": "d44a8b549b27713a92d59148729bf374ff3e25f0"
+  },
   "EasyMagic-v8.0.1-1.20.1-Forge.jar": {
     "jarName": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
     "modId": "easymagic",
@@ -500,6 +513,14 @@
     "version": "8.0.1",
     "curseForgeHash": 1186236462,
     "modrinthHash": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b"
+  },
+  "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar": {
+    "jarName": "EasyShulkerBoxes-v8.0.2-1.20.1-Forge.jar",
+    "modId": "easyshulkerboxes",
+    "name": "Easy Shulker Boxes",
+    "version": "8.0.2",
+    "curseForgeHash": 2149531480,
+    "modrinthHash": "c5245255c422afa2d627e89bbbf4a2f1d5d721e8"
   },
   "embeddium-0.3.31+mc1.20.1.jar": {
     "jarName": "embeddium-0.3.31+mc1.20.1.jar",
@@ -781,13 +802,13 @@
     "curseForgeHash": 438981801,
     "modrinthHash": "0d324b97af98938f28f58f696e0b992c42eb8f31"
   },
-  "interactive_corporea-1.1.0-beta.jar": {
-    "jarName": "interactive_corporea-1.1.0-beta.jar",
+  "interactive_corporea_reinfused-1.1.0-beta.jar": {
+    "jarName": "interactive_corporea_reinfused-1.1.0-beta.jar",
     "modId": "interactive_corporea",
     "name": "Interactive Corporea",
     "version": "1.1.0-beta",
-    "curseForgeHash": 3502113882,
-    "modrinthHash": "f5c042de1a46f84a20d5ec0b471d233378c5b450"
+    "curseForgeHash": 2352024771,
+    "modrinthHash": "1f0d3e43260e20ea0c9e80d5c5362c721f692ff0"
   },
   "ItemBorders-1.20.1-forge-1.2.2.jar": {
     "jarName": "ItemBorders-1.20.1-forge-1.2.2.jar",
@@ -1070,14 +1091,6 @@
     "version": "2.2.0",
     "curseForgeHash": 3526003658,
     "modrinthHash": "e1956acfadbc0f8f2c2dfb433332714b4f4d57cf"
-  },
-  "notenoughcrashes-4.4.9+1.20.1-forge.jar": {
-    "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
-    "modId": "notenoughcrashes",
-    "name": "Not Enough Crashes",
-    "version": "4.4.9+1.20.1",
-    "curseForgeHash": 2424392975,
-    "modrinthHash": "5d786730c1aee28751d480d497ce893cdff0bb87"
   },
   "numismatics_utils-2.1.jar": {
     "jarName": "numismatics_utils-2.1.jar",
@@ -1478,14 +1491,6 @@
     "version": "3.6.6+1.20.1-forge",
     "curseForgeHash": 2226879195,
     "modrinthHash": "644731e321c53a35a0b3177a3cc6347fe38002f4"
-  },
-  "YOSBY-Forge-1.1.0.jar": {
-    "jarName": "YOSBY-Forge-1.1.0.jar",
-    "modId": "yosby",
-    "name": "yosby",
-    "version": "1.0.0",
-    "curseForgeHash": 3881384232,
-    "modrinthHash": "e7765999fd4bfacf569a085450e3fc0d947bfc6c"
   },
   "Zeta-1.0-31.jar": {
     "jarName": "Zeta-1.0-31.jar",
