@@ -7,7 +7,7 @@
  */
 function announceDaily(prefix, target) {
     let announceTextArray = JSON.parse(Utils.server.persistentData['announce_text'])
-    target.tell(`§d§n                                                       \n`)
+    target.tell(`§d§n                                                       \n`) // thicc line
     target.tell(prefix)
     for (let announceText of announceTextArray) {
         // Check if array or not, if array use first element as text and second as color, if not just use text
@@ -15,9 +15,10 @@ function announceDaily(prefix, target) {
         let text = announceText instanceof Array ? Text.of(announceText[0]).color(announceText[1]) : announceText
         target.tell(text)
     }
-    target.tell(`§d§n                                                       `)
+    target.tell(`§d§n                                                       \n`) // fat line
 }
-// main daily update functions to run
+
+// main daily updates function to run
 /**
  * @param {Internal.MinecraftServer} server
  */
