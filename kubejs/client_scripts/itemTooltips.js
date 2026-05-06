@@ -6,8 +6,8 @@ ItemEvents.tooltip(e => {
         "§8[§7 Drops the currency from the machines face §8]"
     ])
     e.add("mbd2:slime_breeder", [
-        "§8[§7 Fuses slimes in a 5x4x5 area behind it §8]",
-        "§8[§7 The front has the eyes, the red dot faces behind §8]",
+        "§8[§7 Fuses slimes in a small area centered above it §8]",
+        "§8[§7 Output slime heart must be removed before working again §8]",
     ])
     e.add("mbd2:chicken_duper", [
         "§8[§7 50/50 Duplicates or kills a nearby chicken §8]"
