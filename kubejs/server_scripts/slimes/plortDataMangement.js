@@ -38,7 +38,7 @@ PlayerEvents.tick(e => {
 
 // re-announce the daily text stored in the server to the player when a player logs in
 PlayerEvents.loggedIn(e => {
-    announceDaily(`§6Welcome Back§r, Rancher!`, e.player)
+    announceDaily(`§6Welcome Back§r, Rancher!\n`, e.player)
 })
 
 // Send slime value data to clients that request it

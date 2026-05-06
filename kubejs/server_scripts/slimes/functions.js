@@ -7,15 +7,21 @@
  */
 function announceDaily(prefix, target) {
     let announceTextArray = JSON.parse(Utils.server.persistentData['announce_text'])
+    console.log(Utils.server.persistentData['announce_text'])
     target.tell(`§d§n                                                       \n`) // thicc line
     target.tell(prefix)
+    let finalText = Text.of("")
     for (let announceText of announceTextArray) {
         // Check if array or not, if array use first element as text and second as color, if not just use text
         // This is done so the color can be split and saved in server data for retelling
-        let text = announceText instanceof Array ? Text.of(announceText[0]).color(announceText[1]) : announceText
-        target.tell(text)
+        let text = announceText instanceof Array
+            ? Text.of(announceText[0]).color(announceText[1])
+            : Text.of(announceText)
+
+        finalText.append(text)
     }
-    target.tell(`§d§n                                                       \n`) // fat line
+    target.tell(finalText)
+    target.tell(`§d§n                                                       \n`) // thicc line
 }
 
 // main daily updates function to run
@@ -27,18 +33,22 @@ function dailyUpdates(server) {
     let dailySoldTotal = server.persistentData['daily_sold_total'] || 0
     // if within 20 ticks of "6 am"
     let announceTextArray = []
+    let dailySoldArray = Array(Object.entries(Object.assign({}, dailySoldPlorts)))
 
-    if (dailySoldTotal > 0 && Object.entries(Object.assign({}, dailySoldPlorts)).length > 0) { // if there was anything sold, tell about it
-        announceTextArray.push(`\nYesterday you sold:`)
+    if (dailySoldTotal > 0 && dailySoldArray.length > 0) { // if there was anything sold, tell about it
+        announceTextArray.push(`Yesterday you sold:\n- `)
         for (let plortBreed in dailySoldPlorts) {
             let count = dailySoldPlorts[plortBreed]
             let breedLang = Component.translatable(`slime.splendid_slimes.${plortBreed}`).string
-            announceTextArray.push([
-                `- ${count} ${breedLang} plorts`,
-                slimeBaseDefinitions[plortBreed].color.toString()
-            ])
+
+            announceTextArray.push(`${count}§rx `)
+            announceTextArray.push([`${breedLang}`, slimeBaseDefinitions[plortBreed].color.toString()])
+
+            if (dailySoldArray.indexOf([plortBreed, count]) !== dailySoldArray.length - 1) {
+                announceTextArray.push(`, `)
+            }
         }
-        announceTextArray.push(`— For a total of §6${dailySoldTotal}§a☻§r!`)
+        announceTextArray.push(`\n— For a total of §6${dailySoldTotal}§a☻§r!\n\n`)
     }
 
     let marketTextArray = marketUpdates(server) // run daily market updates, returns value text to announce
@@ -48,7 +58,7 @@ function dailyUpdates(server) {
     let jsonString = JSON.stringify(announceTextArray)
 
     server.persistentData['announce_text'] = jsonString // save text array to the server for retelling
-    announceDaily(`§6Goooood morning§r, Rancher!`, server) // announce the daily text
+    announceDaily(`§6Goooood morning§r, Rancher!\n`, server) // announce the daily text
 }
 
 function calculateVolumeModifier(plortData) {
@@ -76,10 +86,11 @@ function marketUpdates(server) {
         .sort(() => Math.random() - 0.5)
         .slice(0, Math.floor(Math.random() * 3) + 1)
 
-    announceTextArray.push(`\nToday's hot §dplort§r demands are:`)
+    announceTextArray.push(`Today's hot §dplort§r demands are:\n- `)
     for (let plortBreed of hotDemands) {
         let breedLang = Component.translatable(`slime.splendid_slimes.${plortBreed}`).string
-        announceTextArray.push([`- ${breedLang}`, slimeBaseDefinitions[plortBreed].color])
+        announceTextArray.push([`${breedLang}`, slimeBaseDefinitions[plortBreed].color])
+        if (hotDemands.indexOf(plortBreed) !== hotDemands.length - 1) { announceTextArray.push(`, `) }
     }
 
     // Deep clone the input object to avoid mutations
@@ -154,7 +165,7 @@ function marketUpdates(server) {
 
     let fluc = Math.round((marketFluctuation - 1) * 100)
     let flucText = fluc > 0 ? `§a+${fluc}% :)` : `§c${fluc}% :(`
-    announceTextArray.push(`\nGeneral Market fluctuation is at ` + flucText)
+    announceTextArray.push(`\n\nGeneral Market fluctuation is at ` + flucText)
 
     // reset daily data
     server.persistentData['daily_sold_plorts'] = {}
@@ -305,11 +316,6 @@ function nbtToObject(tag) {
     if (id === 12) return tag.getAsLongArray()
 
     return tag.toString()
-}
-
-function objectToNbt(obj) {
-    if (obj === null || obj === undefined) return null;
-    return NBT.toTag(obj);  // handles numbers, strings, arrays, objects, etc.
 }
 
 // create backups files 1-x, overwrite first one and copy rest

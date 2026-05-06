@@ -99,7 +99,7 @@ ServerEvents.commandRegistry(e => {
         )
         .then(Commands.literal("dailyText")
             .executes(ctx => {
-                announceDaily(`§6Reminder for ya§r, Rancher!`,ctx.source.player)
+                announceDaily(`§6Reminder for ya§r, Rancher!\n`, ctx.source.player)
                 return 1
             })
         )
