@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.5.0]
+### Changes
+- Fixed market randomization not happening on first day of world creation
+- Added a new prefabs questbook tab to preview and purchase placeable blueprints
+- Fixed existing non functional prefab that was purchaseable from splendid wares (moved)
+- Greatly improved announcement formatting
+- Daily announcements now replay when logging in, and can be triggered with /splendidranching dailyText
+- Reworked the Slime Fusion Breeder into a multiblock, requiring 4 corner pylons
+  - This should hopefully make usage clearer
+- Cleaned up plenty of the questbook
+- Readded hunger bar texture (it's still disabled, just for tooltips)
+- Fixed storage crate recipe (-Pansmith)
+- Disabled menu buttons (-Pansmith)
+- Fixed telling users that they removed mods from the pack that were only used in dev environments
+- Major update to Splendid Slimes, ([Many improvements! (full changelog)](https://www.curseforge.com/minecraft/mc-mods/splendid-slimes/files/8035722))
+  Notable changes:
+  - Fixed null owners on slimes
+  - Improved slime vac: Can shoot from hotbar, properly carry largos and wont shoot slime inside of blocks
+  - Incubator rendering and timer tooltip
+  - Fixed slime feeder consuming double hunger
+  - Reworked hunger mechanics, can be fed once a day, gets hungry at 6 am
+  - Forgiving tarrs, allowing you to kill the tarr and reclaim your slime (Prevents entire base destruction)
+
 ## [0.4.3]
 ### Changes
 - Just re-added backpack tiers, with upgrade and item slot counts rebalanced
