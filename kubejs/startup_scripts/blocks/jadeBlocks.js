@@ -1,5 +1,3 @@
-
-
 /**
  * @param {Internal.BlockEntity} blockEntity
  * @param {Internal.CompoundTag} tag
