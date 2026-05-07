@@ -15,13 +15,13 @@
 - Disabled menu buttons (-Pansmith)
 - Fixed telling users that they removed mods from the pack that were only used in dev environments
 - Major update to Splendid Slimes, ([Many improvements! (full changelog)](https://www.curseforge.com/minecraft/mc-mods/splendid-slimes/files/8035722))
-  Notable changes:
-  - Fixed null owners on slimes
-  - Improved slime vac: Can shoot from hotbar, properly carry largos and wont shoot slime inside of blocks
-  - Incubator rendering and timer tooltip
-  - Fixed slime feeder consuming double hunger
-  - Reworked hunger mechanics, can be fed once a day, gets hungry at 6 am
-  - Forgiving tarrs, allowing you to kill the tarr and reclaim your slime (Prevents entire base destruction)
+  - Notable Splendid Slimes changes:
+    - Fixed null owners on slimes
+    - Improved slime vac: Can shoot from hotbar, properly carry largos and wont shoot slime inside of blocks
+    - Incubator rendering and timer tooltip
+    - Fixed slime feeder consuming double hunger
+    - Reworked hunger mechanics, can be fed once a day, gets hungry at 6 am
+    - Forgiving tarrs, allowing you to kill the tarr and reclaim your slime (Prevents entire base destruction)
 
 ## [0.4.3]
 ### Changes
