@@ -420,6 +420,30 @@ jobs:
           mkdir -p .pakku/multimc-overrides/flame
           mkdir -p .pakku/multimc-overrides/mods
 
+      - name: Remove blacklisted mods from Crash Assistant modlist
+        shell: bash
+        run: |
+          MODLIST_PATH="config/crash_assistant/modlist.json"
+          if [ ! -f "$MODLIST_PATH" ]; then
+            echo "modlist.json not found, skipping cleanup"
+            exit 0
+          fi
+
+          # Extract mod IDs where export == false from pakku.json
+          blacklist=$(jq -r '.projects | to_entries[] | select(.value.export == false) | .key' pakku.json | jq -R -s -c 'split("\n")[:-1]')
+
+          if [ "$blacklist" == "[]" ]; then
+            echo "No blacklisted mods found, skipping"
+            exit 0
+          fi
+
+          echo "Blacklisted mod IDs: $blacklist"
+
+          # Remove entries whose modId is in the blacklist
+          jq --argjson blacklist "$blacklist" 'del(.[] | select(.modId as $id | $blacklist | index($id)))' "$MODLIST_PATH" > "$MODLIST_PATH.tmp"
+          mv "$MODLIST_PATH.tmp" "$MODLIST_PATH"
+          echo "Removed entries for blacklisted mods"
+
       - name: Preparing the curseforge artifact
         run: |
           cd ./build/curseforge/

@@ -1789,6 +1789,44 @@
             ]
         },
         {
+            "pakku_id": "8i5xpRIP8KnRf3id",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-bits-n-bobs"
+            },
+            "name": {
+                "curseforge": "Create: Bits 'n' Bobs"
+            },
+            "id": {
+                "curseforge": "1398383"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "bits_n_bobs-0.0.41.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7427/192/bits_n_bobs-0.0.41.jar",
+                    "id": "7427192",
+                    "parent_id": "1398383",
+                    "hashes": {
+                        "sha1": "2751db3792cdcc1aba598ed1b7d4c07e579815e9",
+                        "md5": "02020d23124ab9ddcab62e0f46a5e40c"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 1623254,
+                    "date_published": "2026-01-06T21:47:53.370Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "iyTLZGL7OHL79Dk6",
             "type": "RESOURCE_PACK",
             "slug": {
@@ -6717,7 +6755,7 @@
             ]
         },
         {
-            "pakku_id": "892Jf8Vp5LphFeGo",
+            "pakku_id": "pXqGnxVPMU7iohy1",
             "type": "MOD",
             "slug": {
                 "curseforge": "splendid-slimes"
@@ -6731,7 +6769,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "splendid_slimes-0.20.1.jar",
+                    "file_name": "splendid_slimes-0.20.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6739,18 +6777,18 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8038/673/splendid_slimes-0.20.1.jar",
-                    "id": "8038673",
+                    "url": "https://edge.forgecdn.net/files/8051/52/splendid_slimes-0.20.2.jar",
+                    "id": "8051052",
                     "parent_id": "1240935",
                     "hashes": {
-                        "sha1": "cce880f073353ea6917bded99dc7ea5c7d44077a",
-                        "md5": "343c885e387fb72da0d584904ab74769"
+                        "sha1": "97642472e75fd59781089c046c132b5898fbf95a",
+                        "md5": "15dc4c4717a28e88c73b367e3234621d"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 511690,
-                    "date_published": "2026-05-04T16:00:24.337Z"
+                    "size": 511693,
+                    "date_published": "2026-05-07T03:30:28.780Z"
                 }
             ]
         },
@@ -7246,6 +7284,46 @@
                     "required_dependencies": [],
                     "size": 83163,
                     "date_published": "2024-11-19T17:48:14.147Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xddftoBwG4vLzYI7",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "worldedit"
+            },
+            "name": {
+                "curseforge": "WorldEdit"
+            },
+            "id": {
+                "curseforge": "225608"
+            },
+            "export": false,
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "worldedit-mod-7.2.15.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "fabric",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4586/218/worldedit-mod-7.2.15.jar",
+                    "id": "4586218",
+                    "parent_id": "225608",
+                    "hashes": {
+                        "sha1": "9c52765ca56f917ef8cbafc20e9a4f45c346508f",
+                        "md5": "bd0e7cff7896348faab92e43300d0639"
+                    },
+                    "required_dependencies": [],
+                    "size": 5825402,
+                    "date_published": "2023-06-14T09:09:03.587Z"
                 }
             ]
         },

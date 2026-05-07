@@ -46,11 +46,13 @@
         "citresewn": {
             "side": "CLIENT"
         },
-        "probejs": {
-            "side": "CLIENT",
+        "lootbeams": {
+            "side": "CLIENT"
+        },
+        "worldedit": {
             "export": false
         },
-        "lootbeams": {
+        "probejs": {
             "side": "CLIENT",
             "export": false
         }

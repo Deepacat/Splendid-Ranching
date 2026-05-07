@@ -63,6 +63,7 @@ kubejs/modpackData/**
 # Client configs (with exceptions below)
 /config/*client.*
 /config/emixx/*client.*
+/config/worldedit/
 
 !/config/defaultsettings/**
 !/config/sophisticatedstorage-client.toml
