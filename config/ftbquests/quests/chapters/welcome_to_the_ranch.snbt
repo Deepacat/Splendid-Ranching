@@ -1015,6 +1015,7 @@
 				item: "farmersdelight:cake_slice"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "1B51D0724E851D91"
@@ -1257,25 +1258,11 @@
 			}]
 			shape: "circle"
 			subtitle: "Eureka!"
-			tasks: [
-				{
-					id: "70D917DACD6BBCE0"
-					title: "Knowledge is power!"
-					type: "checkmark"
-				}
-				{
-					consume_items: true
-					count: 4L
-					id: "760AAEF7A16DEC88"
-					item: {
-						Count: 1
-						id: "splendid_slimes:slime_heart"
-						tag: { }
-					}
-					match_nbt: false
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "70D917DACD6BBCE0"
+				title: "Knowledge is power!"
+				type: "checkmark"
+			}]
 			title: "&b The Lab"
 			x: -6.25d
 			y: 5.5d
