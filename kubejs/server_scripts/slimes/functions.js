@@ -10,14 +10,16 @@ function announceDaily(prefix, target) {
     target.tell(`§d§n                                                       \n`) // thicc line
     target.tell(prefix)
     let finalText = Text.of("")
-    for (let announceText of announceTextArray) {
-        // Check if array or not, if array use first element as text and second as color, if not just use text
-        // This is done so the color can be split and saved in server data for retelling
-        let text = announceText instanceof Array
-            ? Text.of(announceText[0]).color(announceText[1])
-            : Text.of(announceText)
+    if (announceTextArray.length != 0) {
+        for (let announceText of announceTextArray) {
+            // Check if array or not, if array use first element as text and second as color, if not just use text
+            // This is done so the color can be split and saved in server data for retelling
+            let text = announceText instanceof Array
+                ? Text.of(announceText[0]).color(announceText[1])
+                : Text.of(announceText)
 
-        finalText.append(text)
+            finalText.append(text)
+        }
     }
     target.tell(finalText)
     target.tell(`§d§n                                                       \n`) // thicc line

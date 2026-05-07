@@ -4,14 +4,14 @@
 // On world load, set servers slime value data if not set yet in the world
 ServerEvents.loaded(e => {
     // Set all base server values if not set yet (These are edited by market data updates)
-    e.server.persistentData['slime_value_data'] = e.server.persistentData['slime_value_data'] || slimeBaseValues
     e.server.persistentData['daily_sold_plorts'] = e.server.persistentData['daily_sold_plorts'] || {}
     e.server.persistentData['daily_sold_total'] = e.server.persistentData['daily_sold_total'] || 0
-    e.server.persistentData['announce_text'] = e.server.persistentData['announce_text'] || {}
+    e.server.persistentData['announce_text'] = e.server.persistentData['announce_text'] || []
 
     // Should only run on first server load
     if (e.server.persistentData['slime_value_data'] === undefined) {
-        // Run daily updates to set initial values and announce them on world load
+        // Run daily updates to randomize market on first world load
+        e.server.persistentData['slime_value_data'] = slimeBaseValues
         dailyUpdates(e.server)
     }
     // Update servers slime market values from file, if any edits were made
@@ -36,9 +36,12 @@ PlayerEvents.tick(e => {
     }
 })
 
-// re-announce the daily text stored in the server to the player when a player logs in
+// re-announce the daily text stored in the server to the player when logging in
 PlayerEvents.loggedIn(e => {
-    announceDaily(`§6Welcome Back§r, Rancher!\n`, e.player)
+    let welcome = e.player.stats.playTime < 100
+        ? `Welcome`
+        : `Welcome Back`
+    announceDaily(`§6${welcome}§r, Rancher!\n`, e.player)
 })
 
 // Send slime value data to clients that request it

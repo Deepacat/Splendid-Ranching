@@ -61,14 +61,6 @@
     "curseForgeHash": 101227267,
     "modrinthHash": "5d5a1d7d2d2dd37c578fdea2495757baaa624092"
   },
-  "appleskin-forge-mc1.20.1-2.5.1.jar": {
-    "jarName": "appleskin-forge-mc1.20.1-2.5.1.jar",
-    "modId": "appleskin",
-    "name": "AppleSkin",
-    "version": "2.5.1+mc1.20.1",
-    "curseForgeHash": 1671637789,
-    "modrinthHash": "81919356f84eab14258db98924b66c3c38e372b1"
-  },
   "Architects-Palette-1.20.1-1.3.6.1.jar": {
     "jarName": "Architects-Palette-1.20.1-1.3.6.1.jar",
     "modId": "architects_palette",
@@ -1100,6 +1092,14 @@
     "curseForgeHash": 609501055,
     "modrinthHash": "7b730f7c9717e261445866e4889849133a970e13"
   },
+  "oculus-mc1.20.1-1.8.0.jar": {
+    "jarName": "oculus-mc1.20.1-1.8.0.jar",
+    "modId": "oculus",
+    "name": "Oculus",
+    "version": "1.8.0",
+    "curseForgeHash": 516527841,
+    "modrinthHash": "984f774e71790deaec674c7587bd24e0711871b2"
+  },
   "opalescence-1.0.4+1.20.1.jar": {
     "jarName": "opalescence-1.0.4+1.20.1.jar",
     "modId": "opalescence",
@@ -1340,13 +1340,13 @@
     "curseForgeHash": 1515254383,
     "modrinthHash": "231fb325368c0660954f47bfb03493f5246fa4d1"
   },
-  "splendid_slimes-0.20.1.jar": {
-    "jarName": "splendid_slimes-0.20.1.jar",
+  "splendid_slimes-0.20.2.jar": {
+    "jarName": "splendid_slimes-0.20.2.jar",
     "modId": "splendid_slimes",
     "name": "Splendid Slimes",
-    "version": "0.20.1",
-    "curseForgeHash": 3904908027,
-    "modrinthHash": "cce880f073353ea6917bded99dc7ea5c7d44077a"
+    "version": "0.20.2",
+    "curseForgeHash": 3937652437,
+    "modrinthHash": "97642472e75fd59781089c046c132b5898fbf95a"
   },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
