@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.1]
+### Changes
+- Added a block that stores the daily market data in it, for use with computercraft
+- Made mining gadget tiers freely cyclable in crafting
+- Fixed shulker tooltips
+- Fixed boiler research stage not working
+- Fixed research quest not consuming currency
+- Add longer chat history & persistence mods
+
 ## [0.5.0]
 ### Changes
 - Fixed market randomization not happening on first day of world creation
