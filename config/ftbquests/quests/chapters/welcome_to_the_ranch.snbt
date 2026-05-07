@@ -1,5 +1,4 @@
 {
-	autofocus_id: "540EA146149A0210"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "welcome_to_the_ranch"
@@ -1369,10 +1368,20 @@
 			}
 			id: "7E3762303FE74E8F"
 			shape: "heart"
-			tasks: [{
-				id: "6B82E856A3E0D1D5"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "6B82E856A3E0D1D5"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "1FABF722AD8EF7DD"
+					item: { Count: 64, id: "numismatics:sun" }
+					title: "Sure do 64 of these too why not"
+					type: "item"
+				}
+			]
 			title: "Completion lol"
 			x: -4.25d
 			y: -4.0d
@@ -1459,6 +1468,8 @@
 				"Inside of your &eprefabs &lHologuide&r™ tab, the &9&lSSCCOGAC&r has a &6generous&r selection of &eprefab blueprints&r you may &cpurchase&r and place on your ranch."
 				""
 				"If you're so &4lazily&r inclined..."
+				""
+				"&8[ &7Note: All prefabs have labelled dimensions, e.g. 5x5, these dimensions are the total size of the prefab and not the inside contents &8]"
 			]
 			hide_dependent_lines: true
 			icon: {

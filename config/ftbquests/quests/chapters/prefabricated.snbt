@@ -1,6 +1,8 @@
 {
+	autofocus_id: "554D8BCBD6882471"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "prefabricated"
 	group: "52A2EE513D7930F2"
 	icon: {
@@ -19,8 +21,8 @@
 			image: "minecraft:item/lead"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: -2.0d
+			x: 1.75d
+			y: 0.0d
 		}
 		{
 			click: " "
@@ -29,8 +31,8 @@
 			image: "splendid_slimes:item/plort/slimy"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: -1.0d
+			x: 1.75d
+			y: 1.0d
 		}
 		{
 			click: " "
@@ -39,8 +41,40 @@
 			image: "minecraft:item/wheat"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: -3.0d
+			x: 1.75d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "galosphere:particle/aura_particle8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "galosphere:particle/aura_particle8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "galosphere:particle/aura_particle8"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.75d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "roughlyenoughitems:textures/gui/arrow_right.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.875d
+			y: 0.0d
 		}
 	]
 	order_index: 3
@@ -48,12 +82,14 @@
 		id: "554D8BCBD6882471"
 		linked_quest: "75152677EB2700CE"
 		x: 0.0d
-		y: 0.125d
+		y: 0.0d
 	}]
 	quests: [
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/5x5_corral.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "splendid_slimes:corral_block"
 			id: "752112A8A039A2F5"
@@ -92,6 +128,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "5x4x5"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -99,13 +137,15 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "5x5 Corral"
-			x: -1.0d
-			y: -1.0d
+			title: "Small Corral"
+			x: 2.75d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/7x7_corral.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "splendid_slimes:corral_block"
 			id: "744FE8000BAD03AD"
@@ -144,6 +184,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "7x4x7"
 			tasks: [{
 				consume_items: true
 				count: 5L
@@ -151,13 +193,15 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "7x7 Corral"
-			x: 0.0d
-			y: -1.0d
+			title: "Large Corral"
+			x: 3.75d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/5x5_breeder.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "mbd2:slime_breeder"
 			id: "12545972A0A314C0"
@@ -170,10 +214,10 @@
 						Damage: 1
 						allow_nbt: 1
 						altezza: 0
-						blueprint_name: "5x_corral"
+						blueprint_name: "5x_breeder"
 						buildAnyway: 0b
 						display: {
-							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Corral\"}"
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Fusion Breeder\"}"
 						}
 						free_build: 1
 						inventari_blocco_selezionati: ""
@@ -182,7 +226,7 @@
 						mirrowX: 0b
 						mirrowY: 0b
 						mirrowZ: 0b
-						nome: "5x_corral"
+						nome: "5x_breeder"
 						owner: "worn"
 						owner_name: "SSCCOGAC"
 						remaining_uses: 1
@@ -196,6 +240,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "5x4x5"
 			tasks: [{
 				consume_items: true
 				count: 20L
@@ -203,13 +249,15 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "5x5 Fusion Breeder"
-			x: 1.0d
-			y: -1.0d
+			title: "Fusion Breeder"
+			x: 4.75d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/5x5_animal_pen.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "cluttered:poplar_fence"
 			id: "11588A723010D3C9"
@@ -222,10 +270,10 @@
 						Damage: 1
 						allow_nbt: 1
 						altezza: 0
-						blueprint_name: "5x_corral"
+						blueprint_name: "5x_animal_pen"
 						buildAnyway: 0b
 						display: {
-							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Corral\"}"
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Animal Pen\"}"
 						}
 						free_build: 1
 						inventari_blocco_selezionati: ""
@@ -234,7 +282,7 @@
 						mirrowX: 0b
 						mirrowY: 0b
 						mirrowZ: 0b
-						nome: "5x_corral"
+						nome: "5x_animal_pen"
 						owner: "worn"
 						owner_name: "SSCCOGAC"
 						remaining_uses: 1
@@ -248,6 +296,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "5x4x5"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -255,13 +305,15 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "5x5 Animal Pen"
-			x: -1.0d
-			y: -2.0d
+			title: "Small Animal Pen"
+			x: 2.75d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/7x7_animal_pen.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "cluttered:flowering_poplar_fence"
 			id: "2D2758C516F02499"
@@ -274,10 +326,10 @@
 						Damage: 1
 						allow_nbt: 1
 						altezza: 0
-						blueprint_name: "5x_corral"
+						blueprint_name: "7x_animal_pen"
 						buildAnyway: 0b
 						display: {
-							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Corral\"}"
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 7x7 Animal Pen\"}"
 						}
 						free_build: 1
 						inventari_blocco_selezionati: ""
@@ -286,7 +338,7 @@
 						mirrowX: 0b
 						mirrowY: 0b
 						mirrowZ: 0b
-						nome: "5x_corral"
+						nome: "7x_animal_pen"
 						owner: "worn"
 						owner_name: "SSCCOGAC"
 						remaining_uses: 1
@@ -300,20 +352,24 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "7x4x7"
 			tasks: [{
 				consume_items: true
-				count: 3L
+				count: 5L
 				id: "34681557F5848149"
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "7x7 Animal Pen"
-			x: 0.0d
-			y: -2.0d
+			title: "Large Animal Pen"
+			x: 3.75d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/11x11_crop_farm.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:wheat_seeds"
 			id: "29170920312F6283"
@@ -326,10 +382,10 @@
 						Damage: 1
 						allow_nbt: 1
 						altezza: 0
-						blueprint_name: "5x_corral"
+						blueprint_name: "11x_crop_farm"
 						buildAnyway: 0b
 						display: {
-							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Corral\"}"
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 11x11 Crop Farm\"}"
 						}
 						free_build: 1
 						inventari_blocco_selezionati: ""
@@ -338,7 +394,7 @@
 						mirrowX: 0b
 						mirrowY: 0b
 						mirrowZ: 0b
-						nome: "5x_corral"
+						nome: "11x_crop_farm"
 						owner: "worn"
 						owner_name: "SSCCOGAC"
 						remaining_uses: 1
@@ -352,6 +408,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "11x1x11"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -359,13 +417,15 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "10x10 Crop Farm"
-			x: -1.0d
-			y: -3.0d
+			title: "Crop Farm"
+			x: 2.75d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
+			description: ["{image:ftbquests:textures/image/11x11_gourd_farm.png width:180 height:100 align:center}"]
+			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:pumpkin"
 			id: "05CFBF024A9FA36C"
@@ -378,10 +438,10 @@
 						Damage: 1
 						allow_nbt: 1
 						altezza: 0
-						blueprint_name: "5x_corral"
+						blueprint_name: "11x_gourd_farm"
 						buildAnyway: 0b
 						display: {
-							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 5x5 Corral\"}"
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Blueprint: 11x11 Gourd Farm\"}"
 						}
 						free_build: 1
 						inventari_blocco_selezionati: ""
@@ -390,7 +450,7 @@
 						mirrowX: 0b
 						mirrowY: 0b
 						mirrowZ: 0b
-						nome: "5x_corral"
+						nome: "11x_gourd_farm"
 						owner: "worn"
 						owner_name: "SSCCOGAC"
 						remaining_uses: 1
@@ -404,6 +464,8 @@
 				team_reward: false
 				type: "item"
 			}]
+			shape: "hexagon"
+			subtitle: "11x1x11"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -411,9 +473,9 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "10x10 Gourd Farm"
-			x: 0.0d
-			y: -3.0d
+			title: "Gourd Farm"
+			x: 3.75d
+			y: -1.0d
 		}
 	]
 	title: "&e Prefabs &a☻"

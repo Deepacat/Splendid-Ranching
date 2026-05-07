@@ -2192,7 +2192,7 @@
 				type: "checkmark"
 			}]
 			title: "Little Logistics Placeholder"
-			x: -6.0d
+			x: -5.0d
 			y: -0.75d
 		}
 		{
@@ -2208,7 +2208,7 @@
 				type: "checkmark"
 			}]
 			title: "ComputerCraft Placeholder"
-			x: -6.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
