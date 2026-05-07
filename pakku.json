@@ -6,6 +6,7 @@
     "overrides": [
         "config",
         "defaultconfigs",
+        "configureddefaults",
         "kubejs",
         "ldlib",
         "!kubejs/probe/",
@@ -45,6 +46,12 @@
         },
         "citresewn": {
             "side": "CLIENT"
+        },
+        "lootbeams": {
+            "side": "CLIENT"
+        },
+        "worldedit": {
+            "export": false
         },
         "probejs": {
             "side": "CLIENT",

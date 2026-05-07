@@ -9,7 +9,6 @@
 	id: "112484FF0BE3AF63"
 	images: [
 		{
-			dependency: "528ED809C83D224D"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			order: 1
@@ -19,7 +18,6 @@
 			y: 0.25d
 		}
 		{
-			dependency: "528ED809C83D224D"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			order: 1
@@ -104,7 +102,13 @@
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
-			description: ["&7\"&rIt seems so that here on Gelatine-XB47, the barrier to... something? &oSomewhere...&r is weak. Blueprints of foreign concepts are being sent to the Hologuide's lab page.. I wonder what they could be for. Although they don't seem to care for the Glubcoins currency for their designs like the SSCCOGAC does, just a variety of plorts.&7\"&r"]
+			description: [
+				"&7\"&rIt seems so that here on Gelatine-XB47, the barrier to... something? &oSomewhere...&r is weak."
+				""
+				"Blueprints of foreign concepts are being sent to the Hologuide's lab page.. I wonder what they could be for?"
+				""
+				"I presume these plorts are not sent to the SSCCOGAC either... Curiously, the blueprints don't seem to care for the Glubcoins currency like the SSCCOGAC does. just a variety of plorts are required in their schematic.&7\"&r"
+			]
 			hide_dependency_lines: true
 			icon: "botania:pure_daisy"
 			id: "38D8C5BC12219E38"
@@ -124,7 +128,7 @@
 				team_reward: true
 				type: "gamestage"
 			}]
-			subtitle: "Access to floral fertilizer, Petal apothecary"
+			subtitle: "Access to Floral Fertilizer, Petal Apothecaries"
 			tasks: [
 				{
 					consume_items: true
@@ -2058,7 +2062,7 @@
 				type: "checkmark"
 			}]
 			title: "Modern Dynamics Placeholder"
-			x: 4.5d
+			x: 3.25d
 			y: 1.5d
 		}
 		{
@@ -2172,8 +2176,8 @@
 				type: "checkmark"
 			}]
 			title: "Thermal Expansion Placeholder"
-			x: 6.0d
-			y: -1.5d
+			x: 4.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -2189,7 +2193,7 @@
 			}]
 			title: "Little Logistics Placeholder"
 			x: -5.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["528ED809C83D224D"]
@@ -2226,7 +2230,7 @@
 				type: "checkmark"
 			}]
 			title: "Building Gadgets Placeholder"
-			x: 7.5d
+			x: 5.75d
 			y: 1.5d
 		}
 	]

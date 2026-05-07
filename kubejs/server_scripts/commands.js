@@ -97,6 +97,12 @@ ServerEvents.commandRegistry(e => {
                 return 1
             })
         )
+        .then(Commands.literal("dailyText")
+            .executes(ctx => {
+                announceDaily(`§6Reminder for ya§r, Rancher!\n`, ctx.source.player)
+                return 1
+            })
+        )
     )
 
     // patchouli command requires OP normally, but this bypasses that

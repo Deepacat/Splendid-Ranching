@@ -3,18 +3,18 @@
 
 // On world load, set servers slime value data if not set yet in the world
 ServerEvents.loaded(e => {
-    // On server load update the known player list
-    // this SHOULD only occur on first world load, but in the future if the pack continues
-    if (e.server.persistentData['slime_value_data'] === undefined) {
-        // Set all base server values (These are edited by market data updates)
-        e.server.persistentData['slime_value_data'] = slimeBaseValues
-        e.server.persistentData['daily_sold_plorts'] = {}
-        e.server.persistentData['daily_sold_total'] = 0
+    // Set all base server values if not set yet (These are edited by market data updates)
+    e.server.persistentData['daily_sold_plorts'] = e.server.persistentData['daily_sold_plorts'] || {}
+    e.server.persistentData['daily_sold_total'] = e.server.persistentData['daily_sold_total'] || 0
+    e.server.persistentData['announce_text'] = e.server.persistentData['announce_text'] || []
 
-        // The function that gives daily plort announcements runs market updates
+    // Should only run on first server load
+    if (e.server.persistentData['slime_value_data'] === undefined) {
+        // Run daily updates to randomize market on first world load
+        e.server.persistentData['slime_value_data'] = slimeBaseValues
         dailyUpdates(e.server)
     }
-    // Update servers slime values
+    // Update servers slime market values from file, if any edits were made
     checkAndUpdateSlimeValues()
 })
 
@@ -34,6 +34,14 @@ PlayerEvents.tick(e => {
         for (let stageId of stagesArray) { stagesObj['stages'].push(stageId) }
         e.player.sendData('kubejs:research_stages', stagesObj)
     }
+})
+
+// re-announce the daily text stored in the server to the player when logging in
+PlayerEvents.loggedIn(e => {
+    let welcome = e.player.stats.playTime < 100
+        ? `Welcome`
+        : `Welcome Back`
+    announceDaily(`§6${welcome}§r, Rancher!\n`, e.player)
 })
 
 // Send slime value data to clients that request it

@@ -14,19 +14,19 @@ const splendid_config = {
     HAPPY_THRESHOLD: $SlimyConfig.slimeHappyThreshold,
     UNHAPPY_THRESHOLD: $SlimyConfig.slimeUnhappyThreshold,
     FURIOUS_THRESHOLD: $SlimyConfig.slimeFuriousThreshold,
-    MAX_EATING_COOLDOWN: $SlimyConfig.slimeStarvingTime
+    SLIME_MAX_HUNGER: $SlimyConfig.slimeHungerAmount
 }
 
-const slimeBaseDefinitions = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc");
-const slimeBaseValues = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseValues.jsonc");
+const slimeBaseDefinitions = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseDefinitions.jsonc")
+const slimeBaseValues = JsonIO.read("kubejs/server_scripts/slimes/slimeBaseValues.jsonc")
 
 // base slimes from splendid slimes that are disabled in this modpack
 const disabledSlimes = ["webby"]
 
+// Painter API and other stuff copied from SSV
 global.mainUiElementIds = [
 
 ];
-
 
 const clearUiPaint = (player, ids) => {
     let removedText = {};

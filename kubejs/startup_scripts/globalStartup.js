@@ -146,32 +146,66 @@ global.getSellCoins = (price) => {
     return coinItems
 }
 
-// Text display utils
-global.clearOldDisplay = (block, id) => {
-    const { x, y, z } = block;
-    block
-        .getLevel()
-        .getServer()
-        .getEntities()
-        .forEach((entity) => {
-            entity.getTags().forEach((tag) => {
-                if (tag === `${id}-${x}-${y}-${z}`) {
-                    entity.kill();
-                }
-            });
-        });
-};
+// / Text display utils
+
+/**
+ * Get all loaded entities with the given tag id
+ * @param {Internal.Level} level
+ * @param {String} id
+ * @returns {Internal.Entity[]}
+ */
+global.getDisplays = (level, id) => {
+    let displays = []
+    level.getServer().getEntities().forEach((entity) => {
+        entity.getTags().forEach((tag) => {
+            if (tag.includes(id)) {
+                displays.push(entity)
+            }
+        })
+    })
+    return displays
+}
+
+/**
+ * Get all entities with the given tag id at a block position
+ * @param {Internal.Block} block
+ * @param {String} id
+ * @returns {Internal.Entity[]}
+ */
+global.getDisplaysAtPos = (block, id) => {
+    const { x, y, z } = block
+    let displays = []
+    block.getLevel().getServer().getEntities().forEach((entity) => {
+        entity.getTags().forEach((tag) => {
+            if (tag === `${id}-${x}-${y}-${z}`) {
+                displays.push(entity)
+            }
+        })
+    })
+    return displays
+}
+
+/**
+ * Kill all entities with the given tag id at a block position
+ * @param {Internal.Block} block
+ * @param {String} id
+ */
+global.clearDisplaysAtPos = (block, id) => {
+    global.getDisplaysAtPos(block, id).forEach(entity => {
+        entity.kill()
+    })
+}
 
 global.rotationFromFacing = (facing) => {
     switch (facing) {
     case "north":
-        return 180;
+        return 180
     case "east":
-        return 270;
+        return 270
     case "south":
-        return 360;
+        return 360
     default:
     case "west":
-        return 90;
+        return 90
     }
-};
+}

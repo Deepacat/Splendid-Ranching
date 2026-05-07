@@ -1,20 +1,100 @@
 
 [Mana]
 	#Mana consumption per tick while the halo interface is open
-	#Range: 0 ~ 100
+	#Range: > 0
 	requestingHaloStaticConsumption = 1
 	#Mana consumption when the displayed item list is updated
-	#Range: 0 ~ 100
+	#Range: > 0
 	requestingHaloUpdateConsumption = 10
-	#Mana consumption PER ITEM to quantize items
-	#Range: 0 ~ 100
-	quantizationConsumption = 20
-	#The mana capacity of the Quantization Device (recommended to be larger than <quantizationConsumption> * 256)
+	#The mana capacity of the Quantization Device (recommended to be larger than the per-item quantization costs * 256)
 	#Range: > 1
 	quantizationDeviceManaCapacity = 100000
+	#Mana consumption PER ITEM to extract items from the network
+	#Range: > 0
+	quantizationExtractConsumption = 20
+	#Mana consumption PER ITEM to insert items into the network
+	#Range: > 0
+	quantizationInsertConsumption = 40
 
 [Animations]
 	#The animation speed of the quantization of items (that's the ticks of one visual stage, and the full animation time is roughly 2 * <this value>)
 	#Range: 1 ~ 100
 	quantizationAnimationSpeed = 5
+
+[Modules]
+	#Enable the HUD Requesting Halo module
+	enableHudModule = true
+	#Enable the RECEIVE Requesting Halo module
+	enableReceiveModule = true
+	#Enable the SEARCH Requesting Halo module
+	enableSearchModule = true
+	#Enable the UPDATE Requesting Halo module
+	enableUpdateModule = true
+	#Enable the ANCHOR Requesting Halo module
+	enableAnchorModule = true
+	#Enable the MAGNATE Requesting Halo module
+	enableMagnateModule = true
+	#Enable the CRAFTING Requesting Halo module
+	enableCraftingModule = true
+	#Enable the QUANTUM_INSERTER Requesting Halo module
+	enableQuantumInserterModule = true
+	#Enable the FAR_REACH Requesting Halo module
+	enableFarReachModule = true
+	#Enable the GREATER_MAGNATE Requesting Halo module
+	enableGreaterMagnateModule = true
+	#Enable the BLACK_HOLE Requesting Halo module
+	enableBlackHoleModule = true
+
+[Range]
+	#Base Corporea access range of the Requesting Halo before range upgrades
+	#Range: > 0
+	baseRequestingHaloRange = 10
+	#Range bonus provided by the MAGNATE module when it is enabled
+	#Range: > 0
+	magnateRangeBonus = 10
+	#Range bonus provided by the FAR_REACH module when it is enabled
+	#Range: > 0
+	farReachRangeBonus = 20
+	#Range bonus provided by the GREATER_MAGNATE module when it is enabled
+	#Range: > 0
+	greaterMagnateRangeBonus = 30
+	#Range bonus provided by the BLACK_HOLE module when it is enabled
+	#Range: > 0
+	blackHoleRangeBonus = 50
+
+[Particles]
+	#Enable mod particle effects
+	enableParticles = true
+	#Multiplier applied to mod particle spawn counts and rates
+	#Range: 0.0 ~ 10.0
+	particleMultiplier = 1.0
+
+[Sounds]
+	#Scale applied to halo open sounds
+	#Range: 0.0 ~ 10.0
+	haloOpenSoundScale = 1.0
+	#Scale applied to halo close sounds
+	#Range: 0.0 ~ 10.0
+	haloCloseSoundScale = 1.0
+	#Scale applied to halo list update sounds
+	#Range: 0.0 ~ 10.0
+	haloListUpdateSoundScale = 1.0
+	#Scale applied to halo select sounds
+	#Range: 0.0 ~ 10.0
+	haloSelectSoundScale = 1.0
+	#Scale applied to halo request sounds
+	#Range: 0.0 ~ 10.0
+	haloRequestSoundScale = 1.0
+	#Scale applied to halo reach-edge sounds
+	#Range: 0.0 ~ 10.0
+	haloReachEdgeSoundScale = 1.0
+	#Scale applied to halo out-of-range sounds
+	#Range: 0.0 ~ 10.0
+	haloOutOfRangeSoundScale = 1.0
+	#Scale applied to quantum send sounds
+	#Range: 0.0 ~ 10.0
+	quantumSendSoundScale = 1.0
+	#Scale applied to quantum receive sounds
+	#Range: 0.0 ~ 10.0
+	quantumReceiveSoundScale = 1.0
 

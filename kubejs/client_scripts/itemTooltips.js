@@ -6,8 +6,8 @@ ItemEvents.tooltip(e => {
         "§8[§7 Drops the currency from the machines face §8]"
     ])
     e.add("mbd2:slime_breeder", [
-        "§8[§7 Fuses slimes in a 5x4x5 area behind it §8]",
-        "§8[§7 The front has the eyes, the red dot faces behind §8]",
+        "§8[§7 Fuses slimes in a small area centered above it §8]",
+        "§8[§7 Output slime heart must be removed before working again §8]",
     ])
     e.add("mbd2:chicken_duper", [
         "§8[§7 50/50 Duplicates or kills a nearby chicken §8]"
@@ -27,7 +27,7 @@ ItemEvents.tooltip(e => {
     ])
     e.add("splendid_slimes:plort_press", ["§8[§7 Creates slime hearts from plorts §8]"])
     e.add("splendid_slimes:plort_rippit", ["§8[§7 Extracts resources from plorts §8]"])
-    e.add("splendid_slimes:slime_feeder", ["§8[§7 Feeds slimes in a ~6³ area §8]"])
+    e.add("splendid_slimes:slime_feeder", ["§8[§7 Feeds slimes up to ~6 blocks away §8]"])
     e.add("splendid_slimes:rocket_pod", ["§8[§7 Sends you flying without damage! §8]", "§8[§7 Recommended to use with Rainbounce boots §8]"])
     // quark
     e.add("quark:feeding_trough", ["§8[§7 Nearby animals may eat from it §8]"])
