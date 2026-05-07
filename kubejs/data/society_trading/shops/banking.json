@@ -30,6 +30,12 @@
       "trade_id": "splendid_bank_market_monitor"
     },
     {
+      "offer": { "item": "kubejs:market_data_storage", "count": 1 },
+      "request": { "item": "numismatics:crown", "count": 1 },
+      "numismatics_cost": 512,
+      "trade_id": "splendid_market_data_storage"
+    },
+    {
       "offer": { "item": "numismatics:bank_terminal", "count": 1 },
       "request": { "item": "numismatics:cog", "count": 4 },
       "numismatics_cost": 256,

@@ -63,7 +63,7 @@ global.researchStages = {
         "name": "Factory Gauges",
         "ingredients": ["create:factory_gauge", "#kubejs:extra_gauges"]
     },
-    "create_boiler": {
+    "create_boilers": {
         "name": "Steam Boilers",
         "ingredients": ["create:steam_engine"]
     },
