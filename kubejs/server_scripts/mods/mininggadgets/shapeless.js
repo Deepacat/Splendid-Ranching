@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     // All function the same, make them swappable
-    
+
     // mk1 > mk2
     e.shapeless('mininggadgets:mininggadget_fancy', ['mininggadgets:mininggadget_simple'])
         .modifyResult((grid, result) => {
