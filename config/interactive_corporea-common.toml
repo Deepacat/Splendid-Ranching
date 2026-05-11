@@ -32,35 +32,35 @@
 	enableUpdateModule = true
 	#Enable the ANCHOR Requesting Halo module
 	enableAnchorModule = true
-	#Enable the MAGNATE Requesting Halo module
-	enableMagnateModule = true
 	#Enable the CRAFTING Requesting Halo module
 	enableCraftingModule = true
 	#Enable the QUANTUM_INSERTER Requesting Halo module
 	enableQuantumInserterModule = true
 	#Enable the FAR_REACH Requesting Halo module
 	enableFarReachModule = true
-	#Enable the GREATER_MAGNATE Requesting Halo module
-	enableGreaterMagnateModule = true
 	#Enable the BLACK_HOLE Requesting Halo module
 	enableBlackHoleModule = true
+	#Enable the MAGNETIZATION Requesting Halo module
+	enableMagnetizationModule = true
+	#Enable the GREATER_MAGNETIZATION Requesting Halo module
+	enableGreaterMagnetizationModule = true
 
 [Range]
 	#Base Corporea access range of the Requesting Halo before range upgrades
 	#Range: > 0
 	baseRequestingHaloRange = 10
-	#Range bonus provided by the MAGNATE module when it is enabled
-	#Range: > 0
-	magnateRangeBonus = 10
 	#Range bonus provided by the FAR_REACH module when it is enabled
 	#Range: > 0
 	farReachRangeBonus = 20
-	#Range bonus provided by the GREATER_MAGNATE module when it is enabled
-	#Range: > 0
-	greaterMagnateRangeBonus = 30
 	#Range bonus provided by the BLACK_HOLE module when it is enabled
 	#Range: > 0
 	blackHoleRangeBonus = 50
+	#Range bonus provided by the MAGNETIZATION module when it is enabled
+	#Range: > 0
+	magnetizationRangeBonus = 10
+	#Range bonus provided by the GREATER_MAGNETIZATION module when it is enabled
+	#Range: > 0
+	greaterMagnetizationRangeBonus = 30
 
 [Particles]
 	#Enable mod particle effects
@@ -97,4 +97,7 @@
 	#Scale applied to quantum receive sounds
 	#Range: 0.0 ~ 10.0
 	quantumReceiveSoundScale = 1.0
+	#Scale applied to halo return sounds
+	#Range: 0.0 ~ 10.0
+	haloReturnSoundScale = 1.0
 

@@ -37,4 +37,5 @@ StartupEvents.registry("block", e => {
                 global['handleDataStorageTick'](entity)
             })
         })
+        .redstoneConductor(true)
 })

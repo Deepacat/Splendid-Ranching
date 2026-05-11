@@ -1016,6 +1016,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "This cake is real!"
 			tasks: [
 				{
 					id: "1B51D0724E851D91"
@@ -1137,7 +1138,7 @@
 			tasks: [
 				{
 					id: "109898E1B0AB47CF"
-					title: "I am a computer scientist! Maybe... I want these regardless"
+					title: "I am a computer scientist! Mmmaybe... I just want these!"
 					type: "checkmark"
 				}
 				{

@@ -618,6 +618,14 @@
     "curseForgeHash": 3141943045,
     "modrinthHash": "1fef1d8ab0dc2dec116bc6d6cb6f789fd33b23b0"
   },
+  "fancytoasts-forge-1.20.1-1.4.7.jar": {
+    "jarName": "fancytoasts-forge-1.20.1-1.4.7.jar",
+    "modId": "fancytoasts",
+    "name": "FancyToasts",
+    "version": "1.4.7",
+    "curseForgeHash": 364923521,
+    "modrinthHash": "819a5f00ac299ab9700857ea632bd8f726e1f128"
+  },
   "FarmersDelight-1.20.1-1.3.1.jar": {
     "jarName": "FarmersDelight-1.20.1-1.3.1.jar",
     "modId": "farmersdelight",
@@ -810,13 +818,13 @@
     "curseForgeHash": 438981801,
     "modrinthHash": "0d324b97af98938f28f58f696e0b992c42eb8f31"
   },
-  "interactive_corporea_reinfused-1.1.0-beta.jar": {
-    "jarName": "interactive_corporea_reinfused-1.1.0-beta.jar",
+  "interactive_corporea-1.2.0-beta.jar": {
+    "jarName": "interactive_corporea-1.2.0-beta.jar",
     "modId": "interactive_corporea",
-    "name": "Interactive Corporea",
-    "version": "1.1.0-beta",
-    "curseForgeHash": 2352024771,
-    "modrinthHash": "1f0d3e43260e20ea0c9e80d5c5362c721f692ff0"
+    "name": "Interactive Corporea Reinfused",
+    "version": "1.2.0-beta",
+    "curseForgeHash": 830625373,
+    "modrinthHash": "52c458e5eed812c6b9e4882ec0f63262d0c576e7"
   },
   "ItemBorders-1.20.1-forge-1.2.2.jar": {
     "jarName": "ItemBorders-1.20.1-forge-1.2.2.jar",
@@ -1364,13 +1372,13 @@
     "curseForgeHash": 1515254383,
     "modrinthHash": "231fb325368c0660954f47bfb03493f5246fa4d1"
   },
-  "splendid_slimes-0.20.2.jar": {
-    "jarName": "splendid_slimes-0.20.2.jar",
+  "splendid_slimes-0.20.3.jar": {
+    "jarName": "splendid_slimes-0.20.3.jar",
     "modId": "splendid_slimes",
     "name": "Splendid Slimes",
-    "version": "0.20.2",
-    "curseForgeHash": 3937652437,
-    "modrinthHash": "97642472e75fd59781089c046c132b5898fbf95a"
+    "version": "0.20.3",
+    "curseForgeHash": 500964973,
+    "modrinthHash": "85d43864434b8cd34a7dc4dc0e257cf7b9f24a44"
   },
   "structure_layout_optimizer-forge-1.0.11.jar": {
     "jarName": "structure_layout_optimizer-forge-1.0.11.jar",
