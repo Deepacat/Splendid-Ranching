@@ -98,11 +98,12 @@ const slimeRecipes = {
         ]
     },
     alien_orby_to_phantom: {
-        entityIn: [{ count: 1, id: 'alien' }, { count: 1, id: 'orby' }],
+        entityIn: [{ count: 1, id: 'monster' }, { count: 1, id: 'alien' }, { count: 1, id: 'orby' }],
         heartOut: [
             { count: 1, id: 'alien', weight: 10 },
             { count: 1, id: 'orby', weight: 10 },
-            { count: 1, id: 'phantom', weight: 80 }
+            { count: 1, id: 'monster', weight: 10 },
+            { count: 1, id: 'phantom', weight: 70 }
         ]
     },
     // t2 fusion slimes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -167,7 +168,7 @@ const slimeRecipes = {
             { count: 1, id: 'weeping', weight: 70 }
         ]
     },
-    fungus_blazing_to_crimson: {
+    fungus_blazing_to_warped_and_crimson: {
         entityIn: [
             { count: 1, id: 'fungus' },
             { count: 1, id: 'blazing' }
@@ -175,18 +176,8 @@ const slimeRecipes = {
         heartOut: [
             { count: 1, id: 'fungus', weight: 10 },
             { count: 1, id: 'blazing', weight: 10 },
-            { count: 1, id: 'crimson', weight: 80 }
-        ]
-    },
-    fungus_blazing_to_warped: {
-        entityIn: [
-            { count: 1, id: 'fungus' },
-            { count: 1, id: 'blazing' }
-        ],
-        heartOut: [
-            { count: 1, id: 'fungus', weight: 10 },
-            { count: 1, id: 'blazing', weight: 10 },
-            { count: 1, id: 'warped', weight: 80 }
+            { count: 1, id: 'crimson', weight: 40 },
+            { count: 1, id: 'warped', weight: 40 }
         ]
     },
     stony_blazing_orby_to_geode: {
