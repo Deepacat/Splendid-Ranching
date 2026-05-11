@@ -1,12 +1,14 @@
 # Changelog
 
-## [[0.5.2]](https://github.com/Deepacat/Splendid-Ranching/releases/tag/0.5.2)
+## [0.5.2]
+### [Link](https://github.com/Deepacat/Splendid-Ranching/releases/tag/0.5.2)
 ### Changes
 - Fixed some slime fusion recipe conflicts
   - crimson, warped, and phantom are now all craftable
 - Fancy toasts for quest completions
 
-## [[0.5.1]](https://github.com/Deepacat/Splendid-Ranching/releases/tag/0.5.1)
+## [0.5.1]
+### [Link](https://github.com/Deepacat/Splendid-Ranching/releases/tag/0.5.1)
 ### Changes
 - Added a block that stores the daily market data in it, for use with computercraft
 - Made mining gadget tiers freely cyclable in crafting
