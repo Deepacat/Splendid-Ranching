@@ -1,0 +1,10 @@
+{
+  "textureId": "fancytoasts:textures/toast/vanilla.png",
+  "animationId": "fancytoasts:animations/toast/playful",
+  "soundIds": {
+    "TASK": "minecraft:item.goat_horn.sound.0",
+    "GOAL": "minecraft:item.goat_horn.sound.0",
+    "CHALLENGE": "minecraft:ui.toast.challenge_complete"
+  },
+  "version": 1
+}
