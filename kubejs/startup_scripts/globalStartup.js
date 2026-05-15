@@ -74,7 +74,7 @@ global.getPlortText = (mult, plortData) => {
 }
 
 // For cases where prices are auto-generated, round
-const roundPrice = (price) => {
+global.roundPrice = (price) => {
     for (let i = 0; i < global.coinMap.length; i++) {
         let { value } = global.coinMap[i]
 

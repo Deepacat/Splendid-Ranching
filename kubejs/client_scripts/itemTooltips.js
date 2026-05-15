@@ -8,6 +8,8 @@ ItemEvents.tooltip(e => {
     e.add("mbd2:slime_breeder", [
         "§8[§7 Fuses slimes in a small area centered above it §8]",
         "§8[§7 Output slime heart must be removed before working again §8]",
+        "§8[§7 Requires 4 corner pylons to work. Check recipe viewer uses§8]",
+
     ])
     e.add("mbd2:chicken_duper", [
         "§8[§7 50/50 Duplicates or kills a nearby chicken §8]"
