@@ -1,0 +1,99 @@
+ServerEvents.highPriorityData(e => {
+    addTrades(e, {
+        "shop_id": "mining_gadgets",
+        "name": "shop.society_trading.mining_gadgets",
+        "texture": "mininggadgets:textures/block/modificationtable_front",
+        "block_tag": "splendid_ranching:opens_mining_gadgets",
+        "jei_catalyst": { "item": "mininggadgets:modificationtable" },
+        "trades": [
+            {
+                "offer": { "item": "mininggadgets:mininggadget_simple", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_mining_laser_mk1"
+            },
+            {
+                "offer": { "item": "mininggadgets:modificationtable", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_modification_table"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_size_1", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_radius_t1"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_size_2", "count": 1 },
+                "request": { "item": "numismatics:crown", "count": 1 },
+                "numismatics_cost": 512,
+                "trade_id": "splendid_radius_t2"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_size_3", "count": 1 },
+                "request": { "item": "numismatics:sun", "count": 1 },
+                "numismatics_cost": 4096,
+                "trade_id": "splendid_radius_t3"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_efficiency_1", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_efficiency_t1"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_efficiency_3", "count": 1 },
+                "request": { "item": "numismatics:crown", "count": 1 },
+                "second_request": { "item": "mininggadgets:upgrade_efficiency_1", "count": 1 },
+                "numismatics_cost": 512,
+                "trade_id": "splendid_efficiency_t3"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_efficiency_5", "count": 1 },
+                "request": { "item": "numismatics:sun", "count": 1 },
+                "second_request": { "item": "mininggadgets:upgrade_efficiency_3", "count": 1 },
+                "numismatics_cost": 4096,
+                "trade_id": "splendid_efficiency_t5"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_range_1", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_range_t1"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_range_2", "count": 1 },
+                "request": { "item": "numismatics:crown", "count": 1 },
+                "second_request": { "item": "mininggadgets:upgrade_range_1", "count": 1 },
+                "numismatics_cost": 512,
+                "trade_id": "splendid_range_t2"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_range_3", "count": 1 },
+                "request": { "item": "numismatics:sun", "count": 1 },
+                "second_request": { "item": "mininggadgets:upgrade_range_2", "count": 1 },
+                "numismatics_cost": 4096,
+                "trade_id": "splendid_range_t3"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_battery_1", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 1 },
+                "numismatics_cost": 64,
+                "trade_id": "splendid_battery_t1"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_battery_2", "count": 1 },
+                "request": { "item": "numismatics:crown", "count": 1 },
+                "numismatics_cost": 512,
+                "trade_id": "splendid_battery_t2"
+            },
+            {
+                "offer": { "item": "mininggadgets:upgrade_battery_3", "count": 1 },
+                "request": { "item": "numismatics:sun", "count": 1 },
+                "numismatics_cost": 4096,
+                "trade_id": "splendid_battery_t3"
+            }
+        ]
+    })
+})

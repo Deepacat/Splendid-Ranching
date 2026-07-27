@@ -1,0 +1,35 @@
+ServerEvents.highPriorityData(e => {
+    addTrades(e, {
+        "shop_id": "travel_aids",
+        "name": "shop.society_trading.travel_aids",
+        "texture": "alexscaves:textures/item/rainbounce_boots",
+        "block_tag": "splendid_ranching:opens_travel_aids",
+        "jei_catalyst": { "item": "alexscaves:rainbounce_boots" },
+        "trades": [
+            {
+                "offer": { "item": "splendid_slimes:rocket_pod", "count": 32 },
+                "request": { "item": "numismatics:spur", "count": 4 },
+                "numismatics_cost": 4,
+                "trade_id": "splendid_rocket_pod"
+            },
+            {
+                "offer": { "item": "alexscaves:rainbounce_boots", "count": 1 },
+                "request": { "item": "numismatics:cog", "count": 2 },
+                "numismatics_cost": 128,
+                "trade_id": "splendid_rainbounce_boots"
+            },
+            {
+                "offer": { "item": "alexscaves:candy_cane_hook", "count": 1 },
+                "request": { "item": "numismatics:crown", "count": 1 },
+                "numismatics_cost": 512,
+                "trade_id": "splendid_candycane_hook"
+            },
+            {
+                "offer": { "item": "create_jetpack:jetpack", "count": 1 },
+                "request": { "item": "numismatics:sun", "count": 1 },
+                "numismatics_cost": 4096,
+                "trade_id": "splendid_jetpack"
+            }
+        ]
+    })
+})

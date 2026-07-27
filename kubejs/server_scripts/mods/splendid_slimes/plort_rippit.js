@@ -24,19 +24,19 @@ ServerEvents.recipes(e => {
     }
 
     // Manual recipes
-    e.custom({
-        type: "splendid_slimes:plort_ripping",
-        ingredient: { item: "splendid_slimes:plort", nbt: { plort: { id: "splendid_slimes:time" } } },
-        results: [
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:knockback",lvl:2s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fire_aspect",lvl:2s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:looting",lvl:3s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sweeping",lvl:3s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:efficiency",lvl:5s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:unbreaking",lvl:3s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fortune",lvl:3s}]}'), count: 1, weight: 10 },
-            { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:power",lvl:5s}]}'), count: 1, weight: 10 }
-        ]
-    }).id(`kubejs:generated/rippit/sweet`)
+    // e.custom({
+    //     type: "splendid_slimes:plort_ripping",
+    //     ingredient: { item: "splendid_slimes:plort", nbt: { plort: { id: "splendid_slimes:time" } } },
+    //     results: [
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sharpness",lvl:5s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:knockback",lvl:2s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fire_aspect",lvl:2s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:looting",lvl:3s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:sweeping",lvl:3s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:efficiency",lvl:5s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:unbreaking",lvl:3s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:fortune",lvl:3s}]}'), count: 1, weight: 10 },
+    //         { item: Item.of('quark:ancient_tome', '{StoredEnchantments:[{id:"minecraft:power",lvl:5s}]}'), count: 1, weight: 10 }
+    //     ]
+    // }).id(`kubejs:generated/rippit/sweet`)
 })

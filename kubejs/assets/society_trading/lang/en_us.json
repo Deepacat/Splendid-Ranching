@@ -12,5 +12,7 @@
 	"shop.society_trading.building_gadgets": "Building Gadgets",
 	"shop.society_trading.building_gadgets.description": "Ingenious gadgets crafted to assist builders in their building.",
 	"shop.society_trading.sparky_shop": "Sparky Shop",
-	"shop.society_trading.sparky_shop.description": "Everything electricity, from production to transportation."
+	"shop.society_trading.sparky_shop.description": "Everything electricity, from production to transportation.",
+	"shop.society_trading.prefabs": "Prefabs",
+	"shop.society_trading.prefabs.description": "Placeable structures for your convenience."
 }
