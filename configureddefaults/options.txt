@@ -183,8 +183,6 @@ key_key.craftingtweaks.refill_last:key.keyboard.tab:CONTROL
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown
 key_keybind.advancedperipherals.description:key.keyboard.left.control
-key_create_mobile_packages.keyinfo.open_portable_stock_ticker:key.keyboard.unknown
-key_create_mobile_packages.keyinfo.open_player_networks_screen:key.keyboard.unknown
 key_key.sophisticatedcore.sort:key.keyboard.unknown
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.unknown
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.unknown

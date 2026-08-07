@@ -56,6 +56,7 @@
 /kubejs/config/probejs.json
 /kubejs/config/probe-settings.json
 /kubejs/*/jsconfig.json
+
 # Generated data for scripts
 kubejs/modpackData/**
 !kubejs/modpackData/*.txt
@@ -72,7 +73,7 @@ kubejs/modpackData/**
 !/config/botania-client.toml
 !/config/defaultsettings/Default/options.txt
 
-# Configs (generaly ones that tend to edit the date on launch)
+# Configs (generally ones that tend to edit the date on launch)
 /config/fml.toml
 /config/jei/world/local/*
 /config/fabric/indigo-renderer.properties

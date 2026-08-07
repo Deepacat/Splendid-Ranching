@@ -46,13 +46,13 @@
             ]
         },
         {
-            "pakku_id": "xVkSoPsauOjHM2uM",
+            "pakku_id": "uRoojVzj5MWSSyp0",
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-loot-info"
             },
             "name": {
-                "curseforge": "Advanced Loot Info"
+                "curseforge": "Advanced Loot Info (ALI)"
             },
             "id": {
                 "curseforge": "1205426"
@@ -60,7 +60,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.10.0.jar",
+                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.12.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -69,21 +69,21 @@
                         "neoforge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8002/62/AdvancedLootInfo-forge-1.20.1-1.10.0.jar",
-                    "id": "8002062",
+                    "url": "https://edge.forgecdn.net/files/8168/726/AdvancedLootInfo-forge-1.20.1-1.12.0.jar",
+                    "id": "8168726",
                     "parent_id": "1205426",
                     "hashes": {
-                        "sha1": "3f24e8ef618847743c8933aae9141202b1cded0a",
-                        "md5": "9c7948fea8dc8f6573ba9bbed1f2ab57"
+                        "sha1": "bbf7742a49e6cbe90c5d805538ec46ce223e6e0b",
+                        "md5": "1aeeb501450801d76fe4d301c48ec794"
                     },
                     "required_dependencies": [],
-                    "size": 792622,
-                    "date_published": "2026-04-27T19:56:41.253Z"
+                    "size": 663089,
+                    "date_published": "2026-05-30T09:52:12.560Z"
                 }
             ]
         },
         {
-            "pakku_id": "cJzn0YgYatdxms6D",
+            "pakku_id": "G3VShmiJcxys2OZe",
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-peripherals"
@@ -97,7 +97,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedPeripherals-1.20.1-0.7.46r.jar",
+                    "file_name": "AdvancedPeripherals-1.20.1-0.7.48r.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -106,18 +106,18 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7083/73/AdvancedPeripherals-1.20.1-0.7.46r.jar",
-                    "id": "7083073",
+                    "url": "https://edge.forgecdn.net/files/8228/409/AdvancedPeripherals-1.20.1-0.7.48r.jar",
+                    "id": "8228409",
                     "parent_id": "431725",
                     "hashes": {
-                        "sha1": "c9118e3bf16fae2c025a9a6398204e7ee84b3521",
-                        "md5": "7d8ad99a70fd7c8dd35639c28f44075d"
+                        "sha1": "c715e6255f5dd74d5e174cd8d912773b0ac35cd6",
+                        "md5": "4ad4e42f0e12bfbd37301220e27e768c"
                     },
                     "required_dependencies": [
                         "282001"
                     ],
-                    "size": 889946,
-                    "date_published": "2025-10-08T16:03:20.547Z"
+                    "size": 885438,
+                    "date_published": "2026-06-10T20:40:56.970Z"
                 }
             ]
         },
@@ -387,10 +387,7 @@
             ]
         },
         {
-            "pakku_id": "2u1E57WnWtEfhkem",
-            "pakku_links": [
-                "ycunKdAnLJwRmBJ1"
-            ],
+            "pakku_id": "IB5DlA305CLQ5aH5",
             "type": "MOD",
             "slug": {
                 "curseforge": "artsandcrafts"
@@ -404,27 +401,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "arts_and_crafts-forge-1.20.1-1.5.1.jar",
+                    "file_name": "arts_and_crafts-forge-1.20.1-1.5.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6689/158/arts_and_crafts-forge-1.20.1-1.5.1.jar",
-                    "id": "6689158",
+                    "url": "https://edge.forgecdn.net/files/8155/599/arts_and_crafts-forge-1.20.1-1.5.4.jar",
+                    "id": "8155599",
                     "parent_id": "1034791",
                     "hashes": {
-                        "sha1": "afe0671281f6b20e1ecae5dc5d873d4cf1acca9f",
-                        "md5": "ff0136352598581529495ccc1a9dfccb"
+                        "sha1": "2651938053bfadb9846c174a12d546de5997a3b9",
+                        "md5": "ef472db70a1c9311a806c2086014595e"
                     },
                     "required_dependencies": [
                         "1203401"
                     ],
-                    "size": 5185017,
-                    "date_published": "2025-06-23T23:14:13.033Z"
+                    "size": 5216393,
+                    "date_published": "2026-05-27T18:38:13.657Z"
                 }
             ]
         },
@@ -508,7 +505,7 @@
             ]
         },
         {
-            "pakku_id": "Nb0afx0djezICtMY",
+            "pakku_id": "bhQN4KU2nPVFcoxj",
             "type": "MOD",
             "slug": {
                 "curseforge": "balm"
@@ -522,7 +519,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "balm-forge-1.20.1-7.3.38-all.jar",
+                    "file_name": "balm-forge-1.20.1-7.3.41-all.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -531,52 +528,53 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7420/617/balm-forge-1.20.1-7.3.38-all.jar",
-                    "id": "7420617",
+                    "url": "https://edge.forgecdn.net/files/8404/830/balm-forge-1.20.1-7.3.41-all.jar",
+                    "id": "8404830",
                     "parent_id": "531761",
                     "hashes": {
-                        "sha1": "515905f87268f1eb5af2a9878a84914517efe552",
-                        "md5": "499467bc8050be8893b08995438cc026"
+                        "sha1": "fde6edd5f3f2aa412a1ba5fccad20ea4348fdcf2",
+                        "md5": "3e85619a9dfa40b2b1e8d95b54dadb00"
                     },
                     "required_dependencies": [],
-                    "size": 591397,
-                    "date_published": "2026-01-05T11:43:31.017Z"
+                    "size": 559741,
+                    "date_published": "2026-07-10T08:34:23.780Z"
                 }
             ]
         },
         {
-            "pakku_id": "FGrjpuyhF5RtyOcT",
+            "pakku_id": "Ib2kc6nYSQklroBL",
             "type": "MOD",
             "slug": {
-                "curseforge": "better-advancements"
+                "curseforge": "better-advanced-tooltips-backport"
             },
             "name": {
-                "curseforge": "Better Advancements"
+                "curseforge": "Better Advanced Tooltips Backport"
             },
             "id": {
-                "curseforge": "272515"
+                "curseforge": "1547351"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "BetterAdvancements-Forge-1.20.1-0.4.2.59.jar",
+                    "file_name": "betteradvancedtooltips-1.20.1-1.2.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
-                    "release_type": "alpha",
-                    "url": "https://edge.forgecdn.net/files/8054/511/BetterAdvancements-Forge-1.20.1-0.4.2.59.jar",
-                    "id": "8054511",
-                    "parent_id": "272515",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8167/579/betteradvancedtooltips-1.20.1-1.2.1.jar",
+                    "id": "8167579",
+                    "parent_id": "1547351",
                     "hashes": {
-                        "sha1": "6ac10a48ae50b8b18141a893b298cc7c60e475c6",
-                        "md5": "3e29b16b445c4878b1b920fc325bf99e"
+                        "sha1": "83b42e4ceb2429ba006aca2410100feef7f0c3f5",
+                        "md5": "eef753ed87f3061cb3a0df6897795488"
                     },
                     "required_dependencies": [],
-                    "size": 98224,
-                    "date_published": "2026-05-07T20:03:11.900Z"
+                    "size": 49615,
+                    "date_published": "2026-05-30T03:14:20.403Z"
                 }
             ]
         },
@@ -694,7 +692,7 @@
             ]
         },
         {
-            "pakku_id": "ko37M1wVXn1Yz8zA",
+            "pakku_id": "m7vfzPwPATvD3WH3",
             "type": "MOD",
             "slug": {
                 "curseforge": "botania"
@@ -708,7 +706,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Botania-1.20.1-452-FORGE.jar",
+                    "file_name": "Botania-1.20.1-454-FORGE.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -716,19 +714,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7982/360/Botania-1.20.1-452-FORGE.jar",
-                    "id": "7982360",
+                    "url": "https://edge.forgecdn.net/files/8370/23/Botania-1.20.1-454-FORGE.jar",
+                    "id": "8370023",
                     "parent_id": "225643",
                     "hashes": {
-                        "sha1": "4a921d6a413a0a6fb53b6961bb65b6a33f7426ce",
-                        "md5": "8f4b940ba68c9f057007c016bcb693b3"
+                        "sha1": "7e167de1c70738fd9f29a00556f1c5ebb1daf34d",
+                        "md5": "ae678d80027133366933844f32ac92ef"
                     },
                     "required_dependencies": [
-                        "306770",
-                        "309927"
+                        "309927",
+                        "306770"
                     ],
-                    "size": 12201501,
-                    "date_published": "2026-04-25T13:02:41.383Z"
+                    "size": 12211755,
+                    "date_published": "2026-07-04T16:16:53.550Z"
                 }
             ]
         },
@@ -878,6 +876,45 @@
                     "required_dependencies": [],
                     "size": 240394,
                     "date_published": "2023-09-24T02:34:14Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "LMzO660dNM3gFH9X",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "certain-questing-additions"
+            },
+            "name": {
+                "curseforge": "Certain Questing Additions"
+            },
+            "id": {
+                "curseforge": "1372051"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "certain_questing_additions-forge-1.2.0.3+mc1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8385/712/certain_questing_additions-forge-1.2.0.3+mc1.20.1.jar",
+                    "id": "8385712",
+                    "parent_id": "1372051",
+                    "hashes": {
+                        "sha1": "db314944c27a99439d2f0e593f3c1cc9805a8fde",
+                        "md5": "6afe371ceee210e9778c6b8aaa06a0ce"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "289412"
+                    ],
+                    "size": 1221521,
+                    "date_published": "2026-07-07T07:43:07.467Z"
                 }
             ]
         },
@@ -1109,7 +1146,7 @@
             ]
         },
         {
-            "pakku_id": "VXhf0Fp0tJgc0rZa",
+            "pakku_id": "H9Fkpa7CIMGiBYXN",
             "type": "MOD",
             "slug": {
                 "curseforge": "collective"
@@ -1123,7 +1160,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "collective-1.20.1-8.22.jar",
+                    "file_name": "collective-1.20.1-8.39.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1134,21 +1171,21 @@
                         "quilt"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8021/348/collective-1.20.1-8.22.jar",
-                    "id": "8021348",
+                    "url": "https://edge.forgecdn.net/files/8341/458/collective-1.20.1-8.39.jar",
+                    "id": "8341458",
                     "parent_id": "342584",
                     "hashes": {
-                        "sha1": "14928c245ac6966bf9316be5233a8aead943e6d4",
-                        "md5": "a4a758a9fb3e236a44de67cb0d3ce484"
+                        "sha1": "4622cf120fd3eb82972dc6634d6a5910d04e3c91",
+                        "md5": "728bc556a380eb0dfb7c901bf3b437fe"
                     },
                     "required_dependencies": [],
-                    "size": 662615,
-                    "date_published": "2026-05-01T14:11:32.720Z"
+                    "size": 745947,
+                    "date_published": "2026-06-29T16:26:46.787Z"
                 }
             ]
         },
         {
-            "pakku_id": "Gal7Dn3hBjyi9kuj",
+            "pakku_id": "ljKADQ1ck6w9lypF",
             "type": "MOD",
             "slug": {
                 "curseforge": "common-network"
@@ -1162,7 +1199,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "common-networking-forge-1.0.5-1.20.1.jar",
+                    "file_name": "common-networking-forge-1.0.6-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -1170,16 +1207,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5486/134/common-networking-forge-1.0.5-1.20.1.jar",
-                    "id": "5486134",
+                    "url": "https://edge.forgecdn.net/files/8357/966/common-networking-forge-1.0.6-1.20.1.jar",
+                    "id": "8357966",
                     "parent_id": "806044",
                     "hashes": {
-                        "sha1": "986597ae06f01c9209c111ba6276a171e8977a2c",
-                        "md5": "420b80bc67b01b4e86ed29a88b1155c3"
+                        "sha1": "28c3ffcdec0f39fd91937df203a93de1e6268788",
+                        "md5": "9b2e8791ea92200320fa6e8d151890c0"
                     },
                     "required_dependencies": [],
-                    "size": 20701,
-                    "date_published": "2024-06-29T18:02:23.160Z"
+                    "size": 21714,
+                    "date_published": "2026-07-02T12:49:05.847Z"
                 }
             ]
         },
@@ -1524,7 +1561,7 @@
             ]
         },
         {
-            "pakku_id": "MH7VXeA8WHLBZYi3",
+            "pakku_id": "5il6JNXpls71qU8K",
             "type": "MOD",
             "slug": {
                 "curseforge": "crash-assistant"
@@ -1538,7 +1575,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
+                    "file_name": "CrashAssistant-forge-1.19-1.20.1-1.11.11.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -1548,16 +1585,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8049/661/CrashAssistant-forge-1.19-1.20.1-1.11.9.jar",
-                    "id": "8049661",
+                    "url": "https://edge.forgecdn.net/files/8422/739/CrashAssistant-forge-1.19-1.20.1-1.11.11.jar",
+                    "id": "8422739",
                     "parent_id": "1154099",
                     "hashes": {
-                        "sha1": "e94c49268c83301ee066dca9501c4b5fa902b33d",
-                        "md5": "2423e2ef061e7cb006c9ccda3736e070"
+                        "sha1": "21f7ceaae8a5bca268ef98063db69a46dde6fd5e",
+                        "md5": "70cda3eccea3c32f102c2aeffdc60a8d"
                     },
                     "required_dependencies": [],
-                    "size": 3181512,
-                    "date_published": "2026-05-06T20:04:26.847Z"
+                    "size": 3207967,
+                    "date_published": "2026-07-13T03:41:21.233Z"
                 }
             ]
         },
@@ -1827,39 +1864,6 @@
             ]
         },
         {
-            "pakku_id": "iyTLZGL7OHL79Dk6",
-            "type": "RESOURCE_PACK",
-            "slug": {
-                "curseforge": "create-computercraft"
-            },
-            "name": {
-                "curseforge": "Create: ComputerCraft (CC: Tweaked)"
-            },
-            "id": {
-                "curseforge": "881633"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "Create Computers 1.2.1 - 1.20.1.zip",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/5221/598/Create Computers 1.2.1 - 1.20.1.zip",
-                    "id": "5221598",
-                    "parent_id": "881633",
-                    "hashes": {
-                        "sha1": "9c17b7deb5d49a20a3ac89ecdd33b79a35ba6e50",
-                        "md5": "246d0a1d5982d84549753e84446ce1cb"
-                    },
-                    "required_dependencies": [],
-                    "size": 286516,
-                    "date_published": "2024-03-30T02:23:18.440Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "RZRoY7sSJwp0tDU9",
             "type": "MOD",
             "slug": {
@@ -1943,7 +1947,7 @@
             ]
         },
         {
-            "pakku_id": "B4eu5wkhhUT9Y89Z",
+            "pakku_id": "gsNx0sSzMvadLkGy",
             "type": "MOD",
             "slug": {
                 "curseforge": "create-enchantment-industry"
@@ -1957,24 +1961,27 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
+                    "file_name": "create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6652/836/create_enchantment_industry-1.3.3-for-create-6.0.6.jar",
-                    "id": "6652836",
+                    "url": "https://edge.forgecdn.net/files/8204/334/create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+                    "id": "8204334",
                     "parent_id": "688768",
                     "hashes": {
-                        "sha1": "06fbad254100a7c9fcf829e1e33c5348d9799a87",
-                        "md5": "6f5f44bb2db0d2916a8ce3e60dae02cf"
+                        "sha1": "cf8558259467725376365707f213332a37e98a91",
+                        "md5": "97a32c262007a3c93aba33762df9faba"
                     },
-                    "required_dependencies": [],
-                    "size": 488060,
-                    "date_published": "2025-06-15T02:30:24.407Z"
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 494161,
+                    "date_published": "2026-06-06T07:17:08.450Z"
                 }
             ]
         },
@@ -2013,44 +2020,6 @@
                     ],
                     "size": 1029438,
                     "date_published": "2025-10-02T16:45:50.227Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "nTREbkzRLnRyQLtb",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "create-mobile-packages"
-            },
-            "name": {
-                "curseforge": "Create: Mobile Packages"
-            },
-            "id": {
-                "curseforge": "1232978"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "create_mobile_packages-1.20.1-0.6.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7654/463/create_mobile_packages-1.20.1-0.6.1.jar",
-                    "id": "7654463",
-                    "parent_id": "1232978",
-                    "hashes": {
-                        "sha1": "d539e8b8a894918875907eb4597df86af17dc46e",
-                        "md5": "1d6c6f351d5eae93b217c7d3629822ca"
-                    },
-                    "required_dependencies": [
-                        "328085"
-                    ],
-                    "size": 489127,
-                    "date_published": "2026-02-20T17:46:30.133Z"
                 }
             ]
         },
@@ -2134,7 +2103,7 @@
             ]
         },
         {
-            "pakku_id": "cpZBSowEecR0szKP",
+            "pakku_id": "Lo6ftSCquIiC0gut",
             "type": "MOD",
             "slug": {
                 "curseforge": "create-transmission"
@@ -2148,7 +2117,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "createtransmission-1.1.2+forge-create6-1.20.1.jar",
+                    "file_name": "createtransmission-1.2.1+forge-create6-1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2156,23 +2125,23 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8011/77/createtransmission-1.1.2+forge-create6-1.20.1.jar",
-                    "id": "8011077",
+                    "url": "https://edge.forgecdn.net/files/8186/81/createtransmission-1.2.1+forge-create6-1.20.1.jar",
+                    "id": "8186081",
                     "parent_id": "1354280",
                     "hashes": {
-                        "sha1": "254b017d4f21ca6e905478c538bc4a129330e4ac",
-                        "md5": "f146533503d01b62e4c1f124a3abfa13"
+                        "sha1": "8e1e41c92f70712b0600358543537494166b43f6",
+                        "md5": "61e61455e8e96128eb16d8832588aa29"
                     },
                     "required_dependencies": [
                         "328085"
                     ],
-                    "size": 874776,
-                    "date_published": "2026-04-29T18:19:59.933Z"
+                    "size": 880917,
+                    "date_published": "2026-06-02T10:09:50.730Z"
                 }
             ]
         },
         {
-            "pakku_id": "6eZVO9PQBGuLbvzl",
+            "pakku_id": "6fA5DSQmjHfffxbx",
             "type": "MOD",
             "slug": {
                 "curseforge": "cucumber"
@@ -2186,7 +2155,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Cucumber-1.20.1-7.0.16.jar",
+                    "file_name": "Cucumber-1.20.1-7.0.15.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2194,16 +2163,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7180/783/Cucumber-1.20.1-7.0.16.jar",
-                    "id": "7180783",
+                    "url": "https://edge.forgecdn.net/files/6880/321/Cucumber-1.20.1-7.0.15.jar",
+                    "id": "6880321",
                     "parent_id": "272335",
                     "hashes": {
-                        "sha1": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6",
-                        "md5": "d7d34a7584041977e493198a666c2db4"
+                        "sha1": "f376bdf46bce7d9d8cf275b05899e1abaed98c3b",
+                        "md5": "84949e197a71b5f20a99532bd082cea6"
                     },
                     "required_dependencies": [],
-                    "size": 271462,
-                    "date_published": "2025-11-03T02:24:05.553Z"
+                    "size": 269566,
+                    "date_published": "2025-08-12T22:57:15.407Z"
                 }
             ]
         },
@@ -2249,7 +2218,7 @@
             ]
         },
         {
-            "pakku_id": "Or3hy3JMsYe97bUM",
+            "pakku_id": "DkEfxCBDYaBu3kPZ",
             "type": "MOD",
             "slug": {
                 "curseforge": "cupboard"
@@ -2263,7 +2232,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "cupboard-1.20.1-3.7.jar",
+                    "file_name": "cupboard-1.20.1-3.9.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2272,16 +2241,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7905/744/cupboard-1.20.1-3.7.jar",
-                    "id": "7905744",
+                    "url": "https://edge.forgecdn.net/files/8382/158/cupboard-1.20.1-3.9.jar",
+                    "id": "8382158",
                     "parent_id": "326652",
                     "hashes": {
-                        "sha1": "18be26e340ca77a05ee925fdb51400138b8c6539",
-                        "md5": "75617a524d200ff9049bc51c725f136b"
+                        "sha1": "b44f4d66a62f2accca149b22a5418b9c92c6c9cc",
+                        "md5": "76a95295babef79d7d0e19d0cac4efb0"
                     },
                     "required_dependencies": [],
-                    "size": 31643,
-                    "date_published": "2026-04-10T16:49:55.103Z"
+                    "size": 31724,
+                    "date_published": "2026-07-06T16:56:40.593Z"
                 }
             ]
         },
@@ -2523,7 +2492,7 @@
             ]
         },
         {
-            "pakku_id": "veN5wgMtm7QDZcYF",
+            "pakku_id": "A5J8wnu7Gr3N8TwS",
             "type": "MOD",
             "slug": {
                 "curseforge": "emi"
@@ -2537,7 +2506,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "emi-1.1.22+1.20.1+forge.jar",
+                    "file_name": "emi-1.1.24+1.20.1+forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2545,21 +2514,21 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6420/945/emi-1.1.22+1.20.1+forge.jar",
-                    "id": "6420945",
+                    "url": "https://edge.forgecdn.net/files/8081/375/emi-1.1.24+1.20.1+forge.jar",
+                    "id": "8081375",
                     "parent_id": "580555",
                     "hashes": {
-                        "sha1": "d8049d6ec86befcd100a0ff0fc8ebc289f735997",
-                        "md5": "441c582c6e8a1d6fd9e3d16a27c1a39e"
+                        "sha1": "ea320200878e4a49196760234a22da763671520a",
+                        "md5": "c86d5772fba9fbd4d612f2fe82397f72"
                     },
                     "required_dependencies": [],
-                    "size": 1048567,
-                    "date_published": "2025-04-14T03:37:30.690Z"
+                    "size": 1121750,
+                    "date_published": "2026-05-13T06:18:18.303Z"
                 }
             ]
         },
         {
-            "pakku_id": "hvWoOGuVeLChMS9p",
+            "pakku_id": "PN30Cz8o6CSfPQg6",
             "type": "MOD",
             "slug": {
                 "curseforge": "emi-ores"
@@ -2573,7 +2542,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "emi_ores-1.2+1.20.1+forge.jar",
+                    "file_name": "emi_ores-1.3+1.20.1+forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2581,29 +2550,29 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6060/341/emi_ores-1.2+1.20.1+forge.jar",
-                    "id": "6060341",
+                    "url": "https://edge.forgecdn.net/files/8254/299/emi_ores-1.3+1.20.1+forge.jar",
+                    "id": "8254299",
                     "parent_id": "974009",
                     "hashes": {
-                        "sha1": "c821f26e4a00c14fb453bfdb7628aec59fd2acf1",
-                        "md5": "66b441438984b418e7a4e50604a9f280"
+                        "sha1": "28ba16619a1fbcbf46f9ed327e8dc7ae339439ac",
+                        "md5": "5bf67bea892bf770287f85611149d6b4"
                     },
                     "required_dependencies": [
                         "580555"
                     ],
-                    "size": 114588,
-                    "date_published": "2025-01-06T18:52:34.907Z"
+                    "size": 119983,
+                    "date_published": "2026-06-15T20:08:08.377Z"
                 }
             ]
         },
         {
-            "pakku_id": "DxAIfyOshJOuTv7M",
+            "pakku_id": "vj15WvKG5gp7oYnh",
             "type": "MOD",
             "slug": {
                 "curseforge": "emi-backport"
             },
             "name": {
-                "curseforge": "EMI++ Backport"
+                "curseforge": "EMI++ Forked"
             },
             "id": {
                 "curseforge": "1411826"
@@ -2611,7 +2580,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "emixx-forge-1.4.0.jar",
+                    "file_name": "emixx-forge-1.5.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2619,19 +2588,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7937/655/emixx-forge-1.4.0.jar",
-                    "id": "7937655",
+                    "url": "https://edge.forgecdn.net/files/8274/454/emixx-forge-1.5.1.jar",
+                    "id": "8274454",
                     "parent_id": "1411826",
                     "hashes": {
-                        "sha1": "23361abccf76787056a32cfb8c6f8424b81cfb34",
-                        "md5": "ab367dc04f21c5e1196f83974c5173e6"
+                        "sha1": "7bf56799042bb929418a497b08218e8a922e9d9e",
+                        "md5": "f0d9452a2fec8d718a58f156250a7dd9"
                     },
                     "required_dependencies": [
-                        "580555",
-                        "351264"
+                        "351264",
+                        "580555"
                     ],
-                    "size": 396616,
-                    "date_published": "2026-04-17T00:08:43.153Z"
+                    "size": 399605,
+                    "date_published": "2026-06-18T18:02:34.723Z"
                 }
             ]
         },
@@ -2822,7 +2791,7 @@
             ]
         },
         {
-            "pakku_id": "AP9L8iaPR0HfD9TL",
+            "pakku_id": "BQ6Kyd0QprbbXoU3",
             "type": "MOD",
             "slug": {
                 "curseforge": "entityjs"
@@ -2836,7 +2805,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "entityjs-0.6.7-1.20.1.jar",
+                    "file_name": "entityjs-0.7.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2845,19 +2814,19 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7801/734/entityjs-0.6.7-1.20.1.jar",
-                    "id": "7801734",
+                    "url": "https://edge.forgecdn.net/files/8482/619/entityjs-0.7.1.jar",
+                    "id": "8482619",
                     "parent_id": "967617",
                     "hashes": {
-                        "sha1": "8cc67a650ae47056926740b3525e908b7d45f781",
-                        "md5": "a284d52c3f67d1ab325cbc1344682dad"
+                        "sha1": "bcfcf91ed987f2747811f64850ef66b23b495533",
+                        "md5": "00175c8c8a2b2183e07cd9f8fc97bb1d"
                     },
                     "required_dependencies": [
                         "388172",
                         "238086"
                     ],
-                    "size": 2364113,
-                    "date_published": "2026-03-23T21:37:35.203Z"
+                    "size": 3508553,
+                    "date_published": "2026-07-21T22:20:34.020Z"
                 }
             ]
         },
@@ -2898,7 +2867,7 @@
             ]
         },
         {
-            "pakku_id": "koiNnkn37n1GG0OM",
+            "pakku_id": "gKOg34sihgYoUQKv",
             "type": "MOD",
             "slug": {
                 "curseforge": "every-compat"
@@ -2912,7 +2881,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "everycomp-1.20-2.9.20-forge.jar",
+                    "file_name": "everycomp-1.20-2.9.24-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -2920,18 +2889,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7929/77/everycomp-1.20-2.9.20-forge.jar",
-                    "id": "7929077",
+                    "url": "https://edge.forgecdn.net/files/8332/989/everycomp-1.20-2.9.24-forge.jar",
+                    "id": "8332989",
                     "parent_id": "628539",
                     "hashes": {
-                        "sha1": "dc58614c625601b6251fa0e40fd7837d67d3f912",
-                        "md5": "52740e7906421595b8c175c301930b97"
+                        "sha1": "5a058a363e1d907a08e210fd0739b7268e45b339",
+                        "md5": "95bff6ef27595ee7ec1b2e453bc51af8"
                     },
                     "required_dependencies": [
                         "499980"
                     ],
-                    "size": 2844550,
-                    "date_published": "2026-04-15T05:04:16.917Z"
+                    "size": 2865518,
+                    "date_published": "2026-06-28T04:39:13.450Z"
                 }
             ]
         },
@@ -3093,13 +3062,13 @@
             ]
         },
         {
-            "pakku_id": "Ra0512rnDghTMjAA",
+            "pakku_id": "Uh7pjnhNMboyt0DL",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-library-forge"
             },
             "name": {
-                "curseforge": "FTB Library (Forge)"
+                "curseforge": "FTB Library (NeoForge)"
             },
             "id": {
                 "curseforge": "404465"
@@ -3107,7 +3076,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-library-forge-2001.2.12.jar",
+                    "file_name": "ftb-library-forge-2001.2.13.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3115,23 +3084,23 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7296/748/ftb-library-forge-2001.2.12.jar",
-                    "id": "7296748",
+                    "url": "https://edge.forgecdn.net/files/8226/927/ftb-library-forge-2001.2.13.jar",
+                    "id": "8226927",
                     "parent_id": "404465",
                     "hashes": {
-                        "sha1": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7",
-                        "md5": "8bbd067159587d80f1c5286ea52e567b"
+                        "sha1": "a5427d5ff07eb044144ed0b54308370d88bce17e",
+                        "md5": "9de2c76938392445e735a98b352da9d4"
                     },
                     "required_dependencies": [
                         "419699"
                     ],
-                    "size": 780523,
-                    "date_published": "2025-12-05T12:02:22.023Z"
+                    "size": 780558,
+                    "date_published": "2026-06-10T14:57:06.283Z"
                 }
             ]
         },
         {
-            "pakku_id": "4fQeUKf4WzDu756E",
+            "pakku_id": "Ke56NZT3Nmmjc4jA",
             "type": "MOD",
             "slug": {
                 "curseforge": "ftb-quests-forge"
@@ -3145,7 +3114,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-quests-forge-2001.4.21.jar",
+                    "file_name": "ftb-quests-forge-2001.4.22.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3153,20 +3122,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7909/594/ftb-quests-forge-2001.4.21.jar",
-                    "id": "7909594",
+                    "url": "https://edge.forgecdn.net/files/8078/538/ftb-quests-forge-2001.4.22.jar",
+                    "id": "8078538",
                     "parent_id": "289412",
                     "hashes": {
-                        "sha1": "928d287c016d4032d80870d9d3c5503e1ec85c21",
-                        "md5": "29227c1ee220655f940f54b8c0426d1f"
+                        "sha1": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa",
+                        "md5": "a05a49243da4a2505413d74e13102b16"
                     },
                     "required_dependencies": [
                         "404468",
-                        "404465",
-                        "419699"
+                        "419699",
+                        "404465"
                     ],
-                    "size": 1254018,
-                    "date_published": "2026-04-11T11:00:43.020Z"
+                    "size": 1255469,
+                    "date_published": "2026-05-12T15:59:14.893Z"
                 }
             ]
         },
@@ -3249,7 +3218,7 @@
             ]
         },
         {
-            "pakku_id": "a2LMsBF1h5a5ou6B",
+            "pakku_id": "l6NZWxvNhXVVl24M",
             "type": "MOD",
             "slug": {
                 "curseforge": "fancy-toasts"
@@ -3278,16 +3247,14 @@
                         "sha1": "819a5f00ac299ab9700857ea632bd8f726e1f128",
                         "md5": "324052986e433d9270981c97ca16005c"
                     },
-                    "required_dependencies": [
-                        "306612"
-                    ],
+                    "required_dependencies": [],
                     "size": 378003,
                     "date_published": "2026-04-26T01:02:24.373Z"
                 }
             ]
         },
         {
-            "pakku_id": "MdNHksxQ0bL2PEQ7",
+            "pakku_id": "5nJ1CYnOACTnjgYP",
             "type": "MOD",
             "slug": {
                 "curseforge": "fancymenu"
@@ -3301,7 +3268,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fancymenu_forge_3.9.0_MC_1.20.1.jar",
+                    "file_name": "fancymenu_forge_3.9.8_MC_1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3309,24 +3276,24 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8032/692/fancymenu_forge_3.9.0_MC_1.20.1.jar",
-                    "id": "8032692",
+                    "url": "https://edge.forgecdn.net/files/8440/196/fancymenu_forge_3.9.8_MC_1.20.1.jar",
+                    "id": "8440196",
                     "parent_id": "367706",
                     "hashes": {
-                        "sha1": "1e0b0ec2cc205c009a920ff4909ef08fafd24dce",
-                        "md5": "caf6ed934df18965d25fe6b21442df47"
+                        "sha1": "38d9f5c56d5d2075264e3997b534b4709026088b",
+                        "md5": "dca0c09e29c6b2fc6bcdffd258da22ea"
                     },
                     "required_dependencies": [
                         "410295",
                         "938643"
                     ],
-                    "size": 25623743,
-                    "date_published": "2026-05-03T14:42:23.557Z"
+                    "size": 25772373,
+                    "date_published": "2026-07-15T20:51:45.497Z"
                 }
             ]
         },
         {
-            "pakku_id": "CgkvPAW8pj9ilfHC",
+            "pakku_id": "Zm2nkICxHCFPWn2F",
             "type": "MOD",
             "slug": {
                 "curseforge": "farmers-delight"
@@ -3340,7 +3307,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "FarmersDelight-1.20.1-1.3.1.jar",
+                    "file_name": "FarmersDelight-1.20.1-1.3.2.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3349,16 +3316,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8007/609/FarmersDelight-1.20.1-1.3.1.jar",
-                    "id": "8007609",
+                    "url": "https://edge.forgecdn.net/files/8083/474/FarmersDelight-1.20.1-1.3.2.jar",
+                    "id": "8083474",
                     "parent_id": "398521",
                     "hashes": {
-                        "sha1": "7df4f6ae04e4a24488f388080fd3171476bc9c57",
-                        "md5": "2624b74e2ddc87b5784c7e71311ab899"
+                        "sha1": "397763ae36dc2e0f526e0338c875850437580157",
+                        "md5": "39459d8e62ef83e36c2b54952dbe2c2f"
                     },
                     "required_dependencies": [],
-                    "size": 3275517,
-                    "date_published": "2026-04-28T23:36:02.100Z"
+                    "size": 3313327,
+                    "date_published": "2026-05-13T16:37:44.147Z"
                 }
             ]
         },
@@ -3553,7 +3520,7 @@
             ]
         },
         {
-            "pakku_id": "zAKKJ7n0ayW6eE5A",
+            "pakku_id": "3XnwMLccmglm2jOK",
             "type": "MOD",
             "slug": {
                 "curseforge": "fluffy-fur"
@@ -3567,7 +3534,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fluffy_fur-1.20.1-0.2.9.jar",
+                    "file_name": "fluffy_fur-1.20.1-0.2.12.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3575,16 +3542,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7794/846/fluffy_fur-1.20.1-0.2.9.jar",
-                    "id": "7794846",
+                    "url": "https://edge.forgecdn.net/files/8387/112/fluffy_fur-1.20.1-0.2.12.jar",
+                    "id": "8387112",
                     "parent_id": "1097456",
                     "hashes": {
-                        "sha1": "e979ae846f5bee1797ac6c81eeecde31d1fac55f",
-                        "md5": "4e906d33a761ccfbc79072846f959ea5"
+                        "sha1": "6cd85427cfa018aea2ae1b13d9b7958d01a621a7",
+                        "md5": "58444bc884870bf8c37efb26a9a1a3a8"
                     },
                     "required_dependencies": [],
-                    "size": 17531254,
-                    "date_published": "2026-03-22T14:16:22.977Z"
+                    "size": 17540703,
+                    "date_published": "2026-07-07T13:53:23.743Z"
                 }
             ]
         },
@@ -3626,7 +3593,7 @@
             ]
         },
         {
-            "pakku_id": "AzmHkUZ7PNnvZCmR",
+            "pakku_id": "IfG15kSlOZzxo2mH",
             "type": "MOD",
             "slug": {
                 "curseforge": "fusion-connected-textures"
@@ -3640,7 +3607,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "fusion-1.2.12-forge-mc1.20.1.jar",
+                    "file_name": "fusion-1.3.9-forge-mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -3650,16 +3617,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7471/518/fusion-1.2.12-forge-mc1.20.1.jar",
-                    "id": "7471518",
+                    "url": "https://edge.forgecdn.net/files/8479/643/fusion-1.3.9-forge-mc1.20.1.jar",
+                    "id": "8479643",
                     "parent_id": "854949",
                     "hashes": {
-                        "sha1": "ec5c8a552493297842543140fed1b0a327c217f4",
-                        "md5": "aad8a16b48cd54cd75e34bf4f40eec1b"
+                        "sha1": "29829e06cc28880844515b7189f63a12230bdea8",
+                        "md5": "5f46dc586111cff6fc009c208b452aac"
                     },
                     "required_dependencies": [],
-                    "size": 544586,
-                    "date_published": "2026-01-17T02:39:03.600Z"
+                    "size": 945144,
+                    "date_published": "2026-07-21T12:31:16.167Z"
                 }
             ]
         },
@@ -3744,7 +3711,7 @@
             ]
         },
         {
-            "pakku_id": "riZ1OjnteTyJEuTT",
+            "pakku_id": "DVBpyNq50fp9e1wo",
             "type": "MOD",
             "slug": {
                 "curseforge": "galosphere"
@@ -3758,7 +3725,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Galosphere-1.20.1-1.5.1-Forge.jar",
+                    "file_name": "Galosphere-1.20.1-1.5.2-Forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3766,16 +3733,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7951/129/Galosphere-1.20.1-1.5.1-Forge.jar",
-                    "id": "7951129",
+                    "url": "https://edge.forgecdn.net/files/8211/153/Galosphere-1.20.1-1.5.2-Forge.jar",
+                    "id": "8211153",
                     "parent_id": "631098",
                     "hashes": {
-                        "sha1": "98a519299dc397b576621ac6d446104e4d583433",
-                        "md5": "421a6464e17b69f8e6f9542d620d1420"
+                        "sha1": "c75060ce1eaa42e044f409717b771b59fe63adb1",
+                        "md5": "9842ca852a3093995caeedda14394f16"
                     },
                     "required_dependencies": [],
-                    "size": 35562693,
-                    "date_published": "2026-04-19T15:30:58.290Z"
+                    "size": 35767244,
+                    "date_published": "2026-06-07T14:42:29.543Z"
                 }
             ]
         },
@@ -3819,7 +3786,7 @@
             ]
         },
         {
-            "pakku_id": "3PqxwBLLUl45mCsa",
+            "pakku_id": "WdOTyC3kJNyvPN9l",
             "type": "MOD",
             "slug": {
                 "curseforge": "geckolib"
@@ -3833,7 +3800,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "geckolib-forge-1.20.1-4.8.3.jar",
+                    "file_name": "geckolib-forge-1.20.1-4.8.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3841,16 +3808,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7553/267/geckolib-forge-1.20.1-4.8.3.jar",
-                    "id": "7553267",
+                    "url": "https://edge.forgecdn.net/files/8285/794/geckolib-forge-1.20.1-4.8.4.jar",
+                    "id": "8285794",
                     "parent_id": "388172",
                     "hashes": {
-                        "sha1": "5428765c6c2e2135da6ee01f2f0478fa0db6aee7",
-                        "md5": "33b0f8fe0a8d59fcf9d4e222741ecba7"
+                        "sha1": "81982cc287f80ffabb2fd36d22cc95e4255c739d",
+                        "md5": "83c73bcbf5778235569025ed968dc3ec"
                     },
                     "required_dependencies": [],
-                    "size": 1039046,
-                    "date_published": "2026-01-31T01:40:51.330Z"
+                    "size": 1038209,
+                    "date_published": "2026-06-20T11:07:46.873Z"
                 }
             ]
         },
@@ -3926,7 +3893,7 @@
             ]
         },
         {
-            "pakku_id": "HQsx1ee2bdB41dMK",
+            "pakku_id": "MIDwVM0M4Fk5ANeV",
             "type": "MOD",
             "slug": {
                 "curseforge": "guideme"
@@ -3940,7 +3907,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "guideme-20.1.14.jar",
+                    "file_name": "guideme-20.1.15.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -3948,16 +3915,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7127/447/guideme-20.1.14.jar",
-                    "id": "7127447",
+                    "url": "https://edge.forgecdn.net/files/8204/776/guideme-20.1.15.jar",
+                    "id": "8204776",
                     "parent_id": "1173950",
                     "hashes": {
-                        "sha1": "57d883148f04989128505a1bd8919629440f714f",
-                        "md5": "6425ddca1593d7f73c7160e54333cfef"
+                        "sha1": "3d432fc99cefcfd17a12635d2d220f09a069f1c7",
+                        "md5": "0d892c2b4af52459ac6a639040374916"
                     },
                     "required_dependencies": [],
-                    "size": 9413204,
-                    "date_published": "2025-10-19T22:32:04.637Z"
+                    "size": 9414827,
+                    "date_published": "2026-06-06T09:47:01.193Z"
                 }
             ]
         },
@@ -4112,7 +4079,7 @@
             ]
         },
         {
-            "pakku_id": "rFxwfOrrYlhAIOZ5",
+            "pakku_id": "3sYRdkFtGB5mpwpE",
             "type": "MOD",
             "slug": {
                 "curseforge": "interactive-corporea-reinfused"
@@ -4126,7 +4093,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "interactive_corporea-1.2.0-beta.jar",
+                    "file_name": "interactive_corporea-1.2.1-beta.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4134,18 +4101,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8062/689/interactive_corporea-1.2.0-beta.jar",
-                    "id": "8062689",
+                    "url": "https://edge.forgecdn.net/files/8273/939/interactive_corporea-1.2.1-beta.jar",
+                    "id": "8273939",
                     "parent_id": "1526815",
                     "hashes": {
-                        "sha1": "52c458e5eed812c6b9e4882ec0f63262d0c576e7",
-                        "md5": "ecf14e8bb34ae959453e2670ac7bf947"
+                        "sha1": "742296588eb9e47996190481a89ceed1647b75bf",
+                        "md5": "bafcc379384c4550e95940d176857947"
                     },
                     "required_dependencies": [
                         "225643"
                     ],
-                    "size": 1333701,
-                    "date_published": "2026-05-09T11:59:09.643Z"
+                    "size": 1344894,
+                    "date_published": "2026-06-18T16:29:12.970Z"
                 }
             ]
         },
@@ -4228,7 +4195,7 @@
             ]
         },
         {
-            "pakku_id": "SgRrDIOhP1F9Ut5V",
+            "pakku_id": "tmSPCf5HlcqXt4x3",
             "type": "MOD",
             "slug": {
                 "curseforge": "jade-addons"
@@ -4268,7 +4235,7 @@
             ]
         },
         {
-            "pakku_id": "Qw59Ptm2ZyxpIKBI",
+            "pakku_id": "w52VJA7pjeyfUvGD",
             "type": "MOD",
             "slug": {
                 "curseforge": "jade"
@@ -4282,26 +4249,26 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "Jade-1.20.1-Forge-11.13.2.jar",
+                    "file_name": "Jade-1.20.1-Forge-11.13.3.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6855/440/Jade-1.20.1-Forge-11.13.2.jar",
-                    "id": "6855440",
+                    "url": "https://edge.forgecdn.net/files/8479/276/Jade-1.20.1-Forge-11.13.3.jar",
+                    "id": "8479276",
                     "parent_id": "324717",
                     "hashes": {
-                        "sha1": "1997e5fe2db3a0575ca79bfe4720019f01fd2b8c",
-                        "md5": "7c349670f77fd64b9e9854c4a8d82fcc"
+                        "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+                        "md5": "a53aade6b5915ebe8357abb68cf1f778"
                     },
                     "required_dependencies": [],
-                    "size": 552486,
-                    "date_published": "2025-08-06T14:19:52.700Z"
+                    "size": 553487,
+                    "date_published": "2026-07-21T11:08:31.270Z"
                 }
             ]
         },
@@ -4619,7 +4586,7 @@
             ]
         },
         {
-            "pakku_id": "fiy2Q8cuagG3YbgS",
+            "pakku_id": "Js8Xj64icCJOEAa3",
             "type": "MOD",
             "slug": {
                 "curseforge": "ldlib"
@@ -4633,7 +4600,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ldlib-forge-1.20.1-1.0.50.jar",
+                    "file_name": "ldlib-forge-1.20.1-1.0.52.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -4641,16 +4608,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7809/449/ldlib-forge-1.20.1-1.0.50.jar",
-                    "id": "7809449",
+                    "url": "https://edge.forgecdn.net/files/8430/516/ldlib-forge-1.20.1-1.0.52.jar",
+                    "id": "8430516",
                     "parent_id": "626676",
                     "hashes": {
-                        "sha1": "9129ee32e9966d757f3f66eed92d98b07264f22e",
-                        "md5": "d5d295c433ee62c283fd71eb47ff5630"
+                        "sha1": "5884470115a2b42345041e5c0dd976a9f1987c1c",
+                        "md5": "a0fb704ea223789b4a92bd57d492a0f7"
                     },
                     "required_dependencies": [],
-                    "size": 3114158,
-                    "date_published": "2026-03-25T05:13:03.787Z"
+                    "size": 3120450,
+                    "date_published": "2026-07-14T12:13:55.093Z"
                 }
             ]
         },
@@ -4768,7 +4735,7 @@
             ]
         },
         {
-            "pakku_id": "eliWsr41gFFCqEzN",
+            "pakku_id": "UxR4YMfgQ0qGx7Vd",
             "type": "MOD",
             "slug": {
                 "curseforge": "little-logistics"
@@ -4788,8 +4755,8 @@
                         "1.20"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/4799/459/littlelogistics-mc1.20.1-v1.20.1.2.jar",
@@ -5335,7 +5302,7 @@
             ]
         },
         {
-            "pakku_id": "ABxEHgUfkc9iJbwU",
+            "pakku_id": "FnDmONN5jDQ5Gc2a",
             "type": "MOD",
             "slug": {
                 "curseforge": "modernfix"
@@ -5349,7 +5316,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "modernfix-forge-5.27.22+mc1.20.1.jar",
+                    "file_name": "modernfix-forge-5.27.66+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -5357,21 +5324,21 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8055/630/modernfix-forge-5.27.22+mc1.20.1.jar",
-                    "id": "8055630",
+                    "url": "https://edge.forgecdn.net/files/8459/635/modernfix-forge-5.27.66+mc1.20.1.jar",
+                    "id": "8459635",
                     "parent_id": "790626",
                     "hashes": {
-                        "sha1": "1d43b6762aeb74fc6319ec678e2f55a0f51f2be3",
-                        "md5": "e54dcdabaf5d246078973655006c2b6b"
+                        "sha1": "322fdb7aadc06b540cff69a2a0a513bf37050f0f",
+                        "md5": "61c184687d2cd6c770a033f310ea55fc"
                     },
                     "required_dependencies": [],
-                    "size": 951173,
-                    "date_published": "2026-05-08T01:53:15.210Z"
+                    "size": 1002234,
+                    "date_published": "2026-07-18T18:17:53.960Z"
                 }
             ]
         },
         {
-            "pakku_id": "4L33qGhDfq4l4KMl",
+            "pakku_id": "JD8KYNLusgjk5sSK",
             "type": "MOD",
             "slug": {
                 "curseforge": "selene"
@@ -5385,7 +5352,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "moonlight-1.20-2.16.31-forge.jar",
+                    "file_name": "moonlight-1.20-2.16.34-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -5394,16 +5361,16 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8044/110/moonlight-1.20-2.16.31-forge.jar",
-                    "id": "8044110",
+                    "url": "https://edge.forgecdn.net/files/8261/419/moonlight-1.20-2.16.34-forge.jar",
+                    "id": "8261419",
                     "parent_id": "499980",
                     "hashes": {
-                        "sha1": "4ef3e540bce129684c9ab99c1d79dc467be567b9",
-                        "md5": "b7433e6a27dc9051755bbd2d72c9a1f3"
+                        "sha1": "5e20f2f0ce56a534accb32f80853d5a246599a4d",
+                        "md5": "f80a05d17e669e9a5f40cf68821601ed"
                     },
                     "required_dependencies": [],
-                    "size": 1389497,
-                    "date_published": "2026-05-05T16:44:48.233Z"
+                    "size": 1419416,
+                    "date_published": "2026-06-16T21:20:35.297Z"
                 }
             ]
         },
@@ -5892,7 +5859,7 @@
             ]
         },
         {
-            "pakku_id": "cWaWDFhXMuQiyw9m",
+            "pakku_id": "ZohlWgHCCJwzpx6P",
             "type": "MOD",
             "slug": {
                 "curseforge": "polylib"
@@ -5912,8 +5879,8 @@
                         "1.20"
                     ],
                     "loaders": [
-                        "neoforge",
-                        "forge"
+                        "forge",
+                        "neoforge"
                     ],
                     "release_type": "release",
                     "url": "https://edge.forgecdn.net/files/5350/440/polylib-forge-2000.0.3-build.143.jar",
@@ -6083,7 +6050,7 @@
             ]
         },
         {
-            "pakku_id": "w0vOjnkPVRp3nw1V",
+            "pakku_id": "07y7swOScZZjqEfH",
             "type": "MOD",
             "slug": {
                 "curseforge": "presencejs"
@@ -6097,24 +6064,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "presencejs-0.0.1-alpha.jar",
+                    "file_name": "presencejs-0.1.0.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7840/511/presencejs-0.0.1-alpha.jar",
-                    "id": "7840511",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8104/61/presencejs-0.1.0.jar",
+                    "id": "8104061",
                     "parent_id": "1498700",
                     "hashes": {
-                        "sha1": "543e542b27c442e05779fa45be4ff664d2124ca4",
-                        "md5": "c3ead382c35998e64510f2024fab7450"
+                        "sha1": "41b3713fe2f8eda7c13492b66a55b135174061b6",
+                        "md5": "b5e49f54d158624a3a098a9819f4f45c"
                     },
                     "required_dependencies": [],
-                    "size": 128106,
-                    "date_published": "2026-03-29T12:46:43.550Z"
+                    "size": 164843,
+                    "date_published": "2026-05-17T14:45:00.290Z"
                 }
             ]
         },
@@ -6275,6 +6242,45 @@
             ]
         },
         {
+            "pakku_id": "FZOAleoWu3A9fIHN",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "quark-oddities"
+            },
+            "name": {
+                "curseforge": "Quark Oddities"
+            },
+            "id": {
+                "curseforge": "301051"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "QuarkOddities-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5070/502/QuarkOddities-1.20.1.jar",
+                    "id": "5070502",
+                    "parent_id": "301051",
+                    "hashes": {
+                        "sha1": "69ed292c207af89febd156d83b3e78f64b35b969",
+                        "md5": "56caee76c84842bb569a25123f8767ca"
+                    },
+                    "required_dependencies": [
+                        "243121"
+                    ],
+                    "size": 915,
+                    "date_published": "2024-01-30T23:47:19.010Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ofwkL7iAJsZx6nSm",
             "type": "MOD",
             "slug": {
@@ -6309,42 +6315,6 @@
                     ],
                     "size": 112015,
                     "date_published": "2024-12-19T12:00:59.607Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "5hBDAa9EJGs9W0y0",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "quickstack"
-            },
-            "name": {
-                "curseforge": "Quickstack"
-            },
-            "id": {
-                "curseforge": "354522"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "quickstack-1.20.1-1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4691/510/quickstack-1.20.1-1.jar",
-                    "id": "4691510",
-                    "parent_id": "354522",
-                    "hashes": {
-                        "sha1": "4236786bdc4d9415e6d45236800fd8a6113ec2a1",
-                        "md5": "a776699b6d7e932e066d0347237a5593"
-                    },
-                    "required_dependencies": [],
-                    "size": 40716,
-                    "date_published": "2023-08-10T00:58:32.497Z"
                 }
             ]
         },
@@ -6420,6 +6390,44 @@
                     ],
                     "size": 50691,
                     "date_published": "2024-03-11T05:28:56.897Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "CnCa2nYAetDFhqZq",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "reliable-advancements"
+            },
+            "name": {
+                "curseforge": "Reliable Advancements"
+            },
+            "id": {
+                "curseforge": "1527472"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "reliable_advancements-forge-1.20.1-4.0.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/8379/586/reliable_advancements-forge-1.20.1-4.0.5.jar",
+                    "id": "8379586",
+                    "parent_id": "1527472",
+                    "hashes": {
+                        "sha1": "2f9f51deecc3f9a4fb9b8242a9c6cd50411c426e",
+                        "md5": "26e1351ab577bc1662a89b877b5a50ee"
+                    },
+                    "required_dependencies": [
+                        "348521"
+                    ],
+                    "size": 361672,
+                    "date_published": "2026-07-06T07:03:57.510Z"
                 }
             ]
         },
@@ -6644,7 +6652,7 @@
             ]
         },
         {
-            "pakku_id": "2fwM6BEwNwM9MFJZ",
+            "pakku_id": "cMCcAB1pepezjkgg",
             "type": "MOD",
             "slug": {
                 "curseforge": "society-trading"
@@ -6658,7 +6666,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "society_trading-1.0.6.jar",
+                    "file_name": "society_trading-1.2.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6666,18 +6674,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7968/188/society_trading-1.0.6.jar",
-                    "id": "7968188",
+                    "url": "https://edge.forgecdn.net/files/8448/379/society_trading-1.2.6.jar",
+                    "id": "8448379",
                     "parent_id": "1347329",
                     "hashes": {
-                        "sha1": "c489a81a6dbc4940ba7a57d64fad695574836a04",
-                        "md5": "fc2016c65c4991567ad82014ea2c2dc1"
+                        "sha1": "76d004f255fab5c90c3503a624ded0fc2f57d53e",
+                        "md5": "def4971a08b886d326cee1c4f4b97caf"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 174375,
-                    "date_published": "2026-04-22T17:52:32.790Z"
+                    "size": 223066,
+                    "date_published": "2026-07-17T01:44:39.727Z"
                 }
             ]
         },
@@ -6763,7 +6771,7 @@
             ]
         },
         {
-            "pakku_id": "4kLM0jQxZOFi2DEX",
+            "pakku_id": "YMYu6kTKlvlBUEYE",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-backpacks"
@@ -6777,7 +6785,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.38.1738.jar",
+                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6786,23 +6794,64 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8034/902/sophisticatedbackpacks-1.20.1-3.24.38.1738.jar",
-                    "id": "8034902",
+                    "url": "https://edge.forgecdn.net/files/8503/63/sophisticatedbackpacks-1.20.1-3.24.62.2017.jar",
+                    "id": "8503063",
                     "parent_id": "422301",
                     "hashes": {
-                        "sha1": "23e5158afec42fc3ac30c344d4939421bc9e2ccd",
-                        "md5": "a9c705f38693b6b4730e6a20229f6e41"
+                        "sha1": "fe4b90ab03b61ac0901125ce36a65cd188ea9c15",
+                        "md5": "479e2e4cd0aa32e687fb80c1aec3bdbe"
                     },
                     "required_dependencies": [
                         "618298"
                     ],
-                    "size": 1019019,
-                    "date_published": "2026-05-03T21:59:24.430Z"
+                    "size": 1130880,
+                    "date_published": "2026-07-24T23:23:29.430Z"
                 }
             ]
         },
         {
-            "pakku_id": "Cvvi4dAYxQVx7j6q",
+            "pakku_id": "O6AGRNQy7Rwm36Vo",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sophisticated-backpacks-create-integration"
+            },
+            "name": {
+                "curseforge": "Sophisticated Backpacks Create Integration"
+            },
+            "id": {
+                "curseforge": "1238567"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticatedbackpackscreateintegration-1.20.1-0.1.8.116.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8272/368/sophisticatedbackpackscreateintegration-1.20.1-0.1.8.116.jar",
+                    "id": "8272368",
+                    "parent_id": "1238567",
+                    "hashes": {
+                        "sha1": "07f987ac4d52b582e8e4857219be711e9b463a01",
+                        "md5": "401ec054f49ea004190eeab6f378653c"
+                    },
+                    "required_dependencies": [
+                        "422301",
+                        "328085",
+                        "618298"
+                    ],
+                    "size": 86750,
+                    "date_published": "2026-06-18T11:44:58.110Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "pdB28OG2CAJDfZhH",
             "type": "MOD",
             "slug": {
                 "curseforge": "sophisticated-core"
@@ -6816,7 +6865,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.3.34.1844.jar",
+                    "file_name": "sophisticatedcore-1.20.1-1.3.73.2192.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6825,21 +6874,178 @@
                         "neoforge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8046/954/sophisticatedcore-1.20.1-1.3.34.1844.jar",
-                    "id": "8046954",
+                    "url": "https://edge.forgecdn.net/files/8503/31/sophisticatedcore-1.20.1-1.3.73.2192.jar",
+                    "id": "8503031",
                     "parent_id": "618298",
                     "hashes": {
-                        "sha1": "b78adcc6cfa85dd04d173de760e4007724e297f7",
-                        "md5": "beb938470c843d216608324018cd0bc0"
+                        "sha1": "ec4403509162632bbad7f6c7be382a3fa6381a30",
+                        "md5": "1b1f166a18b10066b51a38b708ca9e8e"
                     },
                     "required_dependencies": [],
-                    "size": 1475601,
-                    "date_published": "2026-05-06T07:38:05.473Z"
+                    "size": 1622705,
+                    "date_published": "2026-07-24T23:19:14.193Z"
                 }
             ]
         },
         {
-            "pakku_id": "vhEtSgou0Qa0KRVF",
+            "pakku_id": "FC2EqXN8CZrKftWZ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sophisticated-inventory-interactions"
+            },
+            "name": {
+                "curseforge": "Sophisticated Inventory Interactions"
+            },
+            "id": {
+                "curseforge": "1491239"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticatedinventoryinteractions-1.20.1-0.1.11.189.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8467/475/sophisticatedinventoryinteractions-1.20.1-0.1.11.189.jar",
+                    "id": "8467475",
+                    "parent_id": "1491239",
+                    "hashes": {
+                        "sha1": "f454755244f736226a54844d613e8e265b942e02",
+                        "md5": "f569bd3cffc7d62e142e2e753f2195a6"
+                    },
+                    "required_dependencies": [
+                        "618298"
+                    ],
+                    "size": 108964,
+                    "date_published": "2026-07-19T21:13:45.877Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "VODg2xHYdW8D0DM8",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sophisticated-item-actions"
+            },
+            "name": {
+                "curseforge": "Sophisticated Item Actions"
+            },
+            "id": {
+                "curseforge": "1419142"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticateditemactions-1.20.1-0.4.10.331.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8354/814/sophisticateditemactions-1.20.1-0.4.10.331.jar",
+                    "id": "8354814",
+                    "parent_id": "1419142",
+                    "hashes": {
+                        "sha1": "175ffcf366603e5bed3701f03069a6c28484d307",
+                        "md5": "0bfd2056a8c4a20a5cca62248c38e2a2"
+                    },
+                    "required_dependencies": [
+                        "618298"
+                    ],
+                    "size": 361591,
+                    "date_published": "2026-07-01T21:58:36.057Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "2z0KHmx52mDvGTa4",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sophisticated-storage"
+            },
+            "name": {
+                "curseforge": "Sophisticated Storage"
+            },
+            "id": {
+                "curseforge": "619320"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticatedstorage-1.20.1-1.4.71.1979.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8440/484/sophisticatedstorage-1.20.1-1.4.71.1979.jar",
+                    "id": "8440484",
+                    "parent_id": "619320",
+                    "hashes": {
+                        "sha1": "e1b8c98c6df346bb55cf121acc0f54b13842754c",
+                        "md5": "c20ae11a3a6136b6f4e19a6c660d3575"
+                    },
+                    "required_dependencies": [
+                        "618298"
+                    ],
+                    "size": 1816458,
+                    "date_published": "2026-07-15T21:40:35.127Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "tMmivV6AX4ADfIdJ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "sophisticated-storage-create-integration"
+            },
+            "name": {
+                "curseforge": "Sophisticated Storage Create Integration"
+            },
+            "id": {
+                "curseforge": "1226755"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "sophisticatedstoragecreateintegration-1.20.1-0.1.23.206.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8503/142/sophisticatedstoragecreateintegration-1.20.1-0.1.23.206.jar",
+                    "id": "8503142",
+                    "parent_id": "1226755",
+                    "hashes": {
+                        "sha1": "1e34dffe987d70bf9c5b267c0fa0991b8a205c35",
+                        "md5": "f43723a6ec948043280e38b03851d04e"
+                    },
+                    "required_dependencies": [
+                        "618298",
+                        "619320",
+                        "328085"
+                    ],
+                    "size": 129708,
+                    "date_published": "2026-07-24T23:44:26.523Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "88y8mM3zBi0xijLf",
             "type": "MOD",
             "slug": {
                 "curseforge": "splendid-slimes"
@@ -6853,7 +7059,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "splendid_slimes-0.20.3.jar",
+                    "file_name": "splendid_slimes-0.20.4.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -6861,18 +7067,18 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/8057/560/splendid_slimes-0.20.3.jar",
-                    "id": "8057560",
+                    "url": "https://edge.forgecdn.net/files/8180/278/splendid_slimes-0.20.4.jar",
+                    "id": "8180278",
                     "parent_id": "1240935",
                     "hashes": {
-                        "sha1": "85d43864434b8cd34a7dc4dc0e257cf7b9f24a44",
-                        "md5": "eebc7c257e73d482ef3c5752932b7933"
+                        "sha1": "fa052e84ace4ba1bc19ee6ca9651e5989f77c25d",
+                        "md5": "a8d2916bf2b8bc079705777c91ba3c17"
                     },
                     "required_dependencies": [
                         "283644"
                     ],
-                    "size": 511712,
-                    "date_published": "2026-05-08T12:19:25.837Z"
+                    "size": 511727,
+                    "date_published": "2026-06-01T13:19:49.297Z"
                 }
             ]
         },
@@ -6915,13 +7121,13 @@
             ]
         },
         {
-            "pakku_id": "V425FnT3y8vwg3SN",
+            "pakku_id": "EJKeYHiTsSgyidWW",
             "type": "MOD",
             "slug": {
                 "curseforge": "structurify"
             },
             "name": {
-                "curseforge": "Structurify"
+                "curseforge": "Structurify - Structure Control"
             },
             "id": {
                 "curseforge": "1087551"
@@ -6929,7 +7135,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "structurify-forge-2.0.22+mc1.20.1.jar",
+                    "file_name": "structurify-forge-2.0.29+mc1.20.1.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -6938,18 +7144,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7895/127/structurify-forge-2.0.22+mc1.20.1.jar",
-                    "id": "7895127",
+                    "url": "https://edge.forgecdn.net/files/8521/816/structurify-forge-2.0.29+mc1.20.1.jar",
+                    "id": "8521816",
                     "parent_id": "1087551",
                     "hashes": {
-                        "sha1": "8a4bb82f8e6ab895dbdd1429c664e27435899aea",
-                        "md5": "9f54555235598816b363c92d4967daa3"
+                        "sha1": "74a196e70e030731b5e4c71ddca1503f3cd3db33",
+                        "md5": "651563928a6d1bf659394adc775cd4e8"
                     },
                     "required_dependencies": [
                         "667299"
                     ],
-                    "size": 565230,
-                    "date_published": "2026-04-08T13:51:10.843Z"
+                    "size": 672184,
+                    "date_published": "2026-07-27T17:54:14.733Z"
                 }
             ]
         },
@@ -7069,7 +7275,7 @@
             ]
         },
         {
-            "pakku_id": "zqwFeocvnbGPsQjy",
+            "pakku_id": "9PVnKfjWjye79cBy",
             "type": "MOD",
             "slug": {
                 "curseforge": "tmrv"
@@ -7083,7 +7289,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "toomanyrecipeviewers-0.7.3+mc.20.1.jar",
+                    "file_name": "toomanyrecipeviewers-0.9.0+mc.20.1.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
@@ -7091,18 +7297,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7983/491/toomanyrecipeviewers-0.7.3+mc.20.1.jar",
-                    "id": "7983491",
+                    "url": "https://edge.forgecdn.net/files/8336/855/toomanyrecipeviewers-0.9.0+mc.20.1.jar",
+                    "id": "8336855",
                     "parent_id": "1194921",
                     "hashes": {
-                        "sha1": "cc1ac372530f74548e081f3814d7991f4f6fe329",
-                        "md5": "5e8d26eaa9e6b9a93a032ace04a66cfc"
+                        "sha1": "68b17e577526582ac22611d412433022647fc674",
+                        "md5": "807ea941ce3ca32fe5484aa7f4ca32b6"
                     },
                     "required_dependencies": [
                         "580555"
                     ],
-                    "size": 1670047,
-                    "date_published": "2026-04-25T17:03:39.983Z"
+                    "size": 1751185,
+                    "date_published": "2026-06-28T20:48:05.583Z"
                 }
             ]
         },
@@ -7219,7 +7425,7 @@
             ]
         },
         {
-            "pakku_id": "X1MEm1h19Qvv63Vm",
+            "pakku_id": "SPHM7yDbnAvnuRdj",
             "type": "MOD",
             "slug": {
                 "curseforge": "wits"
@@ -7233,25 +7439,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "wits-1.1.0+1.20.1-forge.jar",
+                    "file_name": "wits-1.1.1+1.20.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "neoforge",
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4789/318/wits-1.1.0+1.20.1-forge.jar",
-                    "id": "4789318",
+                    "url": "https://edge.forgecdn.net/files/8412/257/wits-1.1.1+1.20.1-forge.jar",
+                    "id": "8412257",
                     "parent_id": "909375",
                     "hashes": {
-                        "sha1": "59b065469899b8bb5f0dea25abc164baca278587",
-                        "md5": "d0636bc871d66a2cd8700f507b5ef572"
+                        "sha1": "1553b7c5fd9e954dc2ffc4be4d51e147905a1757",
+                        "md5": "1867723b97492f7160a39508c44c2b27"
                     },
                     "required_dependencies": [],
-                    "size": 13903,
-                    "date_published": "2023-10-09T11:56:32.443Z"
+                    "size": 13764,
+                    "date_published": "2026-07-11T13:04:56.403Z"
                 }
             ]
         },
@@ -7412,7 +7617,7 @@
             ]
         },
         {
-            "pakku_id": "3nlZ2428BdHYr9Nd",
+            "pakku_id": "QwHaXrXKAliruc6l",
             "type": "MOD",
             "slug": {
                 "curseforge": "xaeros-minimap"
@@ -7426,7 +7631,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "xaerominimap-forge-1.20.1-25.3.13.jar",
+                    "file_name": "xaerominimap-forge-1.20.1-26.4.2.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -7435,21 +7640,21 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8046/960/xaerominimap-forge-1.20.1-25.3.13.jar",
-                    "id": "8046960",
+                    "url": "https://edge.forgecdn.net/files/8449/808/xaerominimap-forge-1.20.1-26.4.2.jar",
+                    "id": "8449808",
                     "parent_id": "263420",
                     "hashes": {
-                        "sha1": "183c7078af2e11f8c3f2baed9e4151a51abb493c",
-                        "md5": "e2b6257709a0339c09485fb77386f632"
+                        "sha1": "8f5f747a33e787aaa3827b00eb0ad098966499ff",
+                        "md5": "f6019f3ba0925782cc3cd8405cc80259"
                     },
                     "required_dependencies": [],
-                    "size": 2147217,
-                    "date_published": "2026-05-06T07:39:52.090Z"
+                    "size": 2195245,
+                    "date_published": "2026-07-17T08:09:36.680Z"
                 }
             ]
         },
         {
-            "pakku_id": "5yIgcycFpanR8g3G",
+            "pakku_id": "fuePnhEfBavSI86G",
             "type": "MOD",
             "slug": {
                 "curseforge": "xaeros-world-map"
@@ -7463,7 +7668,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "xaeroworldmap-forge-1.20.1-1.40.16.jar",
+                    "file_name": "xaeroworldmap-forge-1.20.1-1.44.2.jar",
                     "mc_versions": [
                         "1.20.1",
                         "1.20"
@@ -7472,16 +7677,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8042/194/xaeroworldmap-forge-1.20.1-1.40.16.jar",
-                    "id": "8042194",
+                    "url": "https://edge.forgecdn.net/files/8449/908/xaeroworldmap-forge-1.20.1-1.44.2.jar",
+                    "id": "8449908",
                     "parent_id": "317780",
                     "hashes": {
-                        "sha1": "3ebbd1aea9e55b746d168c0d3ac014bb5892db71",
-                        "md5": "9e740cc46164ca921ba31102d61b723d"
+                        "sha1": "d7cd24554d9c361b2d8d3efac2cb1408f118917d",
+                        "md5": "4876f693b6525716be8f8acfb1b2f6a5"
                     },
                     "required_dependencies": [],
-                    "size": 1389566,
-                    "date_published": "2026-05-05T08:33:05.350Z"
+                    "size": 1421224,
+                    "date_published": "2026-07-17T08:23:45.803Z"
                 }
             ]
         },
