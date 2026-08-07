@@ -77,12 +77,12 @@ function addTrades(e, shopData) {
         return
     }
 
-    // Debug
-    (function () {
-        console.log(`Creating "[Shop:${shopData.shop_id}]" with ${shopData?.trades?.length || 0} trades.`)
-        console.log(shopData)
-        JsonIO.write(`kubejs/modpackData/test${shopData.shop_id}.json`, shopData)
-    })()
+    // // Debug
+    // (function () {
+    //     console.log(`Creating "[Shop:${shopData.shop_id}]" with ${shopData?.trades?.length || 0} trades.`)
+    //     console.log(shopData)
+    //     JsonIO.write(`kubejs/modpackData/test${shopData.shop_id}.json`, shopData)
+    // })()
 
     // Log warning if missing language entry in english lang file
     let enlang = JsonIO.read(`kubejs/assets/society_trading/lang/en_us.json`)
@@ -142,4 +142,32 @@ function toSnbt(obj) {
         return '{' + pairs.join(',') + '}'
     }
     return '""' // fallback
+}
+
+/* {
+    "item": 'portable_blueprints:worn_blueprint', count: 1,
+    "nbt": {
+        nome: 'base_camp', owner_name: 'SSCCOGAC', blueprint_name: 'base_camp',
+        display: { Name: { italic: false, color: '#FFFF00', text: 'Blueprint: Base Camp' } },
+        free_build: 1, allow_nbt: 1, remaining_uses: 1, worn_set: 1, owner: 'worn'
+    },
+    "cost": 256,
+    "trade_id": 'prefabs_basic_corral'
+} */
+
+function prefabNBT(blueprintId, itemName, usesAmount) {
+    return {
+        "nome": blueprintId,
+        "blueprint_name": blueprintId,
+        "remaining_uses": usesAmount,
+        "display": {
+            "Name": {
+                "italic": false,
+                "color": "#FFFF00",
+                "text": itemName
+            }
+        },
+        // Static vals
+        "owner_name": "SSCCOGAC", "free_build": 1, "allow_nbt": 1, "worn_set": 1, "owner": "worn"
+    }
 }
