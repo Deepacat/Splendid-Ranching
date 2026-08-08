@@ -129,25 +129,25 @@ function toSnbt(obj) {
     if (typeof obj === 'boolean') return obj ? 'true' : 'false'
 
     if (Array.isArray(obj)) {
-        var items = []
+        let items = []
         for (var i = 0; i < obj.length; i++) {
             items.push(toSnbt(obj[i]))
         }
         return '[' + items.join(',') + ']'
     }
     if (obj !== null && typeof obj === 'object') {
-        var pairs = []
-        var keys = Object.keys(obj)
+        let pairs = []
+        let keys = Object.keys(obj)
 
         // Keys that should be JSON‑stringified if they contain an object
-        var jsonStringKeys = ['Name', 'Lore', 'text']
+        let jsonStringKeys = ['Name', 'Lore', 'text']
 
         for (var i = 0; i < keys.length; i++) {
-            var key = keys[i]
-            var value = obj[key]
+            let key = keys[i]
+            let value = obj[key]
             if (jsonStringKeys.indexOf(key) !== -1 && typeof value === 'object' && value !== null) {
                 // Convert the object to a JSON string, then treat as a SNBT string
-                var jsonStr = JSON.stringify(value)
+                let jsonStr = JSON.stringify(value)
                 pairs.push(key + ':' + toSnbt(jsonStr))
             } else {
                 pairs.push(key + ':' + toSnbt(value))
