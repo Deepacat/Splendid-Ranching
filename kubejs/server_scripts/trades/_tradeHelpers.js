@@ -11,7 +11,6 @@
 function addTrades(e, shopData) {
     let finalShopData = shopData
 
-
     // ID Shortener using the "$id" key in shopData object
     if (shopData["$id"]) {
         finalShopData.shop_id = shopData["$id"]
@@ -61,12 +60,27 @@ function addTrades(e, shopData) {
 
             let tradeId = trade.trade_id || `splendid_${Item.of(offer.item).idLocation.path}`
 
-            finalTrades.push({
+            // Use an explicit numismatics_cost if provided, otherwise the rounded value
+            let numismaticsCost = trade.numismatics_cost !== undefined ? trade.numismatics_cost : roundedCost
+
+            // Build the base trade object with auto‑generated fields
+            let baseTrade = {
                 offer: offer,
                 request: request,
-                numismatics_cost: roundedCost,
+                numismatics_cost: numismaticsCost,
                 trade_id: tradeId
-            })
+            }
+
+            // Copy any remaining keys from the original $trades entry into the final trade,
+            // except those that were already consumed or handled above.
+            let consumedKeys = ['item', 'count', 'nbt', 'cost', 'trade_id', 'numismatics_cost']
+            for (let key of Object.keys(trade)) {
+                if (!consumedKeys.includes(key)) {
+                    baseTrade[key] = trade[key]
+                }
+            }
+
+            finalTrades.push(baseTrade)
         }
         delete finalShopData["$trades"]
         finalShopData.trades = finalTrades
@@ -143,17 +157,6 @@ function toSnbt(obj) {
     }
     return '""' // fallback
 }
-
-/* {
-    "item": 'portable_blueprints:worn_blueprint', count: 1,
-    "nbt": {
-        nome: 'base_camp', owner_name: 'SSCCOGAC', blueprint_name: 'base_camp',
-        display: { Name: { italic: false, color: '#FFFF00', text: 'Blueprint: Base Camp' } },
-        free_build: 1, allow_nbt: 1, remaining_uses: 1, worn_set: 1, owner: 'worn'
-    },
-    "cost": 256,
-    "trade_id": 'prefabs_basic_corral'
-} */
 
 function prefabNBT(blueprintId, itemName, usesAmount) {
     return {

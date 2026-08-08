@@ -88,7 +88,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/5x5_corral.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "splendid_slimes:corral_block"
@@ -144,7 +143,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/7x7_corral.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "splendid_slimes:corral_block"
@@ -200,7 +198,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/5x5_breeder.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "mbd2:slime_breeder"
@@ -256,7 +253,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/5x5_animal_pen.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "cluttered:poplar_fence"
@@ -312,7 +308,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/7x7_animal_pen.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "cluttered:flowering_poplar_fence"
@@ -368,7 +363,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/11x11_crop_farm.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:wheat_seeds"
@@ -424,7 +418,6 @@
 		{
 			can_repeat: true
 			dependencies: ["75152677EB2700CE"]
-			description: ["{image:ftbquests:textures/image/11x11_gourd_farm.png width:180 height:100 align:center}"]
 			disable_toast: true
 			hide_dependency_lines: true
 			icon: "minecraft:pumpkin"
