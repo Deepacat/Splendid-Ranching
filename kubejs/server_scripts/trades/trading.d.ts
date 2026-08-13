@@ -1,5 +1,6 @@
 /// <reference types="kubejs" />
 // somewhat ai sloperated completion data and should be corrected if anything is wrong :D lmk! -deepacat
+// https://github.com/Chakyl/society-trading/wiki/Tutorial:-Creating-and-Using-Shops
 
 declare global {
     /**
@@ -11,7 +12,7 @@ declare global {
      */
     interface DollarTradeEntry {
         /** Item ID of the offered product. */
-        item: string;
+        item: Internal.ItemStack_;
         /** Number of items given. Defaults to 1. */
         count?: number;
         /** Optional NBT data, can be a raw SNBT string or a plain object. */
@@ -38,7 +39,7 @@ declare global {
         numismatics_cost?: number;
         /** An additional cost item stack. */
         second_request?: {
-            item: string;
+            item: Internal.ItemStack_;
             count?: number;
             nbt?: string;
         };
@@ -74,19 +75,19 @@ declare global {
     interface TradeDefinition {
         /** The item the player receives. */
         offer: {
-            item: string;
+            item: Internal.ItemStack_;
             count?: number;
             nbt?: string;     // SNBT string after processing
         };
         /** The primary cost item the player must provide. */
         request: {
-            item: string;
+            item: Internal.ItemStack_;
             count?: number;
             nbt?: string;
         };
         /** An optional additional cost item. */
         second_request?: {
-            item: string;
+            item: Internal.ItemStack_;
             count?: number;
             nbt?: string;
         };
@@ -245,7 +246,7 @@ declare global {
          * 
          * Example: `{ item: "minecraft:stone" }`.
          */
-        jei_catalyst?: { item: string };
+        jei_catalyst?: { item: Internal.ItemStack_ };
         /**
          * Any other custom data that the Society Trading mod might recognise.
          * 

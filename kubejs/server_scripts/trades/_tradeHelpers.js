@@ -1,3 +1,5 @@
+// https://github.com/Chakyl/society-trading/wiki/Tutorial:-Creating-and-Using-Shops
+
 /**
  * Creates a society trading shop entry with priority data event
  * @param {Internal.DataPackEventJS} e  - Datapack event

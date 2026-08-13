@@ -1455,13 +1455,15 @@
 		{
 			dependencies: ["75A4584FAAEC2937"]
 			description: [
-				"Previously, &9&lwe&r have given you a &ebase placeable prefab&r, but theres more where that came from!"
+				"Previously, &9&lwe&r have given you a &eplaceable \"Base\" prefab&r, but theres more where that came from!"
 				""
-				"Inside of your &eprefabs &lHologuide&r™ tab, the &9&lSSCCOGAC&r has a &6generous&r selection of &eprefab blueprints&r you may &cpurchase&r and place on your ranch."
+				"Inside of your &eSplendid Wares™ Shop Terminal&r, the &9&lSSCCOGAC&r has a &6generous&r selection of &eprefab blueprints&r you may &cpurchase&r and place on your ranch."
 				""
 				"If you're so &4lazily&r inclined..."
 				""
-				"&8[ &7Note: All prefabs have labelled dimensions, e.g. 5x5, these dimensions are the total size of the prefab and not the inside contents &8]"
+				"&8[ &7Note: All prefabs have labelled dimensions, e.g. 5x5, these dimensions are the total WxL size of the prefab and not the inside contents &8]"
+				""
+				"&8[ &7Note: You can also create your own prefabs using a scanner/tablet, if you want to easily replicate something you have made yourself &8]"
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -1472,8 +1474,40 @@
 			id: "75152677EB2700CE"
 			min_width: 300
 			tasks: [{
-				id: "53623BF1A307F672"
-				type: "checkmark"
+				id: "39F73D8E775C5386"
+				item: {
+					Count: 1
+					id: "portable_blueprints:worn_blueprint"
+					tag: {
+						Damage: 1
+						allow_nbt: 1
+						altezza: 0
+						blueprint_name: "Any Worn Blueprint"
+						buildAnyway: 0b
+						display: {
+							Name: "{\"italic\":false,\"color\":\"#FFFF00\",\"text\":\"Any Worn Blueprint\"}"
+						}
+						free_build: 1
+						inventari_blocco_selezionati: ""
+						lunghezzaX: 0
+						lunghezzaZ: 0
+						mirrowX: 0b
+						mirrowY: 0b
+						mirrowZ: 0b
+						nome: "Any Blueprint"
+						owner: "worn"
+						owner_name: "SSCCOGAC"
+						remaining_uses: 1
+						rotateValue: 0s
+						skipObstructionBlock: 0b
+						visualizeBuild: 0b
+						wasHolding: 1b
+						worn_set: 1b
+					}
+				}
+				match_nbt: false
+				title: "Buy any Prefab Blueprint"
+				type: "item"
 			}]
 			title: "&9&lSSCCOGAC&r &ePrefabs"
 			x: -6.25d
