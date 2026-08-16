@@ -1156,6 +1156,14 @@
     "curseForgeHash": 1383309397,
     "modrinthHash": "d4614507d6e4c7cb464bba5eca891978272062ef"
   },
+  "picturemode-forge-1.1.6+1.20.1.jar": {
+    "jarName": "picturemode-forge-1.1.6+1.20.1.jar",
+    "modId": "picturemode",
+    "name": "Picture Mode",
+    "version": "1.1.6+1.20.1",
+    "curseForgeHash": 894434078,
+    "modrinthHash": "ed075fed82c1f3e9fc62c2b385a9d5204882863b"
+  },
   "Placebo-1.20.1-8.6.3.jar": {
     "jarName": "Placebo-1.20.1-8.6.3.jar",
     "modId": "placebo",
